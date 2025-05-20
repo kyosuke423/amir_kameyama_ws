@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from behavior_tree_msgs/action/PrintMessage.action
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Empty.idl"
+
+module behavior_tree_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct PrintMessage_Goal {
+      string message;
+
+      uint32 iterations;
+
+      uint32 pause_ms;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct PrintMessage_Result {
+      std_msgs::msg::Empty result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct PrintMessage_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

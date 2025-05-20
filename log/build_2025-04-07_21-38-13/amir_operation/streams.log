@@ -1,0 +1,169 @@
+[0.032s] Invoking command in '/home/rover/kameyama_ws/build/amir_operation': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces:/home/rover/kameyama_ws/install/line_msg:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/kameyama_ws/install/bebop_msgs:/home/rover/kameyama_ws/install/ar_track_alvar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces:/home/rover/kameyama_ws/install/line_msg:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/kameyama_ws/install/bebop_msgs:/home/rover/kameyama_ws/install/ar_track_alvar_msgs:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/nav2_system_tests:/home/rover/amir_basic_ws/install/nav2_bringup:/home/rover/amir_basic_ws/install/navigation2:/home/rover/amir_basic_ws/install/nav2_smoother:/home/rover/amir_basic_ws/install/nav2_graceful_controller:/home/rover/amir_basic_ws/install/nav2_dwb_controller:/home/rover/amir_basic_ws/install/nav2_controller:/home/rover/amir_basic_ws/install/dwb_plugins:/home/rover/amir_basic_ws/install/dwb_critics:/home/rover/amir_basic_ws/install/dwb_core:/home/rover/amir_basic_ws/install/nav_2d_utils:/home/rover/amir_basic_ws/install/dwb_msgs:/home/rover/amir_basic_ws/install/nav_2d_msgs:/home/rover/amir_basic_ws/install/nav2_waypoint_follower:/home/rover/amir_basic_ws/install/nav2_theta_star_planner:/home/rover/amir_basic_ws/install/nav2_smac_planner:/home/rover/amir_basic_ws/install/nav2_rotation_shim_controller:/home/rover/amir_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/rover/amir_basic_ws/install/nav2_planner:/home/rover/amir_basic_ws/install/nav2_navfn_planner:/home/rover/amir_basic_ws/install/nav2_mppi_controller:/home/rover/amir_basic_ws/install/nav2_constrained_smoother:/home/rover/amir_basic_ws/install/nav2_bt_navigator:/home/rover/amir_basic_ws/install/nav2_behaviors:/home/rover/amir_basic_ws/install/nav2_core:/home/rover/amir_basic_ws/install/nav2_collision_monitor:/home/rover/amir_basic_ws/install/costmap_queue:/home/rover/amir_basic_ws/install/nav2_costmap_2d:/home/rover/amir_basic_ws/install/nav2_voxel_grid:/home/rover/amir_basic_ws/install/nav2_velocity_smoother:/home/rover/amir_basic_ws/install/nav2_rviz_plugins:/home/rover/amir_basic_ws/install/nav2_map_server:/home/rover/amir_basic_ws/install/nav2_lifecycle_manager:/home/rover/amir_basic_ws/install/nav2_behavior_tree:/home/rover/amir_basic_ws/install/nav2_amcl:/home/rover/amir_basic_ws/install/nav2_util:/home/rover/amir_basic_ws/install/nav2_msgs:/home/rover/amir_basic_ws/install/nav2_common:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces/lib:/home/rover/kameyama_ws/install/line_msg/lib:/home/rover/kameyama_ws/install/behavior_tree_msgs/lib:/home/rover/kameyama_ws/install/bebop_msgs/lib:/home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/line_msg/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rover/kameyama_ws/build/amir_operation -- -j12 -l12
+[0.121s] [  9%] [32m[1mLinking CXX executable initial_posi[0m
+[0.121s] [  9%] [32mBuilding CXX object CMakeFiles/pick.dir/src/pick.cpp.o[0m
+[0.121s] [ 13%] [32mBuilding CXX object CMakeFiles/grasp.dir/src/grasp.cpp.o[0m
+[0.122s] [ 18%] [32mBuilding CXX object CMakeFiles/move_meca.dir/src/move_meca.cpp.o[0m
+[0.124s] [ 22%] [32mBuilding CXX object CMakeFiles/mecanum_spin.dir/src/mecanum_spin.cpp.o[0m
+[0.124s] [ 31%] [32mBuilding CXX object CMakeFiles/search_obj.dir/src/search_obj.cpp.o[0m
+[0.124s] [ 31%] [32mBuilding CXX object CMakeFiles/place.dir/src/place.cpp.o[0m
+[0.126s] [ 40%] [32mBuilding CXX object CMakeFiles/mecanum_search.dir/src/mecanum_search.cpp.o[0m
+[0.126s] [ 40%] [32mBuilding CXX object CMakeFiles/move_arm.dir/src/move_arm.cpp.o[0m
+[0.136s] [ 45%] [32mBuilding CXX object CMakeFiles/mecanum_move.dir/src/mecanum_move.cpp.o[0m
+[0.146s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_using_d_optimality.dir/src/pick_using_d_optimality.cpp.o[0m
+[0.505s] [ 54%] Built target initial_posi
+[0.615s] In file included from [01m[K/home/rover/kameyama_ws/src/amir_operation/src/pick_using_d_optimality.cpp:17[m[K:
+[0.616s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.616s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.616s]       |  [01;35m[K^~~~~~~[m[K
+[3.693s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/grasp.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse grasp::handle_goal(const GoalUUID&, std::shared_ptr<const behavior_tree_msgs::action::Grasp_Goal_<std::allocator<void> > >)[m[K’:
+[3.694s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/grasp.cpp:72:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.694s]    72 |         [01;35m[Kstd::shared_ptr<const GraspAction::Goal> goal[m[K) // ゴールの内容
+[3.694s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.811s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_move.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MecanumMove::handle_goal(const GoalUUID&, std::shared_ptr<const behavior_tree_msgs::action::MecanumMove_Goal_<std::allocator<void> > >)[m[K’:
+[3.811s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_move.cpp:66:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.811s]    66 |         [01;35m[Kstd::shared_ptr<const MecanumMoveAction::Goal> goal[m[K)
+[3.812s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.822s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:[m[K In constructor ‘[01m[KMecanumSpin::MecanumSpin()[m[K’:
+[3.822s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:51:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KMecanumSpin::loop_count_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.823s]    51 |     int [01;35m[Kloop_count_[m[K;
+[3.823s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[3.824s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:50:17:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::string MecanumSpin::state_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.824s]    50 |     std::string [01;35m[Kstate_[m[K;
+[3.824s]       |                 [01;35m[K^~~~~~[m[K
+[3.825s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:24:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.825s]    24 |     [01;35m[KMecanumSpin[m[K()
+[3.825s]       |     [01;35m[K^~~~~~~~~~~[m[K
+[3.851s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:39:91:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Float64_<std::allocator<void> >, std::allocator<void> > >[m[K’)
+[3.851s]    39 |         publisher_ = this->create_publisher<std_msgs::msg::Float64>("/d_optimal_value", 10[01;31m[K)[m[K;
+[3.851s]       |                                                                                           [01;31m[K^[m[K
+[3.853s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.853s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.853s]                  from [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:1[m[K:
+[3.853s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >][m[K’
+[3.853s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[3.853s]       |         [01;36m[K^~~~~~~~[m[K
+[3.853s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.853s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Float64_<std::allocator<void> >, std::allocator<void> > >&; _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >][m[K’:
+[3.853s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Publisher<std_msgs::msg::Float64_<std::allocator<void> >, std::allocator<void> >][m[K’
+[3.853s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:39:91:[m[K   required from here
+[3.853s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >&>[m[K’
+[3.853s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.853s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[3.853s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >][m[K’
+[3.853s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[3.853s]       |         [01;36m[K^~~~~~~~[m[K
+[3.853s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.853s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:39:91:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Float64_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[3.854s]    39 |         publisher_ = this->create_publisher<std_msgs::msg::Float64>("/d_optimal_value", 10[01;36m[K)[m[K;
+[3.854s]       |                                                                                           [01;36m[K^[m[K
+[3.854s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.854s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.854s]                  from [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:1[m[K:
+[3.854s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >][m[K’
+[3.854s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[3.854s]       |         [01;36m[K^~~~~~~~[m[K
+[3.855s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.855s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Float64_<std::allocator<void> >, std::allocator<void> > >; _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >][m[K’:
+[3.855s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Publisher<std_msgs::msg::Float64_<std::allocator<void> >, std::allocator<void> >][m[K’
+[3.856s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:39:91:[m[K   required from here
+[3.856s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >&>[m[K’
+[3.856s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.856s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[3.856s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >][m[K’
+[3.856s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[3.856s]       |         [01;36m[K^~~~~~~~[m[K
+[3.856s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.856s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:39:91:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Float64_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[3.856s]    39 |         publisher_ = this->create_publisher<std_msgs::msg::Float64>("/d_optimal_value", 10[01;36m[K)[m[K;
+[3.856s]       |                                                                                           [01;36m[K^[m[K
+[3.856s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.856s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.856s]                  from [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:1[m[K:
+[3.856s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >][m[K’
+[3.856s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[3.856s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.856s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Float64_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >&[m[K’
+[3.856s]   359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[3.856s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.856s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >][m[K’
+[3.856s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[3.856s]       |       [01;36m[K^~~~~~~~[m[K
+[3.856s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Float64_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >&&[m[K’
+[3.857s]   383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[3.857s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[3.857s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MecanumSpin::handle_goal(const GoalUUID&, std::shared_ptr<const behavior_tree_msgs::action::MecanumSpin_Goal_<std::allocator<void> > >)[m[K’:
+[3.857s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:60:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.857s]    60 |         [01;35m[Kstd::shared_ptr<const MecanumSpinAction::Goal> goal[m[K)
+[3.857s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.898s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_meca.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MoveMeca::handle_goal(const GoalUUID&, std::shared_ptr<const behavior_tree_msgs::action::MoveMeca_Goal_<std::allocator<void> > >)[m[K’:
+[3.898s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_meca.cpp:64:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.899s]    64 |         [01;35m[Kstd::shared_ptr<const MoveMecaAction::Goal> goal[m[K)
+[3.899s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.954s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MoveArm::handle_goal(const GoalUUID&, std::shared_ptr<const behavior_tree_msgs::action::MoveArm_Goal_<std::allocator<void> > >)[m[K’:
+[3.954s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:81:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.954s]    81 |         [01;35m[Kstd::shared_ptr<const MoveArmAction::Goal> goal[m[K) // ゴールの内容
+[3.954s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.966s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:[m[K In member function ‘[01m[Kvoid MoveArm::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<behavior_tree_msgs::action::MoveArm> >, float, float, float)[m[K’:
+[3.966s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:141:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdeg_max_4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.967s]   141 |         float [01;35m[Kdeg_max_4[m[K = -195;
+[3.967s]       |               [01;35m[K^~~~~~~~~[m[K
+[3.967s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:150:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kd[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[3.967s]   150 |         float [01;35m[Kd[m[K;
+[3.967s]       |               [01;35m[K^[m[K
+[3.967s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:162:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kr_31[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.967s]   162 |         float [01;35m[Kr_31[m[K = 0.0;
+[3.967s]       |               [01;35m[K^~~~[m[K
+[3.967s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:163:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kr_32[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.967s]   163 |         float [01;35m[Kr_32[m[K = 0.0;
+[3.967s]       |               [01;35m[K^~~~[m[K
+[3.967s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:202:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kerror_r_11[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[3.967s]   202 |         float [01;35m[Kerror_r_11[m[K;
+[3.967s]       |               [01;35m[K^~~~~~~~~~[m[K
+[3.967s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:203:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kerror_r_22[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[3.967s]   203 |         float [01;35m[Kerror_r_22[m[K;
+[3.967s]       |               [01;35m[K^~~~~~~~~~[m[K
+[3.967s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:204:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kerror_r_33[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[3.967s]   204 |         float [01;35m[Kerror_r_33[m[K;
+[3.967s]       |               [01;35m[K^~~~~~~~~~[m[K
+[3.967s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:284:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koff_theta5_deg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.967s]   284 |         float [01;35m[Koff_theta5_deg[m[K = (deg_max_5 / 2) + off_theta5_deg_result;
+[3.967s]       |               [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.389s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_search.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MecanumSearch::handle_goal(const GoalUUID&, std::shared_ptr<const behavior_tree_msgs::action::MecanumSearch_Goal_<std::allocator<void> > >)[m[K’:
+[4.390s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_search.cpp:79:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.390s]    79 |         [01;35m[Kstd::shared_ptr<const MecanumSearchAction::Goal> goal[m[K)
+[4.390s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[4.397s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_search.cpp:[m[K In member function ‘[01m[Kvoid MecanumSearch::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.397s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_search.cpp:138:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw_angle_deg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.397s]   138 |         double [01;35m[Kyaw_angle_deg[m[K = RadToDeg(imu_yaw + M_PI/2);
+[4.397s]       |                [01;35m[K^~~~~~~~~~~~~[m[K
+[4.963s] gmake[2]: *** [CMakeFiles/mecanum_spin.dir/build.make:76: CMakeFiles/mecanum_spin.dir/src/mecanum_spin.cpp.o] エラー 1
+[4.963s] gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/mecanum_spin.dir/all] エラー 2
+[4.963s] gmake[1]: *** 未完了のジョブを待っています....
+[5.199s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/pick_using_d_optimality.cpp:[m[K In member function ‘[01m[Kvoid PickServer::odomObjectCallback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.199s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/pick_using_d_optimality.cpp:191:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobject_yaw_angle_deg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.199s]   191 |         double [01;35m[Kobject_yaw_angle_deg[m[K = RadToDeg(object_yaw_angle);
+[5.200s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.233s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/pick_using_d_optimality.cpp:[m[K In member function ‘[01m[Kvoid PickServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<behavior_tree_msgs::action::Pick> >)[m[K’:
+[5.233s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/pick_using_d_optimality.cpp:598:47:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kupdated_goal[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[5.234s]   598 |         behavior_tree_msgs::action::Pick_Goal [01;35m[Kupdated_goal[m[K = *goal;
+[5.234s]       |                                               [01;35m[K^~~~~~~~~~~~[m[K
+[7.445s] [ 59%] [32m[1mLinking CXX executable place[0m
+[7.930s] [ 59%] Built target place
+[9.941s] [ 63%] [32m[1mLinking CXX executable search_obj[0m
+[9.952s] [ 68%] [32m[1mLinking CXX executable move_arm[0m
+[10.068s] [ 72%] [32m[1mLinking CXX executable mecanum_move[0m
+[10.068s] [ 77%] [32m[1mLinking CXX executable grasp[0m
+[10.377s] [ 81%] [32m[1mLinking CXX executable move_meca[0m
+[10.654s] [ 81%] Built target move_arm
+[10.685s] [ 81%] Built target search_obj
+[10.778s] [ 81%] Built target mecanum_move
+[10.779s] [ 81%] Built target grasp
+[10.946s] [ 81%] Built target move_meca
+[12.536s] [ 86%] [32m[1mLinking CXX executable pick[0m
+[13.733s] [ 86%] Built target pick
+[14.685s] [ 90%] [32m[1mLinking CXX executable mecanum_search[0m
+[16.042s] [ 90%] Built target mecanum_search
+[18.293s] [ 95%] [32m[1mLinking CXX executable pick_using_d_optimality[0m
+[19.023s] [ 95%] Built target pick_using_d_optimality
+[19.024s] gmake: *** [Makefile:146: all] エラー 2
+[19.025s] Invoked command in '/home/rover/kameyama_ws/build/amir_operation' returned '2': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces:/home/rover/kameyama_ws/install/line_msg:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/kameyama_ws/install/bebop_msgs:/home/rover/kameyama_ws/install/ar_track_alvar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces:/home/rover/kameyama_ws/install/line_msg:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/kameyama_ws/install/bebop_msgs:/home/rover/kameyama_ws/install/ar_track_alvar_msgs:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/nav2_system_tests:/home/rover/amir_basic_ws/install/nav2_bringup:/home/rover/amir_basic_ws/install/navigation2:/home/rover/amir_basic_ws/install/nav2_smoother:/home/rover/amir_basic_ws/install/nav2_graceful_controller:/home/rover/amir_basic_ws/install/nav2_dwb_controller:/home/rover/amir_basic_ws/install/nav2_controller:/home/rover/amir_basic_ws/install/dwb_plugins:/home/rover/amir_basic_ws/install/dwb_critics:/home/rover/amir_basic_ws/install/dwb_core:/home/rover/amir_basic_ws/install/nav_2d_utils:/home/rover/amir_basic_ws/install/dwb_msgs:/home/rover/amir_basic_ws/install/nav_2d_msgs:/home/rover/amir_basic_ws/install/nav2_waypoint_follower:/home/rover/amir_basic_ws/install/nav2_theta_star_planner:/home/rover/amir_basic_ws/install/nav2_smac_planner:/home/rover/amir_basic_ws/install/nav2_rotation_shim_controller:/home/rover/amir_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/rover/amir_basic_ws/install/nav2_planner:/home/rover/amir_basic_ws/install/nav2_navfn_planner:/home/rover/amir_basic_ws/install/nav2_mppi_controller:/home/rover/amir_basic_ws/install/nav2_constrained_smoother:/home/rover/amir_basic_ws/install/nav2_bt_navigator:/home/rover/amir_basic_ws/install/nav2_behaviors:/home/rover/amir_basic_ws/install/nav2_core:/home/rover/amir_basic_ws/install/nav2_collision_monitor:/home/rover/amir_basic_ws/install/costmap_queue:/home/rover/amir_basic_ws/install/nav2_costmap_2d:/home/rover/amir_basic_ws/install/nav2_voxel_grid:/home/rover/amir_basic_ws/install/nav2_velocity_smoother:/home/rover/amir_basic_ws/install/nav2_rviz_plugins:/home/rover/amir_basic_ws/install/nav2_map_server:/home/rover/amir_basic_ws/install/nav2_lifecycle_manager:/home/rover/amir_basic_ws/install/nav2_behavior_tree:/home/rover/amir_basic_ws/install/nav2_amcl:/home/rover/amir_basic_ws/install/nav2_util:/home/rover/amir_basic_ws/install/nav2_msgs:/home/rover/amir_basic_ws/install/nav2_common:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces/lib:/home/rover/kameyama_ws/install/line_msg/lib:/home/rover/kameyama_ws/install/behavior_tree_msgs/lib:/home/rover/kameyama_ws/install/bebop_msgs/lib:/home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/line_msg/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rover/kameyama_ws/build/amir_operation -- -j12 -l12

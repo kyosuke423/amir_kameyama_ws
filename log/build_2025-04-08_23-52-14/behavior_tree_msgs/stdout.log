@@ -1,0 +1,11 @@
+[  0%] Built target behavior_tree_msgs__cpp
+[ 12%] Built target behavior_tree_msgs__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_behavior_tree_msgs
+[ 24%] Built target behavior_tree_msgs__rosidl_typesupport_cpp
+[ 37%] Built target behavior_tree_msgs__rosidl_typesupport_introspection_cpp
+[ 49%] Built target behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp
+[ 61%] Built target behavior_tree_msgs__rosidl_typesupport_c
+[ 73%] Built target behavior_tree_msgs__rosidl_typesupport_fastrtps_c
+[ 86%] Built target behavior_tree_msgs__rosidl_typesupport_introspection_c
+[ 86%] Built target behavior_tree_msgs
+[ 86%] Built target behavior_tree_msgs__py

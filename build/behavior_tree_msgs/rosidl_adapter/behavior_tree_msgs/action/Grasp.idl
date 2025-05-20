@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from behavior_tree_msgs/action/Grasp.action
+// generated code does not contain a copyright notice
+
+
+module behavior_tree_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct Grasp_Goal {
+      string id;
+    };
+    struct Grasp_Result {
+      @verbatim (language="comment", text=
+        "result definition")
+      string error_string;
+
+      boolean success;
+    };
+    struct Grasp_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

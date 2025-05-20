@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/mecanum_navigation2/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,44 @@
+[  9%] Built target initial_posi
+[ 18%] Built target place
+[ 27%] Built target pick
+[ 36%] Built target pick_using_d_optimality
+[ 45%] Built target search_obj
+[ 54%] Built target mecanum_search
+[ 63%] Built target grasp
+[ 72%] Built target move_arm
+[ 81%] Built target move_meca
+[ 90%] Built target mecanum_spin
+[100%] Built target mecanum_move
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/initial_posi
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/pick
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/place
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/search_obj
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/move_arm
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/grasp
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/move_meca
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/pick_using_d_optimality
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/mecanum_search
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/mecanum_move
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/mecanum_spin
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/launch/BT_Log_bt1.fbl
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/launch/BT_Log_bt2.fbl
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/launch/BT_Log_bt3.fbl
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/launch/pick_and_place_dop_launch.py
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/launch/pick_and_place_launch.py
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/ament_index/resource_index/package_run_dependencies/amir_operation
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/ament_index/resource_index/parent_prefix_path/amir_operation
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/environment/path.sh
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/environment/path.dsv
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/local_setup.bash
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/local_setup.sh
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/local_setup.zsh
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/local_setup.dsv
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/package.dsv
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/ament_index/resource_index/packages/amir_operation
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/cmake/amir_operationConfig.cmake
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/cmake/amir_operationConfig-version.cmake
+-- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/package.xml

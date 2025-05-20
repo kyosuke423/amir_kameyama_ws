@@ -1,0 +1,5 @@
+/home/rover/kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs:msg/PathEvaluation.idl
+/home/rover/kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs:msg/Object.idl
+/home/rover/kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs:srv/SetObjects.idl
+/home/rover/kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs:srv/GetObjects.idl
+/home/rover/kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs:srv/PathCheck.idl

@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/failure_detection_msgs/rosidl_generator_py/failure_detection_msgs/srv/_after_pick_s.c

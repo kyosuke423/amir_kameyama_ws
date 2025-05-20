@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/bebop_msgs/rosidl_generator_c/bebop_msgs/msg/detail/box_corner__struct.h

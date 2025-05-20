@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/observation/ament_cmake_core/observationConfig.cmake

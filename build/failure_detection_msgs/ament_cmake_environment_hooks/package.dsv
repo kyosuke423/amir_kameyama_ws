@@ -1,0 +1,4 @@
+source;share/failure_detection_msgs/local_setup.bash
+source;share/failure_detection_msgs/local_setup.dsv
+source;share/failure_detection_msgs/local_setup.sh
+source;share/failure_detection_msgs/local_setup.zsh

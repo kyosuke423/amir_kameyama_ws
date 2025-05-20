@@ -1,0 +1,36 @@
+[0.068s] Invoking command in '/home/rover/kameyama_ws/build/observation_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/observation_msgs -- -j12 -l12
+[0.675s] [  1%] Built target observation_msgs__cpp
+[0.675s] [ 12%] Built target observation_msgs__rosidl_generator_c
+[0.675s] [ 12%] Built target ament_cmake_python_symlink_observation_msgs
+[0.675s] [ 23%] Built target observation_msgs__rosidl_typesupport_cpp
+[0.675s] [ 34%] Built target observation_msgs__rosidl_typesupport_fastrtps_cpp
+[0.675s] [ 47%] Built target observation_msgs__rosidl_typesupport_c
+[0.675s] [ 57%] Built target observation_msgs__rosidl_typesupport_introspection_cpp
+[0.675s] [ 68%] Built target observation_msgs__rosidl_typesupport_fastrtps_c
+[0.675s] [ 79%] Built target observation_msgs__rosidl_typesupport_introspection_c
+[0.675s] [ 79%] Built target observation_msgs
+[0.675s] [ 80%] Built target observation_msgs__py
+[0.675s] [ 90%] Built target observation_msgs__rosidl_generator_py
+[0.676s] Traceback (most recent call last):
+[0.676s]   File "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_python/observation_msgs/setup.py", line 1, in <module>
+[0.676s] gmake[2]: *** [CMakeFiles/observation_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:228: CMakeFiles/observation_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/depend] 割り込み
+[0.676s]     from setuptools import find_packages
+[0.676s]   File "/home/rover/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 15, in <module>
+[0.676s] gmake[2]: *** [CMakeFiles/observation_msgs__rosidl_typesupport_c__pyext.dir/build.make:227: CMakeFiles/observation_msgs__rosidl_typesupport_c__pyext.dir/depend] 割り込み
+[0.676s] gmake[1]: *** [CMakeFiles/Makefile2:504: CMakeFiles/observation_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all] 割り込み
+[0.676s] gmake[1]: *** [CMakeFiles/Makefile2:563: CMakeFiles/observation_msgs__rosidl_typesupport_c__pyext.dir/all] 割り込み
+[0.676s] gmake[2]: *** [CMakeFiles/observation_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make:228: CMakeFiles/observation_msgs__rosidl_typesupport_introspection_c__pyext.dir/depend] 割り込み
+[0.676s] gmake[1]: *** [CMakeFiles/Makefile2:534: CMakeFiles/observation_msgs__rosidl_typesupport_introspection_c__pyext.dir/all] 割り込み
+[0.676s]     from setuptools.extension import Extension
+[0.676s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[0.676s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[0.676s]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[0.676s]   File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+[0.676s]   File "<frozen importlib._bootstrap_external>", line 964, in get_code
+[0.676s]   File "<frozen importlib._bootstrap_external>", line 406, in cache_from_source
+[0.676s]   File "<frozen importlib._bootstrap_external>", line 134, in _path_split
+[0.676s]   File "<frozen importlib._bootstrap_external>", line 134, in <genexpr>
+[0.676s] KeyboardInterrupt
+[0.686s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_observation_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_observation_msgs_egg] 割り込み
+[0.686s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_observation_msgs_egg.dir/all] 割り込み
+[0.686s] gmake: *** [Makefile:146: all] 割り込み

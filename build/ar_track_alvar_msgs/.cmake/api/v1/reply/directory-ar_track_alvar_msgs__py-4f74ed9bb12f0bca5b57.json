@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ar_track_alvar_msgs__py",
+		"source" : "/home/rover/kameyama_ws/build/ar_track_alvar_msgs/ar_track_alvar_msgs__py"
+	}
+}

@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from behavior_tree_msgs/action/SearchObj.action
+// generated code does not contain a copyright notice
+
+
+module behavior_tree_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "SearchObj.action")
+    struct SearchObj_Goal {
+      @verbatim (language="comment", text=
+        "Goal 定義" "\n"
+        "探索対象のオブジェクトID")
+      string object_id;
+    };
+    @verbatim (language="comment", text=
+      "Result 定義")
+    struct SearchObj_Result {
+      @verbatim (language="comment", text=
+        "実行結果のエラーメッセージ（\"success\" またはエラー内容）")
+      string error_string;
+
+      @verbatim (language="comment", text=
+        "探索成功フラグ")
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback 定義 (必要なら追加)")
+    struct SearchObj_Feedback {
+      @verbatim (language="comment", text=
+        "現在の状態や進捗情報")
+      string status;
+    };
+  };
+};

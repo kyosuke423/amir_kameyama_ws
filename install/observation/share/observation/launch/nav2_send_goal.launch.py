@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/src/observation/observation/launch/nav2_send_goal.launch.py

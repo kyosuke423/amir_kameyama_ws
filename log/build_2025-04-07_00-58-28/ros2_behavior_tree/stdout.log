@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_behavior_tree_nodes[0m
+[  4%] Built target gtest_main
+[  8%] Built target example_custom_nodes
+[ 14%] Built target ros2_behavior_tree
+[ 23%] Built target custom_test_nodes
+[ 23%] Built target gtest
+[ 25%] [32mBuilding CXX object CMakeFiles/ros2_behavior_tree_nodes.dir/src/node_registrar.cpp.o[0m
+[ 29%] Built target bt_executor_bebop
+[ 40%] Built target minimal
+[ 40%] Built target node
+[ 46%] Built target action_server_lifecycle_node
+[ 53%] Built target custom_nodes
+[ 57%] Built target bt_executor
+[ 63%] Built target action_server_node
+[ 70%] Built target lifecycle_node

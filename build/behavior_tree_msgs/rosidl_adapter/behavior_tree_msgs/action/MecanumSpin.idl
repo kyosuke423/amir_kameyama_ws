@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from behavior_tree_msgs/action/MecanumSpin.action
+// generated code does not contain a copyright notice
+
+
+module behavior_tree_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition" "\n"
+      "geometry_msgs/PoseStamped pose")
+    struct MecanumSpin_Goal {
+      @verbatim (language="comment", text=
+        "視点を変える回数")
+      int32 time;
+
+      @verbatim (language="comment", text=
+        "D-optimalityの値")
+      double dop;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct MecanumSpin_Result {
+      string error_string;
+
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "feedback" "\n"
+      " string feedback")
+    struct MecanumSpin_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

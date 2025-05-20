@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from behavior_tree_msgs/action/Pick.action
+// generated code does not contain a copyright notice
+
+
+module behavior_tree_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct Pick_Goal {
+      double x;
+
+      double y;
+
+      double z;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Pick_Result {
+      string error_string;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Pick_Feedback {
+      string feedback;
+    };
+  };
+};

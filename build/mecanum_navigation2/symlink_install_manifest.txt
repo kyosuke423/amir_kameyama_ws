@@ -1,0 +1,32 @@
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/launch/bringup_launch.py
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/launch/mecanum2_launch.py
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/launch/mecanum_launch.py
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/launch/navigation2.launch.py
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/launch/rviz_launch.py
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/launch/slam_toolbox_launch.py
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/map/turtlebot3_world.pgm
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/map/turtlebot3_world.yaml
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/params/amir.yaml
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/params/burger.yaml
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/params/mecanum (another copy).yaml
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/params/mecanum (copy).yaml
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/params/waffle.yaml
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/params/waffle_pi.yaml
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/rviz/navigation.rviz
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/config/mapper_params_online_async.yaml
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/config/mapper_params_online_sync.yaml
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/ament_index/resource_index/package_run_dependencies/mecanum_navigation2
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/ament_index/resource_index/parent_prefix_path/mecanum_navigation2
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/environment/ament_prefix_path.sh
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/environment/ament_prefix_path.dsv
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/environment/path.sh
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/environment/path.dsv
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/local_setup.bash
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/local_setup.sh
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/local_setup.zsh
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/local_setup.dsv
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/package.dsv
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/ament_index/resource_index/packages/mecanum_navigation2
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/cmake/mecanum_navigation2Config.cmake
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/cmake/mecanum_navigation2Config-version.cmake
+/home/rover/kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/package.xml

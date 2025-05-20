@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from failure_detection_msgs/msg/Solution.msg
+// generated code does not contain a copyright notice
+
+#include "behavior_tree_msgs/msg/BBMessage.idl"
+
+module failure_detection_msgs {
+  module msg {
+    struct Solution {
+      string bt_node_name;
+
+      sequence<string> solutions;
+
+      sequence<float> priorities;
+
+      behavior_tree_msgs::msg::BBMessage bb_message;
+    };
+  };
+};

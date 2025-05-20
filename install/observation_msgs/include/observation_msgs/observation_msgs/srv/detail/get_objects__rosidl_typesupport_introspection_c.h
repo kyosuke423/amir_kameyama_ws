@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/observation_msgs/rosidl_typesupport_introspection_c/observation_msgs/srv/detail/get_objects__rosidl_typesupport_introspection_c.h

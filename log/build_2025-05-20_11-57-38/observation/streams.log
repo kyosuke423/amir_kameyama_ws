@@ -1,0 +1,131 @@
+[0.116s] Invoking command in '/home/rover/kameyama_ws/build/observation': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/mecanumrover3:/home/rover/ros2_ws/install/mecanumrover_description:/home/rover/ros2_ws/install/mecanumrover3_bringup:/home/rover/ros2_ws/install/fwdsrover_xna:/home/rover/ros2_ws/install/fwdsrover_xna_bringup:/home/rover/ros2_ws/install/amir:/home/rover/ros2_ws/install/amir_moveit_config:/home/rover/ros2_ws/install/amir_driver:/home/rover/ros2_ws/install/amir_interfaces:/home/rover/ros2_ws/install/amir_bringup:/home/rover/ros2_ws/install/amir_description:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/observation_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rover/kameyama_ws/build/observation -- -j12 -l12
+[0.182s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.400s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.413s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.483s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.485s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.498s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.526s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.551s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.680s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.690s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.695s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.699s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.839s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.841s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.222s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.488s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.524s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.598s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.666s] -- Found darknet_ros_msgs: 1.1.5 (/home/rover/amir_basic_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake)
+[1.713s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.760s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.864s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.313s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.707s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.728s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.729s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[3.112s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.136s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.145s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.450s] -- Found Qhull version 8.0.2
+[3.792s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.249s] -- looking for PCL_COMMON
+[4.254s] -- looking for PCL_KDTREE
+[4.256s] -- looking for PCL_OCTREE
+[4.258s] -- looking for PCL_SEARCH
+[4.263s] -- looking for PCL_SAMPLE_CONSENSUS
+[4.267s] -- looking for PCL_FILTERS
+[4.267s] -- looking for PCL_2D
+[4.267s] -- looking for PCL_GEOMETRY
+[4.267s] -- looking for PCL_IO
+[4.267s] -- looking for PCL_FEATURES
+[4.267s] -- looking for PCL_ML
+[4.268s] -- looking for PCL_SEGMENTATION
+[4.268s] -- looking for PCL_VISUALIZATION
+[4.269s] -- looking for PCL_SURFACE
+[4.275s] -- looking for PCL_REGISTRATION
+[4.275s] -- looking for PCL_KEYPOINTS
+[4.275s] -- looking for PCL_TRACKING
+[4.275s] -- looking for PCL_RECOGNITION
+[4.275s] -- looking for PCL_STEREO
+[4.275s] -- looking for PCL_APPS
+[4.276s] -- looking for PCL_IN_HAND_SCANNER
+[4.279s] -- looking for PCL_MODELER
+[4.279s] -- looking for PCL_POINT_CLOUD_EDITOR
+[4.279s] -- looking for PCL_OUTOFCORE
+[4.279s] -- looking for PCL_PEOPLE
+[4.286s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[4.339s] -- Found observation_msgs: 0.1.0 (/home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake)
+[4.526s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[4.709s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.879s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.886s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.889s] -- Configured cppcheck include dirs: /home/rover/kameyama_ws/src/observation/observation/include
+[4.889s] -- Configured cppcheck exclude dirs and/or files: 
+[4.893s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.893s] -- Configured cpplint exclude dirs and/or files: 
+[4.895s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.896s] -- Added test 'lint_cmake' to check CMake code style
+[4.896s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.898s] -- Added test 'uncrustify' to check C / C++ code style
+[4.902s] -- Configured uncrustify additional arguments: 
+[4.902s] -- Added test 'xmllint' to check XML markup files
+[4.904s] -- Configuring done
+[5.121s] -- Generating done
+[5.172s] -- Build files have been written to: /home/rover/kameyama_ws/build/observation
+[5.306s] [35m[1mConsolidate compiler generated dependencies of target my_pose_publisher[0m
+[5.317s] [35m[1mConsolidate compiler generated dependencies of target observer[0m
+[5.352s] [ 25%] [32mBuilding CXX object CMakeFiles/my_pose_publisher.dir/src/my_pose_publisher.cpp.o[0m
+[5.413s] [ 50%] [32mBuilding CXX object CMakeFiles/observer.dir/src/observer.cpp.o[0m
+[8.575s] [01m[K/home/rover/kameyama_ws/src/observation/observation/src/my_pose_publisher.cpp:[m[K In member function ‘[01m[Kvoid MyPosePub::on_timer()[m[K’:
+[8.575s] [01m[K/home/rover/kameyama_ws/src/observation/observation/src/my_pose_publisher.cpp:60:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdelta_tf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.575s]    60 |             float [01;35m[Kdelta_tf[m[K = sqrt(pow(transformStamped_.transform.translation.x -b_tf_.transform.translation.x,2)
+[8.575s]       |                   [01;35m[K^~~~~~~~[m[K
+[8.925s] [01m[K/home/rover/kameyama_ws/src/observation/observation/src/observer.cpp:[m[K In member function ‘[01m[Kvoid RobotPoseSub::path_check_cb(std::shared_ptr<observation_msgs::srv::PathCheck_Request_<std::allocator<void> > >, std::shared_ptr<observation_msgs::srv::PathCheck_Response_<std::allocator<void> > >)[m[K’:
+[8.925s] [01m[K/home/rover/kameyama_ws/src/observation/observation/src/observer.cpp:237:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.925s]   237 |     [01;35m[Kconst std::shared_ptr<observation_msgs::srv::PathCheck::Request> request[m[K,
+[8.925s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[8.925s] [01m[K/home/rover/kameyama_ws/src/observation/observation/src/observer.cpp:238:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.926s]   238 |     [01;35m[Kconst std::shared_ptr<observation_msgs::srv::PathCheck::Response> response[m[K)
+[8.926s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[8.931s] [01m[K/home/rover/kameyama_ws/src/observation/observation/src/observer.cpp:[m[K In member function ‘[01m[Kvoid RobotPoseSub::on_timer()[m[K’:
+[8.931s] [01m[K/home/rover/kameyama_ws/src/observation/observation/src/observer.cpp:270:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdelta_tf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.932s]   270 |     float [01;35m[Kdelta_tf[m[K = sqrt(pow(transformStamped_.transform.translation.x -b_tf_.transform.translation.x,2)
+[8.934s]       |           [01;35m[K^~~~~~~~[m[K
+[10.594s] [ 75%] [32m[1mLinking CXX executable my_pose_publisher[0m
+[11.334s] [ 75%] Built target my_pose_publisher
+[20.210s] [100%] [32m[1mLinking CXX executable observer[0m
+[21.468s] [100%] Built target observer
+[21.487s] Invoked command in '/home/rover/kameyama_ws/build/observation' returned '0': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/mecanumrover3:/home/rover/ros2_ws/install/mecanumrover_description:/home/rover/ros2_ws/install/mecanumrover3_bringup:/home/rover/ros2_ws/install/fwdsrover_xna:/home/rover/ros2_ws/install/fwdsrover_xna_bringup:/home/rover/ros2_ws/install/amir:/home/rover/ros2_ws/install/amir_moveit_config:/home/rover/ros2_ws/install/amir_driver:/home/rover/ros2_ws/install/amir_interfaces:/home/rover/ros2_ws/install/amir_bringup:/home/rover/ros2_ws/install/amir_description:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/observation_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rover/kameyama_ws/build/observation -- -j12 -l12
+[21.487s] Invoking command in '/home/rover/kameyama_ws/build/observation': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/mecanumrover3:/home/rover/ros2_ws/install/mecanumrover_description:/home/rover/ros2_ws/install/mecanumrover3_bringup:/home/rover/ros2_ws/install/fwdsrover_xna:/home/rover/ros2_ws/install/fwdsrover_xna_bringup:/home/rover/ros2_ws/install/amir:/home/rover/ros2_ws/install/amir_moveit_config:/home/rover/ros2_ws/install/amir_driver:/home/rover/ros2_ws/install/amir_interfaces:/home/rover/ros2_ws/install/amir_bringup:/home/rover/ros2_ws/install/amir_description:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/observation_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rover/kameyama_ws/build/observation
+[21.506s] -- Install configuration: ""
+[21.506s] -- Execute custom install script
+[21.511s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/lib/observation/my_pose_publisher
+[21.512s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation//launch/dummy_obj_pub.launch.py
+[21.512s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation//launch/nav2_send_goal.launch.py
+[21.512s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation//launch/object_callback.launch.py
+[21.512s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation//launch/observer.launch.py
+[21.512s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation//launch/odom_tf2_broadcaster.launch.py
+[21.512s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation//launch/pose_pub.launch.py
+[21.512s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation//launch/robot_manager.launch.py
+[21.513s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation//launch/robot_manager2.launch.py
+[21.513s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation//config/global_params.yaml
+[21.513s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation//config/global_params2.yaml
+[21.514s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/ament_index/resource_index/package_run_dependencies/observation
+[21.514s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/ament_index/resource_index/parent_prefix_path/observation
+[21.514s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation/environment/ament_prefix_path.sh
+[21.514s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation/environment/ament_prefix_path.dsv
+[21.515s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation/environment/path.sh
+[21.515s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation/environment/path.dsv
+[21.515s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation/local_setup.bash
+[21.515s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation/local_setup.sh
+[21.518s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation/local_setup.zsh
+[21.518s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation/local_setup.dsv
+[21.518s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation/package.dsv
+[21.532s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/ament_index/resource_index/packages/observation
+[21.533s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.533s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation/cmake/observationConfig.cmake
+[21.535s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation/cmake/observationConfig-version.cmake
+[21.535s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation/share/observation/package.xml
+[21.538s] Invoked command in '/home/rover/kameyama_ws/build/observation' returned '0': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/mecanumrover3:/home/rover/ros2_ws/install/mecanumrover_description:/home/rover/ros2_ws/install/mecanumrover3_bringup:/home/rover/ros2_ws/install/fwdsrover_xna:/home/rover/ros2_ws/install/fwdsrover_xna_bringup:/home/rover/ros2_ws/install/amir:/home/rover/ros2_ws/install/amir_moveit_config:/home/rover/ros2_ws/install/amir_driver:/home/rover/ros2_ws/install/amir_interfaces:/home/rover/ros2_ws/install/amir_bringup:/home/rover/ros2_ws/install/amir_description:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/observation_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rover/kameyama_ws/build/observation

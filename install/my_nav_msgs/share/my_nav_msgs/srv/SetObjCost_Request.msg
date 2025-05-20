@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/my_nav_msgs/rosidl_cmake/srv/SetObjCost_Request.msg

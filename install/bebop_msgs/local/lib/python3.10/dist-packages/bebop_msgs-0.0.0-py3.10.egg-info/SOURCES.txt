@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/bebop_msgs/ament_cmake_python/bebop_msgs/bebop_msgs.egg-info/SOURCES.txt

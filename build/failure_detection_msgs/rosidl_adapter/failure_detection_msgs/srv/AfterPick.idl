@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from failure_detection_msgs/srv/AfterPick.srv
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/AttachedCollisionObject.idl"
+
+module failure_detection_msgs {
+  module srv {
+    struct AfterPick_Request {
+      string bt_node_name;
+
+      string error_string;
+
+      moveit_msgs::msg::AttachedCollisionObject grasped_object;
+    };
+    struct AfterPick_Response {
+      string command;
+    };
+  };
+};

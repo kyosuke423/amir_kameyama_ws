@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from behavior_tree_msgs/srv/CreateBT.srv
+// generated code does not contain a copyright notice
+
+
+module behavior_tree_msgs {
+  module srv {
+    struct CreateBT_Request {
+      string bt_name;
+
+      string command;
+    };
+    struct CreateBT_Response {
+      string error_string;
+    };
+  };
+};

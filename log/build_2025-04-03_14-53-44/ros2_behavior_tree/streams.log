@@ -1,0 +1,273 @@
+[0.720s] Invoking command in '/home/rover/kameyama_ws/build/ros2_behavior_tree': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/observation_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/observation_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/nav2_system_tests:/home/rover/amir_basic_ws/install/nav2_bringup:/home/rover/amir_basic_ws/install/navigation2:/home/rover/amir_basic_ws/install/nav2_smoother:/home/rover/amir_basic_ws/install/nav2_graceful_controller:/home/rover/amir_basic_ws/install/nav2_dwb_controller:/home/rover/amir_basic_ws/install/nav2_controller:/home/rover/amir_basic_ws/install/dwb_plugins:/home/rover/amir_basic_ws/install/dwb_critics:/home/rover/amir_basic_ws/install/dwb_core:/home/rover/amir_basic_ws/install/nav_2d_utils:/home/rover/amir_basic_ws/install/dwb_msgs:/home/rover/amir_basic_ws/install/nav_2d_msgs:/home/rover/amir_basic_ws/install/nav2_waypoint_follower:/home/rover/amir_basic_ws/install/nav2_theta_star_planner:/home/rover/amir_basic_ws/install/nav2_smac_planner:/home/rover/amir_basic_ws/install/nav2_rotation_shim_controller:/home/rover/amir_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/rover/amir_basic_ws/install/nav2_planner:/home/rover/amir_basic_ws/install/nav2_navfn_planner:/home/rover/amir_basic_ws/install/nav2_mppi_controller:/home/rover/amir_basic_ws/install/nav2_constrained_smoother:/home/rover/amir_basic_ws/install/nav2_bt_navigator:/home/rover/amir_basic_ws/install/nav2_behaviors:/home/rover/amir_basic_ws/install/nav2_core:/home/rover/amir_basic_ws/install/nav2_collision_monitor:/home/rover/amir_basic_ws/install/costmap_queue:/home/rover/amir_basic_ws/install/nav2_costmap_2d:/home/rover/amir_basic_ws/install/nav2_voxel_grid:/home/rover/amir_basic_ws/install/nav2_velocity_smoother:/home/rover/amir_basic_ws/install/nav2_rviz_plugins:/home/rover/amir_basic_ws/install/nav2_map_server:/home/rover/amir_basic_ws/install/nav2_lifecycle_manager:/home/rover/amir_basic_ws/install/nav2_behavior_tree:/home/rover/amir_basic_ws/install/nav2_amcl:/home/rover/amir_basic_ws/install/nav2_util:/home/rover/amir_basic_ws/install/nav2_msgs:/home/rover/amir_basic_ws/install/nav2_common:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs/lib:/home/rover/kameyama_ws/install/observation_msgs/lib:/home/rover/kameyama_ws/install/my_nav_msgs/lib:/home/rover/kameyama_ws/install/behavior_tree_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/failure_detection_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/kameyama_ws/install/ros2_behavior_tree
+[0.810s] -- The C compiler identification is GNU 11.4.0
+[0.886s] -- The CXX compiler identification is GNU 11.4.0
+[0.896s] -- Detecting C compiler ABI info
+[1.031s] -- Detecting C compiler ABI info - done
+[1.038s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.038s] -- Detecting C compile features
+[1.039s] -- Detecting C compile features - done
+[1.042s] -- Detecting CXX compiler ABI info
+[1.184s] -- Detecting CXX compiler ABI info - done
+[1.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.192s] -- Detecting CXX compile features
+[1.192s] -- Detecting CXX compile features - done
+[1.202s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.964s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.044s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.164s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.253s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.272s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.294s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.363s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.401s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.444s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.600s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.612s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.795s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.839s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.904s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.936s] -- Looking for pthread.h
+[3.045s] -- Looking for pthread.h - found
+[3.046s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.161s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.162s] -- Found Threads: TRUE  
+[3.246s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.281s] -- Found behavior_tree_msgs: 0.1.0 (/home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake)
+[3.535s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[3.552s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[3.577s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.615s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.615s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.615s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.688s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[3.705s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.720s] -- Found nav2_behavior_tree: 1.1.17 (/home/rover/amir_basic_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[3.780s] -- Found observation_msgs: 0.1.0 (/home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake)
+[3.798s] -- Found my_nav_msgs: 0.1.0 (/home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake)
+[3.812s] -- Found failure_detection_msgs: 0.0.0 (/home/rover/kameyama_ws/install/failure_detection_msgs/share/failure_detection_msgs/cmake)
+[4.571s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.688s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.699s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.979s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.986s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.988s] -- Configured cppcheck include dirs: /home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/include
+[4.988s] -- Configured cppcheck exclude dirs and/or files: 
+[4.994s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.994s] -- Configured cpplint exclude dirs and/or files: 
+[4.996s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.998s] -- Added test 'lint_cmake' to check CMake code style
+[5.000s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.006s] -- Added test 'uncrustify' to check C / C++ code style
+[5.006s] -- Configured uncrustify additional arguments: 
+[5.008s] -- Added test 'xmllint' to check XML markup files
+[5.011s] -- Configuring done
+[5.638s] -- Generating done
+[5.691s] -- Build files have been written to: /home/rover/kameyama_ws/build/ros2_behavior_tree
+[5.706s] Invoked command in '/home/rover/kameyama_ws/build/ros2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/observation_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/observation_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/nav2_system_tests:/home/rover/amir_basic_ws/install/nav2_bringup:/home/rover/amir_basic_ws/install/navigation2:/home/rover/amir_basic_ws/install/nav2_smoother:/home/rover/amir_basic_ws/install/nav2_graceful_controller:/home/rover/amir_basic_ws/install/nav2_dwb_controller:/home/rover/amir_basic_ws/install/nav2_controller:/home/rover/amir_basic_ws/install/dwb_plugins:/home/rover/amir_basic_ws/install/dwb_critics:/home/rover/amir_basic_ws/install/dwb_core:/home/rover/amir_basic_ws/install/nav_2d_utils:/home/rover/amir_basic_ws/install/dwb_msgs:/home/rover/amir_basic_ws/install/nav_2d_msgs:/home/rover/amir_basic_ws/install/nav2_waypoint_follower:/home/rover/amir_basic_ws/install/nav2_theta_star_planner:/home/rover/amir_basic_ws/install/nav2_smac_planner:/home/rover/amir_basic_ws/install/nav2_rotation_shim_controller:/home/rover/amir_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/rover/amir_basic_ws/install/nav2_planner:/home/rover/amir_basic_ws/install/nav2_navfn_planner:/home/rover/amir_basic_ws/install/nav2_mppi_controller:/home/rover/amir_basic_ws/install/nav2_constrained_smoother:/home/rover/amir_basic_ws/install/nav2_bt_navigator:/home/rover/amir_basic_ws/install/nav2_behaviors:/home/rover/amir_basic_ws/install/nav2_core:/home/rover/amir_basic_ws/install/nav2_collision_monitor:/home/rover/amir_basic_ws/install/costmap_queue:/home/rover/amir_basic_ws/install/nav2_costmap_2d:/home/rover/amir_basic_ws/install/nav2_voxel_grid:/home/rover/amir_basic_ws/install/nav2_velocity_smoother:/home/rover/amir_basic_ws/install/nav2_rviz_plugins:/home/rover/amir_basic_ws/install/nav2_map_server:/home/rover/amir_basic_ws/install/nav2_lifecycle_manager:/home/rover/amir_basic_ws/install/nav2_behavior_tree:/home/rover/amir_basic_ws/install/nav2_amcl:/home/rover/amir_basic_ws/install/nav2_util:/home/rover/amir_basic_ws/install/nav2_msgs:/home/rover/amir_basic_ws/install/nav2_common:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs/lib:/home/rover/kameyama_ws/install/observation_msgs/lib:/home/rover/kameyama_ws/install/my_nav_msgs/lib:/home/rover/kameyama_ws/install/behavior_tree_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/failure_detection_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/kameyama_ws/install/ros2_behavior_tree
+[5.708s] Invoking command in '/home/rover/kameyama_ws/build/ros2_behavior_tree': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/observation_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/observation_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/nav2_system_tests:/home/rover/amir_basic_ws/install/nav2_bringup:/home/rover/amir_basic_ws/install/navigation2:/home/rover/amir_basic_ws/install/nav2_smoother:/home/rover/amir_basic_ws/install/nav2_graceful_controller:/home/rover/amir_basic_ws/install/nav2_dwb_controller:/home/rover/amir_basic_ws/install/nav2_controller:/home/rover/amir_basic_ws/install/dwb_plugins:/home/rover/amir_basic_ws/install/dwb_critics:/home/rover/amir_basic_ws/install/dwb_core:/home/rover/amir_basic_ws/install/nav_2d_utils:/home/rover/amir_basic_ws/install/dwb_msgs:/home/rover/amir_basic_ws/install/nav_2d_msgs:/home/rover/amir_basic_ws/install/nav2_waypoint_follower:/home/rover/amir_basic_ws/install/nav2_theta_star_planner:/home/rover/amir_basic_ws/install/nav2_smac_planner:/home/rover/amir_basic_ws/install/nav2_rotation_shim_controller:/home/rover/amir_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/rover/amir_basic_ws/install/nav2_planner:/home/rover/amir_basic_ws/install/nav2_navfn_planner:/home/rover/amir_basic_ws/install/nav2_mppi_controller:/home/rover/amir_basic_ws/install/nav2_constrained_smoother:/home/rover/amir_basic_ws/install/nav2_bt_navigator:/home/rover/amir_basic_ws/install/nav2_behaviors:/home/rover/amir_basic_ws/install/nav2_core:/home/rover/amir_basic_ws/install/nav2_collision_monitor:/home/rover/amir_basic_ws/install/costmap_queue:/home/rover/amir_basic_ws/install/nav2_costmap_2d:/home/rover/amir_basic_ws/install/nav2_voxel_grid:/home/rover/amir_basic_ws/install/nav2_velocity_smoother:/home/rover/amir_basic_ws/install/nav2_rviz_plugins:/home/rover/amir_basic_ws/install/nav2_map_server:/home/rover/amir_basic_ws/install/nav2_lifecycle_manager:/home/rover/amir_basic_ws/install/nav2_behavior_tree:/home/rover/amir_basic_ws/install/nav2_amcl:/home/rover/amir_basic_ws/install/nav2_util:/home/rover/amir_basic_ws/install/nav2_msgs:/home/rover/amir_basic_ws/install/nav2_common:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs/lib:/home/rover/kameyama_ws/install/observation_msgs/lib:/home/rover/kameyama_ws/install/my_nav_msgs/lib:/home/rover/kameyama_ws/install/behavior_tree_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/failure_detection_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rover/kameyama_ws/build/ros2_behavior_tree -- -j12 -l12
+[5.786s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.786s] [  8%] [32mBuilding CXX object CMakeFiles/ros2_behavior_tree_nodes.dir/src/node_registrar.cpp.o[0m
+[5.786s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.787s] [ 10%] [32mBuilding CXX object tests/CMakeFiles/custom_test_nodes.dir/src/test_node_registrar.cpp.o[0m
+[5.787s] [ 12%] [32mBuilding CXX object CMakeFiles/ros2_behavior_tree_nodes.dir/src/pure_pursuit_node.cpp.o[0m
+[5.787s] [ 12%] [32mBuilding CXX object CMakeFiles/example_custom_nodes.dir/examples/custom_nodes/sample_bt_node_registrar.cpp.o[0m
+[5.787s] [ 14%] [32mBuilding CXX object CMakeFiles/ros2_behavior_tree.dir/src/bt_status_pub.cpp.o[0m
+[5.790s] [ 17%] [32mBuilding CXX object CMakeFiles/ros2_behavior_tree.dir/src/behavior_tree.cpp.o[0m
+[6.172s] In file included from [01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/include/ros2_behavior_tree/action/create_transform_buffer_node.hpp:27[m[K,
+[6.172s]                  from [01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/src/node_registrar.cpp:22[m[K:
+[6.172s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[6.172s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[6.172s]       |  [01;35m[K^~~~~~~[m[K
+[6.527s] [ 19%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.633s] [ 19%] Built target gtest_main
+[7.242s] [ 21%] [32m[1mLinking CXX shared library libexample_custom_nodes.so[0m
+[7.545s] [ 21%] Built target example_custom_nodes
+[8.509s] [ 23%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.638s] [ 23%] Built target gtest
+[9.300s] [ 25%] [32m[1mLinking CXX shared library libros2_behavior_tree.so[0m
+[9.525s] [ 25%] Built target ros2_behavior_tree
+[9.561s] [ 27%] [32mBuilding CXX object CMakeFiles/custom_nodes.dir/examples/custom_nodes/main.cpp.o[0m
+[9.561s] [ 29%] [32mBuilding CXX object CMakeFiles/bt_executor.dir/src/bt_executor.cpp.o[0m
+[9.561s] [ 31%] [32mBuilding CXX object CMakeFiles/minimal.dir/examples/minimal/main.cpp.o[0m
+[9.562s] [ 34%] [32mBuilding CXX object CMakeFiles/node.dir/examples/node/main.cpp.o[0m
+[9.562s] [ 36%] [32mBuilding CXX object CMakeFiles/action_server_node.dir/examples/action_server_node/main.cpp.o[0m
+[9.562s] [ 38%] [32mBuilding CXX object CMakeFiles/bt_executor_bebop.dir/src/bt_executor_bebop.cpp.o[0m
+[9.564s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_nodes.dir/examples/custom_nodes/sample_node.cpp.o[0m
+[10.686s] [ 42%] [32m[1mLinking CXX shared library libcustom_test_nodes.so[0m
+[11.047s] [ 42%] Built target custom_test_nodes
+[11.069s] [ 44%] [32mBuilding CXX object CMakeFiles/action_server_node.dir/examples/action_server_node/sample_action_server_node.cpp.o[0m
+[11.113s] [ 46%] [32mBuilding CXX object CMakeFiles/action_server_lifecycle_node.dir/examples/action_server_lifecycle_node/main.cpp.o[0m
+[11.127s] [ 48%] [32mBuilding CXX object CMakeFiles/lifecycle_node.dir/examples/lifecycle_node/main.cpp.o[0m
+[13.053s] [ 51%] [32mBuilding CXX object CMakeFiles/action_server_lifecycle_node.dir/examples/action_server_lifecycle_node/sample_action_server_lifecycle_node.cpp.o[0m
+[13.060s] [ 53%] [32mBuilding CXX object CMakeFiles/node.dir/examples/node/sample_node.cpp.o[0m
+[13.142s] [ 55%] [32m[1mLinking CXX executable minimal[0m
+[13.208s] [ 57%] [32mBuilding CXX object CMakeFiles/lifecycle_node.dir/examples/lifecycle_node/sample_lifecycle_node.cpp.o[0m
+[13.684s] [ 57%] Built target minimal
+[13.838s] [ 59%] [32m[1mLinking CXX executable custom_nodes[0m
+[14.618s] [ 59%] Built target custom_nodes
+[15.965s] [ 61%] [32m[1mLinking CXX executable action_server_node[0m
+[16.868s] [ 61%] Built target action_server_node
+[17.860s] [ 63%] [32m[1mLinking CXX executable node[0m
+[17.988s] [ 65%] [32m[1mLinking CXX executable lifecycle_node[0m
+[18.348s] [ 68%] [32m[1mLinking CXX executable action_server_lifecycle_node[0m
+[18.416s] [ 68%] Built target node
+[18.492s] [ 68%] Built target lifecycle_node
+[18.991s] [ 68%] Built target action_server_lifecycle_node
+[22.435s] [ 70%] [32m[1mLinking CXX executable bt_executor[0m
+[23.029s] [ 72%] [32m[1mLinking CXX executable bt_executor_bebop[0m
+[24.088s] [ 72%] Built target bt_executor
+[24.672s] [ 72%] Built target bt_executor_bebop
+[25.865s] In file included from [01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/src/node_registrar.cpp:79[m[K:
+[25.865s] [01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/include/ros2_behavior_tree/condition/mecanum_check_space.hpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus ros2_behavior_tree::MecanumCheckSpace::tick()[m[K’:
+[25.866s] [01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/include/ros2_behavior_tree/condition/mecanum_check_space.hpp:176:3:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[25.866s]   176 |   [01;35m[K}[m[K
+[25.866s]       |   [01;35m[K^[m[K
+[40.323s] [ 74%] [32m[1mLinking CXX shared library libros2_behavior_tree_nodes.so[0m
+[43.975s] [ 74%] Built target ros2_behavior_tree_nodes
+[44.006s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/test_ros2_behavior_tree_nodes.dir/test_repeat_until.cpp.o[0m
+[44.006s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/test_ros2_action_client.dir/test_ros2_action_client.cpp.o[0m
+[44.006s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/test_ros2_behavior_tree_nodes.dir/test_first_result.cpp.o[0m
+[44.006s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/test_ros2_behavior_tree_nodes.dir/test_async_wait.cpp.o[0m
+[44.006s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/test_ros2_behavior_tree_nodes.dir/test_round_robin.cpp.o[0m
+[44.006s] [ 87%] [32mBuilding CXX object tests/CMakeFiles/test_ros2_behavior_tree_nodes.dir/test_recovery.cpp.o[0m
+[44.007s] [ 91%] [32mBuilding CXX object tests/CMakeFiles/test_ros2_behavior_tree_nodes.dir/test_forever.cpp.o[0m
+[44.007s] [ 91%] [32mBuilding CXX object tests/CMakeFiles/test_ros2_behavior_tree_nodes.dir/test_throttle_tick_count.cpp.o[0m
+[44.008s] [ 93%] [32mBuilding CXX object tests/CMakeFiles/test_ros2_service_client.dir/test_ros2_service_client.cpp.o[0m
+[45.958s] [ 95%] [32m[1mLinking CXX executable test_ros2_behavior_tree_nodes[0m
+[46.454s] [ 95%] Built target test_ros2_behavior_tree_nodes
+[49.086s] [ 97%] [32m[1mLinking CXX executable test_ros2_service_client[0m
+[49.578s] [100%] [32m[1mLinking CXX executable test_ros2_action_client[0m
+[49.701s] [100%] Built target test_ros2_service_client
+[50.198s] [100%] Built target test_ros2_action_client
+[50.215s] Invoked command in '/home/rover/kameyama_ws/build/ros2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/observation_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/observation_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/nav2_system_tests:/home/rover/amir_basic_ws/install/nav2_bringup:/home/rover/amir_basic_ws/install/navigation2:/home/rover/amir_basic_ws/install/nav2_smoother:/home/rover/amir_basic_ws/install/nav2_graceful_controller:/home/rover/amir_basic_ws/install/nav2_dwb_controller:/home/rover/amir_basic_ws/install/nav2_controller:/home/rover/amir_basic_ws/install/dwb_plugins:/home/rover/amir_basic_ws/install/dwb_critics:/home/rover/amir_basic_ws/install/dwb_core:/home/rover/amir_basic_ws/install/nav_2d_utils:/home/rover/amir_basic_ws/install/dwb_msgs:/home/rover/amir_basic_ws/install/nav_2d_msgs:/home/rover/amir_basic_ws/install/nav2_waypoint_follower:/home/rover/amir_basic_ws/install/nav2_theta_star_planner:/home/rover/amir_basic_ws/install/nav2_smac_planner:/home/rover/amir_basic_ws/install/nav2_rotation_shim_controller:/home/rover/amir_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/rover/amir_basic_ws/install/nav2_planner:/home/rover/amir_basic_ws/install/nav2_navfn_planner:/home/rover/amir_basic_ws/install/nav2_mppi_controller:/home/rover/amir_basic_ws/install/nav2_constrained_smoother:/home/rover/amir_basic_ws/install/nav2_bt_navigator:/home/rover/amir_basic_ws/install/nav2_behaviors:/home/rover/amir_basic_ws/install/nav2_core:/home/rover/amir_basic_ws/install/nav2_collision_monitor:/home/rover/amir_basic_ws/install/costmap_queue:/home/rover/amir_basic_ws/install/nav2_costmap_2d:/home/rover/amir_basic_ws/install/nav2_voxel_grid:/home/rover/amir_basic_ws/install/nav2_velocity_smoother:/home/rover/amir_basic_ws/install/nav2_rviz_plugins:/home/rover/amir_basic_ws/install/nav2_map_server:/home/rover/amir_basic_ws/install/nav2_lifecycle_manager:/home/rover/amir_basic_ws/install/nav2_behavior_tree:/home/rover/amir_basic_ws/install/nav2_amcl:/home/rover/amir_basic_ws/install/nav2_util:/home/rover/amir_basic_ws/install/nav2_msgs:/home/rover/amir_basic_ws/install/nav2_common:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs/lib:/home/rover/kameyama_ws/install/observation_msgs/lib:/home/rover/kameyama_ws/install/my_nav_msgs/lib:/home/rover/kameyama_ws/install/behavior_tree_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/failure_detection_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rover/kameyama_ws/build/ros2_behavior_tree -- -j12 -l12
+[50.217s] Invoking command in '/home/rover/kameyama_ws/build/ros2_behavior_tree': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/observation_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/observation_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/nav2_system_tests:/home/rover/amir_basic_ws/install/nav2_bringup:/home/rover/amir_basic_ws/install/navigation2:/home/rover/amir_basic_ws/install/nav2_smoother:/home/rover/amir_basic_ws/install/nav2_graceful_controller:/home/rover/amir_basic_ws/install/nav2_dwb_controller:/home/rover/amir_basic_ws/install/nav2_controller:/home/rover/amir_basic_ws/install/dwb_plugins:/home/rover/amir_basic_ws/install/dwb_critics:/home/rover/amir_basic_ws/install/dwb_core:/home/rover/amir_basic_ws/install/nav_2d_utils:/home/rover/amir_basic_ws/install/dwb_msgs:/home/rover/amir_basic_ws/install/nav_2d_msgs:/home/rover/amir_basic_ws/install/nav2_waypoint_follower:/home/rover/amir_basic_ws/install/nav2_theta_star_planner:/home/rover/amir_basic_ws/install/nav2_smac_planner:/home/rover/amir_basic_ws/install/nav2_rotation_shim_controller:/home/rover/amir_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/rover/amir_basic_ws/install/nav2_planner:/home/rover/amir_basic_ws/install/nav2_navfn_planner:/home/rover/amir_basic_ws/install/nav2_mppi_controller:/home/rover/amir_basic_ws/install/nav2_constrained_smoother:/home/rover/amir_basic_ws/install/nav2_bt_navigator:/home/rover/amir_basic_ws/install/nav2_behaviors:/home/rover/amir_basic_ws/install/nav2_core:/home/rover/amir_basic_ws/install/nav2_collision_monitor:/home/rover/amir_basic_ws/install/costmap_queue:/home/rover/amir_basic_ws/install/nav2_costmap_2d:/home/rover/amir_basic_ws/install/nav2_voxel_grid:/home/rover/amir_basic_ws/install/nav2_velocity_smoother:/home/rover/amir_basic_ws/install/nav2_rviz_plugins:/home/rover/amir_basic_ws/install/nav2_map_server:/home/rover/amir_basic_ws/install/nav2_lifecycle_manager:/home/rover/amir_basic_ws/install/nav2_behavior_tree:/home/rover/amir_basic_ws/install/nav2_amcl:/home/rover/amir_basic_ws/install/nav2_util:/home/rover/amir_basic_ws/install/nav2_msgs:/home/rover/amir_basic_ws/install/nav2_common:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs/lib:/home/rover/kameyama_ws/install/observation_msgs/lib:/home/rover/kameyama_ws/install/my_nav_msgs/lib:/home/rover/kameyama_ws/install/behavior_tree_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/failure_detection_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rover/kameyama_ws/build/ros2_behavior_tree
+[50.227s] -- Install configuration: ""
+[50.227s] -- Execute custom install script
+[50.227s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/lib/libros2_behavior_tree.so
+[50.238s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/lib/libros2_behavior_tree_nodes.so
+[50.249s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/lib/libexample_custom_nodes.so
+[50.261s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/lib/ros2_behavior_tree/minimal
+[50.272s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/lib/ros2_behavior_tree/bt_executor
+[50.284s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/lib/ros2_behavior_tree/bt_executor_bebop
+[50.296s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/lib/ros2_behavior_tree/node
+[50.309s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/lib/ros2_behavior_tree/custom_nodes
+[50.321s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/lib/ros2_behavior_tree/action_server_node
+[50.334s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/lib/ros2_behavior_tree/lifecycle_node
+[50.346s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/lib/ros2_behavior_tree/action_server_lifecycle_node
+[50.358s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/BWorkNode.hpp
+[50.369s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/after_pick_node (コピー).hpp
+[50.380s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/after_pick_node.hpp
+[50.391s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/approach_node.hpp
+[50.404s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/async_wait_node.hpp
+[50.416s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/b_work_node.hpp
+[50.428s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/before_pick_node.hpp
+[50.439s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/calculate_and_receive_goal.hpp
+[50.450s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/calculate_goal (コピー).hpp
+[50.462s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/calculate_goal.hpp
+[50.473s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/camera_search.hpp
+[50.484s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/change_node_status.hpp
+[50.495s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/compute_path_to_pose_node (コピー).hpp
+[50.509s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/compute_path_to_pose_node.hpp
+[50.520s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/create_bt_gen_node.hpp
+[50.531s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/create_ros2_node.hpp
+[50.542s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/create_transform_buffer_node.hpp
+[50.554s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/follow_path_node.hpp
+[50.565s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/get_obj_node.hpp
+[50.577s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/get_poses_near_robot_node.hpp
+[50.590s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/marker_publisher_node.hpp
+[50.602s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/mecanum_move.hpp
+[50.615s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/mecanum_search.hpp
+[50.627s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/mecanum_spin.hpp
+[50.639s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/move_meca.hpp
+[50.650s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/navigate_to_pose_action.hpp
+[50.662s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/path_check_node.hpp
+[50.674s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/pick_amir.hpp
+[50.686s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/pick_node (別のコピー).hpp
+[50.697s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/pick_node.hpp
+[50.711s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/pick_using_d_optimality.hpp
+[50.723s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/place_amir.hpp
+[50.733s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/place_node.hpp
+[50.745s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/pure_pursuit_node.hpp
+[50.757s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/search_obj_node.hpp
+[50.768s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/set_multi_path.hpp
+[50.780s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/set_obj_cost_node.hpp
+[50.792s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/set_param (コピー).hpp
+[50.804s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/set_param.hpp
+[50.817s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/transform_pose_node.hpp
+[50.829s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/action/wait_action.hpp
+[50.841s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/behavior_tree.hpp
+[50.853s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/bt_action_node.hpp
+[50.865s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/bt_conversions.hpp
+[50.877s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/bt_service_node.hpp
+[50.890s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/bt_status_pub.hpp
+[50.902s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/b_work_node.hpp
+[50.914s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/can_transform_node.hpp
+[50.926s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/check_help.hpp
+[50.939s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/check_odom.hpp
+[50.951s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/check_path_node.hpp
+[50.963s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/check_vel.hpp
+[50.975s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/close_to_node.hpp
+[50.987s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/goal_updated_condition.hpp
+[50.999s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/is_grasped_obj_node.hpp
+[51.013s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/is_hand_free_node.hpp
+[51.024s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/is_robot_close_node.hpp
+[51.035s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/mecanum_check_space.hpp
+[51.047s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/mecanum_search2.hpp
+[51.058s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/receive_move_meca.hpp
+[51.069s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/result_to_coordinate.hpp
+[51.081s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/condition/task_clear.hpp
+[51.093s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/control/first_result_node.hpp
+[51.104s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/control/pipeline_sequence_node.hpp
+[51.117s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/control/priority_fallback.hpp
+[51.130s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/control/priority_sequence.hpp
+[51.142s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/control/recovery_node.hpp
+[51.154s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/control/round_robin_node.hpp
+[51.164s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/decorator/distance_constraint_node.hpp
+[51.174s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/decorator/for_each_pose_node.hpp
+[51.186s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/decorator/forever_node.hpp
+[51.197s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/decorator/once_node.hpp
+[51.209s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/decorator/rate_controller.hpp
+[51.221s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/decorator/repeat_until_node.hpp
+[51.233s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/decorator/throttle_tick_rate_node.hpp
+[51.245s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/decorator/utility_choice.hpp
+[51.256s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/node_registrar.hpp
+[51.268s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/node_thread.hpp
+[51.279s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/ros2_action_client_node.hpp
+[51.290s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/ros2_async_service_client_node.hpp
+[51.302s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/include//ros2_behavior_tree/ros2_service_client_node.hpp
+[51.317s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree//launch/bt_executor2_launch.py
+[51.329s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree//launch/bt_executor_anafi_launch.py
+[51.340s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree//launch/bt_executor_bebop_launch.py
+[51.352s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree//launch/bt_executor_launch.py
+[51.365s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree//launch/bt_executor_mecanum_launch.py
+[51.377s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree//launch/bt_executor_youbot_launch.py
+[51.389s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree//launch/bt_generator_launch.py
+[51.401s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree//launch/set_cost_around_point_launch.py
+[51.414s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree//config/bt_nodes.yaml
+[51.425s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree//config/bt_nodes2.yaml
+[51.437s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree//config/bt_nodes_mecanum1.yaml
+[51.449s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree//config/bt_nodes_youbot.yaml
+[51.461s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/ros2_behavior_tree/lib/libros2_behavior_tree.so
+[51.461s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/lib/libcustom_test_nodes.so
+[51.473s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/environment/library_path.sh
+[51.485s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/environment/library_path.dsv
+[51.496s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/ros2_behavior_tree
+[51.509s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/ros2_behavior_tree
+[51.521s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/environment/ament_prefix_path.sh
+[51.534s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/environment/ament_prefix_path.dsv
+[51.546s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/environment/path.sh
+[51.558s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/environment/path.dsv
+[51.570s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/local_setup.bash
+[51.582s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/local_setup.sh
+[51.594s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/local_setup.zsh
+[51.607s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/local_setup.dsv
+[51.619s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/package.dsv
+[51.631s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ament_index/resource_index/packages/ros2_behavior_tree
+[51.643s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.655s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[51.667s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.679s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/cmake/ros2_behavior_treeConfig.cmake
+[51.690s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/cmake/ros2_behavior_treeConfig-version.cmake
+[51.702s] -- Symlinking: /home/rover/kameyama_ws/install/ros2_behavior_tree/share/ros2_behavior_tree/package.xml
+[51.718s] Invoked command in '/home/rover/kameyama_ws/build/ros2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/observation_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/observation_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/nav2_system_tests:/home/rover/amir_basic_ws/install/nav2_bringup:/home/rover/amir_basic_ws/install/navigation2:/home/rover/amir_basic_ws/install/nav2_smoother:/home/rover/amir_basic_ws/install/nav2_graceful_controller:/home/rover/amir_basic_ws/install/nav2_dwb_controller:/home/rover/amir_basic_ws/install/nav2_controller:/home/rover/amir_basic_ws/install/dwb_plugins:/home/rover/amir_basic_ws/install/dwb_critics:/home/rover/amir_basic_ws/install/dwb_core:/home/rover/amir_basic_ws/install/nav_2d_utils:/home/rover/amir_basic_ws/install/dwb_msgs:/home/rover/amir_basic_ws/install/nav_2d_msgs:/home/rover/amir_basic_ws/install/nav2_waypoint_follower:/home/rover/amir_basic_ws/install/nav2_theta_star_planner:/home/rover/amir_basic_ws/install/nav2_smac_planner:/home/rover/amir_basic_ws/install/nav2_rotation_shim_controller:/home/rover/amir_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/rover/amir_basic_ws/install/nav2_planner:/home/rover/amir_basic_ws/install/nav2_navfn_planner:/home/rover/amir_basic_ws/install/nav2_mppi_controller:/home/rover/amir_basic_ws/install/nav2_constrained_smoother:/home/rover/amir_basic_ws/install/nav2_bt_navigator:/home/rover/amir_basic_ws/install/nav2_behaviors:/home/rover/amir_basic_ws/install/nav2_core:/home/rover/amir_basic_ws/install/nav2_collision_monitor:/home/rover/amir_basic_ws/install/costmap_queue:/home/rover/amir_basic_ws/install/nav2_costmap_2d:/home/rover/amir_basic_ws/install/nav2_voxel_grid:/home/rover/amir_basic_ws/install/nav2_velocity_smoother:/home/rover/amir_basic_ws/install/nav2_rviz_plugins:/home/rover/amir_basic_ws/install/nav2_map_server:/home/rover/amir_basic_ws/install/nav2_lifecycle_manager:/home/rover/amir_basic_ws/install/nav2_behavior_tree:/home/rover/amir_basic_ws/install/nav2_amcl:/home/rover/amir_basic_ws/install/nav2_util:/home/rover/amir_basic_ws/install/nav2_msgs:/home/rover/amir_basic_ws/install/nav2_common:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs/lib:/home/rover/kameyama_ws/install/observation_msgs/lib:/home/rover/kameyama_ws/install/my_nav_msgs/lib:/home/rover/kameyama_ws/install/behavior_tree_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/failure_detection_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rover/kameyama_ws/build/ros2_behavior_tree

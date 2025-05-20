@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/failure_detection_msgs/rosidl_typesupport_introspection_cpp/failure_detection_msgs/srv/detail/before_pick__rosidl_typesupport_introspection_cpp.hpp

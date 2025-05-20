@@ -1,0 +1,4 @@
+source;share/observation/local_setup.bash
+source;share/observation/local_setup.dsv
+source;share/observation/local_setup.sh
+source;share/observation/local_setup.zsh

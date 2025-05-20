@@ -1,0 +1,24 @@
+[0.070s] Invoking command in '/home/rover/kameyama_ws/build/my_nav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/my_nav_msgs -- -j12 -l12
+[0.953s] [ 10%] Built target my_nav_msgs__rosidl_generator_c
+[0.953s] [ 12%] Built target my_nav_msgs__cpp
+[0.953s] [ 12%] Built target ament_cmake_python_symlink_my_nav_msgs
+[0.953s] [ 23%] Built target my_nav_msgs__rosidl_typesupport_introspection_cpp
+[0.953s] [ 34%] Built target my_nav_msgs__rosidl_typesupport_introspection_c
+[0.953s] [ 45%] Built target my_nav_msgs__rosidl_typesupport_fastrtps_c
+[0.953s] [ 56%] Built target my_nav_msgs__rosidl_typesupport_c
+[0.953s] [ 67%] Built target my_nav_msgs__rosidl_typesupport_cpp
+[0.953s] [ 78%] Built target my_nav_msgs__rosidl_typesupport_fastrtps_cpp
+[0.953s] [ 78%] Built target my_nav_msgs
+[0.953s] [ 80%] Built target my_nav_msgs__py
+[0.954s] [ 89%] Built target my_nav_msgs__rosidl_generator_py
+[0.954s] [ 92%] Built target my_nav_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.954s] [ 96%] Built target my_nav_msgs__rosidl_typesupport_c__pyext
+[0.954s] [100%] Built target my_nav_msgs__rosidl_typesupport_introspection_c__pyext
+[0.954s] running egg_info
+[0.960s] writing my_nav_msgs.egg-info/PKG-INFO
+[0.992s] writing dependency_links to my_nav_msgs.egg-info/dependency_links.txt
+[1.207s] writing top-level names to my_nav_msgs.egg-info/top_level.txt
+[1.267s] reading manifest file 'my_nav_msgs.egg-info/SOURCES.txt'
+[1.267s] writing manifest file 'my_nav_msgs.egg-info/SOURCES.txt'
+[1.313s] [100%] Built target ament_cmake_python_build_my_nav_msgs_egg
+[1.328s] gmake: *** [Makefile:147: all] 割り込み

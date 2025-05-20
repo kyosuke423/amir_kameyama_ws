@@ -1,0 +1,23 @@
+[0.067s] Invoking command in '/home/rover/kameyama_ws/build/observation_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/observation_msgs -- -j12 -l12
+[0.951s] [  1%] Built target observation_msgs__cpp
+[0.951s] [ 12%] Built target observation_msgs__rosidl_generator_c
+[0.952s] [ 12%] Built target ament_cmake_python_symlink_observation_msgs
+[0.952s] [ 23%] Built target observation_msgs__rosidl_typesupport_cpp
+[0.952s] [ 41%] Built target observation_msgs__rosidl_typesupport_fastrtps_cpp
+[0.952s] [ 46%] Built target observation_msgs__rosidl_typesupport_introspection_cpp
+[0.952s] [ 57%] Built target observation_msgs__rosidl_typesupport_fastrtps_c
+[0.952s] [ 68%] Built target observation_msgs__rosidl_typesupport_introspection_c
+[0.953s] [ 79%] Built target observation_msgs__rosidl_typesupport_c
+[0.953s] [ 79%] Built target observation_msgs
+[0.953s] [ 80%] Built target observation_msgs__py
+[0.953s] [ 90%] Built target observation_msgs__rosidl_generator_py
+[0.953s] [ 95%] Built target observation_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.953s] [ 96%] Built target observation_msgs__rosidl_typesupport_introspection_c__pyext
+[0.953s] [100%] Built target observation_msgs__rosidl_typesupport_c__pyext
+[0.953s] running egg_info
+[0.953s] writing observation_msgs.egg-info/PKG-INFO
+[0.953s] writing dependency_links to observation_msgs.egg-info/dependency_links.txt
+[1.137s] interrupted
+[1.186s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_observation_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_observation_msgs_egg] 割り込み
+[1.186s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_observation_msgs_egg.dir/all] 割り込み
+[1.186s] gmake: *** [Makefile:146: all] 割り込み

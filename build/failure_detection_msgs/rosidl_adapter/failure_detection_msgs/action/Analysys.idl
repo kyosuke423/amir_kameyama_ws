@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from failure_detection_msgs/action/Analysys.action
+// generated code does not contain a copyright notice
+
+
+module failure_detection_msgs {
+  module action {
+    struct Analysys_Goal {
+      string node_name;
+
+      int32 node_id;
+    };
+    struct Analysys_Result {
+      double success_probability;
+    };
+    struct Analysys_Feedback {
+      double success_probability;
+    };
+  };
+};

@@ -1,0 +1,7 @@
+{
+  "package_name": "ar_track_alvar_msgs",
+  "non_idl_tuples": [
+    "/home/rover/kameyama_ws/src/ar_track_alvar_msgs/ar_track_alvar_msgs:msg/AlvarMarker.msg",
+    "/home/rover/kameyama_ws/src/ar_track_alvar_msgs/ar_track_alvar_msgs:msg/AlvarMarkers.msg"
+  ]
+}

@@ -1,0 +1,4 @@
+interrupted
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ros2_aruco_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ros2_aruco_interfaces_egg] 割り込み
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ros2_aruco_interfaces_egg.dir/all] 割り込み
+gmake: *** [Makefile:146: all] 割り込み

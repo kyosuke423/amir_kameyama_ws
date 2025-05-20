@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/behavior_tree_msgs/rosidl_generator_c/behavior_tree_msgs/msg/detail/node_status__struct.h

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from behavior_tree_msgs/msg/BTStatus.msg
+// generated code does not contain a copyright notice
+
+#include "behavior_tree_msgs/msg/NodeStatus.idl"
+
+module behavior_tree_msgs {
+  module msg {
+    struct BTStatus {
+      @verbatim (language="comment", text=
+        "initial tree, empty if type is new")
+      string bt;
+
+      behavior_tree_msgs::msg::NodeStatus root_status;
+
+      sequence<behavior_tree_msgs::msg::NodeStatus> bt_status;
+    };
+  };
+};

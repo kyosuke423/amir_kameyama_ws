@@ -1,0 +1,207 @@
+[0.061s] Invoking command in '/home/rover/kameyama_ws/build/observation_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/observation_msgs -- -j12 -l12
+[1.228s] [35m[1mConsolidate compiler generated dependencies of target observation_msgs__rosidl_generator_c[0m
+[1.228s] [ 11%] Built target observation_msgs__rosidl_generator_c
+[1.228s] [ 12%] Built target observation_msgs__cpp
+[1.228s] [35m[1mConsolidate compiler generated dependencies of target observation_msgs__rosidl_typesupport_introspection_c[0m
+[1.228s] [ 12%] Built target ament_cmake_python_symlink_observation_msgs
+[1.228s] [35m[1mConsolidate compiler generated dependencies of target observation_msgs__rosidl_typesupport_c[0m
+[1.228s] [35m[1mConsolidate compiler generated dependencies of target observation_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.228s] [35m[1mConsolidate compiler generated dependencies of target observation_msgs__rosidl_typesupport_cpp[0m
+[1.228s] [ 23%] Built target observation_msgs__rosidl_typesupport_introspection_c
+[1.228s] [35m[1mConsolidate compiler generated dependencies of target observation_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.228s] [35m[1mConsolidate compiler generated dependencies of target observation_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.228s] [ 34%] Built target observation_msgs__rosidl_typesupport_c
+[1.228s] [ 46%] Built target observation_msgs__rosidl_typesupport_fastrtps_c
+[1.228s] [ 57%] Built target observation_msgs__rosidl_typesupport_cpp
+[1.228s] [ 68%] Built target observation_msgs__rosidl_typesupport_introspection_cpp
+[1.228s] [ 79%] Built target observation_msgs__rosidl_typesupport_fastrtps_cpp
+[1.229s] [ 79%] Built target observation_msgs
+[1.229s] [ 80%] Built target observation_msgs__py
+[1.229s] [35m[1mConsolidate compiler generated dependencies of target observation_msgs__rosidl_generator_py[0m
+[1.229s] [ 90%] Built target observation_msgs__rosidl_generator_py
+[1.229s] [35m[1mConsolidate compiler generated dependencies of target observation_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.229s] [35m[1mConsolidate compiler generated dependencies of target observation_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.229s] [35m[1mConsolidate compiler generated dependencies of target observation_msgs__rosidl_typesupport_c__pyext[0m
+[1.229s] [ 93%] Built target observation_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.229s] [ 96%] Built target observation_msgs__rosidl_typesupport_c__pyext
+[1.229s] [100%] Built target observation_msgs__rosidl_typesupport_introspection_c__pyext
+[1.229s] running egg_info
+[1.229s] writing observation_msgs.egg-info/PKG-INFO
+[1.241s] writing dependency_links to observation_msgs.egg-info/dependency_links.txt
+[1.536s] writing top-level names to observation_msgs.egg-info/top_level.txt
+[1.583s] reading manifest file 'observation_msgs.egg-info/SOURCES.txt'
+[1.583s] writing manifest file 'observation_msgs.egg-info/SOURCES.txt'
+[1.634s] [100%] Built target ament_cmake_python_build_observation_msgs_egg
+[2.083s] Invoked command in '/home/rover/kameyama_ws/build/observation_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/observation_msgs -- -j12 -l12
+[2.085s] Invoking command in '/home/rover/kameyama_ws/build/observation_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/observation_msgs
+[2.123s] -- Install configuration: ""
+[2.124s] -- Execute custom install script
+[2.129s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/ament_index/resource_index/rosidl_interfaces/observation_msgs
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/object__functions.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/object__struct.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/object__type_support.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/path_evaluation__functions.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/path_evaluation__struct.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/path_evaluation__type_support.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/object.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/path_evaluation.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/get_objects__functions.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/get_objects__struct.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/get_objects__type_support.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/path_check__functions.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/path_check__struct.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/path_check__type_support.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/set_objects__functions.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/set_objects__struct.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/set_objects__type_support.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/get_objects.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/path_check.h
+[2.130s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/set_objects.h
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/environment/library_path.sh
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/environment/library_path.dsv
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/path_evaluation__rosidl_typesupport_fastrtps_c.h
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/get_objects__rosidl_typesupport_fastrtps_c.h
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/path_check__rosidl_typesupport_fastrtps_c.h
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/set_objects__rosidl_typesupport_fastrtps_c.h
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/object__builder.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/object__struct.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/object__traits.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/object__type_support.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/path_evaluation__builder.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/path_evaluation__struct.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/path_evaluation__traits.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/path_evaluation__type_support.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/object.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/path_evaluation.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/get_objects__builder.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/get_objects__struct.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/get_objects__traits.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/get_objects__type_support.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/path_check__builder.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/path_check__struct.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/path_check__traits.hpp
+[2.131s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/path_check__type_support.hpp
+[2.132s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/set_objects__builder.hpp
+[2.132s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/set_objects__struct.hpp
+[2.132s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/set_objects__traits.hpp
+[2.132s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/set_objects__type_support.hpp
+[2.132s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/get_objects.hpp
+[2.133s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/path_check.hpp
+[2.133s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/set_objects.hpp
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/path_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/get_objects__rosidl_typesupport_fastrtps_cpp.hpp
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/path_check__rosidl_typesupport_fastrtps_cpp.hpp
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/set_objects__rosidl_typesupport_fastrtps_cpp.hpp
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/object__rosidl_typesupport_introspection_c.h
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/path_evaluation__rosidl_typesupport_introspection_c.h
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/get_objects__rosidl_typesupport_introspection_c.h
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/path_check__rosidl_typesupport_introspection_c.h
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/set_objects__rosidl_typesupport_introspection_c.h
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/msg/detail/path_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/get_objects__rosidl_typesupport_introspection_cpp.hpp
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/path_check__rosidl_typesupport_introspection_cpp.hpp
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/include/observation_msgs/observation_msgs/srv/detail/set_objects__rosidl_typesupport_introspection_cpp.hpp
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/environment/pythonpath.sh
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/environment/pythonpath.dsv
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/__init__.py
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/_observation_msgs_s.ep.rosidl_typesupport_c.c
+[2.134s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/_observation_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/_observation_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/libobservation_msgs__rosidl_generator_py.so
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/msg/__init__.py
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/msg/_object.py
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/msg/_object_s.c
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/msg/_path_evaluation.py
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/msg/_path_evaluation_s.c
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/observation_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/observation_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/observation_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/srv/__init__.py
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/srv/_get_objects.py
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/srv/_get_objects_s.c
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/srv/_path_check.py
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/srv/_path_check_s.c
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/srv/_set_objects.py
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/srv/_set_objects_s.c
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/observation_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/observation_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/observation_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.135s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/msg/PathEvaluation.idl
+[2.136s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/msg/Object.idl
+[2.141s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/srv/SetObjects.idl
+[2.141s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/srv/GetObjects.idl
+[2.141s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/srv/PathCheck.idl
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/msg/PathEvaluation.msg
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/msg/Object.msg
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/srv/SetObjects.srv
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/srv/SetObjects_Request.msg
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/srv/SetObjects_Response.msg
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/srv/GetObjects.srv
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/srv/GetObjects_Request.msg
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/srv/GetObjects_Response.msg
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/srv/PathCheck.srv
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/srv/PathCheck_Request.msg
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/srv/PathCheck_Response.msg
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/ament_index/resource_index/package_run_dependencies/observation_msgs
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/ament_index/resource_index/parent_prefix_path/observation_msgs
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/environment/ament_prefix_path.sh
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/environment/ament_prefix_path.dsv
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/environment/path.sh
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/environment/path.dsv
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/local_setup.bash
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/local_setup.sh
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/local_setup.zsh
+[2.142s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/local_setup.dsv
+[2.142s] -- Symlinking: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/package.dsv
+[2.147s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/ament_index/resource_index/packages/observation_msgs
+[2.147s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/rosidl_cmake-extras.cmake
+[2.147s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.148s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.148s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.149s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.149s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.149s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.149s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/observation_msgsConfig.cmake
+[2.149s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/observation_msgsConfig-version.cmake
+[2.149s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/package.xml
+[2.149s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/lib/libobservation_msgs__rosidl_generator_c.so
+[2.149s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/lib/libobservation_msgs__rosidl_typesupport_fastrtps_c.so
+[2.149s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/lib/libobservation_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.149s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/lib/libobservation_msgs__rosidl_typesupport_introspection_c.so
+[2.149s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/lib/libobservation_msgs__rosidl_typesupport_c.so
+[2.149s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/lib/libobservation_msgs__rosidl_typesupport_introspection_cpp.so
+[2.149s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/lib/libobservation_msgs__rosidl_typesupport_cpp.so
+[2.171s] Listing '/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs'...
+[2.171s] Listing '/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/msg'...
+[2.171s] Listing '/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages/observation_msgs/srv'...
+[2.176s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/lib/libobservation_msgs__rosidl_generator_py.so
+[2.176s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/export_observation_msgs__rosidl_generator_cExport.cmake
+[2.176s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/export_observation_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.176s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/export_observation_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.176s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/export_observation_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.177s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/export_observation_msgs__rosidl_generator_cppExport.cmake
+[2.177s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/export_observation_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.177s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/export_observation_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.177s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/observation_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.178s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/observation_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.178s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/observation_msgs__rosidl_typesupport_cExport.cmake
+[2.178s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/observation_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.178s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/observation_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.178s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/observation_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.178s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/observation_msgs__rosidl_typesupport_cppExport.cmake
+[2.178s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/observation_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.178s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/export_observation_msgs__rosidl_generator_pyExport.cmake
+[2.178s] -- Up-to-date: /home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake/export_observation_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.244s] Invoked command in '/home/rover/kameyama_ws/build/observation_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/observation_msgs

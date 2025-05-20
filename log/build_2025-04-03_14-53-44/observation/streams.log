@@ -1,0 +1,217 @@
+[0.022s] Invoking command in '/home/rover/kameyama_ws/build/observation': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/nav2_system_tests:/home/rover/amir_basic_ws/install/nav2_bringup:/home/rover/amir_basic_ws/install/navigation2:/home/rover/amir_basic_ws/install/nav2_smoother:/home/rover/amir_basic_ws/install/nav2_graceful_controller:/home/rover/amir_basic_ws/install/nav2_dwb_controller:/home/rover/amir_basic_ws/install/nav2_controller:/home/rover/amir_basic_ws/install/dwb_plugins:/home/rover/amir_basic_ws/install/dwb_critics:/home/rover/amir_basic_ws/install/dwb_core:/home/rover/amir_basic_ws/install/nav_2d_utils:/home/rover/amir_basic_ws/install/dwb_msgs:/home/rover/amir_basic_ws/install/nav_2d_msgs:/home/rover/amir_basic_ws/install/nav2_waypoint_follower:/home/rover/amir_basic_ws/install/nav2_theta_star_planner:/home/rover/amir_basic_ws/install/nav2_smac_planner:/home/rover/amir_basic_ws/install/nav2_rotation_shim_controller:/home/rover/amir_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/rover/amir_basic_ws/install/nav2_planner:/home/rover/amir_basic_ws/install/nav2_navfn_planner:/home/rover/amir_basic_ws/install/nav2_mppi_controller:/home/rover/amir_basic_ws/install/nav2_constrained_smoother:/home/rover/amir_basic_ws/install/nav2_bt_navigator:/home/rover/amir_basic_ws/install/nav2_behaviors:/home/rover/amir_basic_ws/install/nav2_core:/home/rover/amir_basic_ws/install/nav2_collision_monitor:/home/rover/amir_basic_ws/install/costmap_queue:/home/rover/amir_basic_ws/install/nav2_costmap_2d:/home/rover/amir_basic_ws/install/nav2_voxel_grid:/home/rover/amir_basic_ws/install/nav2_velocity_smoother:/home/rover/amir_basic_ws/install/nav2_rviz_plugins:/home/rover/amir_basic_ws/install/nav2_map_server:/home/rover/amir_basic_ws/install/nav2_lifecycle_manager:/home/rover/amir_basic_ws/install/nav2_behavior_tree:/home/rover/amir_basic_ws/install/nav2_amcl:/home/rover/amir_basic_ws/install/nav2_util:/home/rover/amir_basic_ws/install/nav2_msgs:/home/rover/amir_basic_ws/install/nav2_common:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/observation_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rover/kameyama_ws/src/observation/observation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/kameyama_ws/install/observation
+[0.103s] -- The C compiler identification is GNU 11.4.0
+[0.177s] -- The CXX compiler identification is GNU 11.4.0
+[0.186s] -- Detecting C compiler ABI info
+[0.308s] -- Detecting C compiler ABI info - done
+[0.322s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.322s] -- Detecting C compile features
+[0.322s] -- Detecting C compile features - done
+[0.322s] -- Detecting CXX compiler ABI info
+[0.461s] -- Detecting CXX compiler ABI info - done
+[0.465s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.465s] -- Detecting CXX compile features
+[0.466s] -- Detecting CXX compile features - done
+[0.476s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.256s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.367s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.588s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.743s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.766s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.785s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.814s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.047s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.139s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.139s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.139s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.364s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.375s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.681s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.761s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.830s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.859s] -- Looking for pthread.h
+[3.092s] -- Looking for pthread.h - found
+[3.092s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.305s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.308s] -- Found Threads: TRUE  
+[3.573s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.599s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.640s] -- Found nav2_msgs: 1.1.17 (/home/rover/amir_basic_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[3.700s] -- Found darknet_ros_msgs: 1.1.5 (/home/rover/amir_basic_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake)
+[3.761s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[3.839s] -- Checking for module 'eigen3'
+[3.881s] --   Found eigen3, version 3.4.0
+[4.004s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.004s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.107s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[4.130s] -- Checking for module 'flann'
+[4.160s] --   Found flann, version 1.9.1
+[4.280s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.280s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.343s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[4.356s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[4.780s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[4.780s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[4.792s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[4.821s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[4.876s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[4.900s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[5.300s] -- Found X11: /usr/include   
+[5.300s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[5.528s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[5.528s] -- Looking for gethostbyname
+[5.774s] -- Looking for gethostbyname - found
+[5.774s] -- Looking for connect
+[6.024s] -- Looking for connect - found
+[6.024s] -- Looking for remove
+[6.286s] -- Looking for remove - found
+[6.287s] -- Looking for shmat
+[6.565s] -- Looking for shmat - found
+[6.565s] -- Looking for IceConnectionNumber in ICE
+[6.903s] -- Looking for IceConnectionNumber in ICE - found
+[7.315s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[7.322s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[7.329s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[7.332s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[7.392s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[7.446s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[7.470s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[7.503s] -- Found utf8cpp: /usr/include/utf8cpp  
+[7.830s] -- Checking for module 'libusb-1.0'
+[7.891s] --   Found libusb-1.0, version 1.0.25
+[8.147s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[8.153s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[8.153s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.391s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[8.391s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.396s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[8.860s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.880s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.921s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.392s] -- Found Qhull version 8.0.2
+[9.791s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.447s] -- looking for PCL_COMMON
+[10.458s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[10.462s] -- looking for PCL_KDTREE
+[10.462s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[10.462s] -- looking for PCL_OCTREE
+[10.462s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[10.468s] -- looking for PCL_SEARCH
+[10.470s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[10.470s] -- looking for PCL_SAMPLE_CONSENSUS
+[10.471s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[10.471s] -- looking for PCL_FILTERS
+[10.484s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[10.485s] -- looking for PCL_2D
+[10.485s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[10.485s] -- looking for PCL_GEOMETRY
+[10.485s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[10.485s] -- looking for PCL_IO
+[10.490s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[10.493s] -- looking for PCL_FEATURES
+[10.505s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[10.505s] -- looking for PCL_ML
+[10.506s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[10.507s] -- looking for PCL_SEGMENTATION
+[10.507s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[10.508s] -- looking for PCL_VISUALIZATION
+[10.522s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[10.523s] -- looking for PCL_SURFACE
+[10.524s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[10.524s] -- looking for PCL_REGISTRATION
+[10.526s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[10.538s] -- looking for PCL_KEYPOINTS
+[10.543s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[10.543s] -- looking for PCL_TRACKING
+[10.543s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[10.543s] -- looking for PCL_RECOGNITION
+[10.554s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[10.557s] -- looking for PCL_STEREO
+[10.557s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[10.557s] -- looking for PCL_APPS
+[10.557s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[10.571s] -- looking for PCL_IN_HAND_SCANNER
+[10.572s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[10.572s] -- looking for PCL_MODELER
+[10.572s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[10.572s] -- looking for PCL_POINT_CLOUD_EDITOR
+[10.572s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[10.572s] -- looking for PCL_OUTOFCORE
+[10.572s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[10.572s] -- looking for PCL_PEOPLE
+[10.587s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[10.589s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[10.628s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[10.737s] -- Found observation_msgs: 0.1.0 (/home/rover/kameyama_ws/install/observation_msgs/share/observation_msgs/cmake)
+[11.459s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[11.611s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.107s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.120s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.120s] -- Configured cppcheck include dirs: /home/rover/kameyama_ws/src/observation/observation/include
+[12.120s] -- Configured cppcheck exclude dirs and/or files: 
+[12.130s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.130s] -- Configured cpplint exclude dirs and/or files: 
+[12.131s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.140s] -- Added test 'lint_cmake' to check CMake code style
+[12.145s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.159s] -- Added test 'uncrustify' to check C / C++ code style
+[12.159s] -- Configured uncrustify additional arguments: 
+[12.168s] -- Added test 'xmllint' to check XML markup files
+[12.182s] -- Configuring done
+[12.389s] -- Generating done
+[12.482s] -- Build files have been written to: /home/rover/kameyama_ws/build/observation
+[12.657s] Invoked command in '/home/rover/kameyama_ws/build/observation' returned '0': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/nav2_system_tests:/home/rover/amir_basic_ws/install/nav2_bringup:/home/rover/amir_basic_ws/install/navigation2:/home/rover/amir_basic_ws/install/nav2_smoother:/home/rover/amir_basic_ws/install/nav2_graceful_controller:/home/rover/amir_basic_ws/install/nav2_dwb_controller:/home/rover/amir_basic_ws/install/nav2_controller:/home/rover/amir_basic_ws/install/dwb_plugins:/home/rover/amir_basic_ws/install/dwb_critics:/home/rover/amir_basic_ws/install/dwb_core:/home/rover/amir_basic_ws/install/nav_2d_utils:/home/rover/amir_basic_ws/install/dwb_msgs:/home/rover/amir_basic_ws/install/nav_2d_msgs:/home/rover/amir_basic_ws/install/nav2_waypoint_follower:/home/rover/amir_basic_ws/install/nav2_theta_star_planner:/home/rover/amir_basic_ws/install/nav2_smac_planner:/home/rover/amir_basic_ws/install/nav2_rotation_shim_controller:/home/rover/amir_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/rover/amir_basic_ws/install/nav2_planner:/home/rover/amir_basic_ws/install/nav2_navfn_planner:/home/rover/amir_basic_ws/install/nav2_mppi_controller:/home/rover/amir_basic_ws/install/nav2_constrained_smoother:/home/rover/amir_basic_ws/install/nav2_bt_navigator:/home/rover/amir_basic_ws/install/nav2_behaviors:/home/rover/amir_basic_ws/install/nav2_core:/home/rover/amir_basic_ws/install/nav2_collision_monitor:/home/rover/amir_basic_ws/install/costmap_queue:/home/rover/amir_basic_ws/install/nav2_costmap_2d:/home/rover/amir_basic_ws/install/nav2_voxel_grid:/home/rover/amir_basic_ws/install/nav2_velocity_smoother:/home/rover/amir_basic_ws/install/nav2_rviz_plugins:/home/rover/amir_basic_ws/install/nav2_map_server:/home/rover/amir_basic_ws/install/nav2_lifecycle_manager:/home/rover/amir_basic_ws/install/nav2_behavior_tree:/home/rover/amir_basic_ws/install/nav2_amcl:/home/rover/amir_basic_ws/install/nav2_util:/home/rover/amir_basic_ws/install/nav2_msgs:/home/rover/amir_basic_ws/install/nav2_common:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/observation_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rover/kameyama_ws/src/observation/observation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/kameyama_ws/install/observation
+[12.664s] Invoking command in '/home/rover/kameyama_ws/build/observation': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/nav2_system_tests:/home/rover/amir_basic_ws/install/nav2_bringup:/home/rover/amir_basic_ws/install/navigation2:/home/rover/amir_basic_ws/install/nav2_smoother:/home/rover/amir_basic_ws/install/nav2_graceful_controller:/home/rover/amir_basic_ws/install/nav2_dwb_controller:/home/rover/amir_basic_ws/install/nav2_controller:/home/rover/amir_basic_ws/install/dwb_plugins:/home/rover/amir_basic_ws/install/dwb_critics:/home/rover/amir_basic_ws/install/dwb_core:/home/rover/amir_basic_ws/install/nav_2d_utils:/home/rover/amir_basic_ws/install/dwb_msgs:/home/rover/amir_basic_ws/install/nav_2d_msgs:/home/rover/amir_basic_ws/install/nav2_waypoint_follower:/home/rover/amir_basic_ws/install/nav2_theta_star_planner:/home/rover/amir_basic_ws/install/nav2_smac_planner:/home/rover/amir_basic_ws/install/nav2_rotation_shim_controller:/home/rover/amir_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/rover/amir_basic_ws/install/nav2_planner:/home/rover/amir_basic_ws/install/nav2_navfn_planner:/home/rover/amir_basic_ws/install/nav2_mppi_controller:/home/rover/amir_basic_ws/install/nav2_constrained_smoother:/home/rover/amir_basic_ws/install/nav2_bt_navigator:/home/rover/amir_basic_ws/install/nav2_behaviors:/home/rover/amir_basic_ws/install/nav2_core:/home/rover/amir_basic_ws/install/nav2_collision_monitor:/home/rover/amir_basic_ws/install/costmap_queue:/home/rover/amir_basic_ws/install/nav2_costmap_2d:/home/rover/amir_basic_ws/install/nav2_voxel_grid:/home/rover/amir_basic_ws/install/nav2_velocity_smoother:/home/rover/amir_basic_ws/install/nav2_rviz_plugins:/home/rover/amir_basic_ws/install/nav2_map_server:/home/rover/amir_basic_ws/install/nav2_lifecycle_manager:/home/rover/amir_basic_ws/install/nav2_behavior_tree:/home/rover/amir_basic_ws/install/nav2_amcl:/home/rover/amir_basic_ws/install/nav2_util:/home/rover/amir_basic_ws/install/nav2_msgs:/home/rover/amir_basic_ws/install/nav2_common:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/observation_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rover/kameyama_ws/build/observation -- -j12 -l12
+[12.877s] [ 25%] [32mBuilding CXX object CMakeFiles/my_pose_publisher.dir/src/my_pose_publisher.cpp.o[0m
+[12.878s] [ 50%] [32mBuilding CXX object CMakeFiles/observer.dir/src/observer.cpp.o[0m
+[15.718s] [01m[K/home/rover/kameyama_ws/src/observation/observation/src/my_pose_publisher.cpp:[m[K In member function ‘[01m[Kvoid MyPosePub::on_timer()[m[K’:
+[15.718s] [01m[K/home/rover/kameyama_ws/src/observation/observation/src/my_pose_publisher.cpp:60:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdelta_tf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[15.718s]    60 |             float [01;35m[Kdelta_tf[m[K = sqrt(pow(transformStamped_.transform.translation.x -b_tf_.transform.translation.x,2)
+[15.718s]       |                   [01;35m[K^~~~~~~~[m[K
+[15.897s] [01m[K/home/rover/kameyama_ws/src/observation/observation/src/observer.cpp:[m[K In member function ‘[01m[Kvoid RobotPoseSub::path_check_cb(std::shared_ptr<observation_msgs::srv::PathCheck_Request_<std::allocator<void> > >, std::shared_ptr<observation_msgs::srv::PathCheck_Response_<std::allocator<void> > >)[m[K’:
+[15.897s] [01m[K/home/rover/kameyama_ws/src/observation/observation/src/observer.cpp:237:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.897s]   237 |     [01;35m[Kconst std::shared_ptr<observation_msgs::srv::PathCheck::Request> request[m[K,
+[15.897s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[15.898s] [01m[K/home/rover/kameyama_ws/src/observation/observation/src/observer.cpp:238:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.898s]   238 |     [01;35m[Kconst std::shared_ptr<observation_msgs::srv::PathCheck::Response> response[m[K)
+[15.898s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[15.901s] [01m[K/home/rover/kameyama_ws/src/observation/observation/src/observer.cpp:[m[K In member function ‘[01m[Kvoid RobotPoseSub::on_timer()[m[K’:
+[15.901s] [01m[K/home/rover/kameyama_ws/src/observation/observation/src/observer.cpp:270:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdelta_tf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[15.902s]   270 |     float [01;35m[Kdelta_tf[m[K = sqrt(pow(transformStamped_.transform.translation.x -b_tf_.transform.translation.x,2)
+[15.902s]       |           [01;35m[K^~~~~~~~[m[K
+[17.345s] [ 75%] [32m[1mLinking CXX executable my_pose_publisher[0m
+[17.732s] [ 75%] Built target my_pose_publisher
+[25.173s] [100%] [32m[1mLinking CXX executable observer[0m
+[26.184s] [100%] Built target observer
+[26.197s] Invoked command in '/home/rover/kameyama_ws/build/observation' returned '0': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/nav2_system_tests:/home/rover/amir_basic_ws/install/nav2_bringup:/home/rover/amir_basic_ws/install/navigation2:/home/rover/amir_basic_ws/install/nav2_smoother:/home/rover/amir_basic_ws/install/nav2_graceful_controller:/home/rover/amir_basic_ws/install/nav2_dwb_controller:/home/rover/amir_basic_ws/install/nav2_controller:/home/rover/amir_basic_ws/install/dwb_plugins:/home/rover/amir_basic_ws/install/dwb_critics:/home/rover/amir_basic_ws/install/dwb_core:/home/rover/amir_basic_ws/install/nav_2d_utils:/home/rover/amir_basic_ws/install/dwb_msgs:/home/rover/amir_basic_ws/install/nav_2d_msgs:/home/rover/amir_basic_ws/install/nav2_waypoint_follower:/home/rover/amir_basic_ws/install/nav2_theta_star_planner:/home/rover/amir_basic_ws/install/nav2_smac_planner:/home/rover/amir_basic_ws/install/nav2_rotation_shim_controller:/home/rover/amir_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/rover/amir_basic_ws/install/nav2_planner:/home/rover/amir_basic_ws/install/nav2_navfn_planner:/home/rover/amir_basic_ws/install/nav2_mppi_controller:/home/rover/amir_basic_ws/install/nav2_constrained_smoother:/home/rover/amir_basic_ws/install/nav2_bt_navigator:/home/rover/amir_basic_ws/install/nav2_behaviors:/home/rover/amir_basic_ws/install/nav2_core:/home/rover/amir_basic_ws/install/nav2_collision_monitor:/home/rover/amir_basic_ws/install/costmap_queue:/home/rover/amir_basic_ws/install/nav2_costmap_2d:/home/rover/amir_basic_ws/install/nav2_voxel_grid:/home/rover/amir_basic_ws/install/nav2_velocity_smoother:/home/rover/amir_basic_ws/install/nav2_rviz_plugins:/home/rover/amir_basic_ws/install/nav2_map_server:/home/rover/amir_basic_ws/install/nav2_lifecycle_manager:/home/rover/amir_basic_ws/install/nav2_behavior_tree:/home/rover/amir_basic_ws/install/nav2_amcl:/home/rover/amir_basic_ws/install/nav2_util:/home/rover/amir_basic_ws/install/nav2_msgs:/home/rover/amir_basic_ws/install/nav2_common:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/observation_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rover/kameyama_ws/build/observation -- -j12 -l12
+[26.198s] Invoking command in '/home/rover/kameyama_ws/build/observation': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/nav2_system_tests:/home/rover/amir_basic_ws/install/nav2_bringup:/home/rover/amir_basic_ws/install/navigation2:/home/rover/amir_basic_ws/install/nav2_smoother:/home/rover/amir_basic_ws/install/nav2_graceful_controller:/home/rover/amir_basic_ws/install/nav2_dwb_controller:/home/rover/amir_basic_ws/install/nav2_controller:/home/rover/amir_basic_ws/install/dwb_plugins:/home/rover/amir_basic_ws/install/dwb_critics:/home/rover/amir_basic_ws/install/dwb_core:/home/rover/amir_basic_ws/install/nav_2d_utils:/home/rover/amir_basic_ws/install/dwb_msgs:/home/rover/amir_basic_ws/install/nav_2d_msgs:/home/rover/amir_basic_ws/install/nav2_waypoint_follower:/home/rover/amir_basic_ws/install/nav2_theta_star_planner:/home/rover/amir_basic_ws/install/nav2_smac_planner:/home/rover/amir_basic_ws/install/nav2_rotation_shim_controller:/home/rover/amir_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/rover/amir_basic_ws/install/nav2_planner:/home/rover/amir_basic_ws/install/nav2_navfn_planner:/home/rover/amir_basic_ws/install/nav2_mppi_controller:/home/rover/amir_basic_ws/install/nav2_constrained_smoother:/home/rover/amir_basic_ws/install/nav2_bt_navigator:/home/rover/amir_basic_ws/install/nav2_behaviors:/home/rover/amir_basic_ws/install/nav2_core:/home/rover/amir_basic_ws/install/nav2_collision_monitor:/home/rover/amir_basic_ws/install/costmap_queue:/home/rover/amir_basic_ws/install/nav2_costmap_2d:/home/rover/amir_basic_ws/install/nav2_voxel_grid:/home/rover/amir_basic_ws/install/nav2_velocity_smoother:/home/rover/amir_basic_ws/install/nav2_rviz_plugins:/home/rover/amir_basic_ws/install/nav2_map_server:/home/rover/amir_basic_ws/install/nav2_lifecycle_manager:/home/rover/amir_basic_ws/install/nav2_behavior_tree:/home/rover/amir_basic_ws/install/nav2_amcl:/home/rover/amir_basic_ws/install/nav2_util:/home/rover/amir_basic_ws/install/nav2_msgs:/home/rover/amir_basic_ws/install/nav2_common:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/observation_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rover/kameyama_ws/build/observation
+[26.208s] -- Install configuration: ""
+[26.208s] -- Execute custom install script
+[26.208s] -- Symlinking: /home/rover/kameyama_ws/install/observation/lib/observation/my_pose_publisher
+[26.219s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation//launch/dummy_obj_pub.launch.py
+[26.231s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation//launch/nav2_send_goal.launch.py
+[26.242s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation//launch/object_callback.launch.py
+[26.254s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation//launch/observer.launch.py
+[26.265s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation//launch/odom_tf2_broadcaster.launch.py
+[26.276s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation//launch/pose_pub.launch.py
+[26.287s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation//launch/robot_manager.launch.py
+[26.297s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation//launch/robot_manager2.launch.py
+[26.307s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation//config/global_params.yaml
+[26.317s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation//config/global_params2.yaml
+[26.328s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/ament_index/resource_index/package_run_dependencies/observation
+[26.339s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/ament_index/resource_index/parent_prefix_path/observation
+[26.350s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation/environment/ament_prefix_path.sh
+[26.360s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation/environment/ament_prefix_path.dsv
+[26.373s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation/environment/path.sh
+[26.393s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation/environment/path.dsv
+[26.403s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation/local_setup.bash
+[26.417s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation/local_setup.sh
+[26.432s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation/local_setup.zsh
+[26.448s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation/local_setup.dsv
+[26.461s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation/package.dsv
+[26.478s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/ament_index/resource_index/packages/observation
+[26.492s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.505s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation/cmake/observationConfig.cmake
+[26.520s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation/cmake/observationConfig-version.cmake
+[26.536s] -- Symlinking: /home/rover/kameyama_ws/install/observation/share/observation/package.xml
+[26.559s] Invoked command in '/home/rover/kameyama_ws/build/observation' returned '0': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/observation_msgs:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/nav2_system_tests:/home/rover/amir_basic_ws/install/nav2_bringup:/home/rover/amir_basic_ws/install/navigation2:/home/rover/amir_basic_ws/install/nav2_smoother:/home/rover/amir_basic_ws/install/nav2_graceful_controller:/home/rover/amir_basic_ws/install/nav2_dwb_controller:/home/rover/amir_basic_ws/install/nav2_controller:/home/rover/amir_basic_ws/install/dwb_plugins:/home/rover/amir_basic_ws/install/dwb_critics:/home/rover/amir_basic_ws/install/dwb_core:/home/rover/amir_basic_ws/install/nav_2d_utils:/home/rover/amir_basic_ws/install/dwb_msgs:/home/rover/amir_basic_ws/install/nav_2d_msgs:/home/rover/amir_basic_ws/install/nav2_waypoint_follower:/home/rover/amir_basic_ws/install/nav2_theta_star_planner:/home/rover/amir_basic_ws/install/nav2_smac_planner:/home/rover/amir_basic_ws/install/nav2_rotation_shim_controller:/home/rover/amir_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/rover/amir_basic_ws/install/nav2_planner:/home/rover/amir_basic_ws/install/nav2_navfn_planner:/home/rover/amir_basic_ws/install/nav2_mppi_controller:/home/rover/amir_basic_ws/install/nav2_constrained_smoother:/home/rover/amir_basic_ws/install/nav2_bt_navigator:/home/rover/amir_basic_ws/install/nav2_behaviors:/home/rover/amir_basic_ws/install/nav2_core:/home/rover/amir_basic_ws/install/nav2_collision_monitor:/home/rover/amir_basic_ws/install/costmap_queue:/home/rover/amir_basic_ws/install/nav2_costmap_2d:/home/rover/amir_basic_ws/install/nav2_voxel_grid:/home/rover/amir_basic_ws/install/nav2_velocity_smoother:/home/rover/amir_basic_ws/install/nav2_rviz_plugins:/home/rover/amir_basic_ws/install/nav2_map_server:/home/rover/amir_basic_ws/install/nav2_lifecycle_manager:/home/rover/amir_basic_ws/install/nav2_behavior_tree:/home/rover/amir_basic_ws/install/nav2_amcl:/home/rover/amir_basic_ws/install/nav2_util:/home/rover/amir_basic_ws/install/nav2_msgs:/home/rover/amir_basic_ws/install/nav2_common:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/observation_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/observation_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rover/kameyama_ws/build/observation

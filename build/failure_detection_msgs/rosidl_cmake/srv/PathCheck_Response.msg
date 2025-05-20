@@ -1,0 +1,4 @@
+
+string error_strings
+my_nav_msgs/PathInfo[] info_set
+# float64[] success_rate

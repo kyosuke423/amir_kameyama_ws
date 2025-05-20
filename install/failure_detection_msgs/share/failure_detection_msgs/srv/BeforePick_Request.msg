@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/failure_detection_msgs/rosidl_cmake/srv/BeforePick_Request.msg

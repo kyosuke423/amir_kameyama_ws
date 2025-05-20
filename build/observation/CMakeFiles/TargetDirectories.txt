@@ -1,0 +1,11 @@
+/home/rover/kameyama_ws/build/observation/CMakeFiles/uninstall.dir
+/home/rover/kameyama_ws/build/observation/CMakeFiles/observation_uninstall.dir
+/home/rover/kameyama_ws/build/observation/CMakeFiles/my_pose_publisher.dir
+/home/rover/kameyama_ws/build/observation/CMakeFiles/observer.dir
+/home/rover/kameyama_ws/build/observation/CMakeFiles/test.dir
+/home/rover/kameyama_ws/build/observation/CMakeFiles/edit_cache.dir
+/home/rover/kameyama_ws/build/observation/CMakeFiles/rebuild_cache.dir
+/home/rover/kameyama_ws/build/observation/CMakeFiles/list_install_components.dir
+/home/rover/kameyama_ws/build/observation/CMakeFiles/install.dir
+/home/rover/kameyama_ws/build/observation/CMakeFiles/install/local.dir
+/home/rover/kameyama_ws/build/observation/CMakeFiles/install/strip.dir

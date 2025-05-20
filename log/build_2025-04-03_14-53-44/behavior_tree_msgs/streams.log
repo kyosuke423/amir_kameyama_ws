@@ -1,0 +1,1011 @@
+[0.062s] Invoking command in '/home/rover/kameyama_ws/build/behavior_tree_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/rover/kameyama_ws/src/behavior_tree_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/kameyama_ws/install/behavior_tree_msgs
+[0.734s] -- The C compiler identification is GNU 11.4.0
+[0.734s] -- The CXX compiler identification is GNU 11.4.0
+[0.734s] -- Detecting C compiler ABI info
+[0.734s] -- Detecting C compiler ABI info - done
+[0.734s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.735s] -- Detecting C compile features
+[0.735s] -- Detecting C compile features - done
+[0.735s] -- Detecting CXX compiler ABI info
+[0.735s] -- Detecting CXX compiler ABI info - done
+[0.735s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.735s] -- Detecting CXX compile features
+[0.735s] -- Detecting CXX compile features - done
+[0.736s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.984s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.055s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.181s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.224s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.326s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.406s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.471s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.491s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.512s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[1.670s] -- Found nav2_msgs: 1.1.17 (/home/rover/amir_basic_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[1.718s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.824s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.839s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.103s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.152s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.225s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.252s] -- Looking for pthread.h
+[2.354s] -- Looking for pthread.h - found
+[2.354s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.471s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.473s] -- Found Threads: TRUE  
+[3.319s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.535s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.245s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.263s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.335s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.335s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.335s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.335s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.400s] -- Found PythonExtra: .so  
+[7.180s] -- Configuring done
+[7.563s] -- Generating done
+[7.640s] -- Build files have been written to: /home/rover/kameyama_ws/build/behavior_tree_msgs
+[7.729s] Invoked command in '/home/rover/kameyama_ws/build/behavior_tree_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/rover/kameyama_ws/src/behavior_tree_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/kameyama_ws/install/behavior_tree_msgs
+[7.730s] Invoking command in '/home/rover/kameyama_ws/build/behavior_tree_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/behavior_tree_msgs -- -j12 -l12
+[9.365s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.366s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.366s] [  1%] Built target ament_cmake_python_symlink_behavior_tree_msgs
+[9.981s] running egg_info
+[9.988s] creating behavior_tree_msgs.egg-info
+[10.142s] writing behavior_tree_msgs.egg-info/PKG-INFO
+[10.271s] writing dependency_links to behavior_tree_msgs.egg-info/dependency_links.txt
+[10.765s] writing top-level names to behavior_tree_msgs.egg-info/top_level.txt
+[10.767s] writing manifest file 'behavior_tree_msgs.egg-info/SOURCES.txt'
+[10.956s] reading manifest file 'behavior_tree_msgs.egg-info/SOURCES.txt'
+[10.959s] writing manifest file 'behavior_tree_msgs.egg-info/SOURCES.txt'
+[11.106s] [  1%] Built target ament_cmake_python_build_behavior_tree_msgs_egg
+[15.199s] [  1%] Built target behavior_tree_msgs__cpp
+[15.235s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.239s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.240s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.389s] [  4%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/bb_float64_array__functions.c.o[0m
+[15.397s] [  4%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/bt_status__functions.c.o[0m
+[15.397s] [  5%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/bb_pose__functions.c.o[0m
+[15.397s] [  6%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/bb_message__functions.c.o[0m
+[15.397s] [  4%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/bb_path__functions.c.o[0m
+[15.399s] [  6%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/node_status__functions.c.o[0m
+[15.409s] [  6%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/object_array__functions.c.o[0m
+[15.411s] [  7%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/object__functions.c.o[0m
+[15.417s] [  7%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/pixel__functions.c.o[0m
+[15.474s] [  7%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/srv/detail/get_bt__functions.c.o[0m
+[15.486s] [  8%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/srv/detail/set_black_board__functions.c.o[0m
+[15.493s] [  8%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/srv/detail/create_bt__functions.c.o[0m
+[15.494s] [  8%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/srv/detail/get_black_board__functions.c.o[0m
+[15.500s] [  9%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/srv/detail/fov_check__functions.c.o[0m
+[15.506s] [ 10%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/execute_tree__functions.c.o[0m
+[15.508s] [ 10%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/send_goal__functions.c.o[0m
+[15.516s] [ 10%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/print_message__functions.c.o[0m
+[15.540s] [ 10%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/gen_approach__functions.c.o[0m
+[15.594s] [ 11%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/approach__functions.c.o[0m
+[15.595s] [ 11%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/place__functions.c.o[0m
+[15.609s] [ 11%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/search__functions.c.o[0m
+[15.638s] [ 12%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/check_ik__functions.c.o[0m
+[15.650s] [ 12%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/camera_search__functions.c.o[0m
+[15.692s] [ 13%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/search_obj__functions.c.o[0m
+[15.695s] [ 13%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/pick__functions.c.o[0m
+[15.724s] [ 13%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/move_arm__functions.c.o[0m
+[15.743s] [ 14%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/grasp__functions.c.o[0m
+[15.783s] [ 14%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/move_meca__functions.c.o[0m
+[15.818s] [ 14%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/mecanum_search__functions.c.o[0m
+[15.837s] [ 15%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/mecanum_move__functions.c.o[0m
+[15.846s] [ 15%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/action/detail/mecanum_spin__functions.c.o[0m
+[15.996s] [ 15%] [32m[1mLinking C shared library libbehavior_tree_msgs__rosidl_generator_c.so[0m
+[16.074s] [ 15%] Built target behavior_tree_msgs__rosidl_generator_c
+[16.095s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.095s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[16.096s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[17.641s] [ 18%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/node_status__type_support.cpp.o[0m
+[17.651s] [ 19%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/bb_pose__type_support.cpp.o[0m
+[17.652s] [ 19%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/bt_status__type_support.cpp.o[0m
+[17.656s] [ 19%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/bb_float64_array__type_support.cpp.o[0m
+[17.656s] [ 19%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/bb_path__type_support.cpp.o[0m
+[17.658s] [ 20%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/bb_message__type_support.cpp.o[0m
+[17.660s] [ 20%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/pixel__type_support.cpp.o[0m
+[17.950s] [ 20%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/object__type_support.cpp.o[0m
+[18.000s] [ 21%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/object_array__type_support.cpp.o[0m
+[18.007s] [ 21%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/srv/get_bt__type_support.cpp.o[0m
+[18.030s] [ 22%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/srv/set_black_board__type_support.cpp.o[0m
+[18.059s] [ 22%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/srv/get_black_board__type_support.cpp.o[0m
+[18.192s] [ 22%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/srv/create_bt__type_support.cpp.o[0m
+[18.201s] [ 23%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/srv/fov_check__type_support.cpp.o[0m
+[18.351s] [ 23%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/send_goal__type_support.cpp.o[0m
+[18.398s] [ 23%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/execute_tree__type_support.cpp.o[0m
+[18.406s] [ 24%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/print_message__type_support.cpp.o[0m
+[18.461s] [ 24%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/gen_approach__type_support.cpp.o[0m
+[18.587s] [ 25%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/approach__type_support.cpp.o[0m
+[18.598s] [ 25%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/place__type_support.cpp.o[0m
+[18.653s] [ 25%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/search__type_support.cpp.o[0m
+[18.972s] [ 26%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/check_ik__type_support.cpp.o[0m
+[19.015s] [ 26%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/camera_search__type_support.cpp.o[0m
+[19.116s] [ 26%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/node_status__type_support.cpp.o[0m
+[19.126s] [ 26%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/bt_status__type_support.cpp.o[0m
+[19.171s] [ 27%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/bb_pose__type_support.cpp.o[0m
+[19.197s] [ 27%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/pick__type_support.cpp.o[0m
+[19.204s] [ 27%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/bb_path__type_support.cpp.o[0m
+[19.210s] [ 27%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/bb_float64_array__type_support.cpp.o[0m
+[19.256s] [ 28%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/bb_message__type_support.cpp.o[0m
+[19.302s] [ 29%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/search_obj__type_support.cpp.o[0m
+[19.325s] [ 29%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/pixel__type_support.cpp.o[0m
+[19.365s] [ 30%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/object__type_support.cpp.o[0m
+[19.386s] [ 30%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/move_arm__type_support.cpp.o[0m
+[19.404s] [ 30%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/object_array__type_support.cpp.o[0m
+[19.413s] [ 30%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/grasp__type_support.cpp.o[0m
+[19.445s] [ 30%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/srv/get_bt__type_support.cpp.o[0m
+[19.511s] [ 31%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/move_meca__type_support.cpp.o[0m
+[19.535s] [ 32%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/srv/set_black_board__type_support.cpp.o[0m
+[19.645s] [ 32%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/srv/get_black_board__type_support.cpp.o[0m
+[19.681s] [ 32%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/srv/create_bt__type_support.cpp.o[0m
+[19.704s] [ 33%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/srv/fov_check__type_support.cpp.o[0m
+[19.774s] [ 33%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/send_goal__type_support.cpp.o[0m
+[19.782s] [ 33%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/mecanum_search__type_support.cpp.o[0m
+[19.820s] [ 34%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/mecanum_move__type_support.cpp.o[0m
+[19.826s] [ 34%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/execute_tree__type_support.cpp.o[0m
+[19.940s] [ 35%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/print_message__type_support.cpp.o[0m
+[19.941s] [ 35%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/gen_approach__type_support.cpp.o[0m
+[19.963s] [ 35%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/action/mecanum_spin__type_support.cpp.o[0m
+[20.045s] [ 36%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/approach__type_support.cpp.o[0m
+[20.058s] [ 36%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/place__type_support.cpp.o[0m
+[20.064s] [ 36%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/search__type_support.cpp.o[0m
+[20.083s] [ 37%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/check_ik__type_support.cpp.o[0m
+[20.097s] [ 37%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/camera_search__type_support.cpp.o[0m
+[20.187s] [ 37%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/pick__type_support.cpp.o[0m
+[20.191s] [ 38%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/search_obj__type_support.cpp.o[0m
+[20.217s] [ 38%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/move_arm__type_support.cpp.o[0m
+[20.243s] [ 39%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/grasp__type_support.cpp.o[0m
+[20.263s] [ 39%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/move_meca__type_support.cpp.o[0m
+[20.290s] [ 39%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/mecanum_search__type_support.cpp.o[0m
+[20.341s] [ 40%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/mecanum_move__type_support.cpp.o[0m
+[20.364s] [ 40%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/action/mecanum_spin__type_support.cpp.o[0m
+[20.461s] [ 40%] [32m[1mLinking CXX shared library libbehavior_tree_msgs__rosidl_typesupport_c.so[0m
+[20.472s] [ 40%] [32m[1mLinking CXX shared library libbehavior_tree_msgs__rosidl_typesupport_cpp.so[0m
+[20.483s] [ 40%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/bt_status__type_support.cpp.o[0m
+[20.483s] [ 40%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/node_status__type_support.cpp.o[0m
+[20.511s] [ 41%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/bb_pose__type_support.cpp.o[0m
+[20.517s] [ 41%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/bb_path__type_support.cpp.o[0m
+[20.520s] [ 41%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/bb_message__type_support.cpp.o[0m
+[20.530s] [ 42%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/bb_float64_array__type_support.cpp.o[0m
+[20.554s] [ 42%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/pixel__type_support.cpp.o[0m
+[20.562s] [ 42%] Built target behavior_tree_msgs__rosidl_typesupport_cpp
+[20.578s] [ 42%] Built target behavior_tree_msgs__rosidl_typesupport_c
+[20.593s] [ 43%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/object__type_support.cpp.o[0m
+[20.611s] [ 43%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/object_array__type_support.cpp.o[0m
+[20.949s] [ 43%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/node_status__type_support.cpp.o[0m
+[21.031s] [ 43%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/bt_status__type_support.cpp.o[0m
+[21.080s] [ 43%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/srv/detail/get_bt__type_support.cpp.o[0m
+[21.141s] [ 44%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/bb_pose__type_support.cpp.o[0m
+[21.193s] [ 45%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/srv/detail/set_black_board__type_support.cpp.o[0m
+[21.231s] [ 45%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/bb_path__type_support.cpp.o[0m
+[21.280s] [ 45%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/bb_float64_array__type_support.cpp.o[0m
+[21.291s] [ 46%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/bb_message__type_support.cpp.o[0m
+[21.417s] [ 46%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/pixel__type_support.cpp.o[0m
+[21.608s] [ 47%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[21.665s] [ 47%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/node_status__type_support.c.o[0m
+[21.675s] [ 47%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/srv/detail/get_black_board__type_support.cpp.o[0m
+[21.688s] [ 48%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/bt_status__type_support.c.o[0m
+[21.722s] [ 48%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/srv/detail/create_bt__type_support.cpp.o[0m
+[21.757s] [ 48%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/object_array__type_support.cpp.o[0m
+[21.823s] [ 48%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/bb_pose__type_support.c.o[0m
+[21.864s] [ 48%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/srv/detail/dds_fastrtps/get_bt__type_support.cpp.o[0m
+[21.910s] [ 49%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/srv/detail/fov_check__type_support.cpp.o[0m
+[21.943s] [ 49%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/bb_path__type_support.c.o[0m
+[22.032s] [ 50%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/bb_float64_array__type_support.c.o[0m
+[22.055s] [ 50%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/send_goal__type_support.cpp.o[0m
+[22.148s] [ 51%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/srv/detail/dds_fastrtps/set_black_board__type_support.cpp.o[0m
+[22.149s] [ 51%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/bb_message__type_support.c.o[0m
+[22.243s] [ 52%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/execute_tree__type_support.cpp.o[0m
+[22.283s] [ 52%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/pixel__type_support.c.o[0m
+[22.283s] [ 53%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/object__type_support.c.o[0m
+[22.353s] [ 53%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/srv/detail/dds_fastrtps/get_black_board__type_support.cpp.o[0m
+[22.409s] [ 53%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/srv/detail/dds_fastrtps/create_bt__type_support.cpp.o[0m
+[22.440s] [ 53%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/object_array__type_support.c.o[0m
+[22.486s] [ 53%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/srv/detail/get_bt__type_support.c.o[0m
+[22.536s] [ 54%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/srv/detail/set_black_board__type_support.c.o[0m
+[22.586s] [ 54%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/node_status__type_support_c.cpp.o[0m
+[22.596s] [ 54%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/srv/detail/get_black_board__type_support.c.o[0m
+[22.619s] [ 54%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/bt_status__type_support_c.cpp.o[0m
+[22.674s] [ 55%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/bb_pose__type_support_c.cpp.o[0m
+[22.709s] [ 56%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/srv/detail/dds_fastrtps/fov_check__type_support.cpp.o[0m
+[22.735s] [ 57%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/srv/detail/create_bt__type_support.c.o[0m
+[22.804s] [ 57%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/send_goal__type_support.cpp.o[0m
+[22.844s] [ 57%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/srv/detail/fov_check__type_support.c.o[0m
+[22.844s] [ 58%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/execute_tree__type_support.cpp.o[0m
+[22.997s] [ 58%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/send_goal__type_support.c.o[0m
+[23.181s] [ 59%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/execute_tree__type_support.c.o[0m
+[23.199s] [ 59%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/print_message__type_support.cpp.o[0m
+[23.262s] [ 59%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/gen_approach__type_support.cpp.o[0m
+[23.328s] [ 60%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/approach__type_support.cpp.o[0m
+[23.332s] [ 60%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/print_message__type_support.c.o[0m
+[23.426s] [ 60%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/bb_path__type_support_c.cpp.o[0m
+[23.432s] [ 60%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/print_message__type_support.cpp.o[0m
+[23.490s] [ 60%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/gen_approach__type_support.c.o[0m
+[23.659s] [ 60%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/place__type_support.cpp.o[0m
+[23.711s] [ 61%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/approach__type_support.c.o[0m
+[23.778s] [ 61%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/place__type_support.c.o[0m
+[23.839s] [ 61%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/search__type_support.cpp.o[0m
+[23.856s] [ 62%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/search__type_support.c.o[0m
+[23.862s] [ 63%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/check_ik__type_support.cpp.o[0m
+[23.862s] [ 64%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/bb_float64_array__type_support_c.cpp.o[0m
+[23.926s] [ 64%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/check_ik__type_support.c.o[0m
+[24.039s] [ 64%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/camera_search__type_support.c.o[0m
+[24.042s] [ 64%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/gen_approach__type_support.cpp.o[0m
+[24.090s] [ 64%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/camera_search__type_support.cpp.o[0m
+[24.100s] [ 64%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/bb_message__type_support_c.cpp.o[0m
+[24.229s] [ 65%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/pick__type_support.c.o[0m
+[24.446s] [ 65%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/search_obj__type_support.c.o[0m
+[24.497s] [ 65%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/pixel__type_support_c.cpp.o[0m
+[24.588s] [ 66%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/object__type_support_c.cpp.o[0m
+[24.669s] [ 66%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/move_arm__type_support.c.o[0m
+[24.791s] [ 66%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/object_array__type_support_c.cpp.o[0m
+[24.878s] [ 67%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/grasp__type_support.c.o[0m
+[24.921s] [ 68%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/approach__type_support.cpp.o[0m
+[24.984s] [ 68%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/srv/detail/get_bt__type_support_c.cpp.o[0m
+[25.022s] [ 68%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/move_meca__type_support.c.o[0m
+[25.049s] [ 68%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/pick__type_support.cpp.o[0m
+[25.092s] [ 69%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/search_obj__type_support.cpp.o[0m
+[25.152s] [ 69%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/mecanum_search__type_support.c.o[0m
+[25.157s] [ 70%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/mecanum_move__type_support.c.o[0m
+[25.158s] [ 70%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/action/detail/mecanum_spin__type_support.c.o[0m
+[25.265s] [ 70%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/place__type_support.cpp.o[0m
+[25.280s] [ 71%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/srv/detail/set_black_board__type_support_c.cpp.o[0m
+[25.322s] [ 71%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/srv/detail/get_black_board__type_support_c.cpp.o[0m
+[25.334s] [ 71%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/srv/detail/create_bt__type_support_c.cpp.o[0m
+[25.360s] [ 71%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/move_arm__type_support.cpp.o[0m
+[25.388s] [ 72%] [32m[1mLinking C shared library libbehavior_tree_msgs__rosidl_typesupport_introspection_c.so[0m
+[25.399s] [ 73%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/srv/detail/fov_check__type_support_c.cpp.o[0m
+[25.516s] [ 74%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/grasp__type_support.cpp.o[0m
+[25.543s] [ 74%] Built target behavior_tree_msgs__rosidl_typesupport_introspection_c
+[25.580s] [ 74%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/search__type_support.cpp.o[0m
+[25.730s] [ 74%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/send_goal__type_support_c.cpp.o[0m
+[25.988s] [ 74%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/move_meca__type_support.cpp.o[0m
+[26.068s] [ 74%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/mecanum_search__type_support.cpp.o[0m
+[26.170s] [ 75%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/check_ik__type_support.cpp.o[0m
+[26.245s] [ 75%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/camera_search__type_support.cpp.o[0m
+[26.287s] [ 76%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/mecanum_move__type_support.cpp.o[0m
+[26.479s] [ 76%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/action/detail/dds_fastrtps/mecanum_spin__type_support.cpp.o[0m
+[26.575s] [ 77%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/execute_tree__type_support_c.cpp.o[0m
+[26.609s] [ 78%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/pick__type_support.cpp.o[0m
+[27.018s] [ 78%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/search_obj__type_support.cpp.o[0m
+[27.039s] [ 78%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/move_arm__type_support.cpp.o[0m
+[27.074s] [ 78%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/gen_approach__type_support_c.cpp.o[0m
+[27.077s] [ 78%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/print_message__type_support_c.cpp.o[0m
+[27.457s] [ 79%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/grasp__type_support.cpp.o[0m
+[27.463s] [ 79%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/move_meca__type_support.cpp.o[0m
+[27.594s] [ 79%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/mecanum_search__type_support.cpp.o[0m
+[27.646s] [ 80%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/approach__type_support_c.cpp.o[0m
+[27.675s] [ 80%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/place__type_support_c.cpp.o[0m
+[27.797s] [ 80%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/search__type_support_c.cpp.o[0m
+[27.844s] [ 81%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/mecanum_move__type_support.cpp.o[0m
+[27.920s] [ 81%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/action/detail/mecanum_spin__type_support.cpp.o[0m
+[28.060s] [ 82%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/check_ik__type_support_c.cpp.o[0m
+[28.304s] [ 82%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/camera_search__type_support_c.cpp.o[0m
+[28.369s] [ 83%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/pick__type_support_c.cpp.o[0m
+[28.430s] [ 83%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/search_obj__type_support_c.cpp.o[0m
+[28.506s] [ 83%] [32m[1mLinking CXX shared library libbehavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[28.607s] [ 83%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/move_arm__type_support_c.cpp.o[0m
+[28.681s] [ 84%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/grasp__type_support_c.cpp.o[0m
+[28.757s] [ 84%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/move_meca__type_support_c.cpp.o[0m
+[28.877s] [ 84%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/mecanum_search__type_support_c.cpp.o[0m
+[29.000s] [ 84%] Built target behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp
+[29.000s] [ 85%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/mecanum_move__type_support_c.cpp.o[0m
+[29.026s] [ 85%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/action/detail/mecanum_spin__type_support_c.cpp.o[0m
+[29.603s] [ 86%] [32m[1mLinking CXX shared library libbehavior_tree_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[29.617s] [ 86%] [32m[1mLinking CXX shared library libbehavior_tree_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[29.802s] [ 86%] Built target behavior_tree_msgs__rosidl_typesupport_fastrtps_c
+[29.912s] [ 86%] Built target behavior_tree_msgs__rosidl_typesupport_introspection_cpp
+[29.955s] [ 86%] Built target behavior_tree_msgs
+[30.002s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[37.819s] [ 86%] Built target behavior_tree_msgs__py
+[37.851s] [ 87%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_bb_pose_s.c.o[0m
+[37.852s] [ 87%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_bt_status_s.c.o[0m
+[37.852s] [ 87%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_bb_float64_array_s.c.o[0m
+[37.852s] [ 88%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_node_status_s.c.o[0m
+[37.852s] [ 88%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_bb_path_s.c.o[0m
+[37.853s] [ 89%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_bb_message_s.c.o[0m
+[37.935s] [ 90%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/srv/_get_black_board_s.c.o[0m
+[37.944s] [ 90%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/srv/_create_bt_s.c.o[0m
+[37.955s] [ 91%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/srv/_fov_check_s.c.o[0m
+[37.957s] [ 91%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/srv/_set_black_board_s.c.o[0m
+[37.970s] [ 91%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_execute_tree_s.c.o[0m
+[37.970s] [ 91%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_send_goal_s.c.o[0m
+[38.044s] [ 91%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_gen_approach_s.c.o[0m
+[38.046s] [ 91%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_approach_s.c.o[0m
+[38.066s] [ 92%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_place_s.c.o[0m
+[38.070s] [ 92%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_search_s.c.o[0m
+[38.117s] [ 93%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_check_ik_s.c.o[0m
+[38.121s] [ 93%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_camera_search_s.c.o[0m
+[38.159s] [ 93%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_pick_s.c.o[0m
+[38.185s] [ 93%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_move_arm_s.c.o[0m
+[38.185s] [ 94%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_search_obj_s.c.o[0m
+[38.214s] [ 94%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_grasp_s.c.o[0m
+[38.263s] [ 95%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_move_meca_s.c.o[0m
+[38.279s] [ 95%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_mecanum_search_s.c.o[0m
+[38.299s] [ 95%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_mecanum_move_s.c.o[0m
+[38.304s] [ 96%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_mecanum_spin_s.c.o[0m
+[38.321s] [ 97%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/action/_print_message_s.c.o[0m
+[38.344s] [ 97%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/srv/_get_bt_s.c.o[0m
+[38.410s] [ 98%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_object_array_s.c.o[0m
+[38.415s] [ 98%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_object_s.c.o[0m
+[38.416s] [ 98%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_pixel_s.c.o[0m
+[38.512s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/behavior_tree_msgs/libbehavior_tree_msgs__rosidl_generator_py.so[0m
+[38.576s] [ 98%] Built target behavior_tree_msgs__rosidl_generator_py
+[38.604s] [100%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[38.604s] [100%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[38.604s] [100%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[39.005s] [100%] [32m[1mLinking C shared library rosidl_generator_py/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.012s] [100%] [32m[1mLinking C shared library rosidl_generator_py/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.047s] [100%] [32m[1mLinking C shared library rosidl_generator_py/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.086s] [100%] Built target behavior_tree_msgs__rosidl_typesupport_fastrtps_c__pyext
+[39.111s] [100%] Built target behavior_tree_msgs__rosidl_typesupport_introspection_c__pyext
+[39.129s] [100%] Built target behavior_tree_msgs__rosidl_typesupport_c__pyext
+[39.147s] Invoked command in '/home/rover/kameyama_ws/build/behavior_tree_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/behavior_tree_msgs -- -j12 -l12
+[39.148s] Invoking command in '/home/rover/kameyama_ws/build/behavior_tree_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/behavior_tree_msgs
+[39.160s] -- Install configuration: ""
+[39.160s] -- Execute custom install script
+[39.161s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/ament_index/resource_index/rosidl_interfaces/behavior_tree_msgs
+[39.175s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/approach.h
+[39.188s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/camera_search.h
+[39.200s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/check_ik.h
+[39.211s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/approach__functions.h
+[39.221s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/approach__struct.h
+[39.232s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/approach__type_support.h
+[39.246s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/camera_search__functions.h
+[39.258s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/camera_search__struct.h
+[39.269s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/camera_search__type_support.h
+[39.283s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/check_ik__functions.h
+[39.295s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/check_ik__struct.h
+[39.307s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/check_ik__type_support.h
+[39.319s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/execute_tree__functions.h
+[39.331s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/execute_tree__struct.h
+[39.343s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/execute_tree__type_support.h
+[39.355s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/gen_approach__functions.h
+[39.366s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/gen_approach__struct.h
+[39.377s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/gen_approach__type_support.h
+[39.389s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/grasp__functions.h
+[39.401s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/grasp__struct.h
+[39.414s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/grasp__type_support.h
+[39.425s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_move__functions.h
+[39.439s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_move__struct.h
+[39.451s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_move__type_support.h
+[39.464s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_search__functions.h
+[39.478s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_search__struct.h
+[39.492s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_search__type_support.h
+[39.503s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_spin__functions.h
+[39.516s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_spin__struct.h
+[39.529s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_spin__type_support.h
+[39.541s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_arm__functions.h
+[39.554s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_arm__struct.h
+[39.567s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_arm__type_support.h
+[39.581s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_meca__functions.h
+[39.593s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_meca__struct.h
+[39.604s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_meca__type_support.h
+[39.615s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/pick__functions.h
+[39.629s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/pick__struct.h
+[39.641s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/pick__type_support.h
+[39.653s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/place__functions.h
+[39.665s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/place__struct.h
+[39.679s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/place__type_support.h
+[39.694s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/print_message__functions.h
+[39.708s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/print_message__struct.h
+[39.723s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/print_message__type_support.h
+[39.737s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search__functions.h
+[39.754s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search__struct.h
+[39.765s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search__type_support.h
+[39.776s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search_obj__functions.h
+[39.787s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search_obj__struct.h
+[39.799s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search_obj__type_support.h
+[39.813s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/send_goal__functions.h
+[39.828s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/send_goal__struct.h
+[39.845s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/send_goal__type_support.h
+[39.859s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/execute_tree.h
+[39.870s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/gen_approach.h
+[39.881s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/grasp.h
+[39.895s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/mecanum_move.h
+[39.910s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/mecanum_search.h
+[39.920s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/mecanum_spin.h
+[39.936s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/move_arm.h
+[39.952s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/move_meca.h
+[39.968s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/pick.h
+[39.984s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/place.h
+[39.997s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/print_message.h
+[40.011s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/search.h
+[40.024s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/search_obj.h
+[40.039s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/send_goal.h
+[40.052s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/bb_float64_array.h
+[40.064s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/bb_message.h
+[40.076s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/bb_path.h
+[40.087s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/bb_pose.h
+[40.098s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/bt_status.h
+[40.110s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_float64_array__functions.h
+[40.121s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_float64_array__struct.h
+[40.135s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_float64_array__type_support.h
+[40.143s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_message__functions.h
+[40.156s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_message__struct.h
+[40.168s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_message__type_support.h
+[40.181s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_path__functions.h
+[40.192s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_path__struct.h
+[40.203s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_path__type_support.h
+[40.213s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_pose__functions.h
+[40.226s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_pose__struct.h
+[40.237s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_pose__type_support.h
+[40.248s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bt_status__functions.h
+[40.259s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bt_status__struct.h
+[40.270s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bt_status__type_support.h
+[40.284s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/node_status__functions.h
+[40.296s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/node_status__struct.h
+[40.306s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/node_status__type_support.h
+[40.319s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object__functions.h
+[40.330s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object__struct.h
+[40.342s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object__type_support.h
+[40.353s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object_array__functions.h
+[40.364s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object_array__struct.h
+[40.375s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object_array__type_support.h
+[40.386s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/pixel__functions.h
+[40.399s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/pixel__struct.h
+[40.409s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/pixel__type_support.h
+[40.420s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/node_status.h
+[40.434s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/object.h
+[40.447s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/object_array.h
+[40.459s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/pixel.h
+[40.470s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/rosidl_generator_c__visibility_control.h
+[40.481s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/create_bt.h
+[40.492s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/create_bt__functions.h
+[40.505s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/create_bt__struct.h
+[40.518s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/create_bt__type_support.h
+[40.530s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/fov_check__functions.h
+[40.541s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/fov_check__struct.h
+[40.555s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/fov_check__type_support.h
+[40.566s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_black_board__functions.h
+[40.579s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_black_board__struct.h
+[40.592s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_black_board__type_support.h
+[40.607s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_bt__functions.h
+[40.622s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_bt__struct.h
+[40.636s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_bt__type_support.h
+[40.646s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/set_black_board__functions.h
+[40.663s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/set_black_board__struct.h
+[40.672s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/set_black_board__type_support.h
+[40.687s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/fov_check.h
+[40.700s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/get_black_board.h
+[40.711s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/get_bt.h
+[40.723s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/set_black_board.h
+[40.734s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/library_path.sh
+[40.745s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/library_path.dsv
+[40.757s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/approach__rosidl_typesupport_fastrtps_c.h
+[40.770s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/camera_search__rosidl_typesupport_fastrtps_c.h
+[40.784s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/check_ik__rosidl_typesupport_fastrtps_c.h
+[40.794s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/execute_tree__rosidl_typesupport_fastrtps_c.h
+[40.805s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/gen_approach__rosidl_typesupport_fastrtps_c.h
+[40.816s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/grasp__rosidl_typesupport_fastrtps_c.h
+[40.828s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_move__rosidl_typesupport_fastrtps_c.h
+[40.840s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_search__rosidl_typesupport_fastrtps_c.h
+[40.852s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_spin__rosidl_typesupport_fastrtps_c.h
+[40.865s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_arm__rosidl_typesupport_fastrtps_c.h
+[40.878s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_meca__rosidl_typesupport_fastrtps_c.h
+[40.890s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/pick__rosidl_typesupport_fastrtps_c.h
+[40.902s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/place__rosidl_typesupport_fastrtps_c.h
+[40.913s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/print_message__rosidl_typesupport_fastrtps_c.h
+[40.924s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search__rosidl_typesupport_fastrtps_c.h
+[40.938s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search_obj__rosidl_typesupport_fastrtps_c.h
+[40.949s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/send_goal__rosidl_typesupport_fastrtps_c.h
+[40.961s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_float64_array__rosidl_typesupport_fastrtps_c.h
+[40.973s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_message__rosidl_typesupport_fastrtps_c.h
+[40.986s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_path__rosidl_typesupport_fastrtps_c.h
+[40.997s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_pose__rosidl_typesupport_fastrtps_c.h
+[41.008s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bt_status__rosidl_typesupport_fastrtps_c.h
+[41.018s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/node_status__rosidl_typesupport_fastrtps_c.h
+[41.031s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[41.043s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object_array__rosidl_typesupport_fastrtps_c.h
+[41.056s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/pixel__rosidl_typesupport_fastrtps_c.h
+[41.068s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[41.079s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/create_bt__rosidl_typesupport_fastrtps_c.h
+[41.092s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/fov_check__rosidl_typesupport_fastrtps_c.h
+[41.105s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_black_board__rosidl_typesupport_fastrtps_c.h
+[41.118s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_bt__rosidl_typesupport_fastrtps_c.h
+[41.131s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/set_black_board__rosidl_typesupport_fastrtps_c.h
+[41.144s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/approach__rosidl_typesupport_introspection_c.h
+[41.159s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/camera_search__rosidl_typesupport_introspection_c.h
+[41.168s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/check_ik__rosidl_typesupport_introspection_c.h
+[41.181s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/execute_tree__rosidl_typesupport_introspection_c.h
+[41.194s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/gen_approach__rosidl_typesupport_introspection_c.h
+[41.205s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/grasp__rosidl_typesupport_introspection_c.h
+[41.216s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_move__rosidl_typesupport_introspection_c.h
+[41.227s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_search__rosidl_typesupport_introspection_c.h
+[41.241s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_spin__rosidl_typesupport_introspection_c.h
+[41.253s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_arm__rosidl_typesupport_introspection_c.h
+[41.265s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_meca__rosidl_typesupport_introspection_c.h
+[41.276s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/pick__rosidl_typesupport_introspection_c.h
+[41.288s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/place__rosidl_typesupport_introspection_c.h
+[41.299s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/print_message__rosidl_typesupport_introspection_c.h
+[41.310s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search__rosidl_typesupport_introspection_c.h
+[41.322s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search_obj__rosidl_typesupport_introspection_c.h
+[41.333s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/send_goal__rosidl_typesupport_introspection_c.h
+[41.345s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_float64_array__rosidl_typesupport_introspection_c.h
+[41.357s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_message__rosidl_typesupport_introspection_c.h
+[41.368s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_path__rosidl_typesupport_introspection_c.h
+[41.380s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_pose__rosidl_typesupport_introspection_c.h
+[41.391s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bt_status__rosidl_typesupport_introspection_c.h
+[41.404s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/node_status__rosidl_typesupport_introspection_c.h
+[41.415s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object__rosidl_typesupport_introspection_c.h
+[41.427s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object_array__rosidl_typesupport_introspection_c.h
+[41.438s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/pixel__rosidl_typesupport_introspection_c.h
+[41.449s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[41.460s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/create_bt__rosidl_typesupport_introspection_c.h
+[41.471s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/fov_check__rosidl_typesupport_introspection_c.h
+[41.482s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_black_board__rosidl_typesupport_introspection_c.h
+[41.494s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_bt__rosidl_typesupport_introspection_c.h
+[41.505s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/set_black_board__rosidl_typesupport_introspection_c.h
+[41.517s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/approach.hpp
+[41.529s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/camera_search.hpp
+[41.540s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/check_ik.hpp
+[41.552s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/approach__builder.hpp
+[41.563s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/approach__struct.hpp
+[41.575s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/approach__traits.hpp
+[41.587s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/approach__type_support.hpp
+[41.598s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/camera_search__builder.hpp
+[41.611s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/camera_search__struct.hpp
+[41.622s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/camera_search__traits.hpp
+[41.634s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/camera_search__type_support.hpp
+[41.647s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/check_ik__builder.hpp
+[41.659s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/check_ik__struct.hpp
+[41.671s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/check_ik__traits.hpp
+[41.683s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/check_ik__type_support.hpp
+[41.696s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/execute_tree__builder.hpp
+[41.708s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/execute_tree__struct.hpp
+[41.720s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/execute_tree__traits.hpp
+[41.734s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/execute_tree__type_support.hpp
+[41.746s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/gen_approach__builder.hpp
+[41.757s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/gen_approach__struct.hpp
+[41.769s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/gen_approach__traits.hpp
+[41.781s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/gen_approach__type_support.hpp
+[41.793s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/grasp__builder.hpp
+[41.805s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/grasp__struct.hpp
+[41.817s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/grasp__traits.hpp
+[41.828s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/grasp__type_support.hpp
+[41.840s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_move__builder.hpp
+[41.852s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_move__struct.hpp
+[41.864s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_move__traits.hpp
+[41.875s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_move__type_support.hpp
+[41.886s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_search__builder.hpp
+[41.898s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_search__struct.hpp
+[41.909s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_search__traits.hpp
+[41.920s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_search__type_support.hpp
+[41.932s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_spin__builder.hpp
+[41.944s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_spin__struct.hpp
+[41.957s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_spin__traits.hpp
+[41.969s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_spin__type_support.hpp
+[41.981s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_arm__builder.hpp
+[41.996s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_arm__struct.hpp
+[42.008s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_arm__traits.hpp
+[42.019s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_arm__type_support.hpp
+[42.031s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_meca__builder.hpp
+[42.042s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_meca__struct.hpp
+[42.055s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_meca__traits.hpp
+[42.067s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_meca__type_support.hpp
+[42.079s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/pick__builder.hpp
+[42.091s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/pick__struct.hpp
+[42.102s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/pick__traits.hpp
+[42.114s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/pick__type_support.hpp
+[42.127s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/place__builder.hpp
+[42.139s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/place__struct.hpp
+[42.150s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/place__traits.hpp
+[42.162s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/place__type_support.hpp
+[42.173s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/print_message__builder.hpp
+[42.185s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/print_message__struct.hpp
+[42.198s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/print_message__traits.hpp
+[42.209s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/print_message__type_support.hpp
+[42.221s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search__builder.hpp
+[42.233s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search__struct.hpp
+[42.246s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search__traits.hpp
+[42.258s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search__type_support.hpp
+[42.269s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search_obj__builder.hpp
+[42.281s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search_obj__struct.hpp
+[42.292s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search_obj__traits.hpp
+[42.303s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search_obj__type_support.hpp
+[42.314s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/send_goal__builder.hpp
+[42.326s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/send_goal__struct.hpp
+[42.337s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/send_goal__traits.hpp
+[42.349s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/send_goal__type_support.hpp
+[42.360s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/execute_tree.hpp
+[42.371s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/gen_approach.hpp
+[42.384s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/grasp.hpp
+[42.396s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/mecanum_move.hpp
+[42.407s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/mecanum_search.hpp
+[42.421s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/mecanum_spin.hpp
+[42.433s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/move_arm.hpp
+[42.444s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/move_meca.hpp
+[42.456s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/pick.hpp
+[42.468s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/place.hpp
+[42.479s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/print_message.hpp
+[42.491s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/search.hpp
+[42.502s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/search_obj.hpp
+[42.512s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/send_goal.hpp
+[42.523s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/bb_float64_array.hpp
+[42.534s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/bb_message.hpp
+[42.547s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/bb_path.hpp
+[42.558s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/bb_pose.hpp
+[42.570s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/bt_status.hpp
+[42.581s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_float64_array__builder.hpp
+[42.592s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_float64_array__struct.hpp
+[42.603s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_float64_array__traits.hpp
+[42.614s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_float64_array__type_support.hpp
+[42.625s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_message__builder.hpp
+[42.635s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_message__struct.hpp
+[42.647s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_message__traits.hpp
+[42.659s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_message__type_support.hpp
+[42.670s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_path__builder.hpp
+[42.690s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_path__struct.hpp
+[42.700s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_path__traits.hpp
+[42.714s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_path__type_support.hpp
+[42.729s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_pose__builder.hpp
+[42.745s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_pose__struct.hpp
+[42.758s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_pose__traits.hpp
+[42.774s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_pose__type_support.hpp
+[42.789s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bt_status__builder.hpp
+[42.802s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bt_status__struct.hpp
+[42.817s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bt_status__traits.hpp
+[42.834s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bt_status__type_support.hpp
+[42.849s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/node_status__builder.hpp
+[42.866s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/node_status__struct.hpp
+[42.881s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/node_status__traits.hpp
+[42.896s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/node_status__type_support.hpp
+[42.910s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object__builder.hpp
+[42.921s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object__struct.hpp
+[42.934s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object__traits.hpp
+[42.945s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object__type_support.hpp
+[42.958s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object_array__builder.hpp
+[42.971s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object_array__struct.hpp
+[42.982s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object_array__traits.hpp
+[42.994s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object_array__type_support.hpp
+[43.005s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/pixel__builder.hpp
+[43.016s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/pixel__struct.hpp
+[43.028s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/pixel__traits.hpp
+[43.040s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/pixel__type_support.hpp
+[43.051s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/node_status.hpp
+[43.064s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/object.hpp
+[43.079s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/object_array.hpp
+[43.096s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/pixel.hpp
+[43.113s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[43.129s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/create_bt.hpp
+[43.144s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/create_bt__builder.hpp
+[43.165s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/create_bt__struct.hpp
+[43.180s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/create_bt__traits.hpp
+[43.196s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/create_bt__type_support.hpp
+[43.211s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/fov_check__builder.hpp
+[43.227s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/fov_check__struct.hpp
+[43.243s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/fov_check__traits.hpp
+[43.259s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/fov_check__type_support.hpp
+[43.277s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_black_board__builder.hpp
+[43.290s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_black_board__struct.hpp
+[43.304s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_black_board__traits.hpp
+[43.317s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_black_board__type_support.hpp
+[43.331s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_bt__builder.hpp
+[43.345s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_bt__struct.hpp
+[43.362s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_bt__traits.hpp
+[43.376s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_bt__type_support.hpp
+[43.391s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/set_black_board__builder.hpp
+[43.406s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/set_black_board__struct.hpp
+[43.421s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/set_black_board__traits.hpp
+[43.435s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/set_black_board__type_support.hpp
+[43.452s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/fov_check.hpp
+[43.466s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/get_black_board.hpp
+[43.481s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/get_bt.hpp
+[43.495s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/set_black_board.hpp
+[43.511s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/approach__rosidl_typesupport_fastrtps_cpp.hpp
+[43.526s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/camera_search__rosidl_typesupport_fastrtps_cpp.hpp
+[43.542s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/check_ik__rosidl_typesupport_fastrtps_cpp.hpp
+[43.557s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/execute_tree__rosidl_typesupport_fastrtps_cpp.hpp
+[43.572s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/gen_approach__rosidl_typesupport_fastrtps_cpp.hpp
+[43.588s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/grasp__rosidl_typesupport_fastrtps_cpp.hpp
+[43.603s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_move__rosidl_typesupport_fastrtps_cpp.hpp
+[43.619s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_search__rosidl_typesupport_fastrtps_cpp.hpp
+[43.634s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_spin__rosidl_typesupport_fastrtps_cpp.hpp
+[43.648s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_arm__rosidl_typesupport_fastrtps_cpp.hpp
+[43.663s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_meca__rosidl_typesupport_fastrtps_cpp.hpp
+[43.679s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/pick__rosidl_typesupport_fastrtps_cpp.hpp
+[43.696s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/place__rosidl_typesupport_fastrtps_cpp.hpp
+[43.711s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/print_message__rosidl_typesupport_fastrtps_cpp.hpp
+[43.726s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search__rosidl_typesupport_fastrtps_cpp.hpp
+[43.741s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search_obj__rosidl_typesupport_fastrtps_cpp.hpp
+[43.758s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/send_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[43.772s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_float64_array__rosidl_typesupport_fastrtps_cpp.hpp
+[43.786s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_message__rosidl_typesupport_fastrtps_cpp.hpp
+[43.801s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_path__rosidl_typesupport_fastrtps_cpp.hpp
+[43.816s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[43.830s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bt_status__rosidl_typesupport_fastrtps_cpp.hpp
+[43.845s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/node_status__rosidl_typesupport_fastrtps_cpp.hpp
+[43.859s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[43.875s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object_array__rosidl_typesupport_fastrtps_cpp.hpp
+[43.888s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/pixel__rosidl_typesupport_fastrtps_cpp.hpp
+[43.902s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[43.917s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/create_bt__rosidl_typesupport_fastrtps_cpp.hpp
+[43.931s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/fov_check__rosidl_typesupport_fastrtps_cpp.hpp
+[43.945s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_black_board__rosidl_typesupport_fastrtps_cpp.hpp
+[43.960s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_bt__rosidl_typesupport_fastrtps_cpp.hpp
+[43.974s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/set_black_board__rosidl_typesupport_fastrtps_cpp.hpp
+[43.988s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/approach__rosidl_typesupport_introspection_cpp.hpp
+[44.003s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/camera_search__rosidl_typesupport_introspection_cpp.hpp
+[44.018s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/check_ik__rosidl_typesupport_introspection_cpp.hpp
+[44.032s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/execute_tree__rosidl_typesupport_introspection_cpp.hpp
+[44.046s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/gen_approach__rosidl_typesupport_introspection_cpp.hpp
+[44.061s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/grasp__rosidl_typesupport_introspection_cpp.hpp
+[44.076s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_move__rosidl_typesupport_introspection_cpp.hpp
+[44.090s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_search__rosidl_typesupport_introspection_cpp.hpp
+[44.105s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/mecanum_spin__rosidl_typesupport_introspection_cpp.hpp
+[44.119s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_arm__rosidl_typesupport_introspection_cpp.hpp
+[44.133s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/move_meca__rosidl_typesupport_introspection_cpp.hpp
+[44.147s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/pick__rosidl_typesupport_introspection_cpp.hpp
+[44.161s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/place__rosidl_typesupport_introspection_cpp.hpp
+[44.175s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/print_message__rosidl_typesupport_introspection_cpp.hpp
+[44.189s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search__rosidl_typesupport_introspection_cpp.hpp
+[44.203s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/search_obj__rosidl_typesupport_introspection_cpp.hpp
+[44.217s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/action/detail/send_goal__rosidl_typesupport_introspection_cpp.hpp
+[44.233s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_float64_array__rosidl_typesupport_introspection_cpp.hpp
+[44.249s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_message__rosidl_typesupport_introspection_cpp.hpp
+[44.266s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_path__rosidl_typesupport_introspection_cpp.hpp
+[44.282s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bb_pose__rosidl_typesupport_introspection_cpp.hpp
+[44.299s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/bt_status__rosidl_typesupport_introspection_cpp.hpp
+[44.315s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/node_status__rosidl_typesupport_introspection_cpp.hpp
+[44.331s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[44.347s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/object_array__rosidl_typesupport_introspection_cpp.hpp
+[44.362s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/pixel__rosidl_typesupport_introspection_cpp.hpp
+[44.379s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/create_bt__rosidl_typesupport_introspection_cpp.hpp
+[44.395s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/fov_check__rosidl_typesupport_introspection_cpp.hpp
+[44.411s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_black_board__rosidl_typesupport_introspection_cpp.hpp
+[44.426s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/get_bt__rosidl_typesupport_introspection_cpp.hpp
+[44.442s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/srv/detail/set_black_board__rosidl_typesupport_introspection_cpp.hpp
+[44.458s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/pythonpath.sh
+[44.474s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/pythonpath.dsv
+[44.491s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[44.506s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[44.522s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[44.538s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[44.555s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/__init__.py
+[44.571s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_c.c
+[44.586s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[44.602s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[44.618s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/__init__.py
+[44.634s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_approach.py
+[44.650s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_approach_s.c
+[44.665s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_camera_search.py
+[44.682s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_camera_search_s.c
+[44.697s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_check_ik.py
+[44.713s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_check_ik_s.c
+[44.729s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_execute_tree.py
+[44.745s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_execute_tree_s.c
+[44.762s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_gen_approach.py
+[44.778s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_gen_approach_s.c
+[44.794s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_grasp.py
+[44.810s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_grasp_s.c
+[44.826s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_mecanum_move.py
+[44.841s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_mecanum_move_s.c
+[44.857s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_mecanum_search.py
+[44.874s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_mecanum_search_s.c
+[44.890s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_mecanum_spin.py
+[44.905s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_mecanum_spin_s.c
+[44.921s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_move_arm.py
+[44.937s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_move_arm_s.c
+[44.952s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_move_meca.py
+[44.967s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_move_meca_s.c
+[44.983s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_pick.py
+[44.997s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_pick_s.c
+[45.012s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_place.py
+[45.026s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_place_s.c
+[45.042s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_print_message.py
+[45.058s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_print_message_s.c
+[45.073s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_search.py
+[45.089s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_search_obj.py
+[45.105s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_search_obj_s.c
+[45.120s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_search_s.c
+[45.136s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_send_goal.py
+[45.151s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_send_goal_s.c
+[45.167s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[45.182s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[45.199s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[45.214s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/libbehavior_tree_msgs__rosidl_generator_py.so
+[45.230s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/__init__.py
+[45.246s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_bb_float64_array.py
+[45.261s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_bb_float64_array_s.c
+[45.277s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_bb_message.py
+[45.291s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_bb_message_s.c
+[45.307s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_bb_path.py
+[45.322s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_bb_path_s.c
+[45.336s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_bb_pose.py
+[45.351s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_bb_pose_s.c
+[45.366s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_bt_status.py
+[45.382s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_bt_status_s.c
+[45.398s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_node_status.py
+[45.415s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_node_status_s.c
+[45.429s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_object.py
+[45.444s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_object_array.py
+[45.459s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_object_array_s.c
+[45.474s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_object_s.c
+[45.489s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_pixel.py
+[45.504s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_pixel_s.c
+[45.519s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/__init__.py
+[45.534s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/_create_bt.py
+[45.549s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/_create_bt_s.c
+[45.565s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/_fov_check.py
+[45.580s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/_fov_check_s.c
+[45.595s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/_get_black_board.py
+[45.610s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/_get_black_board_s.c
+[45.625s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/_get_bt.py
+[45.640s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/_get_bt_s.c
+[45.657s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/_set_black_board.py
+[45.674s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/_set_black_board_s.c
+[45.691s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[45.691s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[45.691s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[45.691s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/NodeStatus.idl
+[45.708s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BTStatus.idl
+[45.725s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BBPose.idl
+[45.742s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BBPath.idl
+[45.760s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BBFloat64Array.idl
+[45.777s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BBMessage.idl
+[45.794s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/Pixel.idl
+[45.811s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/Object.idl
+[45.827s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/ObjectArray.idl
+[45.844s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/GetBT.idl
+[45.862s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/SetBlackBoard.idl
+[45.879s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/GetBlackBoard.idl
+[45.896s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/CreateBT.idl
+[45.912s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/FovCheck.idl
+[45.927s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/SendGoal.idl
+[45.943s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/ExecuteTree.idl
+[45.960s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/PrintMessage.idl
+[45.975s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/GenApproach.idl
+[45.991s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/Approach.idl
+[46.006s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/Place.idl
+[46.021s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/Search.idl
+[46.038s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/CheckIK.idl
+[46.053s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/CameraSearch.idl
+[46.068s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/Pick.idl
+[46.083s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/SearchObj.idl
+[46.098s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/MoveArm.idl
+[46.113s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/Grasp.idl
+[46.128s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/MoveMeca.idl
+[46.143s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/MecanumSearch.idl
+[46.159s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/MecanumMove.idl
+[46.175s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/MecanumSpin.idl
+[46.190s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/NodeStatus.msg
+[46.207s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BTStatus.msg
+[46.222s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BBPose.msg
+[46.237s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BBPath.msg
+[46.252s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BBFloat64Array.msg
+[46.268s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BBMessage.msg
+[46.284s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/Pixel.msg
+[46.299s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/Object.msg
+[46.316s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/ObjectArray.msg
+[46.331s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/GetBT.srv
+[46.346s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/GetBT_Request.msg
+[46.363s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/GetBT_Response.msg
+[46.378s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/SetBlackBoard.srv
+[46.393s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/SetBlackBoard_Request.msg
+[46.407s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/SetBlackBoard_Response.msg
+[46.421s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/GetBlackBoard.srv
+[46.435s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/GetBlackBoard_Request.msg
+[46.451s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/GetBlackBoard_Response.msg
+[46.468s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/CreateBT.srv
+[46.484s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/CreateBT_Request.msg
+[46.500s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/CreateBT_Response.msg
+[46.515s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/FovCheck.srv
+[46.529s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/FovCheck_Request.msg
+[46.540s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/srv/FovCheck_Response.msg
+[46.557s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/SendGoal.action
+[46.572s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/ExecuteTree.action
+[46.585s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/PrintMessage.action
+[46.601s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/GenApproach.action
+[46.618s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/Approach.action
+[46.633s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/Place.action
+[46.649s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/Search.action
+[46.666s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/CheckIK.action
+[46.682s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/CameraSearch.action
+[46.698s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/Pick.action
+[46.712s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/SearchObj.action
+[46.728s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/MoveArm.action
+[46.743s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/Grasp.action
+[46.759s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/MoveMeca.action
+[46.773s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/MecanumSearch.action
+[46.788s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/MecanumMove.action
+[46.804s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/action/MecanumSpin.action
+[46.817s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/bridge_mapping_rules.yaml
+[46.832s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/ament_index/resource_index/package_run_dependencies/behavior_tree_msgs
+[46.847s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/ament_index/resource_index/parent_prefix_path/behavior_tree_msgs
+[46.862s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/ament_prefix_path.sh
+[46.876s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/ament_prefix_path.dsv
+[46.891s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/path.sh
+[46.905s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/path.dsv
+[46.919s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/local_setup.bash
+[46.933s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/local_setup.sh
+[46.948s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/local_setup.zsh
+[46.964s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/local_setup.dsv
+[46.980s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/package.dsv
+[46.995s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/ament_index/resource_index/packages/behavior_tree_msgs
+[47.010s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/rosidl_cmake-extras.cmake
+[47.023s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.038s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[47.056s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[47.071s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[47.087s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[47.103s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[47.118s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgsConfig.cmake
+[47.134s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgsConfig-version.cmake
+[47.149s] -- Symlinking: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/package.xml
+[47.166s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_generator_c.so
+[47.168s] -- Set runtime path of "/home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_generator_c.so" to ""
+[47.168s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_fastrtps_c.so
+[47.169s] -- Set runtime path of "/home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[47.169s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_introspection_c.so
+[47.171s] -- Set runtime path of "/home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_introspection_c.so" to ""
+[47.171s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_c.so
+[47.172s] -- Set runtime path of "/home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_c.so" to ""
+[47.172s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.so
+[47.174s] -- Set runtime path of "/home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[47.174s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_introspection_cpp.so
+[47.176s] -- Set runtime path of "/home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[47.176s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_cpp.so
+[47.177s] -- Set runtime path of "/home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_cpp.so" to ""
+[47.330s] Listing '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs'...
+[47.330s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/__init__.py'...
+[47.330s] Listing '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action'...
+[47.330s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/__init__.py'...
+[47.330s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_approach.py'...
+[47.330s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_camera_search.py'...
+[47.330s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_check_ik.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_execute_tree.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_gen_approach.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_grasp.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_mecanum_move.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_mecanum_search.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_mecanum_spin.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_move_arm.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_move_meca.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_pick.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_place.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_print_message.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_search.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_search_obj.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/action/_send_goal.py'...
+[47.331s] Listing '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/__init__.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_bb_float64_array.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_bb_message.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_bb_path.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_bb_pose.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_bt_status.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_node_status.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_object.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_object_array.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_pixel.py'...
+[47.331s] Listing '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/__init__.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/_create_bt.py'...
+[47.331s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/_fov_check.py'...
+[47.332s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/_get_black_board.py'...
+[47.332s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/_get_bt.py'...
+[47.332s] Compiling '/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/srv/_set_black_board.py'...
+[47.337s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_generator_py.so
+[47.338s] -- Set runtime path of "/home/rover/kameyama_ws/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_generator_py.so" to ""
+[47.338s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_generator_cExport.cmake
+[47.338s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_generator_cExport-noconfig.cmake
+[47.338s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[47.338s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[47.338s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_introspection_cExport.cmake
+[47.339s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[47.339s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_cExport.cmake
+[47.339s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[47.339s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_generator_cppExport.cmake
+[47.339s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[47.339s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[47.339s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[47.340s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[47.340s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_cppExport.cmake
+[47.340s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[47.340s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_generator_pyExport.cmake
+[47.340s] -- Installing: /home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_generator_pyExport-noconfig.cmake
+[47.343s] Invoked command in '/home/rover/kameyama_ws/build/behavior_tree_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/behavior_tree_msgs

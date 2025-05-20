@@ -1,0 +1,9 @@
+source;share/failure_detection/hook/pythonpath.ps1
+source;share/failure_detection/hook/pythonpath.dsv
+source;share/failure_detection/hook/pythonpath.sh
+source;share/failure_detection/hook/ament_prefix_path.ps1
+source;share/failure_detection/hook/ament_prefix_path.dsv
+source;share/failure_detection/hook/ament_prefix_path.sh
+source;../../build/failure_detection/share/failure_detection/hook/pythonpath_develop.ps1
+source;../../build/failure_detection/share/failure_detection/hook/pythonpath_develop.dsv
+source;../../build/failure_detection/share/failure_detection/hook/pythonpath_develop.sh

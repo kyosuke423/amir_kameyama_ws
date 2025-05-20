@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/bebop_msgs/ament_cmake_environment_hooks/local_setup.sh

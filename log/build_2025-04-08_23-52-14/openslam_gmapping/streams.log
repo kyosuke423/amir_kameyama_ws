@@ -1,0 +1,7 @@
+[0.056s] Invoking command in '/home/rover/kameyama_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/openslam_gmapping -- -j12 -l12
+[0.660s] [ 13%] Built target utils
+[0.660s] [ 27%] Built target sensor_base
+[0.660s] [ 40%] Built target sensor_range
+[0.660s] [ 54%] Built target sensor_odometry
+[0.660s] [ 77%] Built target scanmatcher
+[0.660s] [100%] Built target gridfastslam

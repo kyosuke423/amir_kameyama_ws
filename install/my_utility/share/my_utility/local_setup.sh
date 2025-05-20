@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/my_utility/ament_cmake_environment_hooks/local_setup.sh

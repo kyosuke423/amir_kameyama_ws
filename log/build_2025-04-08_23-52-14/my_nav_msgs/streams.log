@@ -1,0 +1,45 @@
+[0.071s] Invoking command in '/home/rover/kameyama_ws/build/my_nav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/my_nav_msgs -- -j12 -l12
+[0.678s] [ 10%] Built target my_nav_msgs__rosidl_generator_c
+[0.678s] [ 10%] Built target ament_cmake_python_symlink_my_nav_msgs
+[0.678s] [ 12%] Built target my_nav_msgs__cpp
+[0.679s] [ 23%] Built target my_nav_msgs__rosidl_typesupport_fastrtps_c
+[0.679s] [ 34%] Built target my_nav_msgs__rosidl_typesupport_c
+[0.679s] [ 45%] Built target my_nav_msgs__rosidl_typesupport_introspection_c
+[0.679s] [ 56%] Built target my_nav_msgs__rosidl_typesupport_cpp
+[0.679s] [ 67%] Built target my_nav_msgs__rosidl_typesupport_fastrtps_cpp
+[0.679s] [ 78%] Built target my_nav_msgs__rosidl_typesupport_introspection_cpp
+[0.679s] [ 78%] Built target my_nav_msgs
+[0.679s] [ 80%] Built target my_nav_msgs__py
+[0.679s] [ 89%] Built target my_nav_msgs__rosidl_generator_py
+[0.679s] gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/my_nav_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all] 割り込み
+[0.679s] Traceback (most recent call last):
+[0.679s]   File "/home/rover/kameyama_ws/build/my_nav_msgs/ament_cmake_python/my_nav_msgs/setup.py", line 4, in <module>
+[0.679s]     setup(
+[0.679s]   File "/home/rover/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 76, in setup
+[0.679s] gmake[2]: *** [CMakeFiles/my_nav_msgs__rosidl_typesupport_c__pyext.dir/build.make:195: CMakeFiles/my_nav_msgs__rosidl_typesupport_c__pyext.dir/depend] 割り込み
+[0.679s] gmake[2]: *** [CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make:196: CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c__pyext.dir/depend] 割り込み
+[0.679s] gmake[1]: *** [CMakeFiles/Makefile2:563: CMakeFiles/my_nav_msgs__rosidl_typesupport_c__pyext.dir/all] 割り込み
+[0.679s] gmake[1]: *** [CMakeFiles/Makefile2:534: CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c__pyext.dir/all] 割り込み
+[0.679s]     _install_setup_requires(attrs)
+[0.679s]   File "/home/rover/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 65, in _install_setup_requires
+[0.679s]     dist = MinimalDistribution(attrs)
+[0.679s]   File "/home/rover/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 55, in __init__
+[0.679s]     super().__init__(filtered)
+[0.679s]   File "/home/rover/.local/lib/python3.10/site-packages/setuptools/dist.py", line 460, in __init__
+[0.679s]     for ep in metadata.entry_points(group='distutils.setup_keywords'):
+[0.679s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points
+[0.680s]     return SelectableGroups.load(eps).select(**params)
+[0.680s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 459, in load
+[0.680s]     ordered = sorted(eps, key=by_group)
+[0.680s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1018, in <genexpr>
+[0.680s]     eps = itertools.chain.from_iterable(
+[0.680s]   File "/usr/lib/python3.10/importlib/metadata/_itertools.py", line 16, in unique_everseen
+[0.680s]     k = key(element)
+[0.680s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 942, in _normalized_name
+[0.680s]     pass_none(Prepared.normalize)(self._name_from_stem(stem))
+[0.680s]   File "/usr/lib/python3.10/importlib/metadata/_functools.py", line 100, in pass_none
+[0.680s]     def wrapper(param, *args, **kwargs):
+[0.680s] KeyboardInterrupt
+[0.703s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_my_nav_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_my_nav_msgs_egg] 割り込み
+[0.704s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_my_nav_msgs_egg.dir/all] 割り込み
+[0.704s] gmake: *** [Makefile:146: all] 割り込み

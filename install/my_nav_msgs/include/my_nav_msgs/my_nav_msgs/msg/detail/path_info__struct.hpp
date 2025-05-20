@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/my_nav_msgs/rosidl_generator_cpp/my_nav_msgs/msg/detail/path_info__struct.hpp

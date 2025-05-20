@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from observation_msgs/srv/PathCheck.srv
+// generated code does not contain a copyright notice
+
+#include "nav_msgs/msg/Path.idl"
+
+module observation_msgs {
+  module srv {
+    struct PathCheck_Request {
+      nav_msgs::msg::Path path;
+    };
+    struct PathCheck_Response {
+      string error_string;
+
+      int8 anomaly_score;
+    };
+  };
+};

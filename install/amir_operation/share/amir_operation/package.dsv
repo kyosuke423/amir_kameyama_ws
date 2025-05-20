@@ -1,0 +1,8 @@
+source;share/amir_operation/hook/cmake_prefix_path.ps1
+source;share/amir_operation/hook/cmake_prefix_path.dsv
+source;share/amir_operation/hook/cmake_prefix_path.sh
+source;share/amir_operation/local_setup.bash
+source;share/amir_operation/local_setup.dsv
+source;share/amir_operation/local_setup.ps1
+source;share/amir_operation/local_setup.sh
+source;share/amir_operation/local_setup.zsh

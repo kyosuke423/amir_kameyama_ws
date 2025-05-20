@@ -1,0 +1,24 @@
+[0.046s] Invoking command in '/home/rover/kameyama_ws/build/my_utility': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/my_utility -- -j12 -l12
+[0.528s] [100%] Built target odom_tf2_broadcaster
+[0.542s] Invoked command in '/home/rover/kameyama_ws/build/my_utility' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/my_utility -- -j12 -l12
+[0.543s] Invoking command in '/home/rover/kameyama_ws/build/my_utility': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/my_utility
+[0.603s] -- Install configuration: ""
+[0.603s] -- Execute custom install script
+[0.603s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/lib/my_utility/odom_tf2_broadcaster
+[0.603s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/share/my_utility//launch/odom_tf2_broadcaster.launch.py
+[0.604s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/share/ament_index/resource_index/package_run_dependencies/my_utility
+[0.604s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/share/ament_index/resource_index/parent_prefix_path/my_utility
+[0.605s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/share/my_utility/environment/ament_prefix_path.sh
+[0.606s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/share/my_utility/environment/ament_prefix_path.dsv
+[0.607s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/share/my_utility/environment/path.sh
+[0.607s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/share/my_utility/environment/path.dsv
+[0.608s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/share/my_utility/local_setup.bash
+[0.608s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/share/my_utility/local_setup.sh
+[0.608s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/share/my_utility/local_setup.zsh
+[0.608s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/share/my_utility/local_setup.dsv
+[0.608s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/my_utility/package.dsv
+[0.608s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/share/ament_index/resource_index/packages/my_utility
+[0.608s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/share/my_utility/cmake/my_utilityConfig.cmake
+[0.608s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/share/my_utility/cmake/my_utilityConfig-version.cmake
+[0.608s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_utility/share/my_utility/package.xml
+[0.652s] Invoked command in '/home/rover/kameyama_ws/build/my_utility' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/my_utility

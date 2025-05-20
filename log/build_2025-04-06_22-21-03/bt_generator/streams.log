@@ -1,0 +1,23 @@
+[1.890s] Invoking command in '/home/rover/kameyama_ws/build/bt_generator': PYTHONPATH=/home/rover/kameyama_ws/build/bt_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/kameyama_ws/install/bt_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/kameyama_ws/build/bt_generator/build --no-deps symlink_data
+[2.534s] running develop
+[2.796s] running egg_info
+[2.829s] writing bt_generator.egg-info/PKG-INFO
+[2.853s] writing dependency_links to bt_generator.egg-info/dependency_links.txt
+[2.925s] writing entry points to bt_generator.egg-info/entry_points.txt
+[2.971s] writing requirements to bt_generator.egg-info/requires.txt
+[3.007s] writing top-level names to bt_generator.egg-info/top_level.txt
+[3.050s] reading manifest file 'bt_generator.egg-info/SOURCES.txt'
+[3.051s] writing manifest file 'bt_generator.egg-info/SOURCES.txt'
+[3.083s] running build_ext
+[3.083s] Creating /home/rover/kameyama_ws/install/bt_generator/lib/python3.10/site-packages/bt-generator.egg-link (link to .)
+[3.083s] Installing bt_commander script to /home/rover/kameyama_ws/install/bt_generator/lib/bt_generator
+[3.083s] Installing bt_generator_bebop_base script to /home/rover/kameyama_ws/install/bt_generator/lib/bt_generator
+[3.083s] Installing bt_generator_service script to /home/rover/kameyama_ws/install/bt_generator/lib/bt_generator
+[3.083s] Installing bt_generator_service_bebop script to /home/rover/kameyama_ws/install/bt_generator/lib/bt_generator
+[3.084s] Installing bt_nav_generator script to /home/rover/kameyama_ws/install/bt_generator/lib/bt_generator
+[3.084s] Installing bt_send_xml script to /home/rover/kameyama_ws/install/bt_generator/lib/bt_generator
+[3.084s] Installing receive_send_xml script to /home/rover/kameyama_ws/install/bt_generator/lib/bt_generator
+[3.084s] 
+[3.084s] Installed /home/rover/kameyama_ws/build/bt_generator
+[3.084s] running symlink_data
+[3.399s] Invoked command in '/home/rover/kameyama_ws/build/bt_generator' returned '0': PYTHONPATH=/home/rover/kameyama_ws/build/bt_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/kameyama_ws/install/bt_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/kameyama_ws/build/bt_generator/build --no-deps symlink_data

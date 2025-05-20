@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from behavior_tree_msgs/action/Search.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module behavior_tree_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct Search_Goal {
+      string command;
+
+      string id;
+
+      string label;
+
+      geometry_msgs::msg::PoseStamped pose;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct Search_Result {
+      string error_string;
+
+      geometry_msgs::msg::Pose pose;
+
+      sequence<geometry_msgs::msg::PoseStamped> poses;
+    };
+    @verbatim (language="comment", text=
+      "feedback" "\n"
+      " string feedback")
+    struct Search_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

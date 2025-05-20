@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_nav_msgs/action/detail/compute_multi_path__type_support.c.o"
+  "CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_nav_msgs/action/detail/compute_multi_path__type_support.c.o.d"
+  "CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_nav_msgs/msg/detail/path_info__type_support.c.o"
+  "CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_nav_msgs/msg/detail/path_info__type_support.c.o.d"
+  "CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_nav_msgs/msg/detail/path_with_condition__type_support.c.o"
+  "CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_nav_msgs/msg/detail/path_with_condition__type_support.c.o.d"
+  "CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_nav_msgs/srv/detail/set_obj_cost__type_support.c.o"
+  "CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_nav_msgs/srv/detail/set_obj_cost__type_support.c.o.d"
+  "libmy_nav_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libmy_nav_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/my_nav_msgs/action/detail/compute_multi_path__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/my_nav_msgs/action/detail/compute_multi_path__type_support.c"
+  "rosidl_typesupport_introspection_c/my_nav_msgs/msg/detail/path_info__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/my_nav_msgs/msg/detail/path_info__type_support.c"
+  "rosidl_typesupport_introspection_c/my_nav_msgs/msg/detail/path_with_condition__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/my_nav_msgs/msg/detail/path_with_condition__type_support.c"
+  "rosidl_typesupport_introspection_c/my_nav_msgs/srv/detail/set_obj_cost__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/my_nav_msgs/srv/detail/set_obj_cost__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

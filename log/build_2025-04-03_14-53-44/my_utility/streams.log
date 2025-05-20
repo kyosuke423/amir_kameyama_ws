@@ -1,0 +1,89 @@
+[0.059s] Invoking command in '/home/rover/kameyama_ws/build/my_utility': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/rover/kameyama_ws/src/my_utility -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/kameyama_ws/install/my_utility
+[3.548s] -- The C compiler identification is GNU 11.4.0
+[3.548s] -- The CXX compiler identification is GNU 11.4.0
+[3.548s] -- Detecting C compiler ABI info
+[3.548s] -- Detecting C compiler ABI info - done
+[3.548s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.548s] -- Detecting C compile features
+[3.548s] -- Detecting C compile features - done
+[3.548s] -- Detecting CXX compiler ABI info
+[3.548s] -- Detecting CXX compiler ABI info - done
+[3.548s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.548s] -- Detecting CXX compile features
+[3.548s] -- Detecting CXX compile features - done
+[3.548s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.228s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.445s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.848s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.197s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.254s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.321s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.381s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.461s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.702s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[5.814s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.815s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.815s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.287s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.327s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.826s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.909s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.035s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.065s] -- Looking for pthread.h
+[7.266s] -- Looking for pthread.h - found
+[7.266s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.452s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.453s] -- Found Threads: TRUE  
+[7.700s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.725s] -- Found tf2_eigen: 0.25.12 (/opt/ros/humble/share/tf2_eigen/cmake)
+[7.747s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.903s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.906s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.906s] -- Configured cppcheck include dirs: 
+[7.907s] -- Configured cppcheck exclude dirs and/or files: 
+[7.907s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.907s] -- Configured cpplint exclude dirs and/or files: 
+[7.907s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.907s] -- Added test 'lint_cmake' to check CMake code style
+[7.907s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.911s] -- Added test 'uncrustify' to check C / C++ code style
+[7.911s] -- Configured uncrustify additional arguments: 
+[7.918s] -- Added test 'xmllint' to check XML markup files
+[7.918s] -- Configuring done
+[7.940s] -- Generating done
+[7.949s] -- Build files have been written to: /home/rover/kameyama_ws/build/my_utility
+[7.997s] Invoked command in '/home/rover/kameyama_ws/build/my_utility' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/rover/kameyama_ws/src/my_utility -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/kameyama_ws/install/my_utility
+[7.998s] Invoking command in '/home/rover/kameyama_ws/build/my_utility': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/my_utility -- -j12 -l12
+[8.152s] [ 50%] [32mBuilding CXX object CMakeFiles/odom_tf2_broadcaster.dir/src/odom_tf2_broadcaster.cpp.o[0m
+[8.461s] In file included from [01m[K/home/rover/kameyama_ws/src/my_utility/src/odom_tf2_broadcaster.cpp:22[m[K:
+[8.461s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[8.461s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[8.461s]       |  [01;35m[K^~~~~~~[m[K
+[8.481s] In file included from [01m[K/home/rover/kameyama_ws/src/my_utility/src/odom_tf2_broadcaster.cpp:26[m[K:
+[8.481s] [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[8.482s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+[8.482s]       |  [01;35m[K^~~~~~~[m[K
+[22.057s] [100%] [32m[1mLinking CXX executable odom_tf2_broadcaster[0m
+[23.917s] [100%] Built target odom_tf2_broadcaster
+[23.993s] Invoked command in '/home/rover/kameyama_ws/build/my_utility' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/my_utility -- -j12 -l12
+[23.997s] Invoking command in '/home/rover/kameyama_ws/build/my_utility': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/my_utility
+[24.043s] -- Install configuration: ""
+[24.044s] -- Execute custom install script
+[24.045s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/lib/my_utility/odom_tf2_broadcaster
+[24.077s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/my_utility//launch/odom_tf2_broadcaster.launch.py
+[24.114s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/ament_index/resource_index/package_run_dependencies/my_utility
+[24.162s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/ament_index/resource_index/parent_prefix_path/my_utility
+[24.206s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/my_utility/environment/ament_prefix_path.sh
+[24.243s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/my_utility/environment/ament_prefix_path.dsv
+[24.289s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/my_utility/environment/path.sh
+[24.323s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/my_utility/environment/path.dsv
+[24.360s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/my_utility/local_setup.bash
+[24.408s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/my_utility/local_setup.sh
+[24.458s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/my_utility/local_setup.zsh
+[24.505s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/my_utility/local_setup.dsv
+[24.548s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/my_utility/package.dsv
+[24.579s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/ament_index/resource_index/packages/my_utility
+[24.628s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/my_utility/cmake/my_utilityConfig.cmake
+[24.668s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/my_utility/cmake/my_utilityConfig-version.cmake
+[24.699s] -- Symlinking: /home/rover/kameyama_ws/install/my_utility/share/my_utility/package.xml
+[24.739s] Invoked command in '/home/rover/kameyama_ws/build/my_utility' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/my_utility

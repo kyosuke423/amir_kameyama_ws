@@ -1,0 +1,24 @@
+[0.058s] Invoking command in '/home/rover/kameyama_ws/build/line_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/line_msg -- -j12 -l12
+[0.936s] [  3%] Built target line_msg__cpp
+[0.936s] [ 12%] Built target line_msg__rosidl_generator_c
+[0.936s] [ 12%] Built target ament_cmake_python_symlink_line_msg
+[0.936s] [ 22%] Built target line_msg__rosidl_typesupport_cpp
+[0.936s] [ 32%] Built target line_msg__rosidl_typesupport_introspection_cpp
+[0.936s] [ 41%] Built target line_msg__rosidl_typesupport_c
+[0.936s] [ 51%] Built target line_msg__rosidl_typesupport_introspection_c
+[0.936s] [ 61%] Built target line_msg__rosidl_typesupport_fastrtps_cpp
+[0.936s] [ 70%] Built target line_msg__rosidl_typesupport_fastrtps_c
+[0.937s] [ 70%] Built target line_msg
+[0.937s] [ 74%] Built target line_msg__py
+[0.937s] [ 80%] Built target line_msg__rosidl_generator_py
+[0.937s] [ 87%] Built target line_msg__rosidl_typesupport_introspection_c__pyext
+[0.937s] [100%] Built target line_msg__rosidl_typesupport_fastrtps_c__pyext
+[0.937s] [ 93%] Built target line_msg__rosidl_typesupport_c__pyext
+[0.937s] running egg_info
+[0.937s] writing line_msg.egg-info/PKG-INFO
+[0.966s] writing dependency_links to line_msg.egg-info/dependency_links.txt
+[1.219s] writing top-level names to line_msg.egg-info/top_level.txt
+[1.307s] interrupted
+[1.356s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_line_msg_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_line_msg_egg] 割り込み
+[1.356s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_line_msg_egg.dir/all] 割り込み
+[1.356s] gmake: *** [Makefile:146: all] 割り込み

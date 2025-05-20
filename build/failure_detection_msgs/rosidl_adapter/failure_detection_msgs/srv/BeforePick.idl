@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from failure_detection_msgs/srv/BeforePick.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module failure_detection_msgs {
+  module srv {
+    struct BeforePick_Request {
+      string command;
+
+      string id;
+
+      geometry_msgs::msg::PoseStamped pose;
+
+      boolean stand;
+    };
+    struct BeforePick_Response {
+      string command;
+    };
+  };
+};

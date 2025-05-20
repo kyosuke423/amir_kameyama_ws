@@ -1,0 +1,23 @@
+[0.063s] Invoking command in '/home/rover/kameyama_ws/build/ar_track_alvar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/ar_track_alvar_msgs -- -j12 -l12
+[0.948s] [ 10%] Built target ar_track_alvar_msgs__rosidl_generator_c
+[0.948s] [ 12%] Built target ar_track_alvar_msgs__cpp
+[0.948s] [ 12%] Built target ament_cmake_python_symlink_ar_track_alvar_msgs
+[0.948s] [ 23%] Built target ar_track_alvar_msgs__rosidl_typesupport_fastrtps_cpp
+[0.948s] [ 33%] Built target ar_track_alvar_msgs__rosidl_typesupport_introspection_c
+[0.948s] [ 43%] Built target ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c
+[0.948s] [ 64%] Built target ar_track_alvar_msgs__rosidl_typesupport_introspection_cpp
+[0.948s] [ 64%] Built target ar_track_alvar_msgs__rosidl_typesupport_c
+[0.948s] [ 74%] Built target ar_track_alvar_msgs__rosidl_typesupport_cpp
+[0.948s] [ 74%] Built target ar_track_alvar_msgs
+[0.948s] [ 76%] Built target ar_track_alvar_msgs__py
+[0.948s] [ 84%] Built target ar_track_alvar_msgs__rosidl_generator_py
+[0.948s] [ 89%] Built target ar_track_alvar_msgs__rosidl_typesupport_introspection_c__pyext
+[0.949s] [ 94%] Built target ar_track_alvar_msgs__rosidl_typesupport_c__pyext
+[0.949s] [100%] Built target ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.009s] running egg_info
+[1.072s] writing ar_track_alvar_msgs.egg-info/PKG-INFO
+[1.109s] writing dependency_links to ar_track_alvar_msgs.egg-info/dependency_links.txt
+[1.134s] interrupted
+[1.169s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ar_track_alvar_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ar_track_alvar_msgs_egg] 割り込み
+[1.169s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ar_track_alvar_msgs_egg.dir/all] 割り込み
+[1.170s] gmake: *** [Makefile:146: all] 割り込み

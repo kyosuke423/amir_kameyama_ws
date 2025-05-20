@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ar_track_alvar_msgs</name>
+  <version>0.7.1</version>
+  <description>
+    This package is a ROS wrapper for Alvar, an open source AR tag tracking library.
+  </description>
+
+  <!-- 既存のメンテナ情報を反映 -->
+  <maintainer email="sniekum@cs.umass.edu">Scott Niekum</maintainer>
+  <maintainer email="gm130s@gmail.com">Isaac I.Y. Saito</maintainer>
+
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/ar_track_alvar</url>
+
+  <!-- メッセージやサービスなどのインタフェースを提供するパッケージは以下を必須で入れる -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <!-- buildtool_depend に ament_cmake, rosidl_default_generators を追加 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <!-- build_depend にも rosidl_default_generators 等を追加 -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <!-- 実行時に必要となる依存 -->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- テスト系の依存が必要な場合は加える (例示) -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

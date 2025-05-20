@@ -1,0 +1,3 @@
+
+string error_string
+int8 anomaly_score

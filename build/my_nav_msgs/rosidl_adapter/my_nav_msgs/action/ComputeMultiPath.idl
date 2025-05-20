@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_nav_msgs/action/ComputeMultiPath.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "my_nav_msgs/msg/PathWithCondition.idl"
+
+module my_nav_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct ComputeMultiPath_Goal {
+      geometry_msgs::msg::PoseStamped goal;
+
+      geometry_msgs::msg::PoseStamped start;
+
+      string planner_id;
+
+      @verbatim (language="comment", text=
+        "If true, use current robot pose as path start, if false, use start above instead")
+      boolean use_start;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct ComputeMultiPath_Result {
+      sequence<my_nav_msgs::msg::PathWithCondition> multi_path;
+
+      builtin_interfaces::msg::Duration planning_time;
+    };
+    @verbatim (language="comment", text=
+      "feedback" "\n"
+      " string feedback")
+    struct ComputeMultiPath_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

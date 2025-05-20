@@ -1,0 +1,15 @@
+{
+  "package_name": "slam_toolbox",
+  "non_idl_tuples": [
+    "/home/rover/kameyama_ws/src/slam_toolbox:srv/Pause.srv",
+    "/home/rover/kameyama_ws/src/slam_toolbox:srv/ClearQueue.srv",
+    "/home/rover/kameyama_ws/src/slam_toolbox:srv/ToggleInteractive.srv",
+    "/home/rover/kameyama_ws/src/slam_toolbox:srv/Clear.srv",
+    "/home/rover/kameyama_ws/src/slam_toolbox:srv/SaveMap.srv",
+    "/home/rover/kameyama_ws/src/slam_toolbox:srv/LoopClosure.srv",
+    "/home/rover/kameyama_ws/src/slam_toolbox:srv/MergeMaps.srv",
+    "/home/rover/kameyama_ws/src/slam_toolbox:srv/AddSubmap.srv",
+    "/home/rover/kameyama_ws/src/slam_toolbox:srv/DeserializePoseGraph.srv",
+    "/home/rover/kameyama_ws/src/slam_toolbox:srv/SerializePoseGraph.srv"
+  ]
+}

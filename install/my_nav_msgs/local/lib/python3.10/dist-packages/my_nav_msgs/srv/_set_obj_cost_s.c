@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/my_nav_msgs/rosidl_generator_py/my_nav_msgs/srv/_set_obj_cost_s.c

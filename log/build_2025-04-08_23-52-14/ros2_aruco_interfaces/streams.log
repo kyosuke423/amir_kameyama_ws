@@ -1,0 +1,49 @@
+[0.051s] Invoking command in '/home/rover/kameyama_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/ros2_aruco_interfaces -- -j12 -l12
+[0.653s] [  6%] Built target ros2_aruco_interfaces__cpp
+[0.653s] [ 12%] Built target ros2_aruco_interfaces__rosidl_generator_c
+[0.653s] [ 12%] Built target ament_cmake_python_symlink_ros2_aruco_interfaces
+[0.653s] [ 22%] Built target ros2_aruco_interfaces__rosidl_typesupport_c
+[0.653s] [ 32%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c
+[0.653s] [ 41%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.653s] [ 51%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c
+[0.653s] [ 61%] Built target ros2_aruco_interfaces__rosidl_typesupport_cpp
+[0.653s] [ 70%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp
+[0.653s] [ 70%] Built target ros2_aruco_interfaces
+[0.653s] [ 74%] Built target ros2_aruco_interfaces__py
+[0.653s] [ 80%] Built target ros2_aruco_interfaces__rosidl_generator_py
+[0.653s] gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all] 割り込み
+[0.653s] gmake[2]: *** [CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make:148: CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend] 割り込み
+[0.653s] gmake[1]: *** [CMakeFiles/Makefile2:534: CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all] 割り込み
+[0.653s] Traceback (most recent call last):
+[0.654s]   File "/home/rover/kameyama_ws/build/ros2_aruco_interfaces/ament_cmake_python/ros2_aruco_interfaces/setup.py", line 1, in <module>
+[0.654s] gmake[2]: *** [CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c__pyext.dir/build.make:147: CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c__pyext.dir/depend] 割り込み
+[0.654s]     from setuptools import find_packages
+[0.654s]   File "/home/rover/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 14, in <module>
+[0.654s] gmake[1]: *** [CMakeFiles/Makefile2:563: CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c__pyext.dir/all] 割り込み
+[0.654s]     import setuptools.version
+[0.654s]   File "/home/rover/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+[0.654s]     import pkg_resources
+[0.654s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3247, in <module>
+[0.654s]     def _initialize_master_working_set():
+[0.654s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3221, in _call_aside
+[0.654s]     f(*args, **kwargs)
+[0.654s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3282, in _initialize_master_working_set
+[0.654s]     list(map(working_set.add_entry, sys.path))
+[0.654s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 619, in add_entry
+[0.654s]     for dist in find_distributions(entry, True):
+[0.654s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2079, in find_on_path
+[0.654s]     path_item_entries = _by_version_descending(filtered)
+[0.654s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2049, in _by_version_descending
+[0.654s]     return sorted(names, key=_by_version, reverse=True)
+[0.654s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2047, in _by_version
+[0.654s]     return [try_parse(part) for part in parts]
+[0.654s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2047, in <listcomp>
+[0.654s]     return [try_parse(part) for part in parts]
+[0.654s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2037, in try_parse
+[0.654s]     return packaging.version.Version(name)
+[0.655s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py", line 272, in __init__
+[0.655s]     pre=_parse_letter_version(match.group("pre_l"), match.group("pre_n")),
+[0.655s] KeyboardInterrupt
+[0.662s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ros2_aruco_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ros2_aruco_interfaces_egg] 割り込み
+[0.663s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ros2_aruco_interfaces_egg.dir/all] 割り込み
+[0.663s] gmake: *** [Makefile:146: all] 割り込み

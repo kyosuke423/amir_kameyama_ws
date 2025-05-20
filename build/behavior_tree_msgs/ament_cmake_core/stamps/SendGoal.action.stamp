@@ -1,0 +1,12 @@
+#goal definition
+string[] goal_states
+BBMessage bb_message
+# string id
+# geometry_msgs/Point pose
+---
+#result definition
+string error_string
+---
+#feedback
+float64 progress_rate
+float64 success_prospect

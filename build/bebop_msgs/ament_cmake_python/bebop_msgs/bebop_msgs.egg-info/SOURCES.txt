@@ -1,0 +1,8 @@
+setup.py
+bebop_msgs/__init__.py
+bebop_msgs.egg-info/PKG-INFO
+bebop_msgs.egg-info/SOURCES.txt
+bebop_msgs.egg-info/dependency_links.txt
+bebop_msgs.egg-info/top_level.txt
+bebop_msgs/msg/__init__.py
+bebop_msgs/msg/_box_corner.py

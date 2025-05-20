@@ -1,0 +1,6 @@
+{
+  "package_name": "bebop_msgs",
+  "non_idl_tuples": [
+    "/home/rover/kameyama_ws/src/bebop_msgs:msg/BoxCorner.msg"
+  ]
+}

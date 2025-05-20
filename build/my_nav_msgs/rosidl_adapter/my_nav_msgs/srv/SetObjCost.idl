@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_nav_msgs/srv/SetObjCost.srv
+// generated code does not contain a copyright notice
+
+#include "visualization_msgs/msg/MarkerArray.idl"
+
+module my_nav_msgs {
+  module srv {
+    struct SetObjCost_Request {
+      visualization_msgs::msg::MarkerArray markers;
+
+      @verbatim (language="comment", text=
+        "このマーカーだけ反映したい場合はFalseに、既に反映されているものに追加する場合はTrueにする")
+      boolean partial_update;
+    };
+    struct SetObjCost_Response {
+      string error_string;
+
+      @verbatim (language="comment", text=
+        "現在反映されているマーカー")
+      visualization_msgs::msg::MarkerArray set_markers;
+    };
+  };
+};

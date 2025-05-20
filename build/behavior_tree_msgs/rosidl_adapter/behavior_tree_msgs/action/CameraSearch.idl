@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from behavior_tree_msgs/action/CameraSearch.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PointStamped.idl"
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module behavior_tree_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct CameraSearch_Goal {
+      string command;
+
+      string id;
+
+      geometry_msgs::msg::PointStamped search_point;
+
+      double radius;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct CameraSearch_Result {
+      string error_string;
+
+      sequence<geometry_msgs::msg::PoseStamped> poses;
+    };
+    struct CameraSearch_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ar_track_alvar_msgs/msg/detail/alvar_marker__type_support.c.o"
+  "CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ar_track_alvar_msgs/msg/detail/alvar_marker__type_support.c.o.d"
+  "CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ar_track_alvar_msgs/msg/detail/alvar_markers__type_support.c.o"
+  "CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ar_track_alvar_msgs/msg/detail/alvar_markers__type_support.c.o.d"
+  "libar_track_alvar_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libar_track_alvar_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/ar_track_alvar_msgs/msg/detail/alvar_marker__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ar_track_alvar_msgs/msg/detail/alvar_marker__type_support.c"
+  "rosidl_typesupport_introspection_c/ar_track_alvar_msgs/msg/detail/alvar_markers__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ar_track_alvar_msgs/msg/detail/alvar_markers__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

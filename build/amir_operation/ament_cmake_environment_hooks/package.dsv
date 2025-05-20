@@ -1,0 +1,4 @@
+source;share/amir_operation/local_setup.bash
+source;share/amir_operation/local_setup.dsv
+source;share/amir_operation/local_setup.sh
+source;share/amir_operation/local_setup.zsh

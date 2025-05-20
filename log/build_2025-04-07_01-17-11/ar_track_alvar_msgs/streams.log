@@ -1,0 +1,23 @@
+[0.064s] Invoking command in '/home/rover/kameyama_ws/build/ar_track_alvar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/ar_track_alvar_msgs -- -j12 -l12
+[0.981s] [  2%] Built target ar_track_alvar_msgs__cpp
+[0.981s] [ 12%] Built target ar_track_alvar_msgs__rosidl_generator_c
+[0.982s] [ 12%] Built target ament_cmake_python_symlink_ar_track_alvar_msgs
+[0.982s] [ 23%] Built target ar_track_alvar_msgs__rosidl_typesupport_c
+[0.982s] [ 33%] Built target ar_track_alvar_msgs__rosidl_typesupport_fastrtps_cpp
+[0.983s] [ 43%] Built target ar_track_alvar_msgs__rosidl_typesupport_introspection_c
+[0.983s] [ 53%] Built target ar_track_alvar_msgs__rosidl_typesupport_cpp
+[0.983s] [ 64%] Built target ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c
+[0.984s] [ 74%] Built target ar_track_alvar_msgs__rosidl_typesupport_introspection_cpp
+[0.984s] [ 74%] Built target ar_track_alvar_msgs
+[0.985s] [ 76%] Built target ar_track_alvar_msgs__py
+[0.985s] [ 84%] Built target ar_track_alvar_msgs__rosidl_generator_py
+[0.985s] [ 89%] Built target ar_track_alvar_msgs__rosidl_typesupport_introspection_c__pyext
+[0.986s] [ 94%] Built target ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.986s] [100%] Built target ar_track_alvar_msgs__rosidl_typesupport_c__pyext
+[0.986s] running egg_info
+[0.986s] writing ar_track_alvar_msgs.egg-info/PKG-INFO
+[0.994s] writing dependency_links to ar_track_alvar_msgs.egg-info/dependency_links.txt
+[1.206s] writing top-level names to ar_track_alvar_msgs.egg-info/top_level.txt
+[1.297s] reading manifest file 'ar_track_alvar_msgs.egg-info/SOURCES.txt'
+[1.297s] writing manifest file 'ar_track_alvar_msgs.egg-info/SOURCES.txt'
+[1.361s] [100%] Built target ament_cmake_python_build_ar_track_alvar_msgs_egg

@@ -1,0 +1,24 @@
+[0.049s] Invoking command in '/home/rover/kameyama_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/ros2_aruco_interfaces -- -j12 -l12
+[0.964s] [  9%] Built target ros2_aruco_interfaces__rosidl_generator_c
+[0.964s] [ 12%] Built target ros2_aruco_interfaces__cpp
+[0.964s] [ 12%] Built target ament_cmake_python_symlink_ros2_aruco_interfaces
+[0.964s] [ 22%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c
+[0.964s] [ 32%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp
+[0.964s] [ 41%] Built target ros2_aruco_interfaces__rosidl_typesupport_c
+[0.964s] [ 58%] Built target ros2_aruco_interfaces__rosidl_typesupport_cpp
+[0.964s] [ 61%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c
+[0.964s] [ 70%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.964s] [ 70%] Built target ros2_aruco_interfaces
+[0.964s] [ 74%] Built target ros2_aruco_interfaces__py
+[0.964s] [ 80%] Built target ros2_aruco_interfaces__rosidl_generator_py
+[0.965s] [ 87%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.965s] [ 93%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.965s] [100%] Built target ros2_aruco_interfaces__rosidl_typesupport_c__pyext
+[1.006s] running egg_info
+[1.073s] writing ros2_aruco_interfaces.egg-info/PKG-INFO
+[1.110s] writing dependency_links to ros2_aruco_interfaces.egg-info/dependency_links.txt
+[1.330s] writing top-level names to ros2_aruco_interfaces.egg-info/top_level.txt
+[1.363s] interrupted
+[1.398s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ros2_aruco_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ros2_aruco_interfaces_egg] 割り込み
+[1.398s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ros2_aruco_interfaces_egg.dir/all] 割り込み
+[1.398s] gmake: *** [Makefile:146: all] 割り込み

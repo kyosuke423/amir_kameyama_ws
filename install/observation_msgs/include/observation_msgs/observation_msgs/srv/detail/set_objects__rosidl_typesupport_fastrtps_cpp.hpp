@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/observation_msgs/rosidl_typesupport_fastrtps_cpp/observation_msgs/srv/detail/set_objects__rosidl_typesupport_fastrtps_cpp.hpp

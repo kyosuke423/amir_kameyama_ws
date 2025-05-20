@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ar_track_alvar_msgs/msg/AlvarMarker.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "std_msgs/msg/Header.idl"
+
+module ar_track_alvar_msgs {
+  module msg {
+    struct AlvarMarker {
+      std_msgs::msg::Header header;
+
+      uint32 id;
+
+      uint32 confidence;
+
+      geometry_msgs::msg::PoseStamped pose;
+    };
+  };
+};

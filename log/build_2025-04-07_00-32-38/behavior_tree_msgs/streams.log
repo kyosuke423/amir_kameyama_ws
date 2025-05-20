@@ -1,0 +1,23 @@
+[0.075s] Invoking command in '/home/rover/kameyama_ws/build/behavior_tree_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/behavior_tree_msgs -- -j12 -l12
+[0.961s] [  0%] Built target behavior_tree_msgs__cpp
+[0.962s] [ 12%] Built target behavior_tree_msgs__rosidl_generator_c
+[0.962s] [ 12%] Built target ament_cmake_python_symlink_behavior_tree_msgs
+[0.963s] [ 24%] Built target behavior_tree_msgs__rosidl_typesupport_cpp
+[0.963s] [ 36%] Built target behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp
+[0.963s] [ 49%] Built target behavior_tree_msgs__rosidl_typesupport_introspection_c
+[0.963s] [ 61%] Built target behavior_tree_msgs__rosidl_typesupport_c
+[0.963s] [ 73%] Built target behavior_tree_msgs__rosidl_typesupport_fastrtps_c
+[0.963s] [ 86%] Built target behavior_tree_msgs__rosidl_typesupport_introspection_cpp
+[0.963s] [ 86%] Built target behavior_tree_msgs
+[0.963s] [ 86%] Built target behavior_tree_msgs__py
+[0.963s] [ 98%] Built target behavior_tree_msgs__rosidl_generator_py
+[0.963s] [ 99%] Built target behavior_tree_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.963s] [ 99%] Built target behavior_tree_msgs__rosidl_typesupport_introspection_c__pyext
+[0.963s] [100%] Built target behavior_tree_msgs__rosidl_typesupport_c__pyext
+[1.029s] running egg_info
+[1.088s] writing behavior_tree_msgs.egg-info/PKG-INFO
+[1.131s] writing dependency_links to behavior_tree_msgs.egg-info/dependency_links.txt
+[1.165s] interrupted
+[1.218s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_behavior_tree_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_behavior_tree_msgs_egg] 割り込み
+[1.218s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_behavior_tree_msgs_egg.dir/all] 割り込み
+[1.219s] gmake: *** [Makefile:146: all] 割り込み

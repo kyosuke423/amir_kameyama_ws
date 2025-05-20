@@ -1,0 +1,193 @@
+[0.035s] Invoking command in '/home/rover/kameyama_ws/build/amir_operation': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces:/home/rover/kameyama_ws/install/line_msg:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/kameyama_ws/install/bebop_msgs:/home/rover/kameyama_ws/install/ar_track_alvar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces:/home/rover/kameyama_ws/install/line_msg:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/kameyama_ws/install/bebop_msgs:/home/rover/kameyama_ws/install/ar_track_alvar_msgs:/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/mecanumrover3:/home/rover/ros2_ws/install/mecanumrover_description:/home/rover/ros2_ws/install/mecanumrover3_bringup:/home/rover/ros2_ws/install/fwdsrover_xna:/home/rover/ros2_ws/install/fwdsrover_xna_bringup:/home/rover/ros2_ws/install/amir:/home/rover/ros2_ws/install/amir_moveit_config:/home/rover/ros2_ws/install/amir_driver:/home/rover/ros2_ws/install/amir_interfaces:/home/rover/ros2_ws/install/amir_bringup:/home/rover/ros2_ws/install/amir_description:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces/lib:/home/rover/kameyama_ws/install/line_msg/lib:/home/rover/kameyama_ws/install/behavior_tree_msgs/lib:/home/rover/kameyama_ws/install/bebop_msgs/lib:/home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/line_msg/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rover/kameyama_ws/build/amir_operation -- -j12 -l12
+[0.072s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.209s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.217s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.246s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.249s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.255s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.319s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.321s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.451s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.499s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.528s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.529s] -- Found amir_interfaces: 0.0.1 (/home/rover/amir_basic_ws/install/amir_interfaces/share/amir_interfaces/cmake)
+[0.540s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.572s] -- Found behavior_tree_msgs: 0.1.0 (/home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake)
+[0.736s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.736s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.739s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.740s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.783s] -- Found line_msg: 0.0.0 (/home/rover/kameyama_ws/install/line_msg/share/line_msg/cmake)
+[0.798s] -- Found bebop_msgs: 0.0.0 (/home/rover/kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake)
+[0.811s] -- Found ros2_aruco_interfaces: 0.1.0 (/home/rover/kameyama_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake)
+[0.825s] -- Found ar_track_alvar_msgs: 0.7.1 (/home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake)
+[0.975s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.056s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.057s] -- Configured cppcheck include dirs: 
+[1.057s] -- Configured cppcheck exclude dirs and/or files: 
+[1.057s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.058s] -- Added test 'lint_cmake' to check CMake code style
+[1.058s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.059s] -- Added test 'uncrustify' to check C / C++ code style
+[1.059s] -- Configured uncrustify additional arguments: 
+[1.060s] -- Added test 'xmllint' to check XML markup files
+[1.061s] -- Configuring done
+[1.199s] -- Generating done
+[1.243s] -- Build files have been written to: /home/rover/kameyama_ws/build/amir_operation
+[1.288s] [35m[1mConsolidate compiler generated dependencies of target place[0m
+[1.288s] [35m[1mConsolidate compiler generated dependencies of target pick[0m
+[1.292s] [35m[1mConsolidate compiler generated dependencies of target initial_posi[0m
+[1.310s] [  9%] [32mBuilding CXX object CMakeFiles/pick.dir/src/pick.cpp.o[0m
+[1.310s] [  9%] [32mBuilding CXX object CMakeFiles/place.dir/src/place.cpp.o[0m
+[1.310s] [ 13%] [32mBuilding CXX object CMakeFiles/initial_posi.dir/src/initial_posi.cpp.o[0m
+[6.165s] [ 18%] [32m[1mLinking CXX executable initial_posi[0m
+[6.416s] [ 18%] Built target initial_posi
+[7.456s] [ 22%] [32m[1mLinking CXX executable place[0m
+[7.674s] [ 22%] Built target place
+[12.073s] [ 27%] [32m[1mLinking CXX executable pick[0m
+[12.918s] [ 27%] Built target pick
+[12.945s] [35m[1mConsolidate compiler generated dependencies of target mecanum_search[0m
+[12.946s] [35m[1mConsolidate compiler generated dependencies of target mecanum_spin[0m
+[12.951s] [35m[1mConsolidate compiler generated dependencies of target mecanum_move[0m
+[12.991s] [ 31%] [32mBuilding CXX object CMakeFiles/mecanum_search.dir/src/mecanum_search.cpp.o[0m
+[12.995s] [ 36%] [32mBuilding CXX object CMakeFiles/mecanum_spin.dir/src/mecanum_spin.cpp.o[0m
+[12.997s] [ 40%] [32mBuilding CXX object CMakeFiles/mecanum_move.dir/src/mecanum_move.cpp.o[0m
+[16.357s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_search.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MecanumSearch::handle_goal(const GoalUUID&, std::shared_ptr<const behavior_tree_msgs::action::MecanumSearch_Goal_<std::allocator<void> > >)[m[K’:
+[16.357s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_search.cpp:79:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.357s]    79 |         [01;35m[Kstd::shared_ptr<const MecanumSearchAction::Goal> goal[m[K)
+[16.357s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[16.365s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_search.cpp:[m[K In member function ‘[01m[Kvoid MecanumSearch::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[16.365s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_search.cpp:138:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw_angle_deg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[16.365s]   138 |         double [01;35m[Kyaw_angle_deg[m[K = RadToDeg(imu_yaw + M_PI/2);
+[16.365s]       |                [01;35m[K^~~~~~~~~~~~~[m[K
+[16.413s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:[m[K In constructor ‘[01m[KMecanumSpin::MecanumSpin()[m[K’:
+[16.413s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:52:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KMecanumSpin::loop_count_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.413s]    52 |     int [01;35m[Kloop_count_[m[K;
+[16.413s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[16.413s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:51:17:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::string MecanumSpin::state_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.413s]    51 |     std::string [01;35m[Kstate_[m[K;
+[16.413s]       |                 [01;35m[K^~~~~~[m[K
+[16.413s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:24:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.413s]    24 |     [01;35m[KMecanumSpin[m[K()
+[16.413s]       |     [01;35m[K^~~~~~~~~~~[m[K
+[16.433s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MecanumSpin::handle_goal(const GoalUUID&, std::shared_ptr<const behavior_tree_msgs::action::MecanumSpin_Goal_<std::allocator<void> > >)[m[K’:
+[16.434s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:62:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.434s]    62 |         [01;35m[Kstd::shared_ptr<const MecanumSpinAction::Goal> goal[m[K)
+[16.434s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[16.749s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_move.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MecanumMove::handle_goal(const GoalUUID&, std::shared_ptr<const behavior_tree_msgs::action::MecanumMove_Goal_<std::allocator<void> > >)[m[K’:
+[16.749s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/mecanum_move.cpp:66:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.749s]    66 |         [01;35m[Kstd::shared_ptr<const MecanumMoveAction::Goal> goal[m[K)
+[16.749s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[19.394s] [ 45%] [32m[1mLinking CXX executable mecanum_spin[0m
+[19.757s] [ 45%] Built target mecanum_spin
+[23.014s] [ 50%] [32m[1mLinking CXX executable mecanum_move[0m
+[23.410s] [ 50%] Built target mecanum_move
+[24.603s] [ 54%] [32m[1mLinking CXX executable mecanum_search[0m
+[25.078s] [ 54%] Built target mecanum_search
+[25.090s] [35m[1mConsolidate compiler generated dependencies of target grasp[0m
+[25.090s] [35m[1mConsolidate compiler generated dependencies of target move_meca[0m
+[25.091s] [35m[1mConsolidate compiler generated dependencies of target move_arm[0m
+[25.107s] [ 68%] [32mBuilding CXX object CMakeFiles/move_meca.dir/src/move_meca.cpp.o[0m
+[25.108s] [ 68%] [32mBuilding CXX object CMakeFiles/grasp.dir/src/grasp.cpp.o[0m
+[25.108s] [ 68%] [32mBuilding CXX object CMakeFiles/move_arm.dir/src/move_arm.cpp.o[0m
+[26.948s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MoveArm::handle_goal(const GoalUUID&, std::shared_ptr<const behavior_tree_msgs::action::MoveArm_Goal_<std::allocator<void> > >)[m[K’:
+[26.948s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:81:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.948s]    81 |         [01;35m[Kstd::shared_ptr<const MoveArmAction::Goal> goal[m[K) // ゴールの内容
+[26.948s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[26.955s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:[m[K In member function ‘[01m[Kvoid MoveArm::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<behavior_tree_msgs::action::MoveArm> >, float, float, float)[m[K’:
+[26.955s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:141:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdeg_max_4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[26.955s]   141 |         float [01;35m[Kdeg_max_4[m[K = -195;
+[26.955s]       |               [01;35m[K^~~~~~~~~[m[K
+[26.955s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:150:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kd[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[26.955s]   150 |         float [01;35m[Kd[m[K;
+[26.955s]       |               [01;35m[K^[m[K
+[26.955s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:162:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kr_31[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[26.955s]   162 |         float [01;35m[Kr_31[m[K = 0.0;
+[26.955s]       |               [01;35m[K^~~~[m[K
+[26.955s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:163:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kr_32[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[26.955s]   163 |         float [01;35m[Kr_32[m[K = 0.0;
+[26.955s]       |               [01;35m[K^~~~[m[K
+[26.955s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:202:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kerror_r_11[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[26.955s]   202 |         float [01;35m[Kerror_r_11[m[K;
+[26.955s]       |               [01;35m[K^~~~~~~~~~[m[K
+[26.955s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:203:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kerror_r_22[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[26.956s]   203 |         float [01;35m[Kerror_r_22[m[K;
+[26.956s]       |               [01;35m[K^~~~~~~~~~[m[K
+[26.956s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:204:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kerror_r_33[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[26.956s]   204 |         float [01;35m[Kerror_r_33[m[K;
+[26.956s]       |               [01;35m[K^~~~~~~~~~[m[K
+[26.956s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_arm.cpp:284:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koff_theta5_deg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[26.956s]   284 |         float [01;35m[Koff_theta5_deg[m[K = (deg_max_5 / 2) + off_theta5_deg_result;
+[26.956s]       |               [01;35m[K^~~~~~~~~~~~~~[m[K
+[26.972s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/grasp.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse grasp::handle_goal(const GoalUUID&, std::shared_ptr<const behavior_tree_msgs::action::Grasp_Goal_<std::allocator<void> > >)[m[K’:
+[26.972s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/grasp.cpp:72:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.972s]    72 |         [01;35m[Kstd::shared_ptr<const GraspAction::Goal> goal[m[K) // ゴールの内容
+[26.972s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[27.016s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_meca.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MoveMeca::handle_goal(const GoalUUID&, std::shared_ptr<const behavior_tree_msgs::action::MoveMeca_Goal_<std::allocator<void> > >)[m[K’:
+[27.016s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/move_meca.cpp:64:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[27.016s]    64 |         [01;35m[Kstd::shared_ptr<const MoveMecaAction::Goal> goal[m[K)
+[27.016s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[31.799s] [ 72%] [32m[1mLinking CXX executable move_meca[0m
+[31.841s] [ 77%] [32m[1mLinking CXX executable move_arm[0m
+[31.853s] [ 81%] [32m[1mLinking CXX executable grasp[0m
+[32.256s] [ 81%] Built target move_meca
+[32.268s] [35m[1mConsolidate compiler generated dependencies of target search_obj[0m
+[32.272s] [35m[1mConsolidate compiler generated dependencies of target pick_using_d_optimality[0m
+[32.284s] [ 86%] [32mBuilding CXX object CMakeFiles/search_obj.dir/src/search_obj.cpp.o[0m
+[32.288s] [ 86%] Built target move_arm
+[32.294s] [ 90%] [32mBuilding CXX object CMakeFiles/pick_using_d_optimality.dir/src/pick_using_d_optimality.cpp.o[0m
+[32.488s] [ 90%] Built target grasp
+[32.565s] In file included from [01m[K/home/rover/kameyama_ws/src/amir_operation/src/pick_using_d_optimality.cpp:17[m[K:
+[32.565s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[32.565s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[32.565s]       |  [01;35m[K^~~~~~~[m[K
+[34.783s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/pick_using_d_optimality.cpp:[m[K In member function ‘[01m[Kvoid PickServer::odomObjectCallback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[34.783s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/pick_using_d_optimality.cpp:191:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobject_yaw_angle_deg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[34.783s]   191 |         double [01;35m[Kobject_yaw_angle_deg[m[K = RadToDeg(object_yaw_angle);
+[34.783s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[34.806s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/pick_using_d_optimality.cpp:[m[K In member function ‘[01m[Kvoid PickServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<behavior_tree_msgs::action::Pick> >)[m[K’:
+[34.806s] [01m[K/home/rover/kameyama_ws/src/amir_operation/src/pick_using_d_optimality.cpp:598:47:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kupdated_goal[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[34.806s]   598 |         behavior_tree_msgs::action::Pick_Goal [01;35m[Kupdated_goal[m[K = *goal;
+[34.806s]       |                                               [01;35m[K^~~~~~~~~~~~[m[K
+[38.360s] [ 95%] [32m[1mLinking CXX executable search_obj[0m
+[38.742s] [ 95%] Built target search_obj
+[43.245s] [100%] [32m[1mLinking CXX executable pick_using_d_optimality[0m
+[43.885s] [100%] Built target pick_using_d_optimality
+[43.897s] Invoked command in '/home/rover/kameyama_ws/build/amir_operation' returned '0': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces:/home/rover/kameyama_ws/install/line_msg:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/kameyama_ws/install/bebop_msgs:/home/rover/kameyama_ws/install/ar_track_alvar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces:/home/rover/kameyama_ws/install/line_msg:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/kameyama_ws/install/bebop_msgs:/home/rover/kameyama_ws/install/ar_track_alvar_msgs:/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/mecanumrover3:/home/rover/ros2_ws/install/mecanumrover_description:/home/rover/ros2_ws/install/mecanumrover3_bringup:/home/rover/ros2_ws/install/fwdsrover_xna:/home/rover/ros2_ws/install/fwdsrover_xna_bringup:/home/rover/ros2_ws/install/amir:/home/rover/ros2_ws/install/amir_moveit_config:/home/rover/ros2_ws/install/amir_driver:/home/rover/ros2_ws/install/amir_interfaces:/home/rover/ros2_ws/install/amir_bringup:/home/rover/ros2_ws/install/amir_description:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces/lib:/home/rover/kameyama_ws/install/line_msg/lib:/home/rover/kameyama_ws/install/behavior_tree_msgs/lib:/home/rover/kameyama_ws/install/bebop_msgs/lib:/home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/line_msg/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rover/kameyama_ws/build/amir_operation -- -j12 -l12
+[43.898s] Invoking command in '/home/rover/kameyama_ws/build/amir_operation': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces:/home/rover/kameyama_ws/install/line_msg:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/kameyama_ws/install/bebop_msgs:/home/rover/kameyama_ws/install/ar_track_alvar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces:/home/rover/kameyama_ws/install/line_msg:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/kameyama_ws/install/bebop_msgs:/home/rover/kameyama_ws/install/ar_track_alvar_msgs:/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/mecanumrover3:/home/rover/ros2_ws/install/mecanumrover_description:/home/rover/ros2_ws/install/mecanumrover3_bringup:/home/rover/ros2_ws/install/fwdsrover_xna:/home/rover/ros2_ws/install/fwdsrover_xna_bringup:/home/rover/ros2_ws/install/amir:/home/rover/ros2_ws/install/amir_moveit_config:/home/rover/ros2_ws/install/amir_driver:/home/rover/ros2_ws/install/amir_interfaces:/home/rover/ros2_ws/install/amir_bringup:/home/rover/ros2_ws/install/amir_description:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces/lib:/home/rover/kameyama_ws/install/line_msg/lib:/home/rover/kameyama_ws/install/behavior_tree_msgs/lib:/home/rover/kameyama_ws/install/bebop_msgs/lib:/home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/line_msg/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rover/kameyama_ws/build/amir_operation
+[43.906s] -- Install configuration: ""
+[43.907s] -- Execute custom install script
+[43.907s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/initial_posi
+[43.907s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/pick
+[43.907s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/place
+[43.908s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/search_obj
+[43.908s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/move_arm
+[43.908s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/grasp
+[43.908s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/move_meca
+[43.908s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/pick_using_d_optimality
+[43.908s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/mecanum_search
+[43.908s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/mecanum_move
+[43.909s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/mecanum_spin
+[43.909s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/launch/BT_Log_bt1.fbl
+[43.909s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/launch/BT_Log_bt2.fbl
+[43.909s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/launch/BT_Log_bt3.fbl
+[43.910s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/launch/pick_and_place_dop_launch.py
+[43.910s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/launch/pick_and_place_launch.py
+[43.910s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/ament_index/resource_index/package_run_dependencies/amir_operation
+[43.911s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/ament_index/resource_index/parent_prefix_path/amir_operation
+[43.911s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/environment/ament_prefix_path.sh
+[43.911s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/environment/ament_prefix_path.dsv
+[43.911s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/environment/path.sh
+[43.912s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/environment/path.dsv
+[43.912s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/local_setup.bash
+[43.912s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/local_setup.sh
+[43.912s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/local_setup.zsh
+[43.913s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/local_setup.dsv
+[43.913s] -- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/package.dsv
+[43.925s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/ament_index/resource_index/packages/amir_operation
+[43.925s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/cmake/amir_operationConfig.cmake
+[43.925s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/cmake/amir_operationConfig-version.cmake
+[43.926s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/package.xml
+[43.928s] Invoked command in '/home/rover/kameyama_ws/build/amir_operation' returned '0': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces:/home/rover/kameyama_ws/install/line_msg:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/kameyama_ws/install/bebop_msgs:/home/rover/kameyama_ws/install/ar_track_alvar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces:/home/rover/kameyama_ws/install/line_msg:/home/rover/kameyama_ws/install/behavior_tree_msgs:/home/rover/kameyama_ws/install/bebop_msgs:/home/rover/kameyama_ws/install/ar_track_alvar_msgs:/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/mecanumrover3:/home/rover/ros2_ws/install/mecanumrover_description:/home/rover/ros2_ws/install/mecanumrover3_bringup:/home/rover/ros2_ws/install/fwdsrover_xna:/home/rover/ros2_ws/install/fwdsrover_xna_bringup:/home/rover/ros2_ws/install/amir:/home/rover/ros2_ws/install/amir_moveit_config:/home/rover/ros2_ws/install/amir_driver:/home/rover/ros2_ws/install/amir_interfaces:/home/rover/ros2_ws/install/amir_bringup:/home/rover/ros2_ws/install/amir_description:/home/rover/amir_basic_ws/install/image_pipeline:/home/rover/amir_basic_ws/install/stereo_image_proc:/home/rover/amir_basic_ws/install/image_proc:/home/rover/amir_basic_ws/install/tracetools_image_pipeline:/home/rover/amir_basic_ws/install/micro_ros_setup:/home/rover/amir_basic_ws/install/micro_ros_agent:/home/rover/amir_basic_ws/install/micro_ros_msgs:/home/rover/amir_basic_ws/install/image_view:/home/rover/amir_basic_ws/install/image_rotate:/home/rover/amir_basic_ws/install/image_publisher:/home/rover/amir_basic_ws/install/depth_image_proc:/home/rover/amir_basic_ws/install/darknet_ros:/home/rover/amir_basic_ws/install/darknet_ros_msgs:/home/rover/amir_basic_ws/install/behaviortree_cpp:/home/rover/amir_basic_ws/install/amir_interfaces:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces/lib:/home/rover/kameyama_ws/install/line_msg/lib:/home/rover/kameyama_ws/install/behavior_tree_msgs/lib:/home/rover/kameyama_ws/install/bebop_msgs/lib:/home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/line_msg/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rover/kameyama_ws/build/amir_operation

@@ -1,0 +1,35 @@
+[1.419s] Invoking command in '/home/rover/kameyama_ws/build/joint_state_publisher_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/joint_state_publisher_tutorial -- -j12 -l12
+[2.454s] [ 50%] [32mBuilding CXX object CMakeFiles/tutorial_publisher.dir/src/tutorial_publisher.cpp.o[0m
+[13.145s] [100%] [32m[1mLinking CXX executable tutorial_publisher[0m
+[13.643s] [100%] Built target tutorial_publisher
+[13.668s] Invoked command in '/home/rover/kameyama_ws/build/joint_state_publisher_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/joint_state_publisher_tutorial -- -j12 -l12
+[13.685s] Invoking command in '/home/rover/kameyama_ws/build/joint_state_publisher_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/joint_state_publisher_tutorial
+[13.722s] -- Install configuration: ""
+[13.722s] -- Execute custom install script
+[13.722s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/lib/joint_state_publisher_tutorial/tutorial_publisher
+[13.725s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/launch/joint_display.launch.py
+[13.725s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/rviz/urdf.rviz
+[13.726s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/amir.gazebo
+[13.726s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/amir.trans
+[13.726s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/amir.xacro
+[13.726s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/amir_f120a.xacro
+[13.727s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/amir_for_rover.xacro
+[13.727s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/amir_mecanum3.xacro
+[13.727s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/amir_mega3.xacro
+[13.727s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/materials.xacro
+[13.728s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/ament_index/resource_index/package_run_dependencies/joint_state_publisher_tutorial
+[13.728s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/ament_index/resource_index/parent_prefix_path/joint_state_publisher_tutorial
+[13.731s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/environment/ament_prefix_path.sh
+[13.731s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/environment/ament_prefix_path.dsv
+[13.732s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/environment/path.sh
+[13.732s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/environment/path.dsv
+[13.732s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/local_setup.bash
+[13.733s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/local_setup.sh
+[13.733s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/local_setup.zsh
+[13.738s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/local_setup.dsv
+[13.738s] -- Symlinking: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/package.dsv
+[13.789s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/ament_index/resource_index/packages/joint_state_publisher_tutorial
+[13.789s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/cmake/joint_state_publisher_tutorialConfig.cmake
+[13.789s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/cmake/joint_state_publisher_tutorialConfig-version.cmake
+[13.791s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/package.xml
+[13.793s] Invoked command in '/home/rover/kameyama_ws/build/joint_state_publisher_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/joint_state_publisher_tutorial

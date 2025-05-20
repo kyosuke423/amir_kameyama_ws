@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a886dace98a68724fa6e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "amir_operation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "amir_operation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amir_operation_uninstall-7e8e5baf98ed47c0c545.json",
+					"name" : "amir_operation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp-2d4ce5c6d2c381c02816.json",
+					"name" : "grasp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "initial_posi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-initial_posi-9fe7dec917e47fea7eaa.json",
+					"name" : "initial_posi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecanum_move::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecanum_move-433c6cf4bc6e4dca0a16.json",
+					"name" : "mecanum_move",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecanum_search::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecanum_search-eaadb63ed6ebb1f373e8.json",
+					"name" : "mecanum_search",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecanum_spin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecanum_spin-38d1c0c556dc64cca1ed.json",
+					"name" : "mecanum_spin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_arm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_arm-d9f1f29d76d1ff9449fa.json",
+					"name" : "move_arm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_meca::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_meca-d019cc99fd3da085ff69.json",
+					"name" : "move_meca",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pick::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick-2db29a1b4f3559b9e48c.json",
+					"name" : "pick",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pick_using_d_optimality::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick_using_d_optimality-55d7e5b71f0d64fc9b78.json",
+					"name" : "pick_using_d_optimality",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "place::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-place-71b8142cd892706046f7.json",
+					"name" : "place",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "search_obj::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-search_obj-fe59055d9b3b9606bdf1.json",
+					"name" : "search_obj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9f3630cb2923edc374d0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rover/kameyama_ws/build/amir_operation",
+		"source" : "/home/rover/kameyama_ws/src/amir_operation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

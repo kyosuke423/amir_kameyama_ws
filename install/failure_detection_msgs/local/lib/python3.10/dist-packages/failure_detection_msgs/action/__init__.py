@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/failure_detection_msgs/rosidl_generator_py/failure_detection_msgs/action/__init__.py

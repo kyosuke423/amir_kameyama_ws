@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.sh

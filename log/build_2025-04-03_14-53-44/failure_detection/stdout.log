@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating failure_detection.egg-info
+writing failure_detection.egg-info/PKG-INFO
+writing dependency_links to failure_detection.egg-info/dependency_links.txt
+writing entry points to failure_detection.egg-info/entry_points.txt
+writing requirements to failure_detection.egg-info/requires.txt
+writing top-level names to failure_detection.egg-info/top_level.txt
+writing manifest file 'failure_detection.egg-info/SOURCES.txt'
+reading manifest file 'failure_detection.egg-info/SOURCES.txt'
+writing manifest file 'failure_detection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rover/kameyama_ws/install/failure_detection/lib/python3.10/site-packages/failure-detection.egg-link (link to .)
+Installing bt_monitoring script to /home/rover/kameyama_ws/install/failure_detection/lib/failure_detection
+Installing failure_detection script to /home/rover/kameyama_ws/install/failure_detection/lib/failure_detection
+
+Installed /home/rover/kameyama_ws/build/failure_detection
+running symlink_data
+creating /home/rover/kameyama_ws/install/failure_detection/share/ament_index
+creating /home/rover/kameyama_ws/install/failure_detection/share/ament_index/resource_index
+creating /home/rover/kameyama_ws/install/failure_detection/share/ament_index/resource_index/packages
+symbolically linking /home/rover/kameyama_ws/build/failure_detection/resource/failure_detection -> /home/rover/kameyama_ws/install/failure_detection/share/ament_index/resource_index/packages
+symbolically linking /home/rover/kameyama_ws/build/failure_detection/package.xml -> /home/rover/kameyama_ws/install/failure_detection/share/failure_detection
+symbolically linking /home/rover/kameyama_ws/build/failure_detection/launch/bt_monitoring_launch.py -> /home/rover/kameyama_ws/install/failure_detection/share/failure_detection
+symbolically linking /home/rover/kameyama_ws/build/failure_detection/launch/failure_detection_launch.py -> /home/rover/kameyama_ws/install/failure_detection/share/failure_detection

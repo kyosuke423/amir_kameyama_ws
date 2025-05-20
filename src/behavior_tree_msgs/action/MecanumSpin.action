@@ -1,0 +1,13 @@
+#goal definition
+#geometry_msgs/PoseStamped pose
+
+int32 time   # 視点を変える回数
+float64 dop # D-optimalityの値
+---
+#result definition
+string error_string
+bool success 
+#geometry_msgs/PoseStamped updated_obj_pose
+---
+#feedback
+# string feedback

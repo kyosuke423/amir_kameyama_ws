@@ -1,0 +1,3 @@
+string bt_node_name
+string error_string
+moveit_msgs/AttachedCollisionObject grasped_object

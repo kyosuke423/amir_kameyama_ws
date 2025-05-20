@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from behavior_tree_msgs/srv/SetBlackBoard.srv
+// generated code does not contain a copyright notice
+
+#include "behavior_tree_msgs/msg/BBMessage.idl"
+
+module behavior_tree_msgs {
+  module srv {
+    struct SetBlackBoard_Request {
+      behavior_tree_msgs::msg::BBMessage bb_message;
+    };
+    struct SetBlackBoard_Response {
+      string behavior_tree;
+    };
+  };
+};

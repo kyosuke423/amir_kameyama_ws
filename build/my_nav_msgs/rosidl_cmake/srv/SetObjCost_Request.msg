@@ -1,0 +1,2 @@
+visualization_msgs/MarkerArray markers
+bool partial_update #   このマーカーだけ反映したい場合はFalseに、既に反映されているものに追加する場合はTrueにする

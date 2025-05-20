@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from observation_msgs/srv/GetObjects.srv
+// generated code does not contain a copyright notice
+
+#include "observation_msgs/msg/Object.idl"
+
+module observation_msgs {
+  module srv {
+    module GetObjects_Request_Constants {
+      @verbatim (language="comment", text=
+        "idで検索")
+      const int32 ID = 0;
+      @verbatim (language="comment", text=
+        "obj_groupで検索")
+      const int32 GROUP = 1;
+      @verbatim (language="comment", text=
+        "全障害物、マーカー等を取得")
+      const int32 ALL = 2;
+      @verbatim (language="comment", text=
+        "全障害物を取得")
+      const int32 ALL_COLLISION = 3;
+    };
+    struct GetObjects_Request {
+      sequence<string> id_set;
+
+      int32 command;
+    };
+    struct GetObjects_Response {
+      sequence<observation_msgs::msg::Object> objects;
+    };
+  };
+};

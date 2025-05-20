@@ -1,0 +1,10 @@
+{
+  "package_name": "observation_msgs",
+  "non_idl_tuples": [
+    "/home/rover/kameyama_ws/src/observation/observation_msgs:msg/PathEvaluation.msg",
+    "/home/rover/kameyama_ws/src/observation/observation_msgs:msg/Object.msg",
+    "/home/rover/kameyama_ws/src/observation/observation_msgs:srv/SetObjects.srv",
+    "/home/rover/kameyama_ws/src/observation/observation_msgs:srv/GetObjects.srv",
+    "/home/rover/kameyama_ws/src/observation/observation_msgs:srv/PathCheck.srv"
+  ]
+}

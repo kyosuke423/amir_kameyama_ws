@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing bt_generator.egg-info/PKG-INFO
+writing dependency_links to bt_generator.egg-info/dependency_links.txt
+writing entry points to bt_generator.egg-info/entry_points.txt
+writing requirements to bt_generator.egg-info/requires.txt
+writing top-level names to bt_generator.egg-info/top_level.txt
+reading manifest file 'bt_generator.egg-info/SOURCES.txt'
+writing manifest file 'bt_generator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rover/kameyama_ws/install/bt_generator/lib/python3.10/site-packages/bt-generator.egg-link (link to .)
+Installing bt_commander script to /home/rover/kameyama_ws/install/bt_generator/lib/bt_generator
+Installing bt_generator_bebop_base script to /home/rover/kameyama_ws/install/bt_generator/lib/bt_generator
+Installing bt_generator_service script to /home/rover/kameyama_ws/install/bt_generator/lib/bt_generator
+Installing bt_generator_service_bebop script to /home/rover/kameyama_ws/install/bt_generator/lib/bt_generator
+Installing bt_nav_generator script to /home/rover/kameyama_ws/install/bt_generator/lib/bt_generator
+Installing bt_send_xml script to /home/rover/kameyama_ws/install/bt_generator/lib/bt_generator
+Installing receive_send_xml script to /home/rover/kameyama_ws/install/bt_generator/lib/bt_generator
+
+Installed /home/rover/kameyama_ws/build/bt_generator
+running symlink_data

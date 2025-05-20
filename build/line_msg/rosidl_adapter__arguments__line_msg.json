@@ -1,0 +1,6 @@
+{
+  "package_name": "line_msg",
+  "non_idl_tuples": [
+    "/home/rover/kameyama_ws/src/line_msg:msg/BoxCorner.msg"
+  ]
+}

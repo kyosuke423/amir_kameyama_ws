@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from observation_msgs/msg/PathEvaluation.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module observation_msgs {
+  module msg {
+    struct PathEvaluation {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "経路上の最大コスト")
+      int8 max_cost;
+
+      @verbatim (language="comment", text=
+        "経路上の平均コスト")
+      int8 ave_cost;
+
+      @verbatim (language="comment", text=
+        "未探索エリアを通過するか")
+      boolean unknown_area;
+    };
+  };
+};

@@ -1,0 +1,50 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_behavior_tree_nodes[0m
+[  4%] Built target gtest_main
+[  8%] Built target gtest
+[ 12%] Built target example_custom_nodes
+[ 17%] Built target custom_test_nodes
+[ 23%] Built target ros2_behavior_tree
+[ 25%] [32mBuilding CXX object CMakeFiles/ros2_behavior_tree_nodes.dir/src/node_registrar.cpp.o[0m
+[ 29%] Built target bt_executor
+[ 42%] Built target custom_nodes
+[ 42%] Built target action_server_node
+[ 48%] Built target node
+[ 53%] Built target bt_executor_bebop
+[ 59%] Built target lifecycle_node
+[ 63%] Built target minimal
+[ 70%] Built target action_server_lifecycle_node
+In file included from [01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/include/ros2_behavior_tree/action/create_transform_buffer_node.hpp:27[m[K,
+                 from [01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/src/node_registrar.cpp:22[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/src/node_registrar.cpp:79[m[K:
+[01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/include/ros2_behavior_tree/condition/mecanum_check_space.hpp:[m[K In constructor ‘[01m[Kros2_behavior_tree::MecanumCheckSpace::MecanumCheckSpace(const string&, const BT::NodeConfiguration&)[m[K’:
+[01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/include/ros2_behavior_tree/condition/mecanum_check_space.hpp:47:3:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+   47 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/include/ros2_behavior_tree/condition/mecanum_check_space.hpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus ros2_behavior_tree::MecanumCheckSpace::tick()[m[K’:
+[01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/include/ros2_behavior_tree/condition/mecanum_check_space.hpp:136:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kposi_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kpoint_msg[m[K’?
+  136 |     [01;31m[Kposi_msg[m[K.point.x = posi_x;
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Kpoint_msg[m[K
+In file included from [01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/src/node_registrar.cpp:79[m[K:
+[01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/include/ros2_behavior_tree/condition/mecanum_check_space.hpp:188:38:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kgeometry_msgs::msg::PointStamped point_msg[m[K’
+  188 |     geometry_msgs::msg::PointStamped [01;31m[Kpoint_msg[m[K;
+      |                                      [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/src/node_registrar.cpp:79[m[K:
+[01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/include/ros2_behavior_tree/condition/mecanum_check_space.hpp:133:38:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::PointStamped point_msg[m[K’ previously declared here
+  133 |     geometry_msgs::msg::PointStamped [01;36m[Kpoint_msg[m[K;
+      |                                      [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/include/ros2_behavior_tree/node_registrar.hpp:19[m[K,
+                 from [01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/src/node_registrar.cpp:15[m[K:
+/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = ros2_behavior_tree::MecanumCheckSpace; std::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/src/node_registrar.cpp:155:66:[m[K   required from here
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:399:19:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: [registerNode]: you MUST implement the static method:   PortsList providedPorts();
+
+  399 |     static_assert([01;31m[K!(param_constructable && !has_static_ports_list)[m[K, "[registerNode]: you "
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:399:19:[m[K [01;36m[Knote: [m[K‘[01m[K((!(bool)param_constructable) || ((bool)has_static_ports_list))[m[K’ evaluates to false
+gmake[2]: *** [CMakeFiles/ros2_behavior_tree_nodes.dir/build.make:76: CMakeFiles/ros2_behavior_tree_nodes.dir/src/node_registrar.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:224: CMakeFiles/ros2_behavior_tree_nodes.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

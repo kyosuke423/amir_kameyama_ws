@@ -1,0 +1,42 @@
+[0.061s] Invoking command in '/home/rover/kameyama_ws/build/bebop_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/bebop_msgs -- -j12 -l12
+[0.667s] [  3%] Built target bebop_msgs__cpp
+[0.667s] [ 12%] Built target bebop_msgs__rosidl_generator_c
+[0.667s] [ 12%] Built target ament_cmake_python_symlink_bebop_msgs
+[0.667s] [ 22%] Built target bebop_msgs__rosidl_typesupport_introspection_cpp
+[0.667s] [ 32%] Built target bebop_msgs__rosidl_typesupport_cpp
+[0.667s] [ 41%] Built target bebop_msgs__rosidl_typesupport_introspection_c
+[0.667s] [ 51%] Built target bebop_msgs__rosidl_typesupport_c
+[0.667s] [ 61%] Built target bebop_msgs__rosidl_typesupport_fastrtps_cpp
+[0.667s] [ 70%] Built target bebop_msgs__rosidl_typesupport_fastrtps_c
+[0.667s] [ 70%] Built target bebop_msgs
+[0.667s] [ 74%] Built target bebop_msgs__py
+[0.667s] [ 80%] Built target bebop_msgs__rosidl_generator_py
+[0.667s] gmake[1]: *** [CMakeFiles/Makefile2:565: CMakeFiles/bebop_msgs__rosidl_typesupport_c__pyext.dir/all] 割り込み
+[0.667s] Traceback (most recent call last):
+[0.667s]   File "/home/rover/kameyama_ws/build/bebop_msgs/ament_cmake_python/bebop_msgs/setup.py", line 1, in <module>
+[0.667s]     from setuptools import find_packages
+[0.668s]   File "/home/rover/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 14, in <module>
+[0.668s] gmake[1]: *** [CMakeFiles/Makefile2:506: CMakeFiles/bebop_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all] 割り込み
+[0.668s]     import setuptools.version
+[0.668s]   File "/home/rover/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+[0.668s]     import pkg_resources
+[0.668s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3247, in <module>
+[0.668s]     def _initialize_master_working_set():
+[0.668s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3221, in _call_aside
+[0.668s]     f(*args, **kwargs)
+[0.668s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3282, in _initialize_master_working_set
+[0.668s]     list(map(working_set.add_entry, sys.path))
+[0.668s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 619, in add_entry
+[0.668s]     for dist in find_distributions(entry, True):
+[0.668s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2083, in find_on_path
+[0.668s]     for dist in factory(fullpath):
+[0.668s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2148, in distributions_from_metadata
+[0.668s]     yield Distribution.from_location(
+[0.668s]   File "/home/rover/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2591, in from_location
+[0.668s]     match = EGG_NAME(basename)
+[0.668s] KeyboardInterrupt
+[0.672s] [ 87%] Built target bebop_msgs__rosidl_typesupport_introspection_c__pyext
+[0.672s] gmake[1]: *** [CMakeFiles/Makefile2:536: CMakeFiles/bebop_msgs__rosidl_typesupport_introspection_c__pyext.dir/all] 割り込み
+[0.680s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_bebop_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_bebop_msgs_egg] 割り込み
+[0.680s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_bebop_msgs_egg.dir/all] 割り込み
+[0.680s] gmake: *** [Makefile:146: all] 割り込み

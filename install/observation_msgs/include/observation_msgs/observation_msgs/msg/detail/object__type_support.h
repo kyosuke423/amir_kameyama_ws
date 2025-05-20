@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/observation_msgs/rosidl_generator_c/observation_msgs/msg/detail/object__type_support.h

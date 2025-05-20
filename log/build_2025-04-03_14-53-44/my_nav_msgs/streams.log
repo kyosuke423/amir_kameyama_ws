@@ -1,0 +1,291 @@
+[0.055s] Invoking command in '/home/rover/kameyama_ws/build/my_nav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/rover/kameyama_ws/src/my_nav_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/kameyama_ws/install/my_nav_msgs
+[0.728s] -- The C compiler identification is GNU 11.4.0
+[0.728s] -- The CXX compiler identification is GNU 11.4.0
+[0.728s] -- Detecting C compiler ABI info
+[0.728s] -- Detecting C compiler ABI info - done
+[0.728s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.728s] -- Detecting C compile features
+[0.728s] -- Detecting C compile features - done
+[0.728s] -- Detecting CXX compiler ABI info
+[0.728s] -- Detecting CXX compiler ABI info - done
+[0.728s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.729s] -- Detecting CXX compile features
+[0.729s] -- Detecting CXX compile features - done
+[0.729s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.104s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.168s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.284s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.364s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.381s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.401s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.430s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.460s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.493s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.532s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.566s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.583s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.651s] -- Found nav2_msgs: 1.1.17 (/home/rover/amir_basic_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[2.128s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.789s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.044s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.090s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.096s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.131s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.131s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.131s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.131s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.164s] -- Found PythonExtra: .so  
+[3.378s] -- Configuring done
+[3.487s] -- Generating done
+[3.527s] -- Build files have been written to: /home/rover/kameyama_ws/build/my_nav_msgs
+[3.583s] Invoked command in '/home/rover/kameyama_ws/build/my_nav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/rover/kameyama_ws/src/my_nav_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/kameyama_ws/install/my_nav_msgs
+[3.583s] Invoking command in '/home/rover/kameyama_ws/build/my_nav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/my_nav_msgs -- -j12 -l12
+[4.117s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.117s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.117s] [  3%] Built target ament_cmake_python_symlink_my_nav_msgs
+[5.994s] [  5%] [32mBuilding C object CMakeFiles/my_nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_nav_msgs/msg/detail/path_with_condition__functions.c.o[0m
+[6.014s] [  7%] [32mBuilding C object CMakeFiles/my_nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_nav_msgs/msg/detail/path_info__functions.c.o[0m
+[6.020s] [  9%] [32mBuilding C object CMakeFiles/my_nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_nav_msgs/srv/detail/set_obj_cost__functions.c.o[0m
+[6.062s] [ 10%] [32mBuilding C object CMakeFiles/my_nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_nav_msgs/action/detail/compute_multi_path__functions.c.o[0m
+[6.092s] [ 10%] Built target my_nav_msgs__cpp
+[6.128s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.179s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.198s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.421s] [ 18%] [32m[1mLinking C shared library libmy_nav_msgs__rosidl_generator_c.so[0m
+[6.459s] running egg_info
+[6.459s] creating my_nav_msgs.egg-info
+[6.582s] [ 18%] Built target my_nav_msgs__rosidl_generator_c
+[6.637s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.641s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.658s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.675s] writing my_nav_msgs.egg-info/PKG-INFO
+[6.859s] writing dependency_links to my_nav_msgs.egg-info/dependency_links.txt
+[7.740s] [ 25%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_nav_msgs/msg/path_info__type_support.cpp.o[0m
+[7.749s] [ 27%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_nav_msgs/srv/set_obj_cost__type_support.cpp.o[0m
+[7.758s] [ 29%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_nav_msgs/msg/path_with_condition__type_support.cpp.o[0m
+[7.771s] [ 30%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_nav_msgs/action/compute_multi_path__type_support.cpp.o[0m
+[7.907s] writing top-level names to my_nav_msgs.egg-info/top_level.txt
+[7.907s] writing manifest file 'my_nav_msgs.egg-info/SOURCES.txt'
+[7.983s] [ 32%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_nav_msgs/msg/detail/path_with_condition__type_support.cpp.o[0m
+[7.999s] [ 34%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_nav_msgs/msg/detail/path_info__type_support.cpp.o[0m
+[8.018s] [ 36%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_nav_msgs/srv/detail/set_obj_cost__type_support.cpp.o[0m
+[8.066s] [ 38%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_nav_msgs/msg/detail/dds_fastrtps/path_info__type_support.cpp.o[0m
+[8.245s] reading manifest file 'my_nav_msgs.egg-info/SOURCES.txt'
+[8.246s] writing manifest file 'my_nav_msgs.egg-info/SOURCES.txt'
+[8.385s] [ 40%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_nav_msgs/msg/path_info__type_support.cpp.o[0m
+[8.420s] [ 41%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_nav_msgs/msg/detail/dds_fastrtps/path_with_condition__type_support.cpp.o[0m
+[8.497s] [ 41%] Built target ament_cmake_python_build_my_nav_msgs_egg
+[8.498s] [ 43%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_nav_msgs/msg/path_with_condition__type_support.cpp.o[0m
+[8.528s] [ 45%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_nav_msgs/srv/set_obj_cost__type_support.cpp.o[0m
+[8.580s] [ 47%] [32mBuilding C object CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_nav_msgs/msg/detail/path_info__type_support.c.o[0m
+[8.597s] [ 49%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_nav_msgs/action/compute_multi_path__type_support.cpp.o[0m
+[8.606s] [ 50%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_nav_msgs/action/detail/compute_multi_path__type_support.cpp.o[0m
+[8.694s] [ 52%] [32mBuilding C object CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_nav_msgs/msg/detail/path_with_condition__type_support.c.o[0m
+[8.705s] [ 54%] [32mBuilding C object CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_nav_msgs/srv/detail/set_obj_cost__type_support.c.o[0m
+[8.730s] [ 56%] [32mBuilding C object CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_nav_msgs/action/detail/compute_multi_path__type_support.c.o[0m
+[8.838s] [ 58%] [32m[1mLinking CXX shared library libmy_nav_msgs__rosidl_typesupport_c.so[0m
+[8.844s] [ 60%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_nav_msgs/srv/detail/dds_fastrtps/set_obj_cost__type_support.cpp.o[0m
+[8.891s] [ 61%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_nav_msgs/action/detail/dds_fastrtps/compute_multi_path__type_support.cpp.o[0m
+[8.939s] [ 63%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_nav_msgs/msg/detail/path_info__type_support_c.cpp.o[0m
+[8.966s] [ 65%] [32m[1mLinking C shared library libmy_nav_msgs__rosidl_typesupport_introspection_c.so[0m
+[8.969s] [ 67%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_nav_msgs/msg/detail/path_with_condition__type_support_c.cpp.o[0m
+[9.007s] [ 67%] Built target my_nav_msgs__rosidl_typesupport_c
+[9.043s] [ 69%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_nav_msgs/srv/detail/set_obj_cost__type_support_c.cpp.o[0m
+[9.088s] [ 70%] [32m[1mLinking CXX shared library libmy_nav_msgs__rosidl_typesupport_cpp.so[0m
+[9.119s] [ 70%] Built target my_nav_msgs__rosidl_typesupport_introspection_c
+[9.164s] [ 72%] [32mBuilding CXX object CMakeFiles/my_nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_nav_msgs/action/detail/compute_multi_path__type_support_c.cpp.o[0m
+[9.276s] [ 72%] Built target my_nav_msgs__rosidl_typesupport_cpp
+[10.145s] [ 74%] [32m[1mLinking CXX shared library libmy_nav_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[10.482s] [ 74%] Built target my_nav_msgs__rosidl_typesupport_fastrtps_c
+[10.582s] [ 76%] [32m[1mLinking CXX shared library libmy_nav_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.660s] [ 78%] [32m[1mLinking CXX shared library libmy_nav_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.931s] [ 78%] Built target my_nav_msgs__rosidl_typesupport_introspection_cpp
+[10.988s] [ 78%] Built target my_nav_msgs__rosidl_typesupport_fastrtps_cpp
+[11.059s] [ 78%] Built target my_nav_msgs
+[11.127s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.465s] [ 80%] Built target my_nav_msgs__py
+[12.524s] [ 81%] [32mBuilding C object CMakeFiles/my_nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_nav_msgs/msg/_path_info_s.c.o[0m
+[12.536s] [ 83%] [32mBuilding C object CMakeFiles/my_nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_nav_msgs/srv/_set_obj_cost_s.c.o[0m
+[12.538s] [ 85%] [32mBuilding C object CMakeFiles/my_nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_nav_msgs/action/_compute_multi_path_s.c.o[0m
+[12.540s] [ 87%] [32mBuilding C object CMakeFiles/my_nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_nav_msgs/msg/_path_with_condition_s.c.o[0m
+[12.724s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/my_nav_msgs/libmy_nav_msgs__rosidl_generator_py.so[0m
+[12.790s] [ 89%] Built target my_nav_msgs__rosidl_generator_py
+[12.846s] [ 90%] [32mBuilding C object CMakeFiles/my_nav_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_nav_msgs/_my_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.851s] [ 92%] [32mBuilding C object CMakeFiles/my_nav_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_nav_msgs/_my_nav_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[12.860s] [ 94%] [32mBuilding C object CMakeFiles/my_nav_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_nav_msgs/_my_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.025s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/my_nav_msgs/my_nav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.046s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/my_nav_msgs/my_nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.118s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_nav_msgs/my_nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.129s] [100%] Built target my_nav_msgs__rosidl_typesupport_c__pyext
+[13.136s] [100%] Built target my_nav_msgs__rosidl_typesupport_introspection_c__pyext
+[13.202s] [100%] Built target my_nav_msgs__rosidl_typesupport_fastrtps_c__pyext
+[13.227s] Invoked command in '/home/rover/kameyama_ws/build/my_nav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/my_nav_msgs -- -j12 -l12
+[13.228s] Invoking command in '/home/rover/kameyama_ws/build/my_nav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/my_nav_msgs
+[13.942s] -- Install configuration: ""
+[13.942s] -- Execute custom install script
+[13.942s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/ament_index/resource_index/rosidl_interfaces/my_nav_msgs
+[13.942s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/action/compute_multi_path.h
+[13.942s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/action/detail/compute_multi_path__functions.h
+[13.942s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/action/detail/compute_multi_path__struct.h
+[13.942s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/action/detail/compute_multi_path__type_support.h
+[13.942s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_info__functions.h
+[13.942s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_info__struct.h
+[13.942s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_info__type_support.h
+[13.942s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_with_condition__functions.h
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_with_condition__struct.h
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_with_condition__type_support.h
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/path_info.h
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/path_with_condition.h
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/rosidl_generator_c__visibility_control.h
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/srv/detail/set_obj_cost__functions.h
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/srv/detail/set_obj_cost__struct.h
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/srv/detail/set_obj_cost__type_support.h
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/srv/set_obj_cost.h
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/environment/library_path.sh
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/environment/library_path.dsv
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/action/detail/compute_multi_path__rosidl_typesupport_fastrtps_c.h
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_info__rosidl_typesupport_fastrtps_c.h
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_with_condition__rosidl_typesupport_fastrtps_c.h
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/srv/detail/set_obj_cost__rosidl_typesupport_fastrtps_c.h
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/action/compute_multi_path.hpp
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/action/detail/compute_multi_path__builder.hpp
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/action/detail/compute_multi_path__struct.hpp
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/action/detail/compute_multi_path__traits.hpp
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/action/detail/compute_multi_path__type_support.hpp
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_info__builder.hpp
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_info__struct.hpp
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_info__traits.hpp
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_info__type_support.hpp
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_with_condition__builder.hpp
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_with_condition__struct.hpp
+[13.943s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_with_condition__traits.hpp
+[13.953s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_with_condition__type_support.hpp
+[13.965s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/path_info.hpp
+[13.978s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/path_with_condition.hpp
+[13.992s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.007s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/srv/detail/set_obj_cost__builder.hpp
+[14.021s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/srv/detail/set_obj_cost__struct.hpp
+[14.035s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/srv/detail/set_obj_cost__traits.hpp
+[14.049s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/srv/detail/set_obj_cost__type_support.hpp
+[14.063s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/srv/set_obj_cost.hpp
+[14.078s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/action/detail/compute_multi_path__rosidl_typesupport_fastrtps_cpp.hpp
+[14.092s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_info__rosidl_typesupport_fastrtps_cpp.hpp
+[14.107s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_with_condition__rosidl_typesupport_fastrtps_cpp.hpp
+[14.120s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.132s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/srv/detail/set_obj_cost__rosidl_typesupport_fastrtps_cpp.hpp
+[14.145s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/action/detail/compute_multi_path__rosidl_typesupport_introspection_c.h
+[14.158s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_info__rosidl_typesupport_introspection_c.h
+[14.171s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_with_condition__rosidl_typesupport_introspection_c.h
+[14.183s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.194s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/srv/detail/set_obj_cost__rosidl_typesupport_introspection_c.h
+[14.209s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/action/detail/compute_multi_path__rosidl_typesupport_introspection_cpp.hpp
+[14.220s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_info__rosidl_typesupport_introspection_cpp.hpp
+[14.233s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/msg/detail/path_with_condition__rosidl_typesupport_introspection_cpp.hpp
+[14.245s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/include/my_nav_msgs/my_nav_msgs/srv/detail/set_obj_cost__rosidl_typesupport_introspection_cpp.hpp
+[14.259s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/environment/pythonpath.sh
+[14.271s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/environment/pythonpath.dsv
+[14.285s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[14.300s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[14.314s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[14.326s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[14.339s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/__init__.py
+[14.350s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/_my_nav_msgs_s.ep.rosidl_typesupport_c.c
+[14.362s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/_my_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.373s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/_my_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[14.387s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/action/__init__.py
+[14.401s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/action/_compute_multi_path.py
+[14.412s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/action/_compute_multi_path_s.c
+[14.424s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/libmy_nav_msgs__rosidl_generator_py.so
+[14.436s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/msg/__init__.py
+[14.452s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/msg/_path_info.py
+[14.464s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/msg/_path_info_s.c
+[14.476s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/msg/_path_with_condition.py
+[14.486s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/msg/_path_with_condition_s.c
+[14.500s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/my_nav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.512s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/my_nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.525s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/my_nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.538s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/srv/__init__.py
+[14.551s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/srv/_set_obj_cost.py
+[14.564s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/srv/_set_obj_cost_s.c
+[14.578s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/my_nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.578s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/my_nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.578s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/my_nav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.579s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/msg/PathInfo.idl
+[14.589s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/msg/PathWithCondition.idl
+[14.602s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/srv/SetObjCost.idl
+[14.614s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/action/ComputeMultiPath.idl
+[14.627s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/msg/PathInfo.msg
+[14.639s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/msg/PathWithCondition.msg
+[14.650s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/srv/SetObjCost.srv
+[14.663s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/srv/SetObjCost_Request.msg
+[14.678s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/srv/SetObjCost_Response.msg
+[14.692s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/action/ComputeMultiPath.action
+[14.713s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/ament_index/resource_index/package_run_dependencies/my_nav_msgs
+[14.729s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/ament_index/resource_index/parent_prefix_path/my_nav_msgs
+[14.747s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/environment/ament_prefix_path.sh
+[14.762s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/environment/ament_prefix_path.dsv
+[14.779s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/environment/path.sh
+[14.799s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/environment/path.dsv
+[14.819s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/local_setup.bash
+[14.834s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/local_setup.sh
+[14.853s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/local_setup.zsh
+[14.869s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/local_setup.dsv
+[14.883s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/package.dsv
+[14.898s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/ament_index/resource_index/packages/my_nav_msgs
+[14.912s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/rosidl_cmake-extras.cmake
+[14.935s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.950s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.963s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.977s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.990s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.009s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.025s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/my_nav_msgsConfig.cmake
+[15.039s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/my_nav_msgsConfig-version.cmake
+[15.065s] -- Symlinking: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/package.xml
+[15.081s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_generator_c.so
+[15.085s] -- Set runtime path of "/home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_generator_c.so" to ""
+[15.085s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_typesupport_fastrtps_c.so
+[15.088s] -- Set runtime path of "/home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[15.089s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[15.095s] -- Set runtime path of "/home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.095s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_typesupport_introspection_c.so
+[15.098s] -- Set runtime path of "/home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_typesupport_introspection_c.so" to ""
+[15.101s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_typesupport_c.so
+[15.102s] -- Set runtime path of "/home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_typesupport_c.so" to ""
+[15.102s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_typesupport_introspection_cpp.so
+[15.109s] -- Set runtime path of "/home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[15.109s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_typesupport_cpp.so
+[15.109s] -- Set runtime path of "/home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_typesupport_cpp.so" to ""
+[15.151s] Listing '/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs'...
+[15.151s] Compiling '/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/__init__.py'...
+[15.151s] Listing '/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/action'...
+[15.151s] Compiling '/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/action/__init__.py'...
+[15.151s] Compiling '/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/action/_compute_multi_path.py'...
+[15.151s] Listing '/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/msg'...
+[15.151s] Compiling '/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/msg/__init__.py'...
+[15.151s] Compiling '/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/msg/_path_info.py'...
+[15.151s] Compiling '/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/msg/_path_with_condition.py'...
+[15.151s] Listing '/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/srv'...
+[15.151s] Compiling '/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/srv/__init__.py'...
+[15.151s] Compiling '/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages/my_nav_msgs/srv/_set_obj_cost.py'...
+[15.156s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_generator_py.so
+[15.157s] -- Set runtime path of "/home/rover/kameyama_ws/install/my_nav_msgs/lib/libmy_nav_msgs__rosidl_generator_py.so" to ""
+[15.157s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/export_my_nav_msgs__rosidl_generator_cExport.cmake
+[15.157s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/export_my_nav_msgs__rosidl_generator_cExport-noconfig.cmake
+[15.157s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/export_my_nav_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[15.158s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/export_my_nav_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.158s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/export_my_nav_msgs__rosidl_generator_cppExport.cmake
+[15.158s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/export_my_nav_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.158s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/export_my_nav_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.159s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/my_nav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[15.159s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/my_nav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.159s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/my_nav_msgs__rosidl_typesupport_cExport.cmake
+[15.160s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/my_nav_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[15.160s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/my_nav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[15.160s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/my_nav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.160s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/my_nav_msgs__rosidl_typesupport_cppExport.cmake
+[15.161s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/my_nav_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[15.161s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/export_my_nav_msgs__rosidl_generator_pyExport.cmake
+[15.161s] -- Installing: /home/rover/kameyama_ws/install/my_nav_msgs/share/my_nav_msgs/cmake/export_my_nav_msgs__rosidl_generator_pyExport-noconfig.cmake
+[15.170s] Invoked command in '/home/rover/kameyama_ws/build/my_nav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/my_nav_msgs

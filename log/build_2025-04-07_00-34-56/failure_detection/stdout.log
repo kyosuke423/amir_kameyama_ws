@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing failure_detection.egg-info/PKG-INFO
+writing dependency_links to failure_detection.egg-info/dependency_links.txt
+writing entry points to failure_detection.egg-info/entry_points.txt
+writing requirements to failure_detection.egg-info/requires.txt
+writing top-level names to failure_detection.egg-info/top_level.txt
+reading manifest file 'failure_detection.egg-info/SOURCES.txt'
+writing manifest file 'failure_detection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rover/kameyama_ws/install/failure_detection/lib/python3.10/site-packages/failure-detection.egg-link (link to .)
+Installing bt_monitoring script to /home/rover/kameyama_ws/install/failure_detection/lib/failure_detection
+Installing failure_detection script to /home/rover/kameyama_ws/install/failure_detection/lib/failure_detection
+
+Installed /home/rover/kameyama_ws/build/failure_detection
+running symlink_data

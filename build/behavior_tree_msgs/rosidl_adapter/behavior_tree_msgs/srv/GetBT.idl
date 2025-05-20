@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from behavior_tree_msgs/srv/GetBT.srv
+// generated code does not contain a copyright notice
+
+
+module behavior_tree_msgs {
+  module srv {
+    struct GetBT_Request {
+      @verbatim (language="comment", text=
+        "update or create a new one")
+      string type;
+
+      @verbatim (language="comment", text=
+        "initial tree, empty if type is new")
+      string bt;
+
+      @verbatim (language="comment", text=
+        "failed xml node to create or to update with")
+      string goal_condition;
+
+      @verbatim (language="comment", text=
+        "initial goal_conditions")
+      sequence<string> goal_conditions;
+
+      int16 failed_nood_id;
+    };
+    struct GetBT_Response {
+      string behavior_tree;
+    };
+  };
+};

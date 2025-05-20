@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from behavior_tree_msgs/msg/Object.msg
+// generated code does not contain a copyright notice
+
+#include "behavior_tree_msgs/msg/Pixel.idl"
+#include "geometry_msgs/msg/Pose.idl"
+
+module behavior_tree_msgs {
+  module msg {
+    struct Object {
+      geometry_msgs::msg::Pose from_camera;
+
+      geometry_msgs::msg::Pose from_base;
+
+      geometry_msgs::msg::Pose from_odom;
+
+      string label;
+
+      string id;
+
+      behavior_tree_msgs::msg::Pixel pixel_bottom_right;
+
+      behavior_tree_msgs::msg::Pixel pixel_top_left;
+
+      behavior_tree_msgs::msg::Pixel pixel_center;
+
+      boolean stand;
+
+      double probability;
+    };
+  };
+};

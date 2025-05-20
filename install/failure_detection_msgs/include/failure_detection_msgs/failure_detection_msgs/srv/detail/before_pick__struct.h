@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/failure_detection_msgs/rosidl_generator_c/failure_detection_msgs/srv/detail/before_pick__struct.h

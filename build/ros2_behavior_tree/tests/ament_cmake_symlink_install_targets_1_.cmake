@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rover/kameyama_ws/build/ros2_behavior_tree/libros2_behavior_tree.so" "/home/rover/kameyama_ws/build/ros2_behavior_tree/tests/libcustom_test_nodes.so" "TARGETS" "ros2_behavior_tree" "custom_test_nodes" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/ros2_behavior_tree")

@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/src/observation/observation/launch/robot_manager.launch.py

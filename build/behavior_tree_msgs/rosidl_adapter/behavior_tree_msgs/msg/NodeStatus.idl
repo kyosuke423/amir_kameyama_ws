@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from behavior_tree_msgs/msg/NodeStatus.msg
+// generated code does not contain a copyright notice
+
+
+module behavior_tree_msgs {
+  module msg {
+    module NodeStatus_Constants {
+      const octet IDLE = 0;
+      const octet RUNNING = 1;
+      const octet SUCCESS = 2;
+      const octet FAILURE = 3;
+      const octet UNDEFINED = 0;
+      const octet ACTION = 1;
+      const octet CONDITION = 2;
+      const octet CONTROL = 3;
+      const octet DECORATOR = 4;
+      const octet SUBTREE = 5;
+    };
+    struct NodeStatus {
+      @verbatim (language="comment", text=
+        "BTノードの名前")
+      string node_name;
+
+      @verbatim (language="comment", text=
+        "BT内のどのノードか識別するためのid")
+      int16 node_id;
+
+      octet status;
+
+      octet node_type;
+    };
+  };
+};

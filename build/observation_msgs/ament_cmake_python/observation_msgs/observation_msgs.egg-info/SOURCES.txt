@@ -1,0 +1,13 @@
+setup.py
+observation_msgs/__init__.py
+observation_msgs.egg-info/PKG-INFO
+observation_msgs.egg-info/SOURCES.txt
+observation_msgs.egg-info/dependency_links.txt
+observation_msgs.egg-info/top_level.txt
+observation_msgs/msg/__init__.py
+observation_msgs/msg/_object.py
+observation_msgs/msg/_path_evaluation.py
+observation_msgs/srv/__init__.py
+observation_msgs/srv/_get_objects.py
+observation_msgs/srv/_path_check.py
+observation_msgs/srv/_set_objects.py

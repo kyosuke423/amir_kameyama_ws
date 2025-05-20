@@ -1,0 +1,9 @@
+{
+  "package_name": "my_nav_msgs",
+  "non_idl_tuples": [
+    "/home/rover/kameyama_ws/src/my_nav_msgs:msg/PathInfo.msg",
+    "/home/rover/kameyama_ws/src/my_nav_msgs:msg/PathWithCondition.msg",
+    "/home/rover/kameyama_ws/src/my_nav_msgs:srv/SetObjCost.srv",
+    "/home/rover/kameyama_ws/src/my_nav_msgs:action/ComputeMultiPath.action"
+  ]
+}

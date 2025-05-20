@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/bebop_msgs/rosidl_generator_py/bebop_msgs/msg/_box_corner_s.c

@@ -1,0 +1,229 @@
+[0.049s] Invoking command in '/home/rover/kameyama_ws/build/ar_track_alvar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/rover/kameyama_ws/src/ar_track_alvar_msgs/ar_track_alvar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/kameyama_ws/install/ar_track_alvar_msgs
+[0.722s] -- The C compiler identification is GNU 11.4.0
+[0.722s] -- The CXX compiler identification is GNU 11.4.0
+[0.722s] -- Detecting C compiler ABI info
+[0.722s] -- Detecting C compiler ABI info - done
+[0.722s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.722s] -- Detecting C compile features
+[0.722s] -- Detecting C compile features - done
+[0.722s] -- Detecting CXX compiler ABI info
+[0.722s] -- Detecting CXX compiler ABI info - done
+[0.722s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.722s] -- Detecting CXX compile features
+[0.722s] -- Detecting CXX compile features - done
+[0.722s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.099s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.163s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.276s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.328s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.503s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.947s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.257s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.610s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.643s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.650s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.683s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.683s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.683s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.683s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.709s] -- Found PythonExtra: .so  
+[2.833s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.922s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.922s] -- Added test 'lint_cmake' to check CMake code style
+[2.922s] -- Added test 'xmllint' to check XML markup files
+[2.929s] -- Configuring done
+[2.966s] -- Generating done
+[2.977s] -- Build files have been written to: /home/rover/kameyama_ws/build/ar_track_alvar_msgs
+[2.990s] Invoked command in '/home/rover/kameyama_ws/build/ar_track_alvar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/rover/kameyama_ws/src/ar_track_alvar_msgs/ar_track_alvar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/kameyama_ws/install/ar_track_alvar_msgs
+[2.995s] Invoking command in '/home/rover/kameyama_ws/build/ar_track_alvar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/ar_track_alvar_msgs -- -j12 -l12
+[3.887s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.887s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.887s] [  5%] Built target ament_cmake_python_symlink_ar_track_alvar_msgs
+[3.887s] [  7%] [32mBuilding C object CMakeFiles/ar_track_alvar_msgs__rosidl_generator_c.dir/rosidl_generator_c/ar_track_alvar_msgs/msg/detail/alvar_marker__functions.c.o[0m
+[3.887s] [ 10%] [32mBuilding C object CMakeFiles/ar_track_alvar_msgs__rosidl_generator_c.dir/rosidl_generator_c/ar_track_alvar_msgs/msg/detail/alvar_markers__functions.c.o[0m
+[3.887s] [ 10%] Built target ar_track_alvar_msgs__cpp
+[3.887s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.887s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.887s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.887s] [ 20%] [32m[1mLinking C shared library libar_track_alvar_msgs__rosidl_generator_c.so[0m
+[3.888s] [ 20%] Built target ar_track_alvar_msgs__rosidl_generator_c
+[3.888s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.888s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.888s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.913s] [ 30%] [32mBuilding CXX object CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ar_track_alvar_msgs/msg/alvar_marker__type_support.cpp.o[0m
+[3.920s] [ 33%] [32mBuilding CXX object CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ar_track_alvar_msgs/msg/alvar_markers__type_support.cpp.o[0m
+[4.009s] [ 35%] [32mBuilding CXX object CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ar_track_alvar_msgs/msg/detail/alvar_marker__type_support.cpp.o[0m
+[4.009s] [ 38%] [32mBuilding CXX object CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ar_track_alvar_msgs/msg/detail/alvar_markers__type_support.cpp.o[0m
+[4.176s] [ 41%] [32mBuilding CXX object CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ar_track_alvar_msgs/msg/detail/dds_fastrtps/alvar_marker__type_support.cpp.o[0m
+[4.207s] [ 43%] [32mBuilding CXX object CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ar_track_alvar_msgs/msg/detail/dds_fastrtps/alvar_markers__type_support.cpp.o[0m
+[4.518s] [ 46%] [32mBuilding CXX object CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ar_track_alvar_msgs/msg/alvar_marker__type_support.cpp.o[0m
+[4.527s] [ 48%] [32mBuilding CXX object CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ar_track_alvar_msgs/msg/alvar_markers__type_support.cpp.o[0m
+[4.587s] running egg_info
+[4.595s] creating ar_track_alvar_msgs.egg-info
+[4.694s] [ 51%] [32m[1mLinking CXX shared library libar_track_alvar_msgs__rosidl_typesupport_c.so[0m
+[4.787s] writing ar_track_alvar_msgs.egg-info/PKG-INFO
+[4.846s] [ 53%] [32mBuilding C object CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ar_track_alvar_msgs/msg/detail/alvar_marker__type_support.c.o[0m
+[4.866s] [ 56%] [32mBuilding C object CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ar_track_alvar_msgs/msg/detail/alvar_markers__type_support.c.o[0m
+[4.898s] [ 58%] [32m[1mLinking CXX shared library libar_track_alvar_msgs__rosidl_typesupport_cpp.so[0m
+[4.950s] [ 58%] Built target ar_track_alvar_msgs__rosidl_typesupport_c
+[4.976s] writing dependency_links to ar_track_alvar_msgs.egg-info/dependency_links.txt
+[4.987s] [ 61%] [32mBuilding CXX object CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_track_alvar_msgs/msg/detail/alvar_marker__type_support_c.cpp.o[0m
+[5.002s] [ 64%] [32mBuilding CXX object CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_track_alvar_msgs/msg/detail/alvar_markers__type_support_c.cpp.o[0m
+[5.050s] [ 66%] [32m[1mLinking C shared library libar_track_alvar_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.108s] [ 66%] Built target ar_track_alvar_msgs__rosidl_typesupport_cpp
+[5.183s] [ 66%] Built target ar_track_alvar_msgs__rosidl_typesupport_introspection_c
+[5.422s] [ 69%] [32m[1mLinking CXX shared library libar_track_alvar_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.560s] [ 71%] [32m[1mLinking CXX shared library libar_track_alvar_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.747s] [ 71%] Built target ar_track_alvar_msgs__rosidl_typesupport_introspection_cpp
+[5.955s] [ 71%] Built target ar_track_alvar_msgs__rosidl_typesupport_fastrtps_cpp
+[6.010s] writing top-level names to ar_track_alvar_msgs.egg-info/top_level.txt
+[6.010s] writing manifest file 'ar_track_alvar_msgs.egg-info/SOURCES.txt'
+[6.230s] reading manifest file 'ar_track_alvar_msgs.egg-info/SOURCES.txt'
+[6.231s] writing manifest file 'ar_track_alvar_msgs.egg-info/SOURCES.txt'
+[6.232s] [ 74%] [32m[1mLinking CXX shared library libar_track_alvar_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.372s] [ 74%] Built target ament_cmake_python_build_ar_track_alvar_msgs_egg
+[6.486s] [ 74%] Built target ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c
+[6.604s] [ 74%] Built target ar_track_alvar_msgs
+[6.728s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.886s] [ 76%] Built target ar_track_alvar_msgs__py
+[7.996s] [ 79%] [32mBuilding C object CMakeFiles/ar_track_alvar_msgs__rosidl_generator_py.dir/rosidl_generator_py/ar_track_alvar_msgs/msg/_alvar_marker_s.c.o[0m
+[8.027s] [ 82%] [32mBuilding C object CMakeFiles/ar_track_alvar_msgs__rosidl_generator_py.dir/rosidl_generator_py/ar_track_alvar_msgs/msg/_alvar_markers_s.c.o[0m
+[8.454s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/ar_track_alvar_msgs/libar_track_alvar_msgs__rosidl_generator_py.so[0m
+[8.595s] [ 84%] Built target ar_track_alvar_msgs__rosidl_generator_py
+[8.709s] [ 87%] [32mBuilding C object CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ar_track_alvar_msgs/_ar_track_alvar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.709s] [ 89%] [32mBuilding C object CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ar_track_alvar_msgs/_ar_track_alvar_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.709s] [ 92%] [32mBuilding C object CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ar_track_alvar_msgs/_ar_track_alvar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.949s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/ar_track_alvar_msgs/ar_track_alvar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.047s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ar_track_alvar_msgs/ar_track_alvar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.100s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ar_track_alvar_msgs/ar_track_alvar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.176s] [100%] Built target ar_track_alvar_msgs__rosidl_typesupport_introspection_c__pyext
+[9.197s] [100%] Built target ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.302s] [100%] Built target ar_track_alvar_msgs__rosidl_typesupport_c__pyext
+[9.363s] Invoked command in '/home/rover/kameyama_ws/build/ar_track_alvar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/ar_track_alvar_msgs -- -j12 -l12
+[9.364s] Invoking command in '/home/rover/kameyama_ws/build/ar_track_alvar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/ar_track_alvar_msgs
+[12.030s] -- Install configuration: ""
+[12.030s] -- Execute custom install script
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ament_index/resource_index/rosidl_interfaces/ar_track_alvar_msgs
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/alvar_marker.h
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/alvar_markers.h
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_marker__functions.h
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_marker__struct.h
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_marker__type_support.h
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_markers__functions.h
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_markers__struct.h
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_markers__type_support.h
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/environment/library_path.sh
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/environment/library_path.dsv
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_marker__rosidl_typesupport_fastrtps_c.h
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_markers__rosidl_typesupport_fastrtps_c.h
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_marker__rosidl_typesupport_introspection_c.h
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_markers__rosidl_typesupport_introspection_c.h
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/alvar_marker.hpp
+[12.030s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/alvar_markers.hpp
+[12.031s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_marker__builder.hpp
+[12.031s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_marker__struct.hpp
+[12.031s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_marker__traits.hpp
+[12.031s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_marker__type_support.hpp
+[12.031s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_markers__builder.hpp
+[12.031s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_markers__struct.hpp
+[12.032s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_markers__traits.hpp
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_markers__type_support.hpp
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_marker__rosidl_typesupport_introspection_cpp.hpp
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/include/ar_track_alvar_msgs/ar_track_alvar_msgs/msg/detail/alvar_markers__rosidl_typesupport_introspection_cpp.hpp
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/environment/pythonpath.sh
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/environment/pythonpath.dsv
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs-0.7.1-py3.10.egg-info/PKG-INFO
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs-0.7.1-py3.10.egg-info/SOURCES.txt
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs-0.7.1-py3.10.egg-info/dependency_links.txt
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs-0.7.1-py3.10.egg-info/top_level.txt
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/__init__.py
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/_ar_track_alvar_msgs_s.ep.rosidl_typesupport_c.c
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/_ar_track_alvar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/_ar_track_alvar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/ar_track_alvar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/ar_track_alvar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/ar_track_alvar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/libar_track_alvar_msgs__rosidl_generator_py.so
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/msg/__init__.py
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/msg/_alvar_marker.py
+[12.033s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/msg/_alvar_marker_s.c
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/msg/_alvar_markers.py
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/msg/_alvar_markers_s.c
+[12.034s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/ar_track_alvar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.034s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/ar_track_alvar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.034s] -- Up-to-date symlink: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/ar_track_alvar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/msg/AlvarMarker.idl
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/msg/AlvarMarkers.idl
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/msg/AlvarMarker.msg
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/msg/AlvarMarkers.msg
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ament_index/resource_index/package_run_dependencies/ar_track_alvar_msgs
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ament_index/resource_index/parent_prefix_path/ar_track_alvar_msgs
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/environment/ament_prefix_path.sh
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/environment/ament_prefix_path.dsv
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/environment/path.sh
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/environment/path.dsv
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/local_setup.bash
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/local_setup.sh
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/local_setup.zsh
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/local_setup.dsv
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/package.dsv
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ament_index/resource_index/packages/ar_track_alvar_msgs
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/rosidl_cmake-extras.cmake
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.034s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.035s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.035s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.035s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgsConfig.cmake
+[12.035s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgsConfig-version.cmake
+[12.035s] -- Symlinking: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/package.xml
+[12.035s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_generator_c.so
+[12.035s] -- Set runtime path of "/home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_generator_c.so" to ""
+[12.035s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_typesupport_fastrtps_c.so
+[12.035s] -- Set runtime path of "/home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[12.035s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_typesupport_introspection_c.so
+[12.035s] -- Set runtime path of "/home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_typesupport_introspection_c.so" to ""
+[12.035s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_typesupport_c.so
+[12.035s] -- Set runtime path of "/home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_typesupport_c.so" to ""
+[12.035s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.035s] -- Set runtime path of "/home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.035s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_typesupport_introspection_cpp.so
+[12.035s] -- Set runtime path of "/home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[12.035s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_typesupport_cpp.so
+[12.035s] -- Set runtime path of "/home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_typesupport_cpp.so" to ""
+[12.035s] Listing '/home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs'...
+[12.035s] Compiling '/home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/__init__.py'...
+[12.035s] Listing '/home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/msg'...
+[12.035s] Compiling '/home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/msg/__init__.py'...
+[12.035s] Compiling '/home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/msg/_alvar_marker.py'...
+[12.035s] Compiling '/home/rover/kameyama_ws/install/ar_track_alvar_msgs/local/lib/python3.10/dist-packages/ar_track_alvar_msgs/msg/_alvar_markers.py'...
+[12.035s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_generator_py.so
+[12.035s] -- Set runtime path of "/home/rover/kameyama_ws/install/ar_track_alvar_msgs/lib/libar_track_alvar_msgs__rosidl_generator_py.so" to ""
+[12.036s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/export_ar_track_alvar_msgs__rosidl_generator_cExport.cmake
+[12.036s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/export_ar_track_alvar_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.036s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/export_ar_track_alvar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[12.036s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/export_ar_track_alvar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.036s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.036s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.038s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs__rosidl_typesupport_cExport.cmake
+[12.038s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.038s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/export_ar_track_alvar_msgs__rosidl_generator_cppExport.cmake
+[12.038s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/export_ar_track_alvar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.038s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/export_ar_track_alvar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.039s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.039s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.039s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs__rosidl_typesupport_cppExport.cmake
+[12.039s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.042s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/export_ar_track_alvar_msgs__rosidl_generator_pyExport.cmake
+[12.043s] -- Installing: /home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/export_ar_track_alvar_msgs__rosidl_generator_pyExport-noconfig.cmake
+[12.097s] Invoked command in '/home/rover/kameyama_ws/build/ar_track_alvar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/ar_track_alvar_msgs

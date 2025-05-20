@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from behavior_tree_msgs/action/CheckIK.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "moveit_msgs/msg/AttachedCollisionObject.idl"
+
+module behavior_tree_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct CheckIK_Goal {
+      string command;
+
+      string id;
+
+      geometry_msgs::msg::PoseStamped obj_pose;
+
+      geometry_msgs::msg::PoseStamped location_pose;
+
+      moveit_msgs::msg::AttachedCollisionObject grasped_object;
+
+      boolean stand;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct CheckIK_Result {
+      string error_string;
+    };
+    @verbatim (language="comment", text=
+      "feedback" "\n"
+      " string feedback")
+    struct CheckIK_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

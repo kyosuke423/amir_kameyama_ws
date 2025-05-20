@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from failure_detection_msgs/srv/PathCheck.srv
+// generated code does not contain a copyright notice
+
+#include "my_nav_msgs/msg/PathInfo.idl"
+#include "my_nav_msgs/msg/PathWithCondition.idl"
+
+module failure_detection_msgs {
+  module srv {
+    struct PathCheck_Request {
+      sequence<my_nav_msgs::msg::PathWithCondition> paths;
+    };
+    struct PathCheck_Response {
+      string error_strings;
+
+      sequence<my_nav_msgs::msg::PathInfo> info_set;
+    };
+  };
+};

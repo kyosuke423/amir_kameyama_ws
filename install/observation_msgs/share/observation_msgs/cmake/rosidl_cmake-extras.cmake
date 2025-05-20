@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

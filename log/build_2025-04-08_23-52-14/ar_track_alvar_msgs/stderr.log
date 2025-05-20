@@ -1,0 +1,46 @@
+gmake[1]: *** [CMakeFiles/Makefile2:504: CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all] 割り込み
+gmake[1]: *** [CMakeFiles/Makefile2:534: CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_introspection_c__pyext.dir/all] 割り込み
+Traceback (most recent call last):
+  File "/home/rover/kameyama_ws/build/ar_track_alvar_msgs/ament_cmake_python/ar_track_alvar_msgs/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/home/rover/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+gmake[1]: *** [CMakeFiles/Makefile2:563: CMakeFiles/ar_track_alvar_msgs__rosidl_typesupport_c__pyext.dir/all] 割り込み
+    from setuptools.dist import Distribution
+  File "/home/rover/.local/lib/python3.10/site-packages/setuptools/dist.py", line 33, in <module>
+    from setuptools.extern import nspektr
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 674, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 571, in module_from_spec
+  File "/home/rover/.local/lib/python3.10/site-packages/setuptools/extern/__init__.py", line 52, in create_module
+    return self.load_module(spec.name)
+  File "/home/rover/.local/lib/python3.10/site-packages/setuptools/extern/__init__.py", line 37, in load_module
+    __import__(extant)
+  File "/home/rover/.local/lib/python3.10/site-packages/setuptools/_vendor/nspektr/__init__.py", line 5, in <module>
+    from setuptools.extern.packaging.requirements import Requirement
+  File "/home/rover/.local/lib/python3.10/site-packages/setuptools/_vendor/packaging/requirements.py", line 23, in <module>
+    from .markers import MARKER_EXPR, Marker
+  File "/home/rover/.local/lib/python3.10/site-packages/setuptools/_vendor/packaging/markers.py", line 23, in <module>
+    from .specifiers import InvalidSpecifier, Specifier
+  File "/home/rover/.local/lib/python3.10/site-packages/setuptools/_vendor/packaging/specifiers.py", line 24, in <module>
+    from .utils import canonicalize_version
+  File "/home/rover/.local/lib/python3.10/site-packages/setuptools/_vendor/packaging/utils.py", line 8, in <module>
+    from .tags import Tag, parse_tag
+  File "/home/rover/.local/lib/python3.10/site-packages/setuptools/_vendor/packaging/tags.py", line 176, in <module>
+    ) -> Iterator[Tag]:
+  File "/usr/lib/python3.10/typing.py", line 309, in inner
+    return cached(*args, **kwds)
+  File "/usr/lib/python3.10/typing.py", line 1145, in __getitem__
+    return self.copy_with(params)
+  File "/usr/lib/python3.10/typing.py", line 1148, in copy_with
+    return _GenericAlias(self.__origin__, params,
+  File "/usr/lib/python3.10/typing.py", line 1019, in __init__
+    super().__init__(origin, inst=inst, name=name)
+  File "/usr/lib/python3.10/typing.py", line 951, in __init__
+    self.__slots__ = None  # This is not documented.
+  File "/usr/lib/python3.10/typing.py", line 989, in __setattr__
+    super().__setattr__(attr, val)
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ar_track_alvar_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ar_track_alvar_msgs_egg] 割り込み
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ar_track_alvar_msgs_egg.dir/all] 割り込み
+gmake: *** [Makefile:146: all] 割り込み

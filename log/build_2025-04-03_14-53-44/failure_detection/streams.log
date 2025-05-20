@@ -1,0 +1,27 @@
+[1.858s] Invoking command in '/home/rover/kameyama_ws/build/failure_detection': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs/lib:/home/rover/kameyama_ws/install/my_nav_msgs/lib:/home/rover/kameyama_ws/install/behavior_tree_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/build/failure_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/kameyama_ws/install/failure_detection/lib/python3.10/site-packages:/home/rover/kameyama_ws/install/failure_detection_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/kameyama_ws/build/failure_detection/build --no-deps symlink_data
+[2.537s] running develop
+[2.831s] running egg_info
+[2.832s] creating failure_detection.egg-info
+[2.869s] writing failure_detection.egg-info/PKG-INFO
+[2.896s] writing dependency_links to failure_detection.egg-info/dependency_links.txt
+[2.982s] writing entry points to failure_detection.egg-info/entry_points.txt
+[3.045s] writing requirements to failure_detection.egg-info/requires.txt
+[3.072s] writing top-level names to failure_detection.egg-info/top_level.txt
+[3.072s] writing manifest file 'failure_detection.egg-info/SOURCES.txt'
+[3.125s] reading manifest file 'failure_detection.egg-info/SOURCES.txt'
+[3.126s] writing manifest file 'failure_detection.egg-info/SOURCES.txt'
+[3.169s] running build_ext
+[3.169s] Creating /home/rover/kameyama_ws/install/failure_detection/lib/python3.10/site-packages/failure-detection.egg-link (link to .)
+[3.170s] Installing bt_monitoring script to /home/rover/kameyama_ws/install/failure_detection/lib/failure_detection
+[3.170s] Installing failure_detection script to /home/rover/kameyama_ws/install/failure_detection/lib/failure_detection
+[3.170s] 
+[3.170s] Installed /home/rover/kameyama_ws/build/failure_detection
+[3.170s] running symlink_data
+[3.170s] creating /home/rover/kameyama_ws/install/failure_detection/share/ament_index
+[3.170s] creating /home/rover/kameyama_ws/install/failure_detection/share/ament_index/resource_index
+[3.171s] creating /home/rover/kameyama_ws/install/failure_detection/share/ament_index/resource_index/packages
+[3.171s] symbolically linking /home/rover/kameyama_ws/build/failure_detection/resource/failure_detection -> /home/rover/kameyama_ws/install/failure_detection/share/ament_index/resource_index/packages
+[3.171s] symbolically linking /home/rover/kameyama_ws/build/failure_detection/package.xml -> /home/rover/kameyama_ws/install/failure_detection/share/failure_detection
+[3.171s] symbolically linking /home/rover/kameyama_ws/build/failure_detection/launch/bt_monitoring_launch.py -> /home/rover/kameyama_ws/install/failure_detection/share/failure_detection
+[3.171s] symbolically linking /home/rover/kameyama_ws/build/failure_detection/launch/failure_detection_launch.py -> /home/rover/kameyama_ws/install/failure_detection/share/failure_detection
+[3.239s] Invoked command in '/home/rover/kameyama_ws/build/failure_detection' returned '0': AMENT_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs:/home/rover/kameyama_ws/install/my_nav_msgs:/home/rover/kameyama_ws/install/behavior_tree_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rover/kameyama_ws/install/failure_detection_msgs/lib:/home/rover/kameyama_ws/install/my_nav_msgs/lib:/home/rover/kameyama_ws/install/behavior_tree_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rover/kameyama_ws/build/failure_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/kameyama_ws/install/failure_detection/lib/python3.10/site-packages:/home/rover/kameyama_ws/install/failure_detection_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/my_nav_msgs/local/lib/python3.10/dist-packages:/home/rover/kameyama_ws/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/kameyama_ws/build/failure_detection/build --no-deps symlink_data

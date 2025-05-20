@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/behavior_tree_msgs/rosidl_generator_py/behavior_tree_msgs/srv/_get_black_board_s.c

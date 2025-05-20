@@ -1,0 +1,23 @@
+[0.068s] Invoking command in '/home/rover/kameyama_ws/build/observation_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/kameyama_ws/install/ros2_aruco:/home/rover/kameyama_ws/install/failure_detection:/home/rover/kameyama_ws/install/bt_generator:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/observation_msgs -- -j12 -l12
+[0.981s] [  1%] Built target observation_msgs__cpp
+[0.981s] [ 12%] Built target observation_msgs__rosidl_generator_c
+[0.982s] [ 12%] Built target ament_cmake_python_symlink_observation_msgs
+[0.982s] [ 23%] Built target observation_msgs__rosidl_typesupport_fastrtps_cpp
+[0.983s] [ 34%] Built target observation_msgs__rosidl_typesupport_introspection_cpp
+[0.983s] [ 46%] Built target observation_msgs__rosidl_typesupport_cpp
+[0.983s] [ 57%] Built target observation_msgs__rosidl_typesupport_c
+[0.984s] [ 68%] Built target observation_msgs__rosidl_typesupport_introspection_c
+[0.984s] [ 79%] Built target observation_msgs__rosidl_typesupport_fastrtps_c
+[0.984s] [ 79%] Built target observation_msgs
+[0.985s] [ 80%] Built target observation_msgs__py
+[0.985s] [ 90%] Built target observation_msgs__rosidl_generator_py
+[0.986s] [ 93%] Built target observation_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.986s] [ 96%] Built target observation_msgs__rosidl_typesupport_c__pyext
+[0.986s] [100%] Built target observation_msgs__rosidl_typesupport_introspection_c__pyext
+[1.000s] running egg_info
+[1.047s] writing observation_msgs.egg-info/PKG-INFO
+[1.075s] writing dependency_links to observation_msgs.egg-info/dependency_links.txt
+[1.276s] writing top-level names to observation_msgs.egg-info/top_level.txt
+[1.340s] reading manifest file 'observation_msgs.egg-info/SOURCES.txt'
+[1.340s] writing manifest file 'observation_msgs.egg-info/SOURCES.txt'
+[1.376s] [100%] Built target ament_cmake_python_build_observation_msgs_egg

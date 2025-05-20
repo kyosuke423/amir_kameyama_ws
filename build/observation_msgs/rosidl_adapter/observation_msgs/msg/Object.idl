@@ -1,0 +1,71 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from observation_msgs/msg/Object.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "moveit_msgs/msg/AttachedCollisionObject.idl"
+#include "moveit_msgs/msg/CollisionObject.idl"
+#include "std_msgs/msg/Header.idl"
+
+module observation_msgs {
+  module msg {
+    module Object_Constants {
+      @verbatim (language="comment", text=
+        "status" "\n"        "観測したことがなく場所も不明")
+      const int32 UNKNOWN = 0;
+      @verbatim (language="comment", text=
+        "観測したことがあり場所も既知")
+      const int32 KNOWN = 1;
+      @verbatim (language="comment", text=
+        "観測したことがあるが場所は不明")
+      const int32 LOST = 2;
+      @verbatim (language="comment", text=
+        "場所は既知だが観測したことがない（人が指示するとき用）")
+      const int32 POSE_KNOWN = 3;
+      @verbatim (language="comment", text=
+        "ロボットが所有")
+      const int32 ATTACHED = 4;
+      @verbatim (language="comment", text=
+        "msg_type" "\n"        "位置")
+      const int32 POINT = 0;
+      @verbatim (language="comment", text=
+        "位置姿勢")
+      const int32 POSE = 1;
+      @verbatim (language="comment", text=
+        "moveit_msgs")
+      const int32 COLLISION = 2;
+      @verbatim (language="comment", text=
+        "moveit_msgs")
+      const int32 ATTACHED_COLLISION = 3;
+    };
+    struct Object {
+      @verbatim (language="comment", text=
+        "最後に観測した時刻を記録")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "msg_typeがPOINTの場合はpositionだけ")
+      geometry_msgs::msg::Pose pose;
+
+      moveit_msgs::msg::CollisionObject collision_object;
+
+      moveit_msgs::msg::AttachedCollisionObject attached_collision_object;
+
+      @verbatim (language="comment", text=
+        "識別用の名前")
+      string id;
+
+      @verbatim (language="comment", text=
+        "botlle, ar_marker, locationなど")
+      string obj_group;
+
+      int32 status;
+
+      int32 msg_type;
+
+      @verbatim (language="comment", text=
+        "重量")
+      double weight;
+    };
+  };
+};

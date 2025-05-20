@@ -1,0 +1,124 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+-- Found amir_interfaces: 0.0.1 (/home/rover/amir_basic_ws/install/amir_interfaces/share/amir_interfaces/cmake)
+-- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found behavior_tree_msgs: 0.1.0 (/home/rover/kameyama_ws/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake)
+-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found line_msg: 0.0.0 (/home/rover/kameyama_ws/install/line_msg/share/line_msg/cmake)
+-- Found bebop_msgs: 0.0.0 (/home/rover/kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake)
+-- Found ros2_aruco_interfaces: 0.1.0 (/home/rover/kameyama_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake)
+-- Found ar_track_alvar_msgs: 0.7.1 (/home/rover/kameyama_ws/install/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rover/kameyama_ws/build/amir_operation
+[  9%] [32mBuilding CXX object CMakeFiles/search_obj.dir/src/search_obj.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/initial_posi.dir/src/initial_posi.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/pick_using_d_optimality.dir/src/pick_using_d_optimality.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/move_arm.dir/src/move_arm.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/pick.dir/src/pick.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/grasp.dir/src/grasp.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/place.dir/src/place.cpp.o[0m
+[ 36%] [32m[1mLinking CXX executable initial_posi[0m
+[ 36%] Built target initial_posi
+[ 40%] [32mBuilding CXX object CMakeFiles/move_meca.dir/src/move_meca.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/mecanum_spin.dir/src/mecanum_spin.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mecanum_move.dir/src/mecanum_move.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/mecanum_search.dir/src/mecanum_search.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable place[0m
+[ 59%] Built target place
+[ 63%] [32m[1mLinking CXX executable search_obj[0m
+[ 68%] [32m[1mLinking CXX executable move_arm[0m
+[ 72%] [32m[1mLinking CXX executable grasp[0m
+[ 72%] Built target search_obj
+[ 72%] Built target move_arm
+[ 72%] Built target grasp
+[ 77%] [32m[1mLinking CXX executable mecanum_spin[0m
+[ 77%] Built target mecanum_spin
+[ 81%] [32m[1mLinking CXX executable pick[0m
+[ 81%] Built target pick
+[ 86%] [32m[1mLinking CXX executable mecanum_move[0m
+[ 90%] [32m[1mLinking CXX executable move_meca[0m
+[ 90%] Built target mecanum_move
+[ 90%] Built target move_meca
+[ 95%] [32m[1mLinking CXX executable pick_using_d_optimality[0m
+[100%] [32m[1mLinking CXX executable mecanum_search[0m
+[100%] Built target pick_using_d_optimality
+[100%] Built target mecanum_search
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/initial_posi
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/pick
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/place
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/search_obj
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/move_arm
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/grasp
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/move_meca
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/pick_using_d_optimality
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/mecanum_search
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/mecanum_move
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/lib/amir_operation/mecanum_spin
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/launch/BT_Log_bt1.fbl
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/launch/BT_Log_bt2.fbl
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/launch/BT_Log_bt3.fbl
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/launch/pick_and_place_dop_launch.py
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/launch/pick_and_place_launch.py
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/ament_index/resource_index/package_run_dependencies/amir_operation
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/ament_index/resource_index/parent_prefix_path/amir_operation
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/environment/ament_prefix_path.sh
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/environment/path.sh
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/environment/path.dsv
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/local_setup.bash
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/local_setup.sh
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/local_setup.zsh
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/local_setup.dsv
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/package.dsv
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/ament_index/resource_index/packages/amir_operation
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/cmake/amir_operationConfig.cmake
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/cmake/amir_operationConfig-version.cmake
+-- Symlinking: /home/rover/kameyama_ws/install/amir_operation/share/amir_operation/package.xml

@@ -1,0 +1,99 @@
+[0.684s] Invoking command in '/home/rover/kameyama_ws/build/emcl2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/rover/kameyama_ws/src/emcl2_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/kameyama_ws/install/emcl2
+[1.388s] -- The C compiler identification is GNU 11.4.0
+[1.388s] -- The CXX compiler identification is GNU 11.4.0
+[1.388s] -- Detecting C compiler ABI info
+[1.388s] -- Detecting C compiler ABI info - done
+[1.388s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.388s] -- Detecting C compile features
+[1.388s] -- Detecting C compile features - done
+[1.388s] -- Detecting CXX compiler ABI info
+[1.388s] -- Detecting CXX compiler ABI info - done
+[1.388s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.388s] -- Detecting CXX compile features
+[1.388s] -- Detecting CXX compile features - done
+[1.388s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.783s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.846s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.217s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.232s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.249s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.310s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.412s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.420s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.655s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.701s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.763s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.791s] -- Looking for pthread.h
+[2.934s] -- Looking for pthread.h - found
+[2.934s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.100s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.102s] -- Found Threads: TRUE  
+[3.533s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.533s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.533s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.609s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.752s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.752s] -- Configured cppcheck include dirs: /home/rover/kameyama_ws/src/emcl2_ros2/include
+[3.752s] -- Configured cppcheck exclude dirs and/or files: 
+[3.758s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.762s] -- Added test 'lint_cmake' to check CMake code style
+[3.765s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.770s] -- Added test 'uncrustify' to check C / C++ code style
+[3.770s] -- Configured uncrustify additional arguments: 
+[3.771s] -- Added test 'xmllint' to check XML markup files
+[3.775s] -- Configuring done
+[3.795s] -- Generating done
+[3.798s] -- Build files have been written to: /home/rover/kameyama_ws/build/emcl2
+[3.856s] Invoked command in '/home/rover/kameyama_ws/build/emcl2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/rover/kameyama_ws/src/emcl2_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/kameyama_ws/install/emcl2
+[3.856s] Invoking command in '/home/rover/kameyama_ws/build/emcl2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/emcl2 -- -j12 -l12
+[4.525s] [ 11%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/LikelihoodFieldMap.cpp.o[0m
+[4.525s] [ 22%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/Pose.cpp.o[0m
+[4.525s] [ 33%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/Mcl.cpp.o[0m
+[4.525s] [ 44%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/OdomModel.cpp.o[0m
+[4.525s] [ 55%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/emcl2_node.cpp.o[0m
+[4.525s] [ 66%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/ExpResetMcl2.cpp.o[0m
+[4.525s] [ 77%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/Particle.cpp.o[0m
+[4.525s] [ 88%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/Scan.cpp.o[0m
+[34.521s] [100%] [32m[1mLinking CXX executable emcl2_node[0m
+[34.724s] [100%] Built target emcl2_node
+[34.738s] Invoked command in '/home/rover/kameyama_ws/build/emcl2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/rover/kameyama_ws/build/emcl2 -- -j12 -l12
+[34.740s] Invoking command in '/home/rover/kameyama_ws/build/emcl2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/emcl2
+[34.750s] -- Install configuration: ""
+[34.750s] -- Execute custom install script
+[34.750s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/lib/emcl2/test.bash
+[34.762s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/lib/emcl2/test_gui.bash
+[34.775s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/include/emcl2/ExpResetMcl2.h
+[34.787s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/include/emcl2/LikelihoodFieldMap.h
+[34.799s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/include/emcl2/Mcl.h
+[34.811s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/include/emcl2/OdomModel.h
+[34.822s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/include/emcl2/Particle.h
+[34.834s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/include/emcl2/Pose.h
+[34.845s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/include/emcl2/Scan.h
+[34.856s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/include/emcl2/emcl2_node.h
+[34.867s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/lib/emcl2/emcl2_node
+[34.879s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/config/emcl2.param.yaml
+[34.890s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/config/emcl2_quick_start.param.yaml
+[34.901s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/launch/emcl2.launch.py
+[34.913s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/test/demo.bash
+[34.924s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/test/test.bash
+[34.935s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/test/test.launch.xml
+[34.946s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/test/test_gui.bash
+[34.958s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/ament_index/resource_index/package_run_dependencies/emcl2
+[34.969s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/ament_index/resource_index/parent_prefix_path/emcl2
+[34.981s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/environment/ament_prefix_path.sh
+[34.992s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/environment/ament_prefix_path.dsv
+[35.003s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/environment/path.sh
+[35.013s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/environment/path.dsv
+[35.024s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/local_setup.bash
+[35.035s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/local_setup.sh
+[35.046s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/local_setup.zsh
+[35.057s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/local_setup.dsv
+[35.067s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/package.dsv
+[35.078s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/ament_index/resource_index/packages/emcl2
+[35.090s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.101s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.112s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/cmake/emcl2Config.cmake
+[35.123s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/cmake/emcl2Config-version.cmake
+[35.135s] -- Symlinking: /home/rover/kameyama_ws/install/emcl2/share/emcl2/package.xml
+[35.148s] Invoked command in '/home/rover/kameyama_ws/build/emcl2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/amir_basic_ws/install/nav2_simple_commander:/home/rover/amir_basic_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/rover/kameyama_ws/build/emcl2

@@ -1,0 +1,1 @@
+/home/rover/kameyama_ws/build/line_msg/rosidl_generator_py/line_msg/msg/__init__.py
