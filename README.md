@@ -1,7 +1,7 @@
 # モニタリングロボットの動作手順
 ## dars-note-002
-### メカナムローバー起動
-1. ターミナルを5つ用意して、JetsonにSSH接続（パスワード:dars）
+### メカナムローバーセットアップ
+1. ターミナルを5つ用意して、JetsonにSSH接続する（パスワード:dars）
 ```
 ssh agx@192.168.11.4 -X
 ```  
@@ -42,8 +42,8 @@ source /opt/ros/galactic/setup.zsh
 source ~/galactic_ws/install/setup.zsh --extend
 ros2 launch mecanum_navigation2 bringup_launch.py
 ```
-### 画像処理
-ターミナルを５つ用意
+### 画像処理モジュール
+ターミナルを５つ用意して、以下を実行する
 1. realsense
 ```
 source /opt/ros/noetic/setup.bash
@@ -82,7 +82,7 @@ rosrun youbot_do object_subscriber_with_transform
 
 分割ではなく、追加で新規ターミナルを開いて以下を実行する
 
-* D-optimality計算モジュール
+* D-optimality計算アクション
 ```
 source /opt/ros/galactic/setup.bash
 source ~/kameyama_galactic_ws_2/install/setup.bash
@@ -95,4 +95,22 @@ ros2 launch mecanum_action mecanum_action_launch.py
 source ~/ros1_bridge_ws/install/setup.bash
 rosparam load ~/ros1_bridge_ws/bridge_youbot.yaml
 ros2 run ros1_bridge parameter_bridge __name:=pc2_bridge
+```
+## dars-note-021
+### 行動計画モジュール（BTの一部機能使用）
+1. Action Launch
+```
+cd kameyama_ws/src/amir_operation/launch
+source ~/kameyama_ws/install/local_setup.bash
+ros2 launch amir_operation pick_and_place_dop_launch.py
+```
+2. Behavior Tree Executor
+```
+source ~/kameyama_ws/install/local_setup.bash
+ros2 launch ros2_behavior_tree bt_executor_launch.py 
+```
+3. Send Xml
+```
+source ~/kameyama_ws/install/local_setup.bash
+ros2 launch bt_generator bt_send_xml_launch.py
 ```
