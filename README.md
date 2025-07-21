@@ -20,7 +20,7 @@
 - カスタムパッケージ：`behavior-tree-msgs`, `failure-detection`, `ros2-aruco`, `bt-generator` ほか
 - colconビルド環境・ament系ツール群完備
 - 主なインストール済みパッケージ:
-  - `rclpy`, `geometry-msgs`, `nav2-msgs`, `moveit-msgs`, `turtlebot3-msgs`, `cv-bridge`, `sensor-msgs`, `rosidl-*`
+  - `rclpy`, `geometry-msgs`, `nav2-msgs`, `moveit-msgs`, `cv-bridge`, `sensor-msgs`, `rosidl-*`
 
 ## Pythonライブラリ
 | ライブラリ   | バージョン        |
@@ -46,3 +46,68 @@
 | `nvidia-smi`      | 動作確認済                         |
 | `nvcc`            | 動作確認済                         |
 
+# 動作手順
+## モニタリングロボット
+# メカナム関連　##############################
+# PCに接続 (Password:dars)
+<!-- ssh agx@192.168.11.64 -X  -->
+ssh agx@192.168.11.4 -X 
+# ファンの起動
+sudo sh -c 'echo 255 > /sys/devices/pwm-fan/target_pwm'
+# シャットダウン
+sudo shutdown -h now
+# ターミナル1 メカナムドライバ
+source /opt/ros/noetic/setup.zsh
+source ~/catkin_ws/devel/setup.zsh --extend
+sudo chmod 777 /dev/ttyUSB0
+roslaunch mecanumrover_samples bringup_kawase.launch 
+# ターミナル2 ros1_bridge
+source /opt/ros/noetic/setup.zsh
+source /opt/ros/galactic/setup.zsh
+rosparam load ~/ros1_bridge_ws/bridge.yaml
+ros2 run ros1_bridge parameter_bridge
+# ターミナル3
+source /opt/ros/galactic/setup.zsh
+source ~/galactic_ws/install/setup.zsh --extend
+ros2 launch my_utility odom_tf2_broadcaster.launch.py
+# ターミナル4
+source /opt/ros/galactic/setup.zsh
+source ~/galactic_ws/install/setup.zsh --extend
+sudo chmod 777 /dev/ttyACM0
+ros2 launch urg urg_launch.py
+
+# ターミナル5
+source /opt/ros/galactic/setup.zsh
+source ~/galactic_ws/install/setup.zsh --extend
+ros2 launch mecanum_navigation2 bringup_launch.py
+
+## 画像処理
+# １．realsense起動
+source /opt/ros/noetic/setup.bash
+source ~/onishi_youbot_ws/devel/setup.bash
+cd onishi_youbot_ws/
+roslaunch realsense2_camera cubeslam_camera.launch
+# ２．YOLO
+source /opt/ros/noetic/setup.bash
+source ~/onishi_youbot_ws/devel/setup.bash
+cd onishi_youbot_ws/
+rosrun yolov5_ros cubeslam2.py
+# ３．直方体検出のみ
+source /opt/ros/noetic/setup.bash
+source ~/onishi_youbot_ws/devel/setup.bash
+cd onishi_youbot_ws/
+roslaunch detect_3d_cuboid detect_3d_cuboid.launch
+# ４．object callback
+source /opt/ros/noetic/setup.bash
+source ~/onishi_youbot_ws/devel/setup.bash
+cd onishi_youbot_ws/
+roslaunch youbot_do mecanum2_object_callback.launch
+# ５．座標変換（カメラからメカナムベース）
+source /opt/ros/noetic/setup.bash
+source ~/onishi_youbot_ws/devel/setup.bash
+cd onishi_youbot_ws/
+rosrun youbot_do object_subscriber_with_transform 
+# ROS1_bridge（別ターミナル）
+source ~/ros1_bridge_ws/install/setup.bash
+rosparam load ~/ros1_bridge_ws/bridge_youbot.yaml
+ros2 run ros1_bridge parameter_bridge __name:=pc2_bridge
