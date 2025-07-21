@@ -71,7 +71,7 @@ source ~/onishi_youbot_ws/devel/setup.bash
 cd onishi_youbot_ws/
 roslaunch youbot_do mecanum2_object_callback.launch
 ```
-5． 座標変換（カメラからメカナムベース）
+5. 座標変換（カメラからメカナムベース）
 ```
 source /opt/ros/noetic/setup.bash
 source ~/onishi_youbot_ws/devel/setup.bash
