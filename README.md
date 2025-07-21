@@ -79,7 +79,10 @@ source ~/onishi_youbot_ws/devel/setup.bash
 cd onishi_youbot_ws/
 rosrun youbot_do object_subscriber_with_transform
 ```
-.env D-optimality計算モジュール
+
+分割ではなく、追加で新規ターミナルを開いて以下を実行する
+
+* D-optimality計算モジュール
 ```
 source /opt/ros/galactic/setup.bash
 source ~/kameyama_galactic_ws_2/install/setup.bash
@@ -87,7 +90,7 @@ ros2 launch mecanum_action mecanum_action_launch.py
 ```
 分割ではなく、追加で新規ターミナルを開いて以下を実行する
 
-7. ROS1_bridge（別ターミナル）
+* ROS1_bridge
 ```
 source ~/ros1_bridge_ws/install/setup.bash
 rosparam load ~/ros1_bridge_ws/bridge_youbot.yaml
