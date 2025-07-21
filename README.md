@@ -43,6 +43,7 @@ source ~/galactic_ws/install/setup.zsh --extend
 ros2 launch mecanum_navigation2 bringup_launch.py
 ```
 ### 画像処理
+ターミナルを５つ用意
 1. realsense
 ```
 source /opt/ros/noetic/setup.bash
@@ -78,7 +79,7 @@ source ~/onishi_youbot_ws/devel/setup.bash
 cd onishi_youbot_ws/
 rosrun youbot_do object_subscriber_with_transform
 ```
-6. D-optimality計算モジュール
+*D-optimality計算モジュール
 ```
 source /opt/ros/galactic/setup.bash
 source ~/kameyama_galactic_ws_2/install/setup.bash
