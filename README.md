@@ -43,35 +43,48 @@ source ~/galactic_ws/install/setup.zsh --extend
 ros2 launch mecanum_navigation2 bringup_launch.py
 ```
 ### 画像処理
-# １．realsense起動
+１．realsense
+```
 source /opt/ros/noetic/setup.bash
 source ~/onishi_youbot_ws/devel/setup.bash
 cd onishi_youbot_ws/
 roslaunch realsense2_camera cubeslam_camera.launch
-# ２．YOLO
+```
+２．YOLOv5
+```
 source /opt/ros/noetic/setup.bash
 source ~/onishi_youbot_ws/devel/setup.bash
 cd onishi_youbot_ws/
 rosrun yolov5_ros cubeslam2.py
-# ３．直方体検出のみ
+```
+３．Cube SLAM
+```
 source /opt/ros/noetic/setup.bash
 source ~/onishi_youbot_ws/devel/setup.bash
 cd onishi_youbot_ws/
 roslaunch detect_3d_cuboid detect_3d_cuboid.launch
-# ４．object callback
+```
+４．物体の中心座標取得
+```
 source /opt/ros/noetic/setup.bash
 source ~/onishi_youbot_ws/devel/setup.bash
 cd onishi_youbot_ws/
 roslaunch youbot_do mecanum2_object_callback.launch
-# ５．座標変換（カメラからメカナムベース）
+```
+5．座標変換（カメラからメカナムベース）
+```
 source /opt/ros/noetic/setup.bash
 source ~/onishi_youbot_ws/devel/setup.bash
 cd onishi_youbot_ws/
-rosrun youbot_do object_subscriber_with_transform 
-# ROS1_bridge（別ターミナル）
+rosrun youbot_do object_subscriber_with_transform
+```
+分割ではなく、追加で新規ターミナルを開いて以下を実行する
+6. ROS1_bridge（別ターミナル）
+```
 source ~/ros1_bridge_ws/install/setup.bash
 rosparam load ~/ros1_bridge_ws/bridge_youbot.yaml
 ros2 run ros1_bridge parameter_bridge __name:=pc2_bridge
+```
 
 # コマンド一覧
 1. シャットダウン
