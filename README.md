@@ -49,8 +49,9 @@
 # 動作手順
 ## モニタリングロボット
 ### 本体セットアップ
-1. PCに接続 (Password:dars)
-### ssh agx@192.168.11.4 -X 
+1. PCにSSH接続  
+   ```bash
+   ssh agx@192.168.11.4 -X  # Password: dars
 # ファンの起動
 sudo sh -c 'echo 255 > /sys/devices/pwm-fan/target_pwm'
 # シャットダウン
