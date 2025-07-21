@@ -79,7 +79,7 @@ source ~/onishi_youbot_ws/devel/setup.bash
 cd onishi_youbot_ws/
 rosrun youbot_do object_subscriber_with_transform
 ```
-*D-optimality計算モジュール
+.env D-optimality計算モジュール
 ```
 source /opt/ros/galactic/setup.bash
 source ~/kameyama_galactic_ws_2/install/setup.bash
