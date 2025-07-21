@@ -1,7 +1,7 @@
 # 動作手順
 ## モニタリングロボット
 ### 本体セットアップ
-1. PCにSSH接続（パスワード:dars）
+1. ターミナルを６つ用意して、JetsonにSSH接続（パスワード:dars）
 ```
 ssh agx@192.168.11.4 -X
 ```  
@@ -9,11 +9,14 @@ ssh agx@192.168.11.4 -X
 ```
 sudo sh -c 'echo 255 > /sys/devices/pwm-fan/target_pwm'
 ```
-# ターミナル1 メカナムドライバ
+3. ターミナル1
+メカナムドライバ
+```
 source /opt/ros/noetic/setup.zsh
 source ~/catkin_ws/devel/setup.zsh --extend
 sudo chmod 777 /dev/ttyUSB0
-roslaunch mecanumrover_samples bringup_kawase.launch 
+roslaunch mecanumrover_samples bringup_kawase.launch
+```
 # ターミナル2 ros1_bridge
 source /opt/ros/noetic/setup.zsh
 source /opt/ros/galactic/setup.zsh
