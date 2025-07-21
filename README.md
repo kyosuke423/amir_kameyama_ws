@@ -10,7 +10,7 @@ ssh agx@192.168.11.4 -X
 sudo sh -c 'echo 255 > /sys/devices/pwm-fan/target_pwm'
 ```
 3. ターミナル1
-メカナムドライバ
+# メカナムドライバ
 ```
 source /opt/ros/noetic/setup.zsh
 source ~/catkin_ws/devel/setup.zsh --extend
