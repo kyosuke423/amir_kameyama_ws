@@ -1,7 +1,6 @@
 # 動作手順
-## モニタリングロボット
-### 本体セットアップ
-1. ターミナルを６つ用意して、JetsonにSSH接続（パスワード:dars）
+## モニタリングロボット---dars-note-002
+1. ターミナルを5つ用意して、JetsonにSSH接続（パスワード:dars）
 ```
 ssh agx@192.168.11.4 -X
 ```  
@@ -9,24 +8,23 @@ ssh agx@192.168.11.4 -X
 ```
 sudo sh -c 'echo 255 > /sys/devices/pwm-fan/target_pwm'
 ```
-3. ターミナル1
-# メカナムドライバ
+3. ターミナル1（メカナムドライバ）
 ```
 source /opt/ros/noetic/setup.zsh
 source ~/catkin_ws/devel/setup.zsh --extend
 sudo chmod 777 /dev/ttyUSB0
 roslaunch mecanumrover_samples bringup_kawase.launch
 ```
-# ターミナル2 ros1_bridge
+4. ターミナル2（ros1_bridge）
 source /opt/ros/noetic/setup.zsh
 source /opt/ros/galactic/setup.zsh
 rosparam load ~/ros1_bridge_ws/bridge.yaml
 ros2 run ros1_bridge parameter_bridge
-# ターミナル3
+5. ターミナル3
 source /opt/ros/galactic/setup.zsh
 source ~/galactic_ws/install/setup.zsh --extend
 ros2 launch my_utility odom_tf2_broadcaster.launch.py
-# ターミナル4
+6. ターミナル4
 source /opt/ros/galactic/setup.zsh
 source ~/galactic_ws/install/setup.zsh --extend
 sudo chmod 777 /dev/ttyACM0
