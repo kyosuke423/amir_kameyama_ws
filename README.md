@@ -118,7 +118,7 @@ ros2 launch bt_generator bt_send_xml_launch.py
 ```
 
 # エラー対処一覧
-* **dars-note-002/kameyama_galactic_ws,　kameyama_galactic_ws_2**のGalactic環境でColconBuildをする際、setuptoolでエラーが出る場合がある。setuptoolのバージョンを以下で指定する。
+* **dars-note-002/kameyama_galactic_ws、kameyama_galactic_ws_2**のGalactic環境でColconBuildをする際、setuptoolでエラーが出る場合がある。setuptoolのバージョンを以下で指定する。
 ```
 pip3 install setuptools==45.2.0
 ```
