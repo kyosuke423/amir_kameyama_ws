@@ -1,8 +1,8 @@
-# Install script for directory: /home/rover/kameyama_ws/src/rviz_utility
+# Install script for directory: /home/das-note-021/amir_kameyama_ws/src/rviz_utility
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rover/kameyama_ws/install/rviz_utility")
+  set(CMAKE_INSTALL_PREFIX "/home/das-note-021/amir_kameyama_ws/install/rviz_utility")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/rover/kameyama_ws/build/rviz_utility/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/das-note-021/amir_kameyama_ws/build/rviz_utility/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rover/kameyama_ws/build/rviz_utility/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/das-note-021/amir_kameyama_ws/build/rviz_utility/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

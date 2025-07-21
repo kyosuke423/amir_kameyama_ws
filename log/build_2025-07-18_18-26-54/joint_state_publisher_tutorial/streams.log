@@ -1,0 +1,81 @@
+[0.197s] Invoking command in '/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake /home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial
+[0.241s] -- The C compiler identification is GNU 11.4.0
+[0.278s] -- The CXX compiler identification is GNU 11.4.0
+[0.282s] -- Detecting C compiler ABI info
+[0.332s] -- Detecting C compiler ABI info - done
+[0.338s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.338s] -- Detecting C compile features
+[0.338s] -- Detecting C compile features - done
+[0.340s] -- Detecting CXX compiler ABI info
+[0.401s] -- Detecting CXX compiler ABI info - done
+[0.407s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.407s] -- Detecting CXX compile features
+[0.408s] -- Detecting CXX compile features - done
+[0.411s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.563s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.613s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.647s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.686s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.693s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.707s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.727s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.755s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.831s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.837s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.877s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.895s] -- Looking for pthread.h
+[0.966s] -- Looking for pthread.h - found
+[0.966s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.045s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.046s] -- Found Threads: TRUE  
+[1.089s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.111s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[1.117s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.263s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.263s] -- Configured cppcheck include dirs: 
+[1.263s] -- Configured cppcheck exclude dirs and/or files: 
+[1.265s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.266s] -- Added test 'lint_cmake' to check CMake code style
+[1.267s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.269s] -- Added test 'uncrustify' to check C / C++ code style
+[1.269s] -- Configured uncrustify additional arguments: 
+[1.269s] -- Added test 'xmllint' to check XML markup files
+[1.272s] -- Configuring done
+[1.285s] -- Generating done
+[1.290s] -- Build files have been written to: /home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial
+[1.314s] Invoked command in '/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake /home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial
+[1.317s] Invoking command in '/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --build /home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial -- -j22 -l22
+[1.376s] [ 50%] [32mBuilding CXX object CMakeFiles/tutorial_publisher.dir/src/tutorial_publisher.cpp.o[0m
+[6.479s] [100%] [32m[1mLinking CXX executable tutorial_publisher[0m
+[6.593s] [100%] Built target tutorial_publisher
+[6.607s] Invoked command in '/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --build /home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial -- -j22 -l22
+[6.609s] Invoking command in '/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --install /home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial
+[6.619s] -- Install configuration: ""
+[6.619s] -- Execute custom install script
+[6.619s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/lib/joint_state_publisher_tutorial/tutorial_publisher
+[6.626s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/launch/joint_display.launch.py
+[6.637s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/rviz/urdf.rviz
+[6.645s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/amir.gazebo
+[6.656s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/amir.trans
+[6.665s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/amir.xacro
+[6.673s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/amir_f120a.xacro
+[6.679s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/amir_for_rover.xacro
+[6.688s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/amir_mecanum3.xacro
+[6.694s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/amir_mega3.xacro
+[6.700s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/urdf/materials.xacro
+[6.708s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/ament_index/resource_index/package_run_dependencies/joint_state_publisher_tutorial
+[6.714s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/ament_index/resource_index/parent_prefix_path/joint_state_publisher_tutorial
+[6.721s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/environment/ament_prefix_path.sh
+[6.732s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/environment/ament_prefix_path.dsv
+[6.743s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/environment/path.sh
+[6.751s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/environment/path.dsv
+[6.756s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/local_setup.bash
+[6.762s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/local_setup.sh
+[6.770s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/local_setup.zsh
+[6.777s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/local_setup.dsv
+[6.787s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/package.dsv
+[6.796s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/ament_index/resource_index/packages/joint_state_publisher_tutorial
+[6.807s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/cmake/joint_state_publisher_tutorialConfig.cmake
+[6.812s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/cmake/joint_state_publisher_tutorialConfig-version.cmake
+[6.818s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/share/joint_state_publisher_tutorial/package.xml
+[6.826s] Invoked command in '/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --install /home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial

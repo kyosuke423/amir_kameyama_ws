@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rover/kameyama_ws/src/my_utility
+CMAKE_SOURCE_DIR = /home/das-note-021/amir_kameyama_ws/src/my_utility
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rover/kameyama_ws/build/my_utility
+CMAKE_BINARY_DIR = /home/das-note-021/amir_kameyama_ws/build/my_utility
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/rover/kameyama_ws/build/my_utility && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rover/kameyama_ws/src/my_utility /home/rover/kameyama_ws/src/my_utility /home/rover/kameyama_ws/build/my_utility /home/rover/kameyama_ws/build/my_utility /home/rover/kameyama_ws/build/my_utility/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/das-note-021/amir_kameyama_ws/build/my_utility && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/das-note-021/amir_kameyama_ws/src/my_utility /home/das-note-021/amir_kameyama_ws/src/my_utility /home/das-note-021/amir_kameyama_ws/build/my_utility /home/das-note-021/amir_kameyama_ws/build/my_utility /home/das-note-021/amir_kameyama_ws/build/my_utility/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

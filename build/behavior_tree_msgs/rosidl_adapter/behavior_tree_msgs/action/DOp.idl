@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from behavior_tree_msgs/action/DOp.action
+// generated code does not contain a copyright notice
+
+
+module behavior_tree_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct DOp_Goal {
+      string input_csv_path;
+
+      string output_txt_path;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct DOp_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct DOp_Feedback {
+      string current_step;
+    };
+  };
+};

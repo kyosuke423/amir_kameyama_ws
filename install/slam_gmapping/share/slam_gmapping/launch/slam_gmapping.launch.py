@@ -1,1 +1,0 @@
-/home/rover/kameyama_ws/src/slam_gmapping/slam_gmapping/launch/slam_gmapping.launch.py

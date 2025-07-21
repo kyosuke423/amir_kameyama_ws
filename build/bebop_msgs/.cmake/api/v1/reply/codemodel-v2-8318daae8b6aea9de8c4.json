@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8343b8bd71b739b56a4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "bebop_msgs__py",
+					"jsonFile" : "directory-bebop_msgs__py-b3138fb844773fefac18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/das-note-021/amir_kameyama_ws/build/bebop_msgs/bebop_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "bebop_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_bebop_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_bebop_msgs_egg-823407d84499be8ac6a6.json",
+					"name" : "ament_cmake_python_build_bebop_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_bebop_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_bebop_msgs-7cfbb51e709612fb6745.json",
+					"name" : "ament_cmake_python_symlink_bebop_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bebop_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bebop_msgs-2b02339acc8e989bac72.json",
+					"name" : "bebop_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bebop_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bebop_msgs__cpp-5bbf9039ef89e8f97e3b.json",
+					"name" : "bebop_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bebop_msgs__py::@b19671fe5c5b984016a1",
+					"jsonFile" : "target-bebop_msgs__py-f12befa409275451ab4c.json",
+					"name" : "bebop_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bebop_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bebop_msgs__rosidl_generator_c-11319a7e51d3e157d338.json",
+					"name" : "bebop_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bebop_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bebop_msgs__rosidl_generator_py-8124a414232239af24bc.json",
+					"name" : "bebop_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bebop_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bebop_msgs__rosidl_typesupport_c-94e3fef5e0691e6eb1e5.json",
+					"name" : "bebop_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bebop_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bebop_msgs__rosidl_typesupport_c__pyext-d484e60ecfbe0ca23996.json",
+					"name" : "bebop_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bebop_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bebop_msgs__rosidl_typesupport_cpp-161e465f4c364364253a.json",
+					"name" : "bebop_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bebop_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bebop_msgs__rosidl_typesupport_fastrtps_c-61c9a5c1c4e0e8346a41.json",
+					"name" : "bebop_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bebop_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bebop_msgs__rosidl_typesupport_fastrtps_c__pyext-0ecb4c118c0aa727eace.json",
+					"name" : "bebop_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bebop_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bebop_msgs__rosidl_typesupport_fastrtps_cpp-c6fb7d57c847b58f0ce6.json",
+					"name" : "bebop_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bebop_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bebop_msgs__rosidl_typesupport_introspection_c-a32224de9518aa0f8cce.json",
+					"name" : "bebop_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bebop_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bebop_msgs__rosidl_typesupport_introspection_c__pyext-3cada5337d879c9af8d0.json",
+					"name" : "bebop_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bebop_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bebop_msgs__rosidl_typesupport_introspection_cpp-a049e5f8cf8ef536c25e.json",
+					"name" : "bebop_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bebop_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bebop_msgs_uninstall-2c1caa96f88225fe36ca.json",
+					"name" : "bebop_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2d9161401eb4ac4c9b77.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/das-note-021/amir_kameyama_ws/build/bebop_msgs",
+		"source" : "/home/das-note-021/amir_kameyama_ws/src/bebop_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -49,14 +49,9 @@ static bool _MecanumSpin_Goal__cdr_serialize(
     return false;
   }
   const _MecanumSpin_Goal__ros_msg_type * ros_message = static_cast<const _MecanumSpin_Goal__ros_msg_type *>(untyped_ros_message);
-  // Field name: time
+  // Field name: threshold
   {
-    cdr << ros_message->time;
-  }
-
-  // Field name: dop
-  {
-    cdr << ros_message->dop;
+    cdr << ros_message->threshold;
   }
 
   return true;
@@ -71,14 +66,9 @@ static bool _MecanumSpin_Goal__cdr_deserialize(
     return false;
   }
   _MecanumSpin_Goal__ros_msg_type * ros_message = static_cast<_MecanumSpin_Goal__ros_msg_type *>(untyped_ros_message);
-  // Field name: time
+  // Field name: threshold
   {
-    cdr >> ros_message->time;
-  }
-
-  // Field name: dop
-  {
-    cdr >> ros_message->dop;
+    cdr >> ros_message->threshold;
   }
 
   return true;
@@ -98,15 +88,9 @@ size_t get_serialized_size_behavior_tree_msgs__action__MecanumSpin_Goal(
   (void)padding;
   (void)wchar_size;
 
-  // field.name time
+  // field.name threshold
   {
-    size_t item_size = sizeof(ros_message->time);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name dop
-  {
-    size_t item_size = sizeof(ros_message->dop);
+    size_t item_size = sizeof(ros_message->threshold);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -139,21 +123,13 @@ size_t max_serialized_size_behavior_tree_msgs__action__MecanumSpin_Goal(
   full_bounded = true;
   is_plain = true;
 
-  // member: time
+  // member: threshold
   {
     size_t array_size = 1;
 
     last_member_size = array_size * sizeof(uint32_t);
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-  // member: dop
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
   size_t ret_val = current_alignment - initial_alignment;
@@ -164,7 +140,7 @@ size_t max_serialized_size_behavior_tree_msgs__action__MecanumSpin_Goal(
     using DataType = behavior_tree_msgs__action__MecanumSpin_Goal;
     is_plain =
       (
-      offsetof(DataType, dop) +
+      offsetof(DataType, threshold) +
       last_member_size
       ) == ret_val;
   }

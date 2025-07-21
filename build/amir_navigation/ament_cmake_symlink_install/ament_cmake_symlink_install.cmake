@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rover/kameyama_ws/install/amir_navigation/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/das-note-021/amir_kameyama_ws/install/amir_navigation/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rover/kameyama_ws/install/amir_navigation/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/das-note-021/amir_kameyama_ws/install/amir_navigation/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rover/kameyama_ws/install/amir_navigation/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/das-note-021/amir_kameyama_ws/install/amir_navigation/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/rover/kameyama_ws/install/amir_navigation/${destination}")
+      set(destination "/home/das-note-021/amir_kameyama_ws/install/amir_navigation/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,44 +310,44 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/amir_navigation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_navigation" FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/amir_navigation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/amir_navigation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_navigation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/amir_navigation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/amir_navigation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_navigation" FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/amir_navigation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/amir_navigation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_navigation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/amir_navigation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/amir_navigation/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_navigation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/amir_navigation/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_navigation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/amir_navigation/environment")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/amir_navigation/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_navigation" FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/amir_navigation/environment")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/amir_navigation/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_navigation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/amir_navigation/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/amir_navigation/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_navigation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/amir_navigation/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_navigation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/amir_navigation/environment")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/amir_navigation/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_navigation" FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/amir_navigation/environment")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/amir_navigation/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_navigation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/amir_navigation/environment")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/amir_navigation")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_navigation" FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/amir_navigation")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/amir_navigation")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_navigation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/amir_navigation")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/amir_navigation")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_navigation" FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/amir_navigation")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/amir_navigation")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_navigation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/amir_navigation")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/amir_navigation")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_navigation" FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/amir_navigation")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/amir_navigation")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_navigation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/amir_navigation")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/amir_navigation")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_navigation" FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/amir_navigation")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/amir_navigation")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_navigation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/amir_navigation")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/amir_navigation")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_navigation" FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/amir_navigation")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/amir_navigation")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_navigation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/amir_navigation")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_index/share/ament_index/resource_index/packages/amir_navigation" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_navigation" FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_index/share/ament_index/resource_index/packages/amir_navigation" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_index/share/ament_index/resource_index/packages/amir_navigation" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_navigation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_index/share/ament_index/resource_index/packages/amir_navigation" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_core/amir_navigationConfig.cmake" "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_core/amir_navigationConfig-version.cmake" "DESTINATION" "share/amir_navigation/cmake")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_navigation" FILES "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_core/amir_navigationConfig.cmake" "/home/rover/kameyama_ws/build/amir_navigation/ament_cmake_core/amir_navigationConfig-version.cmake" "DESTINATION" "share/amir_navigation/cmake")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_core/amir_navigationConfig.cmake" "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_core/amir_navigationConfig-version.cmake" "DESTINATION" "share/amir_navigation/cmake")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_navigation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_core/amir_navigationConfig.cmake" "/home/das-note-021/amir_kameyama_ws/build/amir_navigation/ament_cmake_core/amir_navigationConfig-version.cmake" "DESTINATION" "share/amir_navigation/cmake")
 
-# install(FILES "/home/rover/kameyama_ws/src/amir_navigation/package.xml" "DESTINATION" "share/amir_navigation")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_navigation" FILES "/home/rover/kameyama_ws/src/amir_navigation/package.xml" "DESTINATION" "share/amir_navigation")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/src/amir_navigation/package.xml" "DESTINATION" "share/amir_navigation")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_navigation" FILES "/home/das-note-021/amir_kameyama_ws/src/amir_navigation/package.xml" "DESTINATION" "share/amir_navigation")

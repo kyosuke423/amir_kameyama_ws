@@ -21,32 +21,16 @@ namespace action
 namespace builder
 {
 
-class Init_MecanumSpin_Goal_dop
+class Init_MecanumSpin_Goal_threshold
 {
 public:
-  explicit Init_MecanumSpin_Goal_dop(::behavior_tree_msgs::action::MecanumSpin_Goal & msg)
-  : msg_(msg)
-  {}
-  ::behavior_tree_msgs::action::MecanumSpin_Goal dop(::behavior_tree_msgs::action::MecanumSpin_Goal::_dop_type arg)
-  {
-    msg_.dop = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::behavior_tree_msgs::action::MecanumSpin_Goal msg_;
-};
-
-class Init_MecanumSpin_Goal_time
-{
-public:
-  Init_MecanumSpin_Goal_time()
+  Init_MecanumSpin_Goal_threshold()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_MecanumSpin_Goal_dop time(::behavior_tree_msgs::action::MecanumSpin_Goal::_time_type arg)
+  ::behavior_tree_msgs::action::MecanumSpin_Goal threshold(::behavior_tree_msgs::action::MecanumSpin_Goal::_threshold_type arg)
   {
-    msg_.time = std::move(arg);
-    return Init_MecanumSpin_Goal_dop(msg_);
+    msg_.threshold = std::move(arg);
+    return std::move(msg_);
   }
 
 private:
@@ -64,7 +48,7 @@ template<>
 inline
 auto build<::behavior_tree_msgs::action::MecanumSpin_Goal>()
 {
-  return behavior_tree_msgs::action::builder::Init_MecanumSpin_Goal_time();
+  return behavior_tree_msgs::action::builder::Init_MecanumSpin_Goal_threshold();
 }
 
 }  // namespace behavior_tree_msgs

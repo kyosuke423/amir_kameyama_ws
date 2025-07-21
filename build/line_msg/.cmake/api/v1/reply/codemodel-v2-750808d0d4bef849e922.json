@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d11675b74ad57cf92e6e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "line_msg__py",
+					"jsonFile" : "directory-line_msg__py-e6f97f9718bd7bbcb761.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/das-note-021/amir_kameyama_ws/build/line_msg/line_msg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "line_msg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_line_msg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_line_msg_egg-f716048fb22da62b7e16.json",
+					"name" : "ament_cmake_python_build_line_msg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_line_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_line_msg-62ec6e8567fd228e1783.json",
+					"name" : "ament_cmake_python_symlink_line_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_msg-db4423369f494e5cf305.json",
+					"name" : "line_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_msg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_msg__cpp-da47f031299f666bc2a9.json",
+					"name" : "line_msg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "line_msg__py::@a6bd84c82e04e73e178a",
+					"jsonFile" : "target-line_msg__py-75520805526a6e4bfc34.json",
+					"name" : "line_msg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_msg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_msg__rosidl_generator_c-0eb9191da4d30ca906bf.json",
+					"name" : "line_msg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_msg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_msg__rosidl_generator_py-1784ea233c3a16fdc458.json",
+					"name" : "line_msg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_msg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_msg__rosidl_typesupport_c-9520b30accdf2b4476e8.json",
+					"name" : "line_msg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_msg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_msg__rosidl_typesupport_c__pyext-2bf3b47f8bc21f13b8ac.json",
+					"name" : "line_msg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_msg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_msg__rosidl_typesupport_cpp-540bc5ad4f010bb541e3.json",
+					"name" : "line_msg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_msg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_msg__rosidl_typesupport_fastrtps_c-db2aa706b0f3671f3f3c.json",
+					"name" : "line_msg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_msg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_msg__rosidl_typesupport_fastrtps_c__pyext-7263989e6d08a5fce048.json",
+					"name" : "line_msg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_msg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_msg__rosidl_typesupport_fastrtps_cpp-5b07c32d30eff001f4ac.json",
+					"name" : "line_msg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_msg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_msg__rosidl_typesupport_introspection_c-85235af103d1b238d278.json",
+					"name" : "line_msg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_msg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_msg__rosidl_typesupport_introspection_c__pyext-322a360e40db29a7cfc8.json",
+					"name" : "line_msg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_msg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_msg__rosidl_typesupport_introspection_cpp-75bd874352ea6a6eff91.json",
+					"name" : "line_msg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_msg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_msg_uninstall-3588f5528bbcd4b6ffa2.json",
+					"name" : "line_msg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-35133bce9d39f7be4f48.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/das-note-021/amir_kameyama_ws/build/line_msg",
+		"source" : "/home/das-note-021/amir_kameyama_ws/src/line_msg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

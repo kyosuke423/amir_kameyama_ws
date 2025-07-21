@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rover/kameyama_ws/src/line_msg
+CMAKE_SOURCE_DIR = /home/das-note-021/amir_kameyama_ws/src/line_msg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rover/kameyama_ws/build/line_msg
+CMAKE_BINARY_DIR = /home/das-note-021/amir_kameyama_ws/build/line_msg
 
 # Utility rule file for ament_cmake_python_build_line_msg_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_line_msg_egg.dir/compiler_depend.mak
 include CMakeFiles/ament_cmake_python_build_line_msg_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_line_msg_egg:
-	cd /home/rover/kameyama_ws/build/line_msg/ament_cmake_python/line_msg && /usr/bin/python3 setup.py egg_info
+	cd /home/das-note-021/amir_kameyama_ws/build/line_msg/ament_cmake_python/line_msg && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_line_msg_egg: CMakeFiles/ament_cmake_python_build_line_msg_egg
 ament_cmake_python_build_line_msg_egg: CMakeFiles/ament_cmake_python_build_line_msg_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_line_msg_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_line_msg_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_line_msg_egg.dir/depend:
-	cd /home/rover/kameyama_ws/build/line_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rover/kameyama_ws/src/line_msg /home/rover/kameyama_ws/src/line_msg /home/rover/kameyama_ws/build/line_msg /home/rover/kameyama_ws/build/line_msg /home/rover/kameyama_ws/build/line_msg/CMakeFiles/ament_cmake_python_build_line_msg_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/das-note-021/amir_kameyama_ws/build/line_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/das-note-021/amir_kameyama_ws/src/line_msg /home/das-note-021/amir_kameyama_ws/src/line_msg /home/das-note-021/amir_kameyama_ws/build/line_msg /home/das-note-021/amir_kameyama_ws/build/line_msg /home/das-note-021/amir_kameyama_ws/build/line_msg/CMakeFiles/ament_cmake_python_build_line_msg_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_line_msg_egg.dir/depend
 

@@ -1,6 +1,8 @@
 from behavior_tree_msgs.action._approach import Approach  # noqa: F401
+from behavior_tree_msgs.action._ave_cov import AveCov  # noqa: F401
 from behavior_tree_msgs.action._camera_search import CameraSearch  # noqa: F401
 from behavior_tree_msgs.action._check_ik import CheckIK  # noqa: F401
+from behavior_tree_msgs.action._d_op import DOp  # noqa: F401
 from behavior_tree_msgs.action._execute_tree import ExecuteTree  # noqa: F401
 from behavior_tree_msgs.action._gen_approach import GenApproach  # noqa: F401
 from behavior_tree_msgs.action._grasp import Grasp  # noqa: F401

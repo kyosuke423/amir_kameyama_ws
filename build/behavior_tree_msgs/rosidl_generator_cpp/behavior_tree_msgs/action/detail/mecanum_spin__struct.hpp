@@ -38,8 +38,7 @@ struct MecanumSpin_Goal_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->time = 0l;
-      this->dop = 0.0;
+      this->threshold = 0l;
     }
   }
 
@@ -49,30 +48,20 @@ struct MecanumSpin_Goal_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->time = 0l;
-      this->dop = 0.0;
+      this->threshold = 0l;
     }
   }
 
   // field types and members
-  using _time_type =
+  using _threshold_type =
     int32_t;
-  _time_type time;
-  using _dop_type =
-    double;
-  _dop_type dop;
+  _threshold_type threshold;
 
   // setters for named parameter idiom
-  Type & set__time(
+  Type & set__threshold(
     const int32_t & _arg)
   {
-    this->time = _arg;
-    return *this;
-  }
-  Type & set__dop(
-    const double & _arg)
-  {
-    this->dop = _arg;
+    this->threshold = _arg;
     return *this;
   }
 
@@ -118,10 +107,7 @@ struct MecanumSpin_Goal_
   // comparison operators
   bool operator==(const MecanumSpin_Goal_ & other) const
   {
-    if (this->time != other.time) {
-      return false;
-    }
-    if (this->dop != other.dop) {
+    if (this->threshold != other.threshold) {
       return false;
     }
     return true;

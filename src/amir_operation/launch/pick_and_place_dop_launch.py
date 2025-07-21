@@ -9,17 +9,17 @@ from launch.actions import DeclareLaunchArgument
 def generate_launch_description():
     ld = LaunchDescription()
 
-    just_pick_node = Node(
-        package='amir_operation',
-        executable='pick',
-        output='screen',
-    )
-
-    # pick_node = Node(
+    # just_pick_node = Node(
     #     package='amir_operation',
-    #     executable='pick_using_d_optimality',
+    #     executable='pick',
     #     output='screen',
     # )
+
+    pick_node = Node(
+        package='amir_operation',
+        executable='pick_using_d_optimality',
+        output='screen',
+    )
 
     place_node = Node(
         package='amir_operation',
@@ -64,8 +64,8 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        just_pick_node,
-        # pick_node,
+        # just_pick_node,
+        pick_node,
         place_node,
         move_arm_node,
         grasp_node,

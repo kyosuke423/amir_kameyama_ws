@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-439ba42311697e493433.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "my_nav_msgs__py",
+					"jsonFile" : "directory-my_nav_msgs__py-d11ed77c37526e08aa99.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/das-note-021/amir_kameyama_ws/build/my_nav_msgs/my_nav_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "my_nav_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_my_nav_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_my_nav_msgs_egg-39169487cf35126b8c1e.json",
+					"name" : "ament_cmake_python_build_my_nav_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_my_nav_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_my_nav_msgs-2f182d40bb1aece0b91a.json",
+					"name" : "ament_cmake_python_symlink_my_nav_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_nav_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_nav_msgs-d55cd7363853e383275c.json",
+					"name" : "my_nav_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_nav_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_nav_msgs__cpp-2ccda2ff5f2be102b56a.json",
+					"name" : "my_nav_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "my_nav_msgs__py::@4cb2dac09e4c940906a1",
+					"jsonFile" : "target-my_nav_msgs__py-00381d0fbf4d7aaa8bd9.json",
+					"name" : "my_nav_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_nav_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_nav_msgs__rosidl_generator_c-e774100703f1899c9510.json",
+					"name" : "my_nav_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_nav_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_nav_msgs__rosidl_generator_py-4281736b030298266c17.json",
+					"name" : "my_nav_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_nav_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_nav_msgs__rosidl_typesupport_c-cfe5cb5e99b500562dae.json",
+					"name" : "my_nav_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_nav_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_nav_msgs__rosidl_typesupport_c__pyext-708b32b910ca6f0a99d0.json",
+					"name" : "my_nav_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_nav_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_nav_msgs__rosidl_typesupport_cpp-62c9c6f441c378cd45c2.json",
+					"name" : "my_nav_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_nav_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_nav_msgs__rosidl_typesupport_fastrtps_c-f6c4cf9796eb5a30de4c.json",
+					"name" : "my_nav_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_nav_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_nav_msgs__rosidl_typesupport_fastrtps_c__pyext-b8fa233006eaea0d727b.json",
+					"name" : "my_nav_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_nav_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_nav_msgs__rosidl_typesupport_fastrtps_cpp-adb9b662a690645efe0a.json",
+					"name" : "my_nav_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_nav_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_nav_msgs__rosidl_typesupport_introspection_c-65bfbf69037242711470.json",
+					"name" : "my_nav_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_nav_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_nav_msgs__rosidl_typesupport_introspection_c__pyext-d31476b817239c745621.json",
+					"name" : "my_nav_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_nav_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_nav_msgs__rosidl_typesupport_introspection_cpp-b8f2e6f728b09d1937e9.json",
+					"name" : "my_nav_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_nav_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_nav_msgs_uninstall-36e0b76dfe49398d923e.json",
+					"name" : "my_nav_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0a76301f463a69ddc68e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/das-note-021/amir_kameyama_ws/build/my_nav_msgs",
+		"source" : "/home/das-note-021/amir_kameyama_ws/src/my_nav_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

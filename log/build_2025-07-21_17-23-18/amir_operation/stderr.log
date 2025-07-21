@@ -1,0 +1,67 @@
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:17:52:[m[K [01;31m[Kerror: [m[K‘[01m[KAveCov[m[K’ in namespace ‘[01m[Kbehavior_tree_msgs::action[m[K’ does not name a type
+   17 |   using AveCovAction = behavior_tree_msgs::action::[01;31m[KAveCov[m[K;
+      |                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:20:60:[m[K [01;31m[Kerror: [m[K‘[01m[KAveCovAction[m[K’ was not declared in this scope
+   20 |   using AveCovGoalHandle = rclcpp_action::ClientGoalHandle<[01;31m[KAveCovAction[m[K>;
+      |                                                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:20:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   20 |   using AveCovGoalHandle = rclcpp_action::ClientGoalHandle<AveCovAction[01;31m[K>[m[K;
+      |                                                                        [01;31m[K^[m[K
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:50:25:[m[K [01;31m[Kerror: [m[K‘[01m[KAveCovAction[m[K’ was not declared in this scope
+   50 |   rclcpp_action::Client<[01;31m[KAveCovAction[m[K>::SharedPtr avecov_client_;
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:50:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   50 |   rclcpp_action::Client<AveCovAction[01;31m[K>[m[K::SharedPtr avecov_client_;
+      |                                     [01;31m[K^[m[K
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:50:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   50 |   rclcpp_action::Client<AveCovAction>::[01;31m[KSharedPtr[m[K avecov_client_;
+      |                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                 [32m[K;[m[K
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:50:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kavecov_client_[m[K’ does not name a type
+   50 |   rclcpp_action::Client<AveCovAction>::SharedPtr [01;31m[Kavecov_client_[m[K;
+      |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:[m[K In constructor ‘[01m[KMecanumSpin::MecanumSpin()[m[K’:
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kavecov_client_[m[K’ was not declared in this scope
+   26 |     [01;31m[Kavecov_client_[m[K = rclcpp_action::create_client<AveCovAction>(this, "/ave_cov");
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:26:51:[m[K [01;31m[Kerror: [m[K‘[01m[KAveCovAction[m[K’ was not declared in this scope
+   26 |     avecov_client_ = rclcpp_action::create_client<[01;31m[KAveCovAction[m[K>(this, "/ave_cov");
+      |                                                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:26:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_client<<expression error> >(MecanumSpin*, const char [9])[m[K’
+   26 |     avecov_client_ = [01;31m[Krclcpp_action::create_client<AveCovAction>(this, "/ave_cov")[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:38[m[K,
+                 from [01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:44:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeGraphInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)[m[K’
+   44 | [01;36m[Kcreate_client[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:44:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:26:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |     avecov_client_ = [01;31m[Krclcpp_action::create_client<AveCovAction>(this, "/ave_cov")[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:38[m[K,
+                 from [01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(NodeT, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)[m[K’
+  105 | [01;36m[Kcreate_client[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:105:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:26:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |     avecov_client_ = [01;31m[Krclcpp_action::create_client<AveCovAction>(this, "/ave_cov")[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:[m[K In member function ‘[01m[Kvoid MecanumSpin::call_dop_action()[m[K’:
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:127:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kavecov_client_[m[K’ was not declared in this scope
+  127 |     if ([01;31m[Kavecov_client_[m[K->wait_for_action_server(10s)) {
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:128:30:[m[K [01;31m[Kerror: [m[K‘[01m[KAveCovAction[m[K’ has not been declared
+  128 |       auto avecov_goal_msg = [01;31m[KAveCovAction[m[K::Goal();
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:132:51:[m[K [01;31m[Kerror: [m[K‘[01m[KAveCovAction[m[K’ was not declared in this scope; did you mean ‘[01m[Kavecov_options[m[K’?
+  132 |       auto avecov_options = rclcpp_action::Client<[01;31m[KAveCovAction[m[K>::SendGoalOptions();
+      |                                                   [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                   [32m[Kavecov_options[m[K
+[01m[K/home/das-note-021/amir_kameyama_ws/src/amir_operation/src/mecanum_spin.cpp:132:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  132 |       auto avecov_options = rclcpp_action::Client<AveCovAction[01;31m[K>[m[K::SendGoalOptions();
+      |                                                               [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/mecanum_spin.dir/build.make:76: CMakeFiles/mecanum_spin.dir/src/mecanum_spin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/mecanum_spin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

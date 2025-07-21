@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rover/kameyama_ws/src/line_msg
+CMAKE_SOURCE_DIR = /home/das-note-021/amir_kameyama_ws/src/line_msg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rover/kameyama_ws/build/line_msg
+CMAKE_BINARY_DIR = /home/das-note-021/amir_kameyama_ws/build/line_msg
 
 # Utility rule file for line_msg_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/line_msg_uninstall.dir/compiler_depend.make
 include CMakeFiles/line_msg_uninstall.dir/progress.make
 
 CMakeFiles/line_msg_uninstall:
-	/usr/bin/cmake -P /home/rover/kameyama_ws/build/line_msg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/das-note-021/amir_kameyama_ws/build/line_msg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 line_msg_uninstall: CMakeFiles/line_msg_uninstall
 line_msg_uninstall: CMakeFiles/line_msg_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/line_msg_uninstall.dir/clean:
 .PHONY : CMakeFiles/line_msg_uninstall.dir/clean
 
 CMakeFiles/line_msg_uninstall.dir/depend:
-	cd /home/rover/kameyama_ws/build/line_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rover/kameyama_ws/src/line_msg /home/rover/kameyama_ws/src/line_msg /home/rover/kameyama_ws/build/line_msg /home/rover/kameyama_ws/build/line_msg /home/rover/kameyama_ws/build/line_msg/CMakeFiles/line_msg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/das-note-021/amir_kameyama_ws/build/line_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/das-note-021/amir_kameyama_ws/src/line_msg /home/das-note-021/amir_kameyama_ws/src/line_msg /home/das-note-021/amir_kameyama_ws/build/line_msg /home/das-note-021/amir_kameyama_ws/build/line_msg /home/das-note-021/amir_kameyama_ws/build/line_msg/CMakeFiles/line_msg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/line_msg_uninstall.dir/depend
 

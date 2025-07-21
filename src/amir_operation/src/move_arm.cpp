@@ -333,7 +333,11 @@ private:
                 goal.vel[3] = 200.0;
                 goal.vel[4] = 400.0;
                 goal.vel[5] = 200.0;
-                inversekinematics_publisher_->publish(goal);
+
+                for (int i = 0; i < 10; ++i) {//1回では受信できない場合があるので複数回パブリッシュ
+                    inversekinematics_publisher_->publish(goal);
+                    std::this_thread::sleep_for(std::chrono::milliseconds(100));  // 100ms間隔で送る
+                }
 
                 while (rclcpp::ok()){
                     float error_angle_1 = theta1_mrad - current_angle1;
@@ -356,7 +360,11 @@ private:
                 goal.vel[3] = 200.0;
                 goal.vel[4] = 400.0;
                 goal.vel[5] = 200.0;
-                inversekinematics_publisher_->publish(goal);
+
+                for (int i = 0; i < 10; ++i) {//1回では受信できない場合があるので複数回パブリッシュ
+                    inversekinematics_publisher_->publish(goal);
+                    std::this_thread::sleep_for(std::chrono::milliseconds(100));  // 100ms間隔で送る
+                }
 
                 while (rclcpp::ok()){
                     float error_angle_3 = theta3_mrad - current_angle3;
@@ -383,7 +391,11 @@ private:
                 goal.vel[3] = 200.0;
                 goal.vel[4] = 400.0;
                 goal.vel[5] = 200.0;
-                inversekinematics_publisher_->publish(goal);
+
+                for (int i = 0; i < 10; ++i) {//1回では受信できない場合があるので複数回パブリッシュ
+                    inversekinematics_publisher_->publish(goal);
+                    std::this_thread::sleep_for(std::chrono::milliseconds(100));  // 100ms間隔で送る
+                }
             }
             else
             {
@@ -399,7 +411,11 @@ private:
                 goal.vel[3] = 200.0;
                 goal.vel[4] = 400.0;
                 goal.vel[5] = 200.0;
-                inversekinematics_publisher_->publish(goal);
+
+                for (int i = 0; i < 10; ++i) {//1回では受信できない場合があるので複数回パブリッシュ
+                    inversekinematics_publisher_->publish(goal);
+                    std::this_thread::sleep_for(std::chrono::milliseconds(100));  // 100ms間隔で送る
+                }
 
                 while (rclcpp::ok()){
                     float error_angle_2 = theta2_mrad - current_angle2;
@@ -421,7 +437,10 @@ private:
                 goal.vel[3] = 200.0;
                 goal.vel[4] = 400.0;
                 goal.vel[5] = 200.0;
-                inversekinematics_publisher_->publish(goal);
+                for (int i = 0; i < 10; ++i) {
+                    inversekinematics_publisher_->publish(goal);
+                    std::this_thread::sleep_for(std::chrono::milliseconds(100));  // 100ms間隔で送る
+                }
 
             }
 

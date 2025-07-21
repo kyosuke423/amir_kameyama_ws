@@ -1,0 +1,51 @@
+[0.015s] Invoking command in '/home/das-note-021/amir_kameyama_ws/build/failure_detection_msgs': CMAKE_PREFIX_PATH=/home/das-note-021/amir_kameyama_ws/install/my_nav_msgs:/home/das-note-021/amir_kameyama_ws/install/behavior_tree_msgs:/home/das-note-021/amir_kameyama_ws/install/ar_track_alvar_msgs:/home/das-note-021/amir_kameyama_ws/install/rviz_utility:/home/das-note-021/amir_kameyama_ws/install/ros2_behavior_tree:/home/das-note-021/amir_kameyama_ws/install/observation:/home/das-note-021/amir_kameyama_ws/install/observation_msgs:/home/das-note-021/amir_kameyama_ws/install/my_utility:/home/das-note-021/amir_kameyama_ws/install/failure_detection_msgs:/home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2:/home/das-note-021/amir_kameyama_ws/install/amir_operation:/home/das-note-021/amir_kameyama_ws/install/line_msg:/home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial:/home/das-note-021/amir_kameyama_ws/install/bebop_msgs:/home/das-note-021/amir_kameyama_ws/install/amir_navigation:/home/das-note-021/kameyama_ws/install/slam_toolbox:/home/das-note-021/kameyama_ws/install/slam_gmapping:/home/das-note-021/kameyama_ws/install/rviz_utility:/home/das-note-021/kameyama_ws/install/ros2_behavior_tree:/home/das-note-021/kameyama_ws/install/amir_operation:/home/das-note-021/kameyama_ws/install/ros2_aruco_interfaces:/home/das-note-021/kameyama_ws/install/openslam_gmapping:/home/das-note-021/kameyama_ws/install/observation:/home/das-note-021/kameyama_ws/install/observation_msgs:/home/das-note-021/kameyama_ws/install/my_utility:/home/das-note-021/kameyama_ws/install/failure_detection_msgs:/home/das-note-021/kameyama_ws/install/my_nav_msgs:/home/das-note-021/kameyama_ws/install/mecanum_navigation2:/home/das-note-021/kameyama_ws/install/littleslam_ros2:/home/das-note-021/kameyama_ws/install/line_msg:/home/das-note-021/kameyama_ws/install/joint_state_publisher_tutorial:/home/das-note-021/kameyama_ws/install/emcl2:/home/das-note-021/kameyama_ws/install/behavior_tree_msgs:/home/das-note-021/kameyama_ws/install/bebop_msgs:/home/das-note-021/kameyama_ws/install/amir_navigation:/home/das-note-021/amir_basic_ws/install/realsense2_description:/home/das-note-021/amir_basic_ws/install/realsense2_camera:/home/das-note-021/amir_basic_ws/install/realsense2_camera_msgs:/home/das-note-021/amir_basic_ws/install/darknet_ros:/home/das-note-021/amir_basic_ws/install/darknet_ros_msgs:/home/das-note-021/amir_basic_ws/install/amir_interfaces:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble LD_LIBRARY_PATH=/home/das-note-021/amir_kameyama_ws/install/my_nav_msgs/lib:/home/das-note-021/amir_kameyama_ws/install/behavior_tree_msgs/lib:/home/das-note-021/amir_kameyama_ws/install/ar_track_alvar_msgs/lib:/home/das-note-021/amir_kameyama_ws/install/ros2_behavior_tree/lib:/home/das-note-021/amir_kameyama_ws/install/observation_msgs/lib:/home/das-note-021/amir_kameyama_ws/install/failure_detection_msgs/lib:/home/das-note-021/amir_kameyama_ws/install/line_msg/lib:/home/das-note-021/amir_kameyama_ws/install/bebop_msgs/lib:/home/das-note-021/kameyama_ws/install/slam_toolbox/lib:/home/das-note-021/kameyama_ws/install/ros2_behavior_tree/lib:/home/das-note-021/kameyama_ws/install/ros2_aruco_interfaces/lib:/home/das-note-021/kameyama_ws/install/openslam_gmapping/lib:/home/das-note-021/kameyama_ws/install/observation_msgs/lib:/home/das-note-021/kameyama_ws/install/failure_detection_msgs/lib:/home/das-note-021/kameyama_ws/install/my_nav_msgs/lib:/home/das-note-021/kameyama_ws/install/littleslam_ros2/lib:/home/das-note-021/kameyama_ws/install/line_msg/lib:/home/das-note-021/kameyama_ws/install/behavior_tree_msgs/lib:/home/das-note-021/kameyama_ws/install/bebop_msgs/lib:/home/das-note-021/amir_basic_ws/install/realsense2_camera/lib:/home/das-note-021/amir_basic_ws/install/realsense2_camera_msgs/lib:/home/das-note-021/amir_basic_ws/install/darknet_ros/lib:/home/das-note-021/amir_basic_ws/install/darknet_ros_msgs/lib:/home/das-note-021/amir_basic_ws/install/amir_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /home/das-note-021/amir_kameyama_ws/build/failure_detection_msgs -- -j22 -l22
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target failure_detection_msgs__rosidl_generator_c[0m
+[0.066s] [  1%] Built target failure_detection_msgs__cpp
+[0.072s] [  1%] Built target ament_cmake_python_symlink_failure_detection_msgs
+[0.072s] [ 12%] Built target failure_detection_msgs__rosidl_generator_c
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target failure_detection_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target failure_detection_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target failure_detection_msgs__rosidl_typesupport_cpp[0m
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target failure_detection_msgs__rosidl_typesupport_c[0m
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target failure_detection_msgs__rosidl_typesupport_introspection_c[0m
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target failure_detection_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.086s] [ 23%] Built target failure_detection_msgs__rosidl_typesupport_fastrtps_cpp
+[0.091s] [ 34%] Built target failure_detection_msgs__rosidl_typesupport_c
+[0.091s] [ 46%] Built target failure_detection_msgs__rosidl_typesupport_introspection_c
+[0.097s] [ 68%] Built target failure_detection_msgs__rosidl_typesupport_cpp
+[0.097s] [ 68%] Built target failure_detection_msgs__rosidl_typesupport_introspection_cpp
+[0.104s] [ 79%] Built target failure_detection_msgs__rosidl_typesupport_fastrtps_c
+[0.122s] [ 79%] Built target failure_detection_msgs
+[0.141s] [ 80%] Built target failure_detection_msgs__py
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target failure_detection_msgs__rosidl_generator_py[0m
+[0.154s] Traceback (most recent call last):
+[0.154s]   File "/home/das-note-021/amir_kameyama_ws/build/failure_detection_msgs/ament_cmake_python/failure_detection_msgs/setup.py", line 1, in <module>
+[0.155s]     from setuptools import find_packages
+[0.155s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[0.155s]     import setuptools.version
+[0.156s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[0.156s]     import pkg_resources
+[0.156s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 78, in <module>
+[0.156s]     __import__('pkg_resources.extern.packaging.requirements')
+[0.156s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/requirements.py", line 10, in <module>
+[0.156s] gmake[2]: *** [CMakeFiles/failure_detection_msgs__rosidl_generator_py.dir/build.make:226: CMakeFiles/failure_detection_msgs__rosidl_generator_py.dir/depend] Interrupt
+[0.157s] gmake[1]: *** [CMakeFiles/Makefile2:474: CMakeFiles/failure_detection_msgs__rosidl_generator_py.dir/all] Interrupt
+[0.157s]     from pkg_resources.extern.pyparsing import (  # noqa
+[0.157s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[0.157s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[0.157s]   File "<frozen importlib._bootstrap>", line 674, in _load_unlocked
+[0.157s]   File "<frozen importlib._bootstrap>", line 571, in module_from_spec
+[0.157s]   File "/usr/lib/python3/dist-packages/pkg_resources/extern/__init__.py", line 52, in create_module
+[0.157s]     return self.load_module(spec.name)
+[0.157s]   File "/usr/lib/python3/dist-packages/pkg_resources/extern/__init__.py", line 37, in load_module
+[0.157s]     __import__(extant)
+[0.157s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 89, in <module>
+[0.157s]     import pprint
+[0.158s]   File "/usr/lib/python3.10/pprint.py", line 38, in <module>
+[0.158s]     import dataclasses as _dataclasses
+[0.158s]   File "/usr/lib/python3.10/dataclasses.py", line 172, in <module>
+[0.161s]     class FrozenInstanceError(AttributeError): pass
+[0.161s] KeyboardInterrupt
+[0.169s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_failure_detection_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_failure_detection_msgs_egg] Interrupt
+[0.169s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_failure_detection_msgs_egg.dir/all] Interrupt
+[0.170s] gmake: *** [Makefile:146: all] Interrupt

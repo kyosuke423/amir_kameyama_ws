@@ -1,1 +1,1 @@
-/home/rover/kameyama_ws/src/amir_operation/launch/pick_and_place_dop_launch.py
+/home/das-note-021/amir_kameyama_ws/src/amir_operation/launch/pick_and_place_dop_launch.py

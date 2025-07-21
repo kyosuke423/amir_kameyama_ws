@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rover/kameyama_ws/install/observation_msgs/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/das-note-021/amir_kameyama_ws/install/observation_msgs/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rover/kameyama_ws/install/observation_msgs/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/das-note-021/amir_kameyama_ws/install/observation_msgs/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rover/kameyama_ws/install/observation_msgs/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/das-note-021/amir_kameyama_ws/install/observation_msgs/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/rover/kameyama_ws/install/observation_msgs/${destination}")
+      set(destination "/home/das-note-021/amir_kameyama_ws/install/observation_msgs/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,161 +310,161 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/observation_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/observation_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/observation_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/observation_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
-# install(DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/rosidl_generator_c/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/rover/kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/rosidl_generator_c/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.h")
+# install(DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_generator_c/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_generator_c/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.h")
 
 # install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/observation_msgs/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/observation_msgs/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/observation_msgs/environment")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/observation_msgs/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/observation_msgs/environment")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/observation_msgs/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/observation_msgs/environment")
 
-# install(DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/rosidl_typesupport_fastrtps_c/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/rover/kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/rosidl_typesupport_fastrtps_c/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_typesupport_fastrtps_c/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_typesupport_fastrtps_c/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/rosidl_generator_cpp/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/rover/kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/rosidl_generator_cpp/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_generator_cpp/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_generator_cpp/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.hpp")
 
-# install(DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/rosidl_typesupport_fastrtps_cpp/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/rover/kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/rosidl_typesupport_fastrtps_cpp/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_typesupport_fastrtps_cpp/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_typesupport_fastrtps_cpp/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/rosidl_typesupport_introspection_c/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/rover/kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/rosidl_typesupport_introspection_c/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.h")
+# install(DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_typesupport_introspection_c/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_typesupport_introspection_c/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.h")
 
-# install(DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/rosidl_typesupport_introspection_cpp/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/rover/kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/rosidl_typesupport_introspection_cpp/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_typesupport_introspection_cpp/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_typesupport_introspection_cpp/observation_msgs/" "DESTINATION" "include/observation_msgs/observation_msgs" "PATTERN" "*.hpp")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/observation_msgs/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/observation_msgs/environment")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/observation_msgs/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/observation_msgs/environment")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/observation_msgs/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/observation_msgs/environment")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/observation_msgs/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/observation_msgs/environment")
 
-# install(DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_python/observation_msgs/observation_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/observation_msgs-0.1.0-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/rover/kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_python/observation_msgs/observation_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/observation_msgs-0.1.0-py3.10.egg-info")
+# install(DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_python/observation_msgs/observation_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/observation_msgs-0.1.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_python/observation_msgs/observation_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/observation_msgs-0.1.0-py3.10.egg-info")
 
-# install(DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/rosidl_generator_py/observation_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/observation_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/rover/kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/rover/kameyama_ws/build/observation_msgs/rosidl_generator_py/observation_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/observation_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_generator_py/observation_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/observation_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" DIRECTORY "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_generator_py/observation_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/observation_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install("TARGETS" "observation_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/observation_msgs")
-include("/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "observation_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/observation_msgs")
-include("/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "observation_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/observation_msgs")
-include("/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/msg/PathEvaluation.idl" "DESTINATION" "share/observation_msgs/msg")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/msg/PathEvaluation.idl" "DESTINATION" "share/observation_msgs/msg")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/msg/PathEvaluation.idl" "DESTINATION" "share/observation_msgs/msg")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/msg/PathEvaluation.idl" "DESTINATION" "share/observation_msgs/msg")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/msg/Object.idl" "DESTINATION" "share/observation_msgs/msg")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/msg/Object.idl" "DESTINATION" "share/observation_msgs/msg")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/msg/Object.idl" "DESTINATION" "share/observation_msgs/msg")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/msg/Object.idl" "DESTINATION" "share/observation_msgs/msg")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/srv/SetObjects.idl" "DESTINATION" "share/observation_msgs/srv")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/srv/SetObjects.idl" "DESTINATION" "share/observation_msgs/srv")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/srv/SetObjects.idl" "DESTINATION" "share/observation_msgs/srv")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/srv/SetObjects.idl" "DESTINATION" "share/observation_msgs/srv")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/srv/GetObjects.idl" "DESTINATION" "share/observation_msgs/srv")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/srv/GetObjects.idl" "DESTINATION" "share/observation_msgs/srv")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/srv/GetObjects.idl" "DESTINATION" "share/observation_msgs/srv")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/srv/GetObjects.idl" "DESTINATION" "share/observation_msgs/srv")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/srv/PathCheck.idl" "DESTINATION" "share/observation_msgs/srv")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/srv/PathCheck.idl" "DESTINATION" "share/observation_msgs/srv")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/srv/PathCheck.idl" "DESTINATION" "share/observation_msgs/srv")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_adapter/observation_msgs/srv/PathCheck.idl" "DESTINATION" "share/observation_msgs/srv")
 
-# install(FILES "/home/rover/kameyama_ws/src/observation/observation_msgs/msg/PathEvaluation.msg" "DESTINATION" "share/observation_msgs/msg")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/src/observation/observation_msgs/msg/PathEvaluation.msg" "DESTINATION" "share/observation_msgs/msg")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs/msg/PathEvaluation.msg" "DESTINATION" "share/observation_msgs/msg")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs/msg/PathEvaluation.msg" "DESTINATION" "share/observation_msgs/msg")
 
-# install(FILES "/home/rover/kameyama_ws/src/observation/observation_msgs/msg/Object.msg" "DESTINATION" "share/observation_msgs/msg")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/src/observation/observation_msgs/msg/Object.msg" "DESTINATION" "share/observation_msgs/msg")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs/msg/Object.msg" "DESTINATION" "share/observation_msgs/msg")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs/msg/Object.msg" "DESTINATION" "share/observation_msgs/msg")
 
-# install(FILES "/home/rover/kameyama_ws/src/observation/observation_msgs/srv/SetObjects.srv" "DESTINATION" "share/observation_msgs/srv")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/src/observation/observation_msgs/srv/SetObjects.srv" "DESTINATION" "share/observation_msgs/srv")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs/srv/SetObjects.srv" "DESTINATION" "share/observation_msgs/srv")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs/srv/SetObjects.srv" "DESTINATION" "share/observation_msgs/srv")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/srv/SetObjects_Request.msg" "DESTINATION" "share/observation_msgs/srv")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/srv/SetObjects_Request.msg" "DESTINATION" "share/observation_msgs/srv")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/srv/SetObjects_Request.msg" "DESTINATION" "share/observation_msgs/srv")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/srv/SetObjects_Request.msg" "DESTINATION" "share/observation_msgs/srv")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/srv/SetObjects_Response.msg" "DESTINATION" "share/observation_msgs/srv")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/srv/SetObjects_Response.msg" "DESTINATION" "share/observation_msgs/srv")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/srv/SetObjects_Response.msg" "DESTINATION" "share/observation_msgs/srv")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/srv/SetObjects_Response.msg" "DESTINATION" "share/observation_msgs/srv")
 
-# install(FILES "/home/rover/kameyama_ws/src/observation/observation_msgs/srv/GetObjects.srv" "DESTINATION" "share/observation_msgs/srv")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/src/observation/observation_msgs/srv/GetObjects.srv" "DESTINATION" "share/observation_msgs/srv")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs/srv/GetObjects.srv" "DESTINATION" "share/observation_msgs/srv")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs/srv/GetObjects.srv" "DESTINATION" "share/observation_msgs/srv")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/srv/GetObjects_Request.msg" "DESTINATION" "share/observation_msgs/srv")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/srv/GetObjects_Request.msg" "DESTINATION" "share/observation_msgs/srv")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/srv/GetObjects_Request.msg" "DESTINATION" "share/observation_msgs/srv")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/srv/GetObjects_Request.msg" "DESTINATION" "share/observation_msgs/srv")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/srv/GetObjects_Response.msg" "DESTINATION" "share/observation_msgs/srv")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/srv/GetObjects_Response.msg" "DESTINATION" "share/observation_msgs/srv")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/srv/GetObjects_Response.msg" "DESTINATION" "share/observation_msgs/srv")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/srv/GetObjects_Response.msg" "DESTINATION" "share/observation_msgs/srv")
 
-# install(FILES "/home/rover/kameyama_ws/src/observation/observation_msgs/srv/PathCheck.srv" "DESTINATION" "share/observation_msgs/srv")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/src/observation/observation_msgs/srv/PathCheck.srv" "DESTINATION" "share/observation_msgs/srv")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs/srv/PathCheck.srv" "DESTINATION" "share/observation_msgs/srv")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs/srv/PathCheck.srv" "DESTINATION" "share/observation_msgs/srv")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/srv/PathCheck_Request.msg" "DESTINATION" "share/observation_msgs/srv")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/srv/PathCheck_Request.msg" "DESTINATION" "share/observation_msgs/srv")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/srv/PathCheck_Request.msg" "DESTINATION" "share/observation_msgs/srv")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/srv/PathCheck_Request.msg" "DESTINATION" "share/observation_msgs/srv")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/srv/PathCheck_Response.msg" "DESTINATION" "share/observation_msgs/srv")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/srv/PathCheck_Response.msg" "DESTINATION" "share/observation_msgs/srv")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/srv/PathCheck_Response.msg" "DESTINATION" "share/observation_msgs/srv")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/srv/PathCheck_Response.msg" "DESTINATION" "share/observation_msgs/srv")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/observation_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/observation_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/observation_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/observation_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/observation_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/observation_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/observation_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/observation_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/observation_msgs/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/observation_msgs/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/observation_msgs/environment")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/observation_msgs/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/observation_msgs/environment")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/observation_msgs/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/observation_msgs/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/observation_msgs/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/observation_msgs/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/observation_msgs/environment")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/observation_msgs/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/observation_msgs/environment")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/observation_msgs/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/observation_msgs/environment")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/observation_msgs")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/observation_msgs")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/observation_msgs")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/observation_msgs")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/observation_msgs")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/observation_msgs")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/observation_msgs")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/observation_msgs")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/observation_msgs")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/observation_msgs")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/observation_msgs")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/observation_msgs")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/observation_msgs")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/observation_msgs")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/observation_msgs")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/observation_msgs")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/observation_msgs")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/observation_msgs")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/observation_msgs")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/observation_msgs")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/packages/observation_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/packages/observation_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/packages/observation_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_index/share/ament_index/resource_index/packages/observation_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/observation_msgs/cmake")
 
-# install(FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_core/observation_msgsConfig.cmake" "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_core/observation_msgsConfig-version.cmake" "DESTINATION" "share/observation_msgs/cmake")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_core/observation_msgsConfig.cmake" "/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_core/observation_msgsConfig-version.cmake" "DESTINATION" "share/observation_msgs/cmake")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_core/observation_msgsConfig.cmake" "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_core/observation_msgsConfig-version.cmake" "DESTINATION" "share/observation_msgs/cmake")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_core/observation_msgsConfig.cmake" "/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_core/observation_msgsConfig-version.cmake" "DESTINATION" "share/observation_msgs/cmake")
 
-# install(FILES "/home/rover/kameyama_ws/src/observation/observation_msgs/package.xml" "DESTINATION" "share/observation_msgs")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/observation/observation_msgs" FILES "/home/rover/kameyama_ws/src/observation/observation_msgs/package.xml" "DESTINATION" "share/observation_msgs")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs/package.xml" "DESTINATION" "share/observation_msgs")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs" FILES "/home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs/package.xml" "DESTINATION" "share/observation_msgs")

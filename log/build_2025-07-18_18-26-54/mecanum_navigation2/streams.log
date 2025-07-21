@@ -1,0 +1,58 @@
+[0.196s] Invoking command in '/home/das-note-021/amir_kameyama_ws/build/mecanum_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake /home/das-note-021/amir_kameyama_ws/src/mecanum_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2
+[0.239s] -- The C compiler identification is GNU 11.4.0
+[0.276s] -- The CXX compiler identification is GNU 11.4.0
+[0.281s] -- Detecting C compiler ABI info
+[0.348s] -- Detecting C compiler ABI info - done
+[0.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.353s] -- Detecting C compile features
+[0.353s] -- Detecting C compile features - done
+[0.355s] -- Detecting CXX compiler ABI info
+[0.431s] -- Detecting CXX compiler ABI info - done
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.437s] -- Detecting CXX compile features
+[0.437s] -- Detecting CXX compile features - done
+[0.443s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.678s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.768s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.874s] -- Configuring done
+[0.875s] -- Generating done
+[0.876s] -- Build files have been written to: /home/das-note-021/amir_kameyama_ws/build/mecanum_navigation2
+[0.879s] Invoked command in '/home/das-note-021/amir_kameyama_ws/build/mecanum_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake /home/das-note-021/amir_kameyama_ws/src/mecanum_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2
+[0.881s] Invoking command in '/home/das-note-021/amir_kameyama_ws/build/mecanum_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --build /home/das-note-021/amir_kameyama_ws/build/mecanum_navigation2 -- -j22 -l22
+[0.922s] Invoked command in '/home/das-note-021/amir_kameyama_ws/build/mecanum_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --build /home/das-note-021/amir_kameyama_ws/build/mecanum_navigation2 -- -j22 -l22
+[0.924s] Invoking command in '/home/das-note-021/amir_kameyama_ws/build/mecanum_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --install /home/das-note-021/amir_kameyama_ws/build/mecanum_navigation2
+[0.929s] -- Install configuration: ""
+[0.930s] -- Execute custom install script
+[0.930s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/launch/bringup_launch.py
+[0.937s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/launch/mecanum2_launch.py
+[0.947s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/launch/mecanum_launch.py
+[0.961s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/launch/navigation2.launch.py
+[0.973s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/launch/rviz_launch.py
+[0.984s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/launch/slam_toolbox_launch.py
+[0.995s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/map/turtlebot3_world.pgm
+[1.006s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/map/turtlebot3_world.yaml
+[1.014s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/params/amir.yaml
+[1.021s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/params/burger.yaml
+[1.031s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/params/mecanum (another copy).yaml
+[1.043s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/params/mecanum (copy).yaml
+[1.055s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/params/waffle.yaml
+[1.064s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/params/waffle_pi.yaml
+[1.074s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/rviz/navigation.rviz
+[1.082s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/config/mapper_params_online_async.yaml
+[1.091s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/config/mapper_params_online_sync.yaml
+[1.099s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/ament_index/resource_index/package_run_dependencies/mecanum_navigation2
+[1.114s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/ament_index/resource_index/parent_prefix_path/mecanum_navigation2
+[1.123s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/environment/ament_prefix_path.sh
+[1.132s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/environment/ament_prefix_path.dsv
+[1.142s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/environment/path.sh
+[1.151s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/environment/path.dsv
+[1.165s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/local_setup.bash
+[1.178s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/local_setup.sh
+[1.185s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/local_setup.zsh
+[1.194s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/local_setup.dsv
+[1.206s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/package.dsv
+[1.220s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/ament_index/resource_index/packages/mecanum_navigation2
+[1.229s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/cmake/mecanum_navigation2Config.cmake
+[1.236s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/cmake/mecanum_navigation2Config-version.cmake
+[1.245s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/mecanum_navigation2/share/mecanum_navigation2/package.xml
+[1.256s] Invoked command in '/home/das-note-021/amir_kameyama_ws/build/mecanum_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --install /home/das-note-021/amir_kameyama_ws/build/mecanum_navigation2

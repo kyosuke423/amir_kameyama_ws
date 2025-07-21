@@ -1,0 +1,23 @@
+[0.675s] Invoking command in '/home/das-note-021/amir_kameyama_ws/build/bt_generator': PYTHONPATH=/home/das-note-021/amir_kameyama_ws/build/bt_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/das-note-021/amir_kameyama_ws/build/bt_generator/build --no-deps symlink_data
+[0.853s] running develop
+[0.944s] running egg_info
+[0.945s] writing bt_generator.egg-info/PKG-INFO
+[0.945s] writing dependency_links to bt_generator.egg-info/dependency_links.txt
+[0.945s] writing entry points to bt_generator.egg-info/entry_points.txt
+[0.945s] writing requirements to bt_generator.egg-info/requires.txt
+[0.945s] writing top-level names to bt_generator.egg-info/top_level.txt
+[0.947s] reading manifest file 'bt_generator.egg-info/SOURCES.txt'
+[0.947s] writing manifest file 'bt_generator.egg-info/SOURCES.txt'
+[0.948s] running build_ext
+[0.948s] Creating /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/python3.10/site-packages/bt-generator.egg-link (link to .)
+[0.949s] Installing bt_commander script to /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/bt_generator
+[0.949s] Installing bt_generator_bebop_base script to /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/bt_generator
+[0.949s] Installing bt_generator_service script to /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/bt_generator
+[0.949s] Installing bt_generator_service_bebop script to /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/bt_generator
+[0.949s] Installing bt_nav_generator script to /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/bt_generator
+[0.949s] Installing bt_send_xml script to /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/bt_generator
+[0.949s] Installing receive_send_xml script to /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/bt_generator
+[0.949s] 
+[0.949s] Installed /home/das-note-021/amir_kameyama_ws/build/bt_generator
+[0.949s] running symlink_data
+[0.971s] Invoked command in '/home/das-note-021/amir_kameyama_ws/build/bt_generator' returned '0': PYTHONPATH=/home/das-note-021/amir_kameyama_ws/build/bt_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/das-note-021/amir_kameyama_ws/build/bt_generator/build --no-deps symlink_data

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_GENERATOR_C_BUILDING_DLL_ar_track_alvar_msgs -DROS_PACKAGE_NAME=\"ar_track_alvar_msgs\"
 
-C_INCLUDES = -I/home/rover/kameyama_ws/build/ar_track_alvar_msgs/rosidl_generator_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
+C_INCLUDES = -I/home/das-note-021/amir_kameyama_ws/build/ar_track_alvar_msgs/rosidl_generator_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
 
 C_FLAGS = -fPIC -Wall -std=gnu11
 

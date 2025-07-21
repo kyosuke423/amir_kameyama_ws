@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rover/kameyama_ws/src/joint_state_publisher_tutorial
+CMAKE_SOURCE_DIR = /home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rover/kameyama_ws/build/joint_state_publisher_tutorial
+CMAKE_BINARY_DIR = /home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial
 
 # Utility rule file for joint_state_publisher_tutorial_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/joint_state_publisher_tutorial_uninstall.dir/compiler_depend.
 include CMakeFiles/joint_state_publisher_tutorial_uninstall.dir/progress.make
 
 CMakeFiles/joint_state_publisher_tutorial_uninstall:
-	/usr/bin/cmake -P /home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 joint_state_publisher_tutorial_uninstall: CMakeFiles/joint_state_publisher_tutorial_uninstall
 joint_state_publisher_tutorial_uninstall: CMakeFiles/joint_state_publisher_tutorial_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/joint_state_publisher_tutorial_uninstall.dir/clean:
 .PHONY : CMakeFiles/joint_state_publisher_tutorial_uninstall.dir/clean
 
 CMakeFiles/joint_state_publisher_tutorial_uninstall.dir/depend:
-	cd /home/rover/kameyama_ws/build/joint_state_publisher_tutorial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rover/kameyama_ws/src/joint_state_publisher_tutorial /home/rover/kameyama_ws/src/joint_state_publisher_tutorial /home/rover/kameyama_ws/build/joint_state_publisher_tutorial /home/rover/kameyama_ws/build/joint_state_publisher_tutorial /home/rover/kameyama_ws/build/joint_state_publisher_tutorial/CMakeFiles/joint_state_publisher_tutorial_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial /home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial /home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial /home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial /home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/CMakeFiles/joint_state_publisher_tutorial_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/joint_state_publisher_tutorial_uninstall.dir/depend
 

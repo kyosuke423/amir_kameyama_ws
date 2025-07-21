@@ -1,3 +1,4 @@
 [console_scripts]
 bt_monitoring = failure_detection.monitoring:main
 failure_detection = failure_detection.failure_detection:main
+

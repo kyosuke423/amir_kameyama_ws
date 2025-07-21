@@ -1,1 +1,0 @@
-/home/rover/kameyama_ws/src/emcl2_ros2/launch/emcl2.launch.py

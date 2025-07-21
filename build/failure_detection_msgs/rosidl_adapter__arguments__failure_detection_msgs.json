@@ -1,10 +1,10 @@
 {
   "package_name": "failure_detection_msgs",
   "non_idl_tuples": [
-    "/home/rover/kameyama_ws/src/failure_detection/failure_detection_msgs:msg/Solution.msg",
-    "/home/rover/kameyama_ws/src/failure_detection/failure_detection_msgs:action/Analysys.action",
-    "/home/rover/kameyama_ws/src/failure_detection/failure_detection_msgs:srv/PathCheck.srv",
-    "/home/rover/kameyama_ws/src/failure_detection/failure_detection_msgs:srv/BeforePick.srv",
-    "/home/rover/kameyama_ws/src/failure_detection/failure_detection_msgs:srv/AfterPick.srv"
+    "/home/das-note-021/amir_kameyama_ws/src/failure_detection/failure_detection_msgs:msg/Solution.msg",
+    "/home/das-note-021/amir_kameyama_ws/src/failure_detection/failure_detection_msgs:action/Analysys.action",
+    "/home/das-note-021/amir_kameyama_ws/src/failure_detection/failure_detection_msgs:srv/PathCheck.srv",
+    "/home/das-note-021/amir_kameyama_ws/src/failure_detection/failure_detection_msgs:srv/BeforePick.srv",
+    "/home/das-note-021/amir_kameyama_ws/src/failure_detection/failure_detection_msgs:srv/AfterPick.srv"
   ]
 }

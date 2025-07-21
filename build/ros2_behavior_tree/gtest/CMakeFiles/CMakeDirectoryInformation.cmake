@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/opt/ros/humble/src/gtest_vendor")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/rover/kameyama_ws/build/ros2_behavior_tree")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/das-note-021/amir_kameyama_ws/build/ros2_behavior_tree")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

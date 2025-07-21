@@ -134,7 +134,7 @@ public:
         // sub_object_pose_ = this->create_subscription<behavior_tree_msgs::msg::ObjectArray>("/camera/object_position",qos_profile,std::bind(&PickServer::amirCameraCallback,this,std::placeholders::_1));
 
         // アクションサーバーの起動ログを出力
-        RCLCPP_INFO(this->get_logger(), "****** Pick action server started ******");
+        RCLCPP_INFO(this->get_logger(), "****** Pick Using D-optimality action server started ******");
     }
 
 private:
@@ -143,7 +143,8 @@ private:
         basePose = *basePoseMsg;
 
         // // 初期位置と角度設定
-        double init_x = 1.5;
+        // double init_x = 1.5;
+        double init_x = 0.5;
         double init_y = 1.0;
         double init_z = 0.0;
         double init_angle_z = -90.0; // 初期オフセットの角度 (度)←角度変えると暴走する可能性あるから、/amir/destinationを確認してから実験すること！！！

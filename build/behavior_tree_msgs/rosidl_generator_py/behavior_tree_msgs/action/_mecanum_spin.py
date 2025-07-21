@@ -7,8 +7,6 @@
 
 import builtins  # noqa: E402, I100
 
-import math  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -57,26 +55,22 @@ class MecanumSpin_Goal(metaclass=Metaclass_MecanumSpin_Goal):
     """Message class 'MecanumSpin_Goal'."""
 
     __slots__ = [
-        '_time',
-        '_dop',
+        '_threshold',
     ]
 
     _fields_and_field_types = {
-        'time': 'int32',
-        'dop': 'double',
+        'threshold': 'int32',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
-        rosidl_parser.definition.BasicType('double'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.time = kwargs.get('time', int())
-        self.dop = kwargs.get('dop', float())
+        self.threshold = kwargs.get('threshold', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -107,9 +101,7 @@ class MecanumSpin_Goal(metaclass=Metaclass_MecanumSpin_Goal):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.time != other.time:
-            return False
-        if self.dop != other.dop:
+        if self.threshold != other.threshold:
             return False
         return True
 
@@ -119,34 +111,19 @@ class MecanumSpin_Goal(metaclass=Metaclass_MecanumSpin_Goal):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def time(self):
-        """Message field 'time'."""
-        return self._time
+    def threshold(self):
+        """Message field 'threshold'."""
+        return self._threshold
 
-    @time.setter
-    def time(self, value):
+    @threshold.setter
+    def threshold(self, value):
         if __debug__:
             assert \
                 isinstance(value, int), \
-                "The 'time' field must be of type 'int'"
+                "The 'threshold' field must be of type 'int'"
             assert value >= -2147483648 and value < 2147483648, \
-                "The 'time' field must be an integer in [-2147483648, 2147483647]"
-        self._time = value
-
-    @builtins.property
-    def dop(self):
-        """Message field 'dop'."""
-        return self._dop
-
-    @dop.setter
-    def dop(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, float), \
-                "The 'dop' field must be of type 'float'"
-            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'dop' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._dop = value
+                "The 'threshold' field must be an integer in [-2147483648, 2147483647]"
+        self._threshold = value
 
 
 # Import statements for member types

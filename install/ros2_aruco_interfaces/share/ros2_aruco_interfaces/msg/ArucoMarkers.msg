@@ -1,1 +1,0 @@
-/home/rover/kameyama_ws/src/ros2_aruco/ros2_aruco_interfaces/msg/ArucoMarkers.msg

@@ -1,1 +1,0 @@
-/home/rover/kameyama_ws/build/slam_toolbox/rosidl_cmake/srv/Clear_Request.msg

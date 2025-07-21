@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/tutorial_publisher" "TARGETS" "tutorial_publisher" "DESTINATION" "lib/joint_state_publisher_tutorial")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/tutorial_publisher" "TARGETS" "tutorial_publisher" "DESTINATION" "lib/joint_state_publisher_tutorial")

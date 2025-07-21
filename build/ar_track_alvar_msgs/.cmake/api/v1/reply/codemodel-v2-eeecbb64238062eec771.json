@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-66d7418edf623e6472f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ar_track_alvar_msgs__py",
+					"jsonFile" : "directory-ar_track_alvar_msgs__py-0591d4ee61f3b607fb8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/das-note-021/amir_kameyama_ws/build/ar_track_alvar_msgs/ar_track_alvar_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ar_track_alvar_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ar_track_alvar_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ar_track_alvar_msgs_egg-3f76a29cb7b5b156fe6d.json",
+					"name" : "ament_cmake_python_build_ar_track_alvar_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_ar_track_alvar_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_ar_track_alvar_msgs-9d4a9a73f1d302a4eac5.json",
+					"name" : "ament_cmake_python_symlink_ar_track_alvar_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_track_alvar_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_track_alvar_msgs-f84eb252041231d42965.json",
+					"name" : "ar_track_alvar_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_track_alvar_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_track_alvar_msgs__cpp-fe283d6d463bc9a81599.json",
+					"name" : "ar_track_alvar_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ar_track_alvar_msgs__py::@e372a013d7b629bae027",
+					"jsonFile" : "target-ar_track_alvar_msgs__py-2726b087e262d3ce679f.json",
+					"name" : "ar_track_alvar_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_track_alvar_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_track_alvar_msgs__rosidl_generator_c-4b2035f8f2815b53598f.json",
+					"name" : "ar_track_alvar_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_track_alvar_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_track_alvar_msgs__rosidl_generator_py-57516083dc387a07c43c.json",
+					"name" : "ar_track_alvar_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_track_alvar_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_track_alvar_msgs__rosidl_typesupport_c-0d23906d59baa23b3fed.json",
+					"name" : "ar_track_alvar_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_track_alvar_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_track_alvar_msgs__rosidl_typesupport_c__pyext-4dade5e1cc0d7abd32ca.json",
+					"name" : "ar_track_alvar_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_track_alvar_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_track_alvar_msgs__rosidl_typesupport_cpp-ff3944f9805b10e517f2.json",
+					"name" : "ar_track_alvar_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c-21f44715915a2942ab52.json",
+					"name" : "ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c__pyext-36b36bede59179ab5667.json",
+					"name" : "ar_track_alvar_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_track_alvar_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_track_alvar_msgs__rosidl_typesupport_fastrtps_cpp-227532d1120ef7c2aa76.json",
+					"name" : "ar_track_alvar_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_track_alvar_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_track_alvar_msgs__rosidl_typesupport_introspection_c-20f934c64e6ad8503272.json",
+					"name" : "ar_track_alvar_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_track_alvar_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_track_alvar_msgs__rosidl_typesupport_introspection_c__pyext-d3e1bc7b2f222661fbae.json",
+					"name" : "ar_track_alvar_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_track_alvar_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_track_alvar_msgs__rosidl_typesupport_introspection_cpp-c71a63aae997c7228dd1.json",
+					"name" : "ar_track_alvar_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_track_alvar_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_track_alvar_msgs_uninstall-5aae88610010e14a2b22.json",
+					"name" : "ar_track_alvar_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-656c413641fba34c3476.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/das-note-021/amir_kameyama_ws/build/ar_track_alvar_msgs",
+		"source" : "/home/das-note-021/amir_kameyama_ws/src/ar_track_alvar_msgs/ar_track_alvar_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,1 +1,1 @@
-/home/rover/kameyama_ws/src/observation/observation/launch/nav2_send_goal.launch.py
+/home/das-note-021/amir_kameyama_ws/src/observation/observation/launch/nav2_send_goal.launch.py

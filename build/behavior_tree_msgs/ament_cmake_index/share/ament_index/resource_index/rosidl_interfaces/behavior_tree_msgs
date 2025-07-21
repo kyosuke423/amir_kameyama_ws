@@ -1,9 +1,13 @@
 action/Approach.action
 action/Approach.idl
+action/AveCov.action
+action/AveCov.idl
 action/CameraSearch.action
 action/CameraSearch.idl
 action/CheckIK.action
 action/CheckIK.idl
+action/DOp.action
+action/DOp.idl
 action/ExecuteTree.action
 action/ExecuteTree.idl
 action/GenApproach.action

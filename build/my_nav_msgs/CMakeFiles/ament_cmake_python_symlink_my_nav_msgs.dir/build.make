@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rover/kameyama_ws/src/my_nav_msgs
+CMAKE_SOURCE_DIR = /home/das-note-021/amir_kameyama_ws/src/my_nav_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rover/kameyama_ws/build/my_nav_msgs
+CMAKE_BINARY_DIR = /home/das-note-021/amir_kameyama_ws/build/my_nav_msgs
 
 # Utility rule file for ament_cmake_python_symlink_my_nav_msgs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_my_nav_msgs.dir/compiler_depend.ma
 include CMakeFiles/ament_cmake_python_symlink_my_nav_msgs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_my_nav_msgs:
-	/usr/bin/cmake -E create_symlink /home/rover/kameyama_ws/build/my_nav_msgs/rosidl_generator_py/my_nav_msgs /home/rover/kameyama_ws/build/my_nav_msgs/ament_cmake_python/my_nav_msgs/my_nav_msgs
+	/usr/bin/cmake -E create_symlink /home/das-note-021/amir_kameyama_ws/build/my_nav_msgs/rosidl_generator_py/my_nav_msgs /home/das-note-021/amir_kameyama_ws/build/my_nav_msgs/ament_cmake_python/my_nav_msgs/my_nav_msgs
 
 ament_cmake_python_symlink_my_nav_msgs: CMakeFiles/ament_cmake_python_symlink_my_nav_msgs
 ament_cmake_python_symlink_my_nav_msgs: CMakeFiles/ament_cmake_python_symlink_my_nav_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_my_nav_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_my_nav_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_my_nav_msgs.dir/depend:
-	cd /home/rover/kameyama_ws/build/my_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rover/kameyama_ws/src/my_nav_msgs /home/rover/kameyama_ws/src/my_nav_msgs /home/rover/kameyama_ws/build/my_nav_msgs /home/rover/kameyama_ws/build/my_nav_msgs /home/rover/kameyama_ws/build/my_nav_msgs/CMakeFiles/ament_cmake_python_symlink_my_nav_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/das-note-021/amir_kameyama_ws/build/my_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/das-note-021/amir_kameyama_ws/src/my_nav_msgs /home/das-note-021/amir_kameyama_ws/src/my_nav_msgs /home/das-note-021/amir_kameyama_ws/build/my_nav_msgs /home/das-note-021/amir_kameyama_ws/build/my_nav_msgs /home/das-note-021/amir_kameyama_ws/build/my_nav_msgs/CMakeFiles/ament_cmake_python_symlink_my_nav_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_symlink_my_nav_msgs.dir/depend
 

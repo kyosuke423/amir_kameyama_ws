@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rover/kameyama_ws/src/observation/observation
+CMAKE_SOURCE_DIR = /home/das-note-021/amir_kameyama_ws/src/observation/observation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rover/kameyama_ws/build/observation
+CMAKE_BINARY_DIR = /home/das-note-021/amir_kameyama_ws/build/observation
 
 # Utility rule file for observation_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/observation_uninstall.dir/compiler_depend.make
 include CMakeFiles/observation_uninstall.dir/progress.make
 
 CMakeFiles/observation_uninstall:
-	/usr/bin/cmake -P /home/rover/kameyama_ws/build/observation/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/das-note-021/amir_kameyama_ws/build/observation/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 observation_uninstall: CMakeFiles/observation_uninstall
 observation_uninstall: CMakeFiles/observation_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/observation_uninstall.dir/clean:
 .PHONY : CMakeFiles/observation_uninstall.dir/clean
 
 CMakeFiles/observation_uninstall.dir/depend:
-	cd /home/rover/kameyama_ws/build/observation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rover/kameyama_ws/src/observation/observation /home/rover/kameyama_ws/src/observation/observation /home/rover/kameyama_ws/build/observation /home/rover/kameyama_ws/build/observation /home/rover/kameyama_ws/build/observation/CMakeFiles/observation_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/das-note-021/amir_kameyama_ws/build/observation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/das-note-021/amir_kameyama_ws/src/observation/observation /home/das-note-021/amir_kameyama_ws/src/observation/observation /home/das-note-021/amir_kameyama_ws/build/observation /home/das-note-021/amir_kameyama_ws/build/observation /home/das-note-021/amir_kameyama_ws/build/observation/CMakeFiles/observation_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/observation_uninstall.dir/depend
 

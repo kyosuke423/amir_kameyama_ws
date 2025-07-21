@@ -6,8 +6,10 @@ behavior_tree_msgs.egg-info/dependency_links.txt
 behavior_tree_msgs.egg-info/top_level.txt
 behavior_tree_msgs/action/__init__.py
 behavior_tree_msgs/action/_approach.py
+behavior_tree_msgs/action/_ave_cov.py
 behavior_tree_msgs/action/_camera_search.py
 behavior_tree_msgs/action/_check_ik.py
+behavior_tree_msgs/action/_d_op.py
 behavior_tree_msgs/action/_execute_tree.py
 behavior_tree_msgs/action/_gen_approach.py
 behavior_tree_msgs/action/_grasp.py

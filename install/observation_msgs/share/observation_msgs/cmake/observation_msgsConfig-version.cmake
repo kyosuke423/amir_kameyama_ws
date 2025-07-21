@@ -1,1 +1,1 @@
-/home/rover/kameyama_ws/build/observation_msgs/ament_cmake_core/observation_msgsConfig-version.cmake
+/home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_core/observation_msgsConfig-version.cmake

@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from behavior_tree_msgs/action/AveCov.action
+// generated code does not contain a copyright notice
+
+
+module behavior_tree_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct AveCov_Goal {
+      string input_csv_path;
+
+      string output_csv_path;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct AveCov_Result {
+      boolean success;
+
+      string output_backup_path;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct AveCov_Feedback {
+      string current_step;
+    };
+  };
+};

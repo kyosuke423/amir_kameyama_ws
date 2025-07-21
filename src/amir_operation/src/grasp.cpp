@@ -142,7 +142,11 @@ private:
             joint.vel[4] = 400.0;
             joint.vel[5] = 200.0;
 
-            grasp_pub_->publish(joint);
+            for (int i = 0; i < 10; ++i) {
+                grasp_pub_->publish(joint);
+                std::this_thread::sleep_for(std::chrono::milliseconds(100));  // 100ms間隔で送る
+            }
+
             RCLCPP_INFO(this->get_logger(), "Publishing angle5 0° for pick");
 
             std::cout << "current_angle1 : " << current_angle1 << "current_angle6 : " << current_angle6 << std::endl;
@@ -191,7 +195,11 @@ private:
             joint.vel[4] = 400.0;
             joint.vel[5] = 200.0;
 
-            grasp_pub_->publish(joint);
+            for (int i = 0; i < 10; ++i) {
+                grasp_pub_->publish(joint);
+                std::this_thread::sleep_for(std::chrono::milliseconds(100));  // 100ms間隔で送る
+            }
+
             RCLCPP_INFO(this->get_logger(), "Publishing angle5 -75° for place");
             sleep(5);
             RCLCPP_INFO(this->get_logger(), "place ok");

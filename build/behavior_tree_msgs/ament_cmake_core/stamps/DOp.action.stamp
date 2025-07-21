@@ -1,0 +1,10 @@
+# Goal
+string input_csv_path
+string output_txt_path
+---
+# Result
+bool success
+string message
+---
+# Feedback
+string current_step

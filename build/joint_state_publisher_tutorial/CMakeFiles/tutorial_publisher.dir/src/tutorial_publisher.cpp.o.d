@@ -1,5 +1,5 @@
 CMakeFiles/tutorial_publisher.dir/src/tutorial_publisher.cpp.o: \
- /home/rover/kameyama_ws/src/joint_state_publisher_tutorial/src/tutorial_publisher.cpp \
+ /home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial/src/tutorial_publisher.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \

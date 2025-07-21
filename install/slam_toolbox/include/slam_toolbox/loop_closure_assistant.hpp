@@ -1,1 +1,0 @@
-/home/rover/kameyama_ws/src/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp

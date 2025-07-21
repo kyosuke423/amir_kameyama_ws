@@ -1,8 +1,8 @@
-# Install script for directory: /home/rover/kameyama_ws/build/observation_msgs/observation_msgs__py
+# Install script for directory: /home/das-note-021/amir_kameyama_ws/build/observation_msgs/observation_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rover/kameyama_ws/install/observation_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/das-note-021/amir_kameyama_ws/install/observation_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

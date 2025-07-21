@@ -1,1 +1,1 @@
-/home/rover/kameyama_ws/src/joint_state_publisher_tutorial/launch/joint_display.launch.py
+/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial/launch/joint_display.launch.py

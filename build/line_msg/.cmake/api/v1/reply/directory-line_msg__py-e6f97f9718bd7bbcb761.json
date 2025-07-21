@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "line_msg__py",
+		"source" : "/home/das-note-021/amir_kameyama_ws/build/line_msg/line_msg__py"
+	}
+}

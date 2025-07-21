@@ -21,10 +21,9 @@ extern "C"
 /// Struct defined in action/MecanumSpin in the package behavior_tree_msgs.
 typedef struct behavior_tree_msgs__action__MecanumSpin_Goal
 {
-  /// 視点を変える回数
-  int32_t time;
-  /// D-optimalityの値
-  double dop;
+  /// int32 time # 視点を変える回数
+  ///  D-optimalityの閾値
+  int32_t threshold;
 } behavior_tree_msgs__action__MecanumSpin_Goal;
 
 // Struct for a sequence of behavior_tree_msgs__action__MecanumSpin_Goal.

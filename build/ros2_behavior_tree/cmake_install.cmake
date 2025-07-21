@@ -1,8 +1,8 @@
-# Install script for directory: /home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree
+# Install script for directory: /home/das-note-021/amir_kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rover/kameyama_ws/install/ros2_behavior_tree")
+  set(CMAKE_INSTALL_PREFIX "/home/das-note-021/amir_kameyama_ws/install/ros2_behavior_tree")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,12 +43,12 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/rover/kameyama_ws/build/ros2_behavior_tree/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/das-note-021/amir_kameyama_ws/build/ros2_behavior_tree/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rover/kameyama_ws/build/ros2_behavior_tree/tests/cmake_install.cmake")
+  include("/home/das-note-021/amir_kameyama_ws/build/ros2_behavior_tree/tests/cmake_install.cmake")
 
 endif()
 
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rover/kameyama_ws/build/ros2_behavior_tree/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/das-note-021/amir_kameyama_ws/build/ros2_behavior_tree/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

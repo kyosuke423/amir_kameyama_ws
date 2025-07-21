@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/include -I/home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/tests/include -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include
+CXX_INCLUDES = -I/home/das-note-021/amir_kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/include -I/home/das-note-021/amir_kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/tests/include -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include
 
 CXX_FLAGS = 
 

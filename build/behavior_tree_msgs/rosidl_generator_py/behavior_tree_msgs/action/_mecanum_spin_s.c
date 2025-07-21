@@ -50,22 +50,13 @@ bool behavior_tree_msgs__action__mecanum_spin__goal__convert_from_py(PyObject * 
     assert(strncmp("behavior_tree_msgs.action._mecanum_spin.MecanumSpin_Goal", full_classname_dest, 56) == 0);
   }
   behavior_tree_msgs__action__MecanumSpin_Goal * ros_message = _ros_message;
-  {  // time
-    PyObject * field = PyObject_GetAttrString(_pymsg, "time");
+  {  // threshold
+    PyObject * field = PyObject_GetAttrString(_pymsg, "threshold");
     if (!field) {
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->time = (int32_t)PyLong_AsLong(field);
-    Py_DECREF(field);
-  }
-  {  // dop
-    PyObject * field = PyObject_GetAttrString(_pymsg, "dop");
-    if (!field) {
-      return false;
-    }
-    assert(PyFloat_Check(field));
-    ros_message->dop = PyFloat_AS_DOUBLE(field);
+    ros_message->threshold = (int32_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
 
@@ -90,22 +81,11 @@ PyObject * behavior_tree_msgs__action__mecanum_spin__goal__convert_to_py(void * 
     }
   }
   behavior_tree_msgs__action__MecanumSpin_Goal * ros_message = (behavior_tree_msgs__action__MecanumSpin_Goal *)raw_ros_message;
-  {  // time
+  {  // threshold
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->time);
+    field = PyLong_FromLong(ros_message->threshold);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "time", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // dop
-    PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->dop);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "dop", field);
+      int rc = PyObject_SetAttrString(_pymessage, "threshold", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

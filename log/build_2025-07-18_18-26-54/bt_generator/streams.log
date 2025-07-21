@@ -1,0 +1,48 @@
+[0.693s] Invoking command in '/home/das-note-021/amir_kameyama_ws/build/bt_generator': PYTHONPATH=/home/das-note-021/amir_kameyama_ws/build/bt_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/das-note-021/amir_kameyama_ws/build/bt_generator/build --no-deps symlink_data
+[1.034s] running develop
+[1.230s] running egg_info
+[1.230s] creating bt_generator.egg-info
+[1.230s] writing bt_generator.egg-info/PKG-INFO
+[1.231s] writing dependency_links to bt_generator.egg-info/dependency_links.txt
+[1.231s] writing entry points to bt_generator.egg-info/entry_points.txt
+[1.231s] writing requirements to bt_generator.egg-info/requires.txt
+[1.231s] writing top-level names to bt_generator.egg-info/top_level.txt
+[1.231s] writing manifest file 'bt_generator.egg-info/SOURCES.txt'
+[1.236s] reading manifest file 'bt_generator.egg-info/SOURCES.txt'
+[1.236s] writing manifest file 'bt_generator.egg-info/SOURCES.txt'
+[1.239s] running build_ext
+[1.239s] Creating /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/python3.10/site-packages/bt-generator.egg-link (link to .)
+[1.240s] Installing bt_commander script to /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/bt_generator
+[1.240s] Installing bt_generator_bebop_base script to /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/bt_generator
+[1.240s] Installing bt_generator_service script to /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/bt_generator
+[1.240s] Installing bt_generator_service_bebop script to /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/bt_generator
+[1.241s] Installing bt_nav_generator script to /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/bt_generator
+[1.241s] Installing bt_send_xml script to /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/bt_generator
+[1.241s] Installing receive_send_xml script to /home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/bt_generator
+[1.241s] 
+[1.241s] Installed /home/das-note-021/amir_kameyama_ws/build/bt_generator
+[1.241s] running symlink_data
+[1.241s] creating /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/ament_index
+[1.241s] creating /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/ament_index/resource_index
+[1.241s] creating /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/ament_index/resource_index/packages
+[1.242s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/resource/bt_generator -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/ament_index/resource_index/packages
+[1.242s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/package.xml -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.242s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/launch/bt_nav_generator_launch.py -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.242s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/launch/receive_send_xml_launch.py -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.242s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/launch/bt_generator_launch.py -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.242s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/launch/bt_commander_launch.py -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.242s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/launch/bt_commander_bebop_launch.py -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.242s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/launch/bt_send_xml_launch.py -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.242s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/launch/bt_generator_bebop_launch.py -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.242s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/bt_xml/navigation (本番用　こぼり).xml -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.242s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/bt_xml/navigation (コピー).xml -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.242s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/bt_xml/navigation (koborino).xml -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.242s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/bt_xml/navigation().xml -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.243s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/bt_xml/navigation (3 番目のコピー).xml -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.243s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/bt_xml/subtree.xml -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.243s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/bt_xml/youbot.xml -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.243s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/bt_xml/navigation.xml -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.243s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/bt_xml/navigation (4 番目のコピー).xml -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.243s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/bt_xml/navigation (copy).xml -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.243s] symbolically linking /home/das-note-021/amir_kameyama_ws/build/bt_generator/bt_xml/navigation (別のコピー).xml -> /home/das-note-021/amir_kameyama_ws/install/bt_generator/share/bt_generator
+[1.341s] Invoked command in '/home/das-note-021/amir_kameyama_ws/build/bt_generator' returned '0': PYTHONPATH=/home/das-note-021/amir_kameyama_ws/build/bt_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/das-note-021/amir_kameyama_ws/install/bt_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/das-note-021/amir_kameyama_ws/build/bt_generator/build --no-deps symlink_data

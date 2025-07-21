@@ -1,0 +1,21 @@
+[0.037s] Invoking command in '/home/das-note-021/amir_kameyama_ws/build/amir_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --build /home/das-note-021/amir_kameyama_ws/build/amir_navigation -- -j22 -l22
+[0.411s] Invoked command in '/home/das-note-021/amir_kameyama_ws/build/amir_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --build /home/das-note-021/amir_kameyama_ws/build/amir_navigation -- -j22 -l22
+[0.426s] Invoking command in '/home/das-note-021/amir_kameyama_ws/build/amir_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --install /home/das-note-021/amir_kameyama_ws/build/amir_navigation
+[0.442s] -- Install configuration: ""
+[0.443s] -- Execute custom install script
+[0.443s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/amir_navigation/share/ament_index/resource_index/package_run_dependencies/amir_navigation
+[0.443s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/amir_navigation/share/ament_index/resource_index/parent_prefix_path/amir_navigation
+[0.443s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/amir_navigation/share/amir_navigation/environment/ament_prefix_path.sh
+[0.443s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/amir_navigation/share/amir_navigation/environment/ament_prefix_path.dsv
+[0.443s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/amir_navigation/share/amir_navigation/environment/path.sh
+[0.443s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/amir_navigation/share/amir_navigation/environment/path.dsv
+[0.443s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/amir_navigation/share/amir_navigation/local_setup.bash
+[0.443s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/amir_navigation/share/amir_navigation/local_setup.sh
+[0.443s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/amir_navigation/share/amir_navigation/local_setup.zsh
+[0.443s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/amir_navigation/share/amir_navigation/local_setup.dsv
+[0.443s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/amir_navigation/share/amir_navigation/package.dsv
+[0.461s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/amir_navigation/share/ament_index/resource_index/packages/amir_navigation
+[0.461s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/amir_navigation/share/amir_navigation/cmake/amir_navigationConfig.cmake
+[0.461s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/amir_navigation/share/amir_navigation/cmake/amir_navigationConfig-version.cmake
+[0.461s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/amir_navigation/share/amir_navigation/package.xml
+[0.482s] Invoked command in '/home/das-note-021/amir_kameyama_ws/build/amir_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --install /home/das-note-021/amir_kameyama_ws/build/amir_navigation

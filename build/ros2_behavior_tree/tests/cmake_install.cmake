@@ -1,8 +1,8 @@
-# Install script for directory: /home/rover/kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/tests
+# Install script for directory: /home/das-note-021/amir_kameyama_ws/src/ros2_behavior_tree/ros2_behavior_tree/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rover/kameyama_ws/install/ros2_behavior_tree")
+  set(CMAKE_INSTALL_PREFIX "/home/das-note-021/amir_kameyama_ws/install/ros2_behavior_tree")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rover/kameyama_ws/build/ros2_behavior_tree/gtest/cmake_install.cmake")
+  include("/home/das-note-021/amir_kameyama_ws/build/ros2_behavior_tree/gtest/cmake_install.cmake")
 
 endif()
 

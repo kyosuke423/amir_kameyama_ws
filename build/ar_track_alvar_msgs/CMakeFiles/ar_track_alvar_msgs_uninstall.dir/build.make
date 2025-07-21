@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rover/kameyama_ws/src/ar_track_alvar_msgs/ar_track_alvar_msgs
+CMAKE_SOURCE_DIR = /home/das-note-021/amir_kameyama_ws/src/ar_track_alvar_msgs/ar_track_alvar_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rover/kameyama_ws/build/ar_track_alvar_msgs
+CMAKE_BINARY_DIR = /home/das-note-021/amir_kameyama_ws/build/ar_track_alvar_msgs
 
 # Utility rule file for ar_track_alvar_msgs_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ar_track_alvar_msgs_uninstall.dir/compiler_depend.make
 include CMakeFiles/ar_track_alvar_msgs_uninstall.dir/progress.make
 
 CMakeFiles/ar_track_alvar_msgs_uninstall:
-	/usr/bin/cmake -P /home/rover/kameyama_ws/build/ar_track_alvar_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/das-note-021/amir_kameyama_ws/build/ar_track_alvar_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ar_track_alvar_msgs_uninstall: CMakeFiles/ar_track_alvar_msgs_uninstall
 ar_track_alvar_msgs_uninstall: CMakeFiles/ar_track_alvar_msgs_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ar_track_alvar_msgs_uninstall.dir/clean:
 .PHONY : CMakeFiles/ar_track_alvar_msgs_uninstall.dir/clean
 
 CMakeFiles/ar_track_alvar_msgs_uninstall.dir/depend:
-	cd /home/rover/kameyama_ws/build/ar_track_alvar_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rover/kameyama_ws/src/ar_track_alvar_msgs/ar_track_alvar_msgs /home/rover/kameyama_ws/src/ar_track_alvar_msgs/ar_track_alvar_msgs /home/rover/kameyama_ws/build/ar_track_alvar_msgs /home/rover/kameyama_ws/build/ar_track_alvar_msgs /home/rover/kameyama_ws/build/ar_track_alvar_msgs/CMakeFiles/ar_track_alvar_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/das-note-021/amir_kameyama_ws/build/ar_track_alvar_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/das-note-021/amir_kameyama_ws/src/ar_track_alvar_msgs/ar_track_alvar_msgs /home/das-note-021/amir_kameyama_ws/src/ar_track_alvar_msgs/ar_track_alvar_msgs /home/das-note-021/amir_kameyama_ws/build/ar_track_alvar_msgs /home/das-note-021/amir_kameyama_ws/build/ar_track_alvar_msgs /home/das-note-021/amir_kameyama_ws/build/ar_track_alvar_msgs/CMakeFiles/ar_track_alvar_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ar_track_alvar_msgs_uninstall.dir/depend
 

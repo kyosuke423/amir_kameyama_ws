@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rover/kameyama_ws/install/amir_operation/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/das-note-021/amir_kameyama_ws/install/amir_operation/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rover/kameyama_ws/install/amir_operation/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/das-note-021/amir_kameyama_ws/install/amir_operation/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rover/kameyama_ws/install/amir_operation/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/das-note-021/amir_kameyama_ws/install/amir_operation/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/rover/kameyama_ws/install/amir_operation/${destination}")
+      set(destination "/home/das-note-021/amir_kameyama_ws/install/amir_operation/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,49 +311,49 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "initial_posi" "pick" "place" "search_obj" "move_arm" "grasp" "move_meca" "pick_using_d_optimality" "mecanum_search" "mecanum_move" "mecanum_spin" "DESTINATION" "lib/amir_operation")
-include("/home/rover/kameyama_ws/build/amir_operation/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/amir_operation")
-ament_cmake_symlink_install_directory("/home/rover/kameyama_ws/src/amir_operation" DIRECTORY "launch" "DESTINATION" "share/amir_operation")
+ament_cmake_symlink_install_directory("/home/das-note-021/amir_kameyama_ws/src/amir_operation" DIRECTORY "launch" "DESTINATION" "share/amir_operation")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/amir_operation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_operation" FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/amir_operation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/amir_operation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_operation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/amir_operation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/amir_operation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_operation" FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/amir_operation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/amir_operation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_operation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/amir_operation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/amir_operation/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_operation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/amir_operation/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_operation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/amir_operation/environment")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/amir_operation/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_operation" FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/amir_operation/environment")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/amir_operation/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_operation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/amir_operation/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/amir_operation/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_operation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/amir_operation/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_operation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/amir_operation/environment")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/amir_operation/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_operation" FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/amir_operation/environment")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/amir_operation/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_operation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/amir_operation/environment")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/amir_operation")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_operation" FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/amir_operation")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/amir_operation")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_operation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/amir_operation")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/amir_operation")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_operation" FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/amir_operation")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/amir_operation")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_operation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/amir_operation")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/amir_operation")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_operation" FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/amir_operation")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/amir_operation")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_operation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/amir_operation")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/amir_operation")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_operation" FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/amir_operation")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/amir_operation")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_operation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/amir_operation")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/amir_operation")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_operation" FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/amir_operation")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/amir_operation")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_operation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/amir_operation")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_index/share/ament_index/resource_index/packages/amir_operation" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_operation" FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_index/share/ament_index/resource_index/packages/amir_operation" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_index/share/ament_index/resource_index/packages/amir_operation" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_operation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_index/share/ament_index/resource_index/packages/amir_operation" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_core/amir_operationConfig.cmake" "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_core/amir_operationConfig-version.cmake" "DESTINATION" "share/amir_operation/cmake")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_operation" FILES "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_core/amir_operationConfig.cmake" "/home/rover/kameyama_ws/build/amir_operation/ament_cmake_core/amir_operationConfig-version.cmake" "DESTINATION" "share/amir_operation/cmake")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_core/amir_operationConfig.cmake" "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_core/amir_operationConfig-version.cmake" "DESTINATION" "share/amir_operation/cmake")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_operation" FILES "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_core/amir_operationConfig.cmake" "/home/das-note-021/amir_kameyama_ws/build/amir_operation/ament_cmake_core/amir_operationConfig-version.cmake" "DESTINATION" "share/amir_operation/cmake")
 
-# install(FILES "/home/rover/kameyama_ws/src/amir_operation/package.xml" "DESTINATION" "share/amir_operation")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/amir_operation" FILES "/home/rover/kameyama_ws/src/amir_operation/package.xml" "DESTINATION" "share/amir_operation")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/src/amir_operation/package.xml" "DESTINATION" "share/amir_operation")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/amir_operation" FILES "/home/das-note-021/amir_kameyama_ws/src/amir_operation/package.xml" "DESTINATION" "share/amir_operation")

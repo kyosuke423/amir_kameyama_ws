@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/rover/kameyama_ws/src/observation/observation/src/my_pose_publisher.cpp" "CMakeFiles/my_pose_publisher.dir/src/my_pose_publisher.cpp.o" "gcc" "CMakeFiles/my_pose_publisher.dir/src/my_pose_publisher.cpp.o.d"
+  "/home/das-note-021/amir_kameyama_ws/src/observation/observation/src/my_pose_publisher.cpp" "CMakeFiles/my_pose_publisher.dir/src/my_pose_publisher.cpp.o" "gcc" "CMakeFiles/my_pose_publisher.dir/src/my_pose_publisher.cpp.o.d"
   )
 
 # Targets to which this target links.

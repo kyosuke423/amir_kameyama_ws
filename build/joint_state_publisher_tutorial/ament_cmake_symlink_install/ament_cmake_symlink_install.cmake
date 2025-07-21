@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rover/kameyama_ws/install/joint_state_publisher_tutorial/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rover/kameyama_ws/install/joint_state_publisher_tutorial/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rover/kameyama_ws/install/joint_state_publisher_tutorial/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/rover/kameyama_ws/install/joint_state_publisher_tutorial/${destination}")
+      set(destination "/home/das-note-021/amir_kameyama_ws/install/joint_state_publisher_tutorial/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,49 +311,49 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "tutorial_publisher" "DESTINATION" "lib/joint_state_publisher_tutorial")
-include("/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "rviz" "urdf" "DESTINATION" "share/joint_state_publisher_tutorial")
-ament_cmake_symlink_install_directory("/home/rover/kameyama_ws/src/joint_state_publisher_tutorial" DIRECTORY "launch" "rviz" "urdf" "DESTINATION" "share/joint_state_publisher_tutorial")
+ament_cmake_symlink_install_directory("/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial" DIRECTORY "launch" "rviz" "urdf" "DESTINATION" "share/joint_state_publisher_tutorial")
 
-# install(FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/joint_state_publisher_tutorial" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/joint_state_publisher_tutorial" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/joint_state_publisher_tutorial" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/joint_state_publisher_tutorial" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/joint_state_publisher_tutorial" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/joint_state_publisher_tutorial" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/joint_state_publisher_tutorial" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/joint_state_publisher_tutorial" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/joint_state_publisher_tutorial/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/joint_state_publisher_tutorial" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/joint_state_publisher_tutorial/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/joint_state_publisher_tutorial/environment")
 
-# install(FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/joint_state_publisher_tutorial/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/joint_state_publisher_tutorial/environment")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/joint_state_publisher_tutorial/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/joint_state_publisher_tutorial/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/joint_state_publisher_tutorial/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/joint_state_publisher_tutorial" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/joint_state_publisher_tutorial/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/joint_state_publisher_tutorial/environment")
 
-# install(FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/joint_state_publisher_tutorial/environment")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/joint_state_publisher_tutorial/environment")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/joint_state_publisher_tutorial/environment")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/joint_state_publisher_tutorial/environment")
 
-# install(FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/joint_state_publisher_tutorial")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/joint_state_publisher_tutorial")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/joint_state_publisher_tutorial")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/joint_state_publisher_tutorial")
 
-# install(FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/joint_state_publisher_tutorial")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/joint_state_publisher_tutorial")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/joint_state_publisher_tutorial")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/joint_state_publisher_tutorial")
 
-# install(FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/joint_state_publisher_tutorial")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/joint_state_publisher_tutorial")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/joint_state_publisher_tutorial")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/joint_state_publisher_tutorial")
 
-# install(FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/joint_state_publisher_tutorial")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/joint_state_publisher_tutorial")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/joint_state_publisher_tutorial")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/joint_state_publisher_tutorial")
 
-# install(FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/joint_state_publisher_tutorial")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/joint_state_publisher_tutorial")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/joint_state_publisher_tutorial")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/joint_state_publisher_tutorial")
 
-# install(FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_index/share/ament_index/resource_index/packages/joint_state_publisher_tutorial" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_index/share/ament_index/resource_index/packages/joint_state_publisher_tutorial" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_index/share/ament_index/resource_index/packages/joint_state_publisher_tutorial" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_index/share/ament_index/resource_index/packages/joint_state_publisher_tutorial" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_core/joint_state_publisher_tutorialConfig.cmake" "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_core/joint_state_publisher_tutorialConfig-version.cmake" "DESTINATION" "share/joint_state_publisher_tutorial/cmake")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_core/joint_state_publisher_tutorialConfig.cmake" "/home/rover/kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_core/joint_state_publisher_tutorialConfig-version.cmake" "DESTINATION" "share/joint_state_publisher_tutorial/cmake")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_core/joint_state_publisher_tutorialConfig.cmake" "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_core/joint_state_publisher_tutorialConfig-version.cmake" "DESTINATION" "share/joint_state_publisher_tutorial/cmake")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_core/joint_state_publisher_tutorialConfig.cmake" "/home/das-note-021/amir_kameyama_ws/build/joint_state_publisher_tutorial/ament_cmake_core/joint_state_publisher_tutorialConfig-version.cmake" "DESTINATION" "share/joint_state_publisher_tutorial/cmake")
 
-# install(FILES "/home/rover/kameyama_ws/src/joint_state_publisher_tutorial/package.xml" "DESTINATION" "share/joint_state_publisher_tutorial")
-ament_cmake_symlink_install_files("/home/rover/kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/rover/kameyama_ws/src/joint_state_publisher_tutorial/package.xml" "DESTINATION" "share/joint_state_publisher_tutorial")
+# install(FILES "/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial/package.xml" "DESTINATION" "share/joint_state_publisher_tutorial")
+ament_cmake_symlink_install_files("/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial" FILES "/home/das-note-021/amir_kameyama_ws/src/joint_state_publisher_tutorial/package.xml" "DESTINATION" "share/joint_state_publisher_tutorial")

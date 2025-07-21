@@ -362,8 +362,20 @@ CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_g
   rosidl_generator_c/behavior_tree_msgs/action/detail/mecanum_move__functions.h \
   rosidl_generator_c/behavior_tree_msgs/action/detail/mecanum_spin__type_support.h \
   rosidl_generator_c/behavior_tree_msgs/action/detail/mecanum_spin__struct.h \
-  rosidl_generator_c/behavior_tree_msgs/action/detail/mecanum_spin__functions.h
+  rosidl_generator_c/behavior_tree_msgs/action/detail/mecanum_spin__functions.h \
+  rosidl_generator_c/behavior_tree_msgs/action/detail/ave_cov__type_support.h \
+  rosidl_generator_c/behavior_tree_msgs/action/detail/ave_cov__struct.h \
+  rosidl_generator_c/behavior_tree_msgs/action/detail/ave_cov__functions.h \
+  rosidl_generator_c/behavior_tree_msgs/action/detail/d_op__type_support.h \
+  rosidl_generator_c/behavior_tree_msgs/action/detail/d_op__struct.h \
+  rosidl_generator_c/behavior_tree_msgs/action/detail/d_op__functions.h
 
+
+rosidl_generator_c/behavior_tree_msgs/action/detail/d_op__type_support.h:
+
+rosidl_generator_c/behavior_tree_msgs/action/detail/ave_cov__functions.h:
+
+rosidl_generator_c/behavior_tree_msgs/action/detail/ave_cov__type_support.h:
 
 rosidl_generator_c/behavior_tree_msgs/action/detail/mecanum_move__struct.h:
 
@@ -657,6 +669,8 @@ rosidl_generator_c/behavior_tree_msgs/action/detail/check_ik__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
+rosidl_generator_c/behavior_tree_msgs/action/detail/d_op__functions.h:
+
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
@@ -807,6 +821,8 @@ rosidl_generator_c/behavior_tree_msgs/action/detail/search__type_support.h:
 
 /usr/include/python3.10/setobject.h:
 
+rosidl_generator_c/behavior_tree_msgs/action/detail/d_op__struct.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
 /usr/include/features-time64.h:
@@ -912,6 +928,8 @@ rosidl_generator_c/behavior_tree_msgs/srv/detail/get_black_board__struct.h:
 rosidl_generator_c/behavior_tree_msgs/msg/detail/node_status__struct.h:
 
 /usr/include/ctype.h:
+
+rosidl_generator_c/behavior_tree_msgs/action/detail/ave_cov__struct.h:
 
 /usr/include/python3.10/listobject.h:
 

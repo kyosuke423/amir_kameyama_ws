@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_nav_msgs__py",
+		"source" : "/home/das-note-021/amir_kameyama_ws/build/my_nav_msgs/my_nav_msgs__py"
+	}
+}

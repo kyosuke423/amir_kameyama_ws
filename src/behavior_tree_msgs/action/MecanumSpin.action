@@ -1,8 +1,8 @@
 #goal definition
 #geometry_msgs/PoseStamped pose
 
-int32 time   # 視点を変える回数
-float64 dop # D-optimalityの値
+#int32 time # 視点を変える回数
+int32 threshold # D-optimalityの閾値
 ---
 #result definition
 string error_string

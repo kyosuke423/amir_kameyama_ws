@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rover/kameyama_ws/src/observation/observation_msgs
+CMAKE_SOURCE_DIR = /home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rover/kameyama_ws/build/observation_msgs
+CMAKE_BINARY_DIR = /home/das-note-021/amir_kameyama_ws/build/observation_msgs
 
 # Utility rule file for ament_cmake_python_symlink_observation_msgs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_observation_msgs.dir/compiler_depe
 include CMakeFiles/ament_cmake_python_symlink_observation_msgs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_observation_msgs:
-	/usr/bin/cmake -E create_symlink /home/rover/kameyama_ws/build/observation_msgs/rosidl_generator_py/observation_msgs /home/rover/kameyama_ws/build/observation_msgs/ament_cmake_python/observation_msgs/observation_msgs
+	/usr/bin/cmake -E create_symlink /home/das-note-021/amir_kameyama_ws/build/observation_msgs/rosidl_generator_py/observation_msgs /home/das-note-021/amir_kameyama_ws/build/observation_msgs/ament_cmake_python/observation_msgs/observation_msgs
 
 ament_cmake_python_symlink_observation_msgs: CMakeFiles/ament_cmake_python_symlink_observation_msgs
 ament_cmake_python_symlink_observation_msgs: CMakeFiles/ament_cmake_python_symlink_observation_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_observation_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_observation_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_observation_msgs.dir/depend:
-	cd /home/rover/kameyama_ws/build/observation_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rover/kameyama_ws/src/observation/observation_msgs /home/rover/kameyama_ws/src/observation/observation_msgs /home/rover/kameyama_ws/build/observation_msgs /home/rover/kameyama_ws/build/observation_msgs /home/rover/kameyama_ws/build/observation_msgs/CMakeFiles/ament_cmake_python_symlink_observation_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/das-note-021/amir_kameyama_ws/build/observation_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs /home/das-note-021/amir_kameyama_ws/src/observation/observation_msgs /home/das-note-021/amir_kameyama_ws/build/observation_msgs /home/das-note-021/amir_kameyama_ws/build/observation_msgs /home/das-note-021/amir_kameyama_ws/build/observation_msgs/CMakeFiles/ament_cmake_python_symlink_observation_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_symlink_observation_msgs.dir/depend
 

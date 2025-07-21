@@ -221,8 +221,8 @@ private:
                     //持ち上げるときの目標位置設定
                     float lift_obj_opsition_x,lift_obj_opsition_y,lift_obj_opsition_z;
 
-                    lift_obj_opsition_x = 0.01;
-                    lift_obj_opsition_y = 0.30;
+                    lift_obj_opsition_x = 0.30;
+                    lift_obj_opsition_y = 0.00;
                     lift_obj_opsition_z = 0.60;
 
                     move_arm_goal.x = lift_obj_opsition_x;

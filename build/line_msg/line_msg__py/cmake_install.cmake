@@ -1,8 +1,8 @@
-# Install script for directory: /home/rover/kameyama_ws/build/line_msg/line_msg__py
+# Install script for directory: /home/das-note-021/amir_kameyama_ws/build/line_msg/line_msg__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rover/kameyama_ws/install/line_msg")
+  set(CMAKE_INSTALL_PREFIX "/home/das-note-021/amir_kameyama_ws/install/line_msg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

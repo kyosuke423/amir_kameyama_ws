@@ -1,2 +1,0 @@
-gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/my_pose_publisher.dir/all] 割り込み
-gmake: *** [Makefile:146: all] 割り込み

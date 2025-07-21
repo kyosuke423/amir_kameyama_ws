@@ -1,9 +1,9 @@
 {
   "package_name": "bebop_msgs",
-  "output_dir": "/home/rover/kameyama_ws/build/bebop_msgs/rosidl_typesupport_fastrtps_cpp/bebop_msgs",
+  "output_dir": "/home/das-note-021/amir_kameyama_ws/build/bebop_msgs/rosidl_typesupport_fastrtps_cpp/bebop_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/rover/kameyama_ws/build/bebop_msgs/rosidl_adapter/bebop_msgs:msg/BoxCorner.idl"
+    "/home/das-note-021/amir_kameyama_ws/build/bebop_msgs/rosidl_adapter/bebop_msgs:msg/BoxCorner.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
@@ -16,6 +16,8 @@
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Point32.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/PointStamped.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Polygon.idl",
+    "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/PolygonInstance.idl",
+    "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/PolygonInstanceStamped.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/PolygonStamped.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Pose.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Pose2D.idl",
@@ -76,7 +78,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/rover/kameyama_ws/build/bebop_msgs/rosidl_adapter/bebop_msgs/msg/BoxCorner.idl",
+    "/home/das-note-021/amir_kameyama_ws/build/bebop_msgs/rosidl_adapter/bebop_msgs/msg/BoxCorner.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl",
@@ -87,6 +89,8 @@
     "/opt/ros/humble/share/geometry_msgs/msg/Point32.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/PointStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Polygon.idl",
+    "/opt/ros/humble/share/geometry_msgs/msg/PolygonInstance.idl",
+    "/opt/ros/humble/share/geometry_msgs/msg/PolygonInstanceStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/PolygonStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Pose.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Pose2D.idl",

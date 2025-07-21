@@ -70,6 +70,8 @@ set(action_files
   "action/MecanumSearch.action"
   "action/MecanumMove.action"
   "action/MecanumSpin.action"
+  "action/AveCov.action"
+  "action/DOp.action"
 )
 
 set(srv_files

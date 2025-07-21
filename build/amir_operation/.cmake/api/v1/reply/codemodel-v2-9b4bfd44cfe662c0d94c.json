@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a9a889345686e967ccbc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "amir_operation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "amir_operation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amir_operation_uninstall-3a05964fd235e1eca395.json",
+					"name" : "amir_operation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp-1411cdd6c8f3e24e91fd.json",
+					"name" : "grasp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "initial_posi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-initial_posi-fe9a49463a167adf6307.json",
+					"name" : "initial_posi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecanum_move::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecanum_move-abc5f5cca0f7ec90c9fd.json",
+					"name" : "mecanum_move",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecanum_search::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecanum_search-1d978dddcbefc382a076.json",
+					"name" : "mecanum_search",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecanum_spin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecanum_spin-091be301993abe2d5c9a.json",
+					"name" : "mecanum_spin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_arm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_arm-8dba8c4f00539b78d761.json",
+					"name" : "move_arm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_meca::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_meca-bdb810ef8035c3200e79.json",
+					"name" : "move_meca",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pick::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick-5599981f68fff2b3a6f5.json",
+					"name" : "pick",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pick_using_d_optimality::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick_using_d_optimality-99637bc8f8aa82e68900.json",
+					"name" : "pick_using_d_optimality",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "place::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-place-94a3499d5442a92ee90c.json",
+					"name" : "place",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "search_obj::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-search_obj-6ba4e790e1be889ef26f.json",
+					"name" : "search_obj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9f3630cb2923edc374d0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/das-note-021/amir_kameyama_ws/build/amir_operation",
+		"source" : "/home/das-note-021/amir_kameyama_ws/src/amir_operation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

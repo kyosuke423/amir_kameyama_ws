@@ -1,0 +1,120 @@
+[0.044s] Invoking command in '/home/das-note-021/amir_kameyama_ws/build/bebop_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --build /home/das-note-021/amir_kameyama_ws/build/bebop_msgs -- -j22 -l22
+[0.462s] [  3%] Built target bebop_msgs__cpp
+[0.462s] [ 12%] Built target bebop_msgs__rosidl_generator_c
+[0.462s] [ 12%] Built target ament_cmake_python_symlink_bebop_msgs
+[0.462s] [ 22%] Built target bebop_msgs__rosidl_typesupport_cpp
+[0.462s] [ 32%] Built target bebop_msgs__rosidl_typesupport_c
+[0.462s] [ 41%] Built target bebop_msgs__rosidl_typesupport_introspection_c
+[0.462s] [ 51%] Built target bebop_msgs__rosidl_typesupport_fastrtps_cpp
+[0.462s] [ 61%] Built target bebop_msgs__rosidl_typesupport_introspection_cpp
+[0.462s] [ 70%] Built target bebop_msgs__rosidl_typesupport_fastrtps_c
+[0.462s] [ 70%] Built target bebop_msgs
+[0.462s] [ 74%] Built target bebop_msgs__py
+[0.462s] [ 80%] Built target bebop_msgs__rosidl_generator_py
+[0.463s] [ 87%] Built target bebop_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.463s] [ 93%] Built target bebop_msgs__rosidl_typesupport_introspection_c__pyext
+[0.463s] [100%] Built target bebop_msgs__rosidl_typesupport_c__pyext
+[0.463s] running egg_info
+[0.463s] writing bebop_msgs.egg-info/PKG-INFO
+[0.463s] writing dependency_links to bebop_msgs.egg-info/dependency_links.txt
+[0.463s] writing top-level names to bebop_msgs.egg-info/top_level.txt
+[0.463s] reading manifest file 'bebop_msgs.egg-info/SOURCES.txt'
+[0.463s] writing manifest file 'bebop_msgs.egg-info/SOURCES.txt'
+[0.463s] [100%] Built target ament_cmake_python_build_bebop_msgs_egg
+[0.478s] Invoked command in '/home/das-note-021/amir_kameyama_ws/build/bebop_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --build /home/das-note-021/amir_kameyama_ws/build/bebop_msgs -- -j22 -l22
+[0.493s] Invoking command in '/home/das-note-021/amir_kameyama_ws/build/bebop_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --install /home/das-note-021/amir_kameyama_ws/build/bebop_msgs
+[0.518s] -- Install configuration: ""
+[0.518s] -- Execute custom install script
+[0.518s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/ament_index/resource_index/rosidl_interfaces/bebop_msgs
+[0.518s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/box_corner.h
+[0.519s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/detail/box_corner__functions.h
+[0.519s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/detail/box_corner__struct.h
+[0.519s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/detail/box_corner__type_support.h
+[0.519s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.519s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/environment/library_path.sh
+[0.521s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/environment/library_path.dsv
+[0.523s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/detail/box_corner__rosidl_typesupport_fastrtps_c.h
+[0.525s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.525s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/box_corner.hpp
+[0.525s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/detail/box_corner__builder.hpp
+[0.525s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/detail/box_corner__struct.hpp
+[0.525s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/detail/box_corner__traits.hpp
+[0.525s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/detail/box_corner__type_support.hpp
+[0.525s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.532s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/detail/box_corner__rosidl_typesupport_fastrtps_cpp.hpp
+[0.532s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.533s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/detail/box_corner__rosidl_typesupport_introspection_c.h
+[0.533s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.535s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/include/bebop_msgs/bebop_msgs/msg/detail/box_corner__rosidl_typesupport_introspection_cpp.hpp
+[0.539s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/environment/pythonpath.sh
+[0.539s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/environment/pythonpath.dsv
+[0.539s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.539s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.540s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.541s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.542s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs/__init__.py
+[0.542s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs/_bebop_msgs_s.ep.rosidl_typesupport_c.c
+[0.542s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs/_bebop_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.542s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs/_bebop_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.545s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs/bebop_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.545s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs/bebop_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.545s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs/bebop_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.545s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs/libbebop_msgs__rosidl_generator_py.so
+[0.545s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs/msg/__init__.py
+[0.545s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs/msg/_box_corner.py
+[0.545s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs/msg/_box_corner_s.c
+[0.545s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs/bebop_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.545s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs/bebop_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.545s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs/bebop_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.545s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/msg/BoxCorner.idl
+[0.545s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/msg/BoxCorner.msg
+[0.545s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/ament_index/resource_index/package_run_dependencies/bebop_msgs
+[0.546s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/ament_index/resource_index/parent_prefix_path/bebop_msgs
+[0.546s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/environment/ament_prefix_path.sh
+[0.546s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/environment/ament_prefix_path.dsv
+[0.546s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/environment/path.sh
+[0.546s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/environment/path.dsv
+[0.546s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/local_setup.bash
+[0.547s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/local_setup.sh
+[0.547s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/local_setup.zsh
+[0.547s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/local_setup.dsv
+[0.548s] -- Symlinking: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/package.dsv
+[0.560s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/ament_index/resource_index/packages/bebop_msgs
+[0.560s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/rosidl_cmake-extras.cmake
+[0.560s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.560s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.561s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.561s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.561s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.561s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.562s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/bebop_msgsConfig.cmake
+[0.562s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/bebop_msgsConfig-version.cmake
+[0.562s] -- Up-to-date symlink: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/package.xml
+[0.562s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/lib/libbebop_msgs__rosidl_generator_c.so
+[0.563s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/lib/libbebop_msgs__rosidl_typesupport_fastrtps_c.so
+[0.563s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/lib/libbebop_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.563s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/lib/libbebop_msgs__rosidl_typesupport_introspection_c.so
+[0.564s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/lib/libbebop_msgs__rosidl_typesupport_c.so
+[0.565s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/lib/libbebop_msgs__rosidl_typesupport_introspection_cpp.so
+[0.565s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/lib/libbebop_msgs__rosidl_typesupport_cpp.so
+[0.578s] Listing '/home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs'...
+[0.578s] Listing '/home/das-note-021/amir_kameyama_ws/install/bebop_msgs/local/lib/python3.10/dist-packages/bebop_msgs/msg'...
+[0.580s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/lib/libbebop_msgs__rosidl_generator_py.so
+[0.580s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/export_bebop_msgs__rosidl_generator_cExport.cmake
+[0.580s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/export_bebop_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.580s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/export_bebop_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.580s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/export_bebop_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.580s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/export_bebop_msgs__rosidl_generator_cppExport.cmake
+[0.580s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/export_bebop_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.580s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/export_bebop_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.580s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/bebop_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.580s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/bebop_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.580s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/bebop_msgs__rosidl_typesupport_cExport.cmake
+[0.580s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/bebop_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.580s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/bebop_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.580s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/bebop_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.581s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/bebop_msgs__rosidl_typesupport_cppExport.cmake
+[0.581s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/bebop_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.581s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/export_bebop_msgs__rosidl_generator_pyExport.cmake
+[0.581s] -- Up-to-date: /home/das-note-021/amir_kameyama_ws/install/bebop_msgs/share/bebop_msgs/cmake/export_bebop_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.631s] Invoked command in '/home/das-note-021/amir_kameyama_ws/build/bebop_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/das-note-021/amir_kameyama_ws/install/failure_detection:/home/das-note-021/amir_kameyama_ws/install/bt_generator:/home/das-note-021/kameyama_ws/install/ros2_aruco:/home/das-note-021/kameyama_ws/install/failure_detection:/home/das-note-021/kameyama_ws/install/bt_generator:/opt/ros/humble /usr/bin/cmake --install /home/das-note-021/amir_kameyama_ws/build/bebop_msgs

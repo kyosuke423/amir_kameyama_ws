@@ -17,8 +17,7 @@ behavior_tree_msgs__action__MecanumSpin_Goal__init(behavior_tree_msgs__action__M
   if (!msg) {
     return false;
   }
-  // time
-  // dop
+  // threshold
   return true;
 }
 
@@ -28,8 +27,7 @@ behavior_tree_msgs__action__MecanumSpin_Goal__fini(behavior_tree_msgs__action__M
   if (!msg) {
     return;
   }
-  // time
-  // dop
+  // threshold
 }
 
 bool
@@ -38,12 +36,8 @@ behavior_tree_msgs__action__MecanumSpin_Goal__are_equal(const behavior_tree_msgs
   if (!lhs || !rhs) {
     return false;
   }
-  // time
-  if (lhs->time != rhs->time) {
-    return false;
-  }
-  // dop
-  if (lhs->dop != rhs->dop) {
+  // threshold
+  if (lhs->threshold != rhs->threshold) {
     return false;
   }
   return true;
@@ -57,10 +51,8 @@ behavior_tree_msgs__action__MecanumSpin_Goal__copy(
   if (!input || !output) {
     return false;
   }
-  // time
-  output->time = input->time;
-  // dop
-  output->dop = input->dop;
+  // threshold
+  output->threshold = input->threshold;
   return true;
 }
 

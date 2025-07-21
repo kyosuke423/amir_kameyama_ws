@@ -32,10 +32,8 @@ cdr_serialize(
   const behavior_tree_msgs::action::MecanumSpin_Goal & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: time
-  cdr << ros_message.time;
-  // Member: dop
-  cdr << ros_message.dop;
+  // Member: threshold
+  cdr << ros_message.threshold;
   return true;
 }
 
@@ -45,11 +43,8 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   behavior_tree_msgs::action::MecanumSpin_Goal & ros_message)
 {
-  // Member: time
-  cdr >> ros_message.time;
-
-  // Member: dop
-  cdr >> ros_message.dop;
+  // Member: threshold
+  cdr >> ros_message.threshold;
 
   return true;
 }
@@ -67,15 +62,9 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: time
+  // Member: threshold
   {
-    size_t item_size = sizeof(ros_message.time);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: dop
-  {
-    size_t item_size = sizeof(ros_message.dop);
+    size_t item_size = sizeof(ros_message.threshold);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -103,22 +92,13 @@ max_serialized_size_MecanumSpin_Goal(
   is_plain = true;
 
 
-  // Member: time
+  // Member: threshold
   {
     size_t array_size = 1;
 
     last_member_size = array_size * sizeof(uint32_t);
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-
-  // Member: dop
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
   size_t ret_val = current_alignment - initial_alignment;
@@ -129,7 +109,7 @@ max_serialized_size_MecanumSpin_Goal(
     using DataType = behavior_tree_msgs::action::MecanumSpin_Goal;
     is_plain =
       (
-      offsetof(DataType, dop) +
+      offsetof(DataType, threshold) +
       last_member_size
       ) == ret_val;
   }

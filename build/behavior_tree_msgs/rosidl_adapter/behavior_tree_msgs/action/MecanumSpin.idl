@@ -10,12 +10,9 @@ module behavior_tree_msgs {
       "geometry_msgs/PoseStamped pose")
     struct MecanumSpin_Goal {
       @verbatim (language="comment", text=
-        "視点を変える回数")
-      int32 time;
-
-      @verbatim (language="comment", text=
-        "D-optimalityの値")
-      double dop;
+        "int32 time # 視点を変える回数" "\n"
+        " D-optimalityの閾値")
+      int32 threshold;
     };
     @verbatim (language="comment", text=
       "result definition")
