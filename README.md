@@ -107,8 +107,9 @@ ros2 launch amir_operation pick_and_place_dop_launch.py
 2. Behavior Tree Executor
 ```
 source ~/kameyama_ws/install/local_setup.bash
-ros2 launch ros2_behavior_tree bt_executor_launch.py 
+ros2 launch ros2_behavior_tree bt_executor_launch.py
 ```
+以下の Send Xml を実行するとロボットが行動開始する
 3. Send Xml
 ```
 source ~/kameyama_ws/install/local_setup.bash
