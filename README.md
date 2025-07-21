@@ -1,6 +1,7 @@
 # 動作手順
 ## モニタリングロボット
 ### dars-note-002
+Jetsonの中に接続してメカナムローバーを起動する
 1. ターミナルを5つ用意して、JetsonにSSH接続（パスワード:dars）
 ```
 ssh agx@192.168.11.4 -X
@@ -42,7 +43,6 @@ source /opt/ros/galactic/setup.zsh
 source ~/galactic_ws/install/setup.zsh --extend
 ros2 launch mecanum_navigation2 bringup_launch.py
 ```
-ここまで実行するとメカナムローバーが起動する
 ### 画像処理
 # １．realsense起動
 source /opt/ros/noetic/setup.bash
