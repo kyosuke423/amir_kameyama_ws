@@ -2,7 +2,7 @@
 
 ## OS・ハードウェア情報
 - OS: Ubuntu 22.04 LTS
-- カーネル: `uname -a` にて確認（未記載）
+- カーネル: 6.8.0-60-generic
 - ホスト名: das-note-021
 - アーキテクチャ: x86_64
 
@@ -14,13 +14,12 @@
 | CMake        | 3.22.1            |
 | Python3      | 3.10.12           |
 | pip3         | 22.0.2            |
-| Git          | 未確認（`git --version` 推奨） |
 
 ## ROS 環境
 - ROS 2 Distro: **Humble Hawksbill**
 - カスタムパッケージ：`behavior-tree-msgs`, `failure-detection`, `ros2-aruco`, `bt-generator` ほか
 - colconビルド環境・ament系ツール群完備
-- 主なインストール済みパッケージ（抜粋）:
+- 主なインストール済みパッケージ:
   - `rclpy`, `geometry-msgs`, `nav2-msgs`, `moveit-msgs`, `turtlebot3-msgs`, `cv-bridge`, `sensor-msgs`, `rosidl-*`
 
 ## Pythonライブラリ
