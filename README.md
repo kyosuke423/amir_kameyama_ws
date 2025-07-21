@@ -79,6 +79,7 @@ cd onishi_youbot_ws/
 rosrun youbot_do object_subscriber_with_transform
 ```
 分割ではなく、追加で新規ターミナルを開いて以下を実行する
+
 6. ROS1_bridge（別ターミナル）
 ```
 source ~/ros1_bridge_ws/install/setup.bash
