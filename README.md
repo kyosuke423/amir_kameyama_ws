@@ -43,28 +43,28 @@ source ~/galactic_ws/install/setup.zsh --extend
 ros2 launch mecanum_navigation2 bringup_launch.py
 ```
 ### 画像処理
-１．realsense
+1．realsense
 ```
 source /opt/ros/noetic/setup.bash
 source ~/onishi_youbot_ws/devel/setup.bash
 cd onishi_youbot_ws/
 roslaunch realsense2_camera cubeslam_camera.launch
 ```
-２．YOLOv5
+2．YOLOv5
 ```
 source /opt/ros/noetic/setup.bash
 source ~/onishi_youbot_ws/devel/setup.bash
 cd onishi_youbot_ws/
 rosrun yolov5_ros cubeslam2.py
 ```
-３．Cube SLAM
+3．Cube SLAM
 ```
 source /opt/ros/noetic/setup.bash
 source ~/onishi_youbot_ws/devel/setup.bash
 cd onishi_youbot_ws/
 roslaunch detect_3d_cuboid detect_3d_cuboid.launch
 ```
-４．物体の中心座標取得
+4．物体の中心座標取得
 ```
 source /opt/ros/noetic/setup.bash
 source ~/onishi_youbot_ws/devel/setup.bash
