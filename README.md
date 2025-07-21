@@ -116,3 +116,9 @@ ros2 launch ros2_behavior_tree bt_executor_launch.py
 source ~/kameyama_ws/install/local_setup.bash
 ros2 launch bt_generator bt_send_xml_launch.py
 ```
+
+# エラー対処一覧
+* dars-note-002/kameyama_galactic_ws,kameyama_galactic_ws_2のGalactic環境でColconBuildをする際、setuptoolでエラーが出る場合がある。setuptoolのバージョンを以下で指定する。
+```
+pip3 install setuptools==45.2.0
+```
