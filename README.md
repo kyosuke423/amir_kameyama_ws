@@ -179,6 +179,12 @@ source ~/humble_ws/install/setup.bash
 ros2 run mecanum_proc base_to_world
 ```
 ### 行動計画モジュール（BTの一部機能使用）
+* アームを初期姿勢に設定
+```
+cd amir_kameyama_ws
+source ~/amir_kameyama_ws/install/local_setup.bash
+ros2 run amir_operation initial_posi
+```
 1. Action Launch
 ```
 cd amir_kameyama_ws/src/amir_operation/launch
