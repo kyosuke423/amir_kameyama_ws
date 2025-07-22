@@ -156,22 +156,28 @@ sudo chmod 777 /dev/ttyUSB2
 source ~/ros2_ws/install/local_setup.bash
 ros2 launch ydlidar_ros2_driver ydlidar_launch.py
 ```
-# Note PC ##############################
-## Little SLAM (AMIR)
+**ここからは、dars-note-021のターミナルで実行する。**
+
+1. Little SLAM (AMIR)
+```
 source ~/kameyama_ws/install/local_setup.bash
 ros2 launch littleslam_ros2 littleslam_launch.py 
-
-## Little SLAM (Mecanum2)
+```
+2. Little SLAM (Mecanum2)
+```
 source ~/humble_ws/install/local_setup.bash
 ros2 launch littleslam_ros2 littleslam_launch.py 
-
-## Imuから姿勢推定
+```
+3. Imuから姿勢推定
+```
 source ~/kameyama_ws/install/local_setup.bash
 ros2 run imu_filter_madgwick imu_filter_madgwick_node --ros-args -p use_mag:=False -p world_frame:=enu -p publish_tf:=False -r imu/data_raw:=/mecanum2/camera/imu
-
-## /base_pose ベース座標 → ワールド座標 変換
+```
+4. /base_pose ベース座標からワールド座標へ変換
+```
 source ~/humble_ws/install/setup.bash
 ros2 run mecanum_proc base_to_world
+```
 ### 行動計画モジュール（BTの一部機能使用）
 1. Action Launch
 ```
