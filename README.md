@@ -114,32 +114,57 @@ ros2 run ros1_bridge parameter_bridge __name:=pc2_bridge
 ssh rover@192.168.11.10 -X
 ```
 2. ドライバを起動する（AMIRマニピュレータ側）
-* ** 赤ボタンを解除する **
-* ** 解除したら、すぐにドライバ起動コマンドを打つ **
-* ** マイコン基盤が黄色の点滅をしていたら,タイムオーバーなのでやり直す **
+* **赤ボタンを解除する**
+* **解除したら、すぐにドライバ起動コマンドを打つ**
+* **マイコン基盤が黄色の点滅をしていたら,タイムオーバーなのでやり直す**
 ```
 cd amir_basic_ws
 source ~/amir_basic_ws/install/local_setup.bash
 sudo chmod 666 /dev/ttyUSB0
 ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0 -v6
 ```
-3. アームを初期位置姿勢にセットする
-cd amir_kameyama_ws
-source ~/amir_kameyama_ws/install/local_setup.bash
-ros2 run amir_operation initial_posi
 
 続いて、Mecanum Rover 3.0 のセットアップを行う。
 
 4. メカナムドライバ
+```
 cd uros_ws
 source ~/uros_ws/install/local_setup.bash
 sudo chmod 666 /dev/ttyUSB1
 ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB1 -v4
-
-# 2. 
+```
+5. ROSトピック配信
+``` 
 source ~/ros2_ws/install/local_setup.bash
 ros2 launch mecanumrover3_bringup robot.launch.py 
+```
+6. ROSトピック配信
+```
+source ~/kameyama_ws/install/local_setup.bash
+ros2 launch my_utility odom_tf2_broadcaster.launch.py
+```
+7. LiDAR起動
+```
+sudo chmod 777 /dev/ttyUSB2
+source ~/ros2_ws/install/local_setup.bash
+ros2 launch ydlidar_ros2_driver ydlidar_launch.py
+```
+# Note PC ##############################
+## Little SLAM (AMIR)
+source ~/kameyama_ws/install/local_setup.bash
+ros2 launch littleslam_ros2 littleslam_launch.py 
 
+## Little SLAM (Mecanum2)
+source ~/humble_ws/install/local_setup.bash
+ros2 launch littleslam_ros2 littleslam_launch.py 
+
+## Imuから姿勢推定
+source ~/kameyama_ws/install/local_setup.bash
+ros2 run imu_filter_madgwick imu_filter_madgwick_node --ros-args -p use_mag:=False -p world_frame:=enu -p publish_tf:=False -r imu/data_raw:=/mecanum2/camera/imu
+
+## /base_pose ベース座標 → ワールド座標 変換
+source ~/humble_ws/install/setup.bash
+ros2 run mecanum_proc base_to_world
 ### 行動計画モジュール（BTの一部機能使用）
 1. Action Launch
 ```
@@ -152,7 +177,7 @@ ros2 launch amir_operation pick_and_place_dop_launch.py
 source ~/amir_kameyama_ws/install/local_setup.bash
 ros2 launch ros2_behavior_tree bt_executor_launch.py
 ```
-以下の Send Xml を実行するとロボットが行動開始する
+**以下の Send Xml を実行するとロボットが行動開始するので注意する。**
 
 3. Send Xml
 ```
