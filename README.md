@@ -5,8 +5,8 @@
 | --------------------- | ---------- |---------|
 | D-optimality閾値 |amir_kameyama_ws / src / bt_generator / bt_xml / navigation.xml | threshold="20000" |
 
-# モニタリングロボットの動作手順
-上から順に実行していけば、実験が開始する
+# Mecanum Rover 2.0 の動作手順
+上から順に実行していけば、実験が開始する。
 ## dars-note-002
 ### メカナムローバーセットアップ
 1. ターミナルを5つ用意して、JetsonにSSH接続する（パスワード:dars）
@@ -51,7 +51,7 @@ source ~/galactic_ws/install/setup.zsh --extend
 ros2 launch mecanum_navigation2 bringup_launch.py
 ```
 ### 画像処理モジュール
-ターミナルを５つ用意して、以下を実行する
+ターミナルを５つ用意して、以下を実行する。
 1. realsense
 ```
 source /opt/ros/noetic/setup.bash
@@ -88,7 +88,7 @@ cd onishi_youbot_ws/
 rosrun youbot_do object_subscriber_with_transform
 ```
 
-分割ではなく、追加で新規ターミナルを開いて以下を実行する
+分割ではなく、追加で新規ターミナルを開いて以下を実行する。
 
 * D-optimality計算アクション
 ```
@@ -96,7 +96,7 @@ source /opt/ros/galactic/setup.bash
 source ~/kameyama_galactic_ws_2/install/setup.bash
 ros2 launch mecanum_action mecanum_action_launch.py
 ```
-分割ではなく、追加で新規ターミナルを開いて以下を実行する
+分割ではなく、追加で新規ターミナルを開いて以下を実行する。
 
 * ROS1_bridge
 ```
@@ -104,7 +104,42 @@ source ~/ros1_bridge_ws/install/setup.bash
 rosparam load ~/ros1_bridge_ws/bridge_youbot.yaml
 ros2 run ros1_bridge parameter_bridge __name:=pc2_bridge
 ```
+# AMIR の動作手順
 ## dars-note-021
+
+まずはアームをセットアップを行う。MiniPCを起動したら、アーム、ローバー、LiDARの順にUSBを接続しなければいけない。
+
+1. ターミナルを６つ用意して、MiniPCにSSH接続する（パスワード:root）
+```
+ssh rover@192.168.11.10 -X
+```
+2. ドライバを起動する（AMIRマニピュレータ側）
+* ** 赤ボタンを解除する **
+* ** 解除したら、すぐにドライバ起動コマンドを打つ **
+* ** マイコン基盤が黄色の点滅をしていたら,タイムオーバーなのでやり直す **
+```
+cd amir_basic_ws
+source ~/amir_basic_ws/install/local_setup.bash
+sudo chmod 666 /dev/ttyUSB0
+ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0 -v6
+```
+3. アームを初期位置姿勢にセットする
+cd amir_kameyama_ws
+source ~/amir_kameyama_ws/install/local_setup.bash
+ros2 run amir_operation initial_posi
+
+続いて、Mecanum Rover 3.0 のセットアップを行う。
+
+4. メカナムドライバ
+cd uros_ws
+source ~/uros_ws/install/local_setup.bash
+sudo chmod 666 /dev/ttyUSB1
+ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB1 -v4
+
+# 2. 
+source ~/ros2_ws/install/local_setup.bash
+ros2 launch mecanumrover3_bringup robot.launch.py 
+
 ### 行動計画モジュール（BTの一部機能使用）
 1. Action Launch
 ```
