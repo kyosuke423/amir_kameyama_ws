@@ -51,7 +51,7 @@ source ~/galactic_ws/install/setup.zsh --extend
 ros2 launch mecanum_navigation2 bringup_launch.py
 ```
 ### 画像処理モジュール
-ターミナルを５つ用意して、以下を実行する。
+ターミナルを６つ用意して、以下を実行する。
 1. realsense
 ```
 source /opt/ros/noetic/setup.bash
@@ -86,6 +86,13 @@ source /opt/ros/noetic/setup.bash
 source ~/onishi_youbot_ws/devel/setup.bash
 cd onishi_youbot_ws/
 rosrun youbot_do object_subscriber_with_transform
+```
+6. ステータス表示
+```
+source /opt/ros/noetic/setup.bash
+source ~/onishi_youbot_ws/devel/setup.bash
+cd onishi_youbot_ws/
+rosrun youbot_do show_text_on_image_node
 ```
 
 分割ではなく、追加で新規ターミナルを開いて以下を実行する。
