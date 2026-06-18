@@ -118,7 +118,7 @@ ros2 run ros1_bridge parameter_bridge __name:=pc2_bridge
 
 1. ターミナルを６つ用意して、MiniPCにSSH接続する（パスワード:root）
 ```
-ssh rover@192.168.11.12 -X
+ssh rover@192.168.11.10 -X
 ```
 2. ドライバを起動する（AMIRマニピュレータ側）
 * **赤ボタンを解除する**
