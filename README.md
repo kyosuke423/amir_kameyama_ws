@@ -130,6 +130,11 @@ source ~/amir_basic_ws/install/local_setup.bash
 sudo chmod 666 /dev/ttyUSB0
 ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0 -v6
 ```
+3. ROS DOMAIN ID 設定
+```
+cd ros2_ws/
+ros2 run domain_bridge domain_bridge bridge_config.yaml
+```
 
 続いて、Mecanum Rover 3.0 のセットアップを行う。
 
